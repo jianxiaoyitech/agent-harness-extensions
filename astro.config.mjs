@@ -7,6 +7,8 @@ import { defineConfig } from "astro/config";
 const rootDir = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
+  site: "https://jianxiaoyitech.github.io",
+  base: "/agent-harness-extensions",
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()],
