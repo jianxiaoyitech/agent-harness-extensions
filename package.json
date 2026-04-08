@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "sync:check": "tsx scripts/check-sync.ts",
     "sync": "tsx scripts/sync.ts",
     "derive": "tsx scripts/derive.ts",
     "build:site": "tsx scripts/build-site.ts",

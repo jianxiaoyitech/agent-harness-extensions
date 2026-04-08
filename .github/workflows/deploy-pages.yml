@@ -35,6 +35,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Check whether sync can be skipped
+        id: sync_check
+        run: npm run sync:check
+
+      - name: Report sync decision
+        run: echo "${{ steps.sync_check.outputs.reason }}"
+
       - name: Typecheck
         run: npm run typecheck
 
@@ -42,6 +49,7 @@ jobs:
         run: npm test
 
       - name: Sync historical data and latest
+        if: steps.sync_check.outputs.skip_sync != 'true'
         run: npm run sync
 
       - name: Verify generated latest snapshot
