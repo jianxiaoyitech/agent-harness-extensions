@@ -23,7 +23,7 @@
     "plugins",
     "static-site"
   ],
-  "author": "",
+  "author": "JianxiaoyiTech",
   "license": "MIT",
   "dependencies": {
     "@astrojs/react": "^4.4.0",
@@ -50,5 +50,16 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"
+  },
+  "homepage": "https://jianxiaoyitech.github.io/agent-harness-extensions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianxiaoyitech/agent-harness-extensions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jianxiaoyitech/agent-harness-extensions/issues"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

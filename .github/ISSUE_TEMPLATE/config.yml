@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution Guide
+    url: https://github.com/jianxiaoyitech/agent-harness-extensions/blob/main/CONTRIBUTING.md
+    about: Read the contribution workflow before opening a request.
+  - name: Support Guide
+    url: https://github.com/jianxiaoyitech/agent-harness-extensions/blob/main/SUPPORT.md
+    about: See where to route support questions and bug reports.
