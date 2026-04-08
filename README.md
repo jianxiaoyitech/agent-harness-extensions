@@ -29,6 +29,27 @@ Follow updates: [RSS feed](https://jianxiaoyitech.github.io/agent-harness-extens
 - Rebuild snapshots locally and verify the generated directory before opening a PR.
 - Subscribe to RSS updates for newly tracked artifacts.
 
+## Repository Layout
+
+- `src/`: Astro pages, layouts, and React UI for the live directory
+- `scripts/`: sync, derive, verify, and build pipeline scripts
+- `data/`: harness metadata, source definitions, historical snapshots, and latest outputs
+- `public/`: generated public assets served by the site
+- `skills/`: guided workflows for contributors working inside the repo
+
+## How Data Gets In
+
+1. Define or update a source in `data/sources/*.yaml`
+2. Run `npm run sync` to refresh source snapshots into `data/YYYY/MM/DD` and `data/latest`
+3. Run `npm run verify` to validate generated state
+4. Run `npm run build:site` to regenerate the site and public outputs
+
+## Scope And Limitations
+
+- The live directory reflects the latest generated snapshot, not every historical state in the UI
+- Growth history only includes sources that have dated snapshots available in `data/YYYY/MM/DD`
+- Compatibility is based on tracked source data and may lag behind upstream projects
+
 ## Quick Start
 
 Install dependencies, build the local site from the current snapshot, and start
