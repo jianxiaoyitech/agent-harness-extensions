@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_id": "supabase-community-supabase-mcp",
+  "source_name": "Supabase MCP",
+  "source_status": "active",
+  "repo": "https://github.com/supabase-community/supabase-mcp",
+  "default_branch": "main",
+  "previous_sha": "b3552fc869f0da24b16bddf4e9bdff10388f0374",
+  "current_sha": "2212f13a3bbbbc1b87a4ab358b2c17370ac4d23d",
+  "mode": "delta",
+  "changed_files": [
+    "packages/mcp-utils/src/stream-transport.ts"
+  ],
+  "source_config_hash": "11d58d680746ce2e279142f5a9c2be87282bc000fa436a0cf1e2102cc25657c2",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:52:31.226Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2024-12-20T17:05:11-07:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

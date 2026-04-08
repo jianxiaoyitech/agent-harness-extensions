@@ -1,0 +1,38 @@
+version: 1
+id: elastic-mcp-server-elasticsearch
+name: Elasticsearch MCP Server
+status: active
+repo: https://github.com/elastic/mcp-server-elasticsearch
+compatibility:
+  claude-code: check
+  codex: check
+  cursor: check
+  github-copilot: check
+  gemini-cli: check
+  kimi-code: check
+  openclaw: check
+  opencode: check
+  windsurf: check
+allowed_types:
+  - mcp-server
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".mcp.json"
+    - "**/.mcp.json"
+  path_regex:
+    - pattern: "^\\.mcp\\.json$"
+      type: mcp-server
+    - pattern: "^(?:.+/)?\\.mcp\\.json$"
+      type: mcp-server
+artifacts:
+  - name: Elasticsearch MCP Server
+    type: mcp-server
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "MCP server repository discovered from GitHub search."

@@ -1,0 +1,53 @@
+version: 1
+id: obra-superpowers
+name: Obra Superpowers For Claude Code
+status: active
+repo: https://github.com/obra/superpowers-developing-for-claude-code
+compatibility:
+  claude-code: check
+  codex: blank
+  cursor: blank
+  windsurf: blank
+  github-copilot: blank
+  openclaw: blank
+  qoder-cli: blank
+  kiro-cli: blank
+  amp: blank
+  auggie-cli: blank
+  codebuddy-cli: blank
+  roo-code: blank
+  gemini-cli: blank
+  forge: blank
+  ibm-bob: blank
+  jules: blank
+  kilo-code: blank
+  opencode: blank
+  pi: blank
+  qwen-code: blank
+  shai: blank
+  tabnine-cli: blank
+  mistral-vibe: blank
+  kimi-code: blank
+  iflow-cli: blank
+  junie: blank
+allowed_types:
+  - plugin
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".claude-plugin/plugin.json"
+    - "skills/*/SKILL.md"
+  path_regex:
+    - pattern: "^\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^skills/[^/]+/SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Community Claude Code plugin with bundled skills."

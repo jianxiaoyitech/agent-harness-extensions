@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "source_id": "futantan-agent-skills-md",
+  "source_name": "Agent Skills",
+  "source_status": "active",
+  "repo": "https://github.com/futantan/agent-skills.md",
+  "default_branch": "main",
+  "previous_sha": "88553456ecd6c69fc358984d3c474d2910b63630",
+  "current_sha": "40dd260da2daa87b6b4723676dc4e27f0dd6c554",
+  "mode": "delta",
+  "changed_files": [
+    "app/globals.css",
+    "app/page.tsx",
+    "components/skill-files-explorer.tsx",
+    "components/skills-explorer.tsx",
+    "components/ui/pagination.tsx",
+    "lib/api/router.ts",
+    "lib/skills-pagination.ts",
+    "lib/types.ts",
+    "package.json",
+    "pnpm-lock.yaml"
+  ],
+  "source_config_hash": "6d7716848d3a46adb4752710427c858cd4718e17fd440ea9d31e3dd7c393de98",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:27:41.601Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-01-06T09:08:20+11:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "futantan-agent-skills-md::skill::readme-md",
+      "source_id": "futantan-agent-skills-md",
+      "source_name": "Agent Skills",
+      "source_status": "active",
+      "name": "Agent Skills",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "README.md",
+      "repo": "https://github.com/futantan/agent-skills.md",
+      "repo_path_url": "https://github.com/futantan/agent-skills.md/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "blank",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Unknown",
+        "updated_at": "2026-01-06T09:08:20+11:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:27:41.601Z"
+    }
+  ],
+  "issues": []
+}

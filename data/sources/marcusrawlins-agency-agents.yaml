@@ -1,0 +1,53 @@
+version: 1
+id: marcusrawlins-agency-agents
+name: Agency Agents
+status: active
+repo: https://github.com/MarcusRawlins/agency-agents
+compatibility:
+  aider: check
+  antigravity: check
+  claude-code: check
+  codex: check
+  cursor: check
+  gemini-cli: check
+  github-copilot: check
+  kimi-code: check
+  openclaw: check
+  opencode: check
+  windsurf: check
+allowed_types:
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "academic/*.md"
+    - "design/*.md"
+    - "engineering/*.md"
+    - "game-development/*.md"
+    - "game-development/*/*.md"
+    - "marketing/*.md"
+    - "paid-media/*.md"
+    - "product/*.md"
+    - "project-management/*.md"
+    - "sales/*.md"
+    - "spatial-computing/*.md"
+    - "specialized/*.md"
+    - "strategy/*.md"
+    - "support/*.md"
+    - "testing/*.md"
+  path_regex:
+    - pattern: "^(?:academic|design|engineering|game-development|marketing|paid-media|product|project-management|sales|spatial-computing|specialized|strategy|support|testing)/(?:[^/]+/)?[^/]+\\.md$"
+      type: agent
+artifacts: []
+exclusions:
+  paths:
+    - "**/README.md"
+    - ".github/**"
+    - "examples/**"
+    - "integrations/**"
+    - "strategy/**"
+  artifacts: []
+metadata:
+  notes: "Expanded agency-style agent catalog with categorized markdown agent profiles."

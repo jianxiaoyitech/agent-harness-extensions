@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "source_id": "vercel-labs-skills",
+  "source_name": "Vercel Labs Skills",
+  "source_status": "active",
+  "repo": "https://github.com/vercel-labs/skills",
+  "default_branch": "main",
+  "previous_sha": "ed48eb4515ce80c5743084e027661678c3043610",
+  "current_sha": "4738c20e04464ec203c9085c521b37350fc62959",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "package.json",
+    "src/agents.ts",
+    "src/git.ts",
+    "src/index.ts",
+    "src/source-parser.ts",
+    "src/telemetry.ts",
+    "src/types.ts"
+  ],
+  "source_config_hash": "bd18b5335d3bcef6df0a29cb82a6863c888a55f153ffe9453c0864af6464666d",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:54:47.790Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-01-18T08:53:26-08:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

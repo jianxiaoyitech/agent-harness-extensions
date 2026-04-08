@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "ryszard-agency",
+  "source_name": "Agency",
+  "source_status": "active",
+  "repo": "https://github.com/ryszard/agency",
+  "default_branch": "main",
+  "previous_sha": "8af7a72f37663f0b152ddbf38904265811eca53e",
+  "current_sha": "8af7a72f37663f0b152ddbf38904265811eca53e",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "01d66e8dbb8e3c23e9ce5d077c0868b7232a62797c1ce61af12dc4b59e0a2985",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:53:42.313Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2024-03-24T12:17:24+01:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "ryszard-agency::agent::readme-md",
+      "source_id": "ryszard-agency",
+      "source_name": "Agency",
+      "source_status": "active",
+      "name": "Agency",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/ryszard/agency",
+      "repo_path_url": "https://github.com/ryszard/agency/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2024-03-24T12:17:24+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:53:42.313Z"
+    }
+  ],
+  "issues": []
+}

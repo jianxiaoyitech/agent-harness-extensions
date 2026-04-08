@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_id": "letta-ai-skills",
+  "source_name": "Letta AI Skills",
+  "source_status": "active",
+  "repo": "https://github.com/letta-ai/skills",
+  "default_branch": "main",
+  "previous_sha": "f8cfa89d68dcf42e3d9252c0a8e7e02994792c2b",
+  "current_sha": "063917c907d6f98457ad61d178a539dbec4d2c11",
+  "mode": "delta",
+  "changed_files": [
+    "ai/letta/learning-sdk/learning-sdk-integration/SKILL.md",
+    "ai/letta/learning-sdk/learning-sdk-integration/assets/requirements.txt",
+    "ai/letta/learning-sdk/learning-sdk-integration/references/README.md",
+    "ai/letta/learning-sdk/learning-sdk-integration/references/pydantic-ai.md",
+    "ai/letta/learning-sdk/learning-sdk-integration/scripts/universal_examples.py"
+  ],
+  "source_config_hash": "48d6ea0447160a92756e289e2e36b3f5dc26f3f666b0fab11bab44a53bd4845f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:33:16.014Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-12-04T15:22:16-08:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

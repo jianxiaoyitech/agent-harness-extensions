@@ -1,0 +1,37 @@
+version: 1
+id: mrgoonie-claudekit-skills
+name: mrgoonie Claudekit Skills
+status: active
+repo: https://github.com/mrgoonie/claudekit-skills
+compatibility:
+  claude-code: check
+allowed_types:
+  - plugin
+  - skill
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".claude/agents/*.md"
+    - ".claude/skills/**/SKILL.md"
+    - "plugins/*/.claude-plugin/plugin.json"
+    - "plugins/*/agents/*.md"
+  path_regex:
+    - pattern: "^\\.claude/agents/[^/]+\\.md$"
+      type: agent
+    - pattern: "^\\.claude/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+    - pattern: "^plugins/[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^plugins/[^/]+/agents/[^/]+\\.md$"
+      type: agent
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Shared Claude toolkit with hidden .claude skills, plugin manifests, and helper agents."

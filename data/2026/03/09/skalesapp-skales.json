@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "source_id": "skalesapp-skales",
+  "source_name": "Skales",
+  "source_status": "active",
+  "repo": "https://github.com/skalesapp/skales",
+  "default_branch": "main",
+  "previous_sha": "8b7fe9b0e374d09e84441b3e61962f5facaef8c9",
+  "current_sha": "bf0c165f604c4ec989c1bd398f63787f2ba1026a",
+  "mode": "delta",
+  "changed_files": [
+    "README.md"
+  ],
+  "source_config_hash": "e5dfd2279e41074bda16aa65b0e86ad4ad2ca02825633a646f83b80d77ea2436",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:52:12.085Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2026-03-09T17:24:14+01:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "skalesapp-skales::skill::readme-md",
+      "source_id": "skalesapp-skales",
+      "source_name": "Skales",
+      "source_status": "active",
+      "name": "Skales",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "README.md",
+      "repo": "https://github.com/skalesapp/skales",
+      "repo_path_url": "https://github.com/skalesapp/skales/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "blank",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2026-03-09T17:24:14+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:52:12.085Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,54 @@
+{
+  "name": "agent-harness-extensions",
+  "version": "1.0.0",
+  "description": "Community-expandable, daily-refreshed directory of MCP servers, skills, and plugins for agent harnesses.",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "sync": "tsx scripts/sync.ts",
+    "derive": "tsx scripts/derive.ts",
+    "build:site": "tsx scripts/build-site.ts",
+    "build": "npm run sync && npm run build:site",
+    "preview": "astro preview",
+    "verify": "tsx scripts/verify.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "codex",
+    "claude-code",
+    "mcp",
+    "skills",
+    "plugins",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/react": "^4.4.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^5.14.6",
+    "autoprefixer": "^10.4.27",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.7.0",
+    "postcss": "^8.5.8",
+    "radix-ui": "^1.4.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.8.1",
+    "shadcn": "^4.1.2",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.2",
+    "tw-animate-css": "^1.4.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "playwright": "^1.59.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

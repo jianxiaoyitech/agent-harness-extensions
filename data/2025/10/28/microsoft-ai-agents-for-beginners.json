@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "microsoft-ai-agents-for-beginners",
+  "source_name": "AI Agents For Beginners",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/ai-agents-for-beginners",
+  "default_branch": "main",
+  "previous_sha": "4d4a3fa47280b11f9063bfe9b68fd0504038d1fc",
+  "current_sha": "4d4a3fa47280b11f9063bfe9b68fd0504038d1fc",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "3920514c44ba00986e2573d62c8783c1fba689683a495a875cb8d03b83c01105",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:40:07.866Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-10-24T11:09:45+01:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-ai-agents-for-beginners::agent::readme-md",
+      "source_id": "microsoft-ai-agents-for-beginners",
+      "source_name": "AI Agents For Beginners",
+      "source_status": "active",
+      "name": "AI Agents For Beginners",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/ai-agents-for-beginners",
+      "repo_path_url": "https://github.com/microsoft/ai-agents-for-beginners/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-10-24T11:09:45+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:40:07.866Z"
+    }
+  ],
+  "issues": []
+}

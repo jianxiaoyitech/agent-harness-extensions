@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "source_id": "qdrant-mcp-server-qdrant",
+  "source_name": "Qdrant MCP Server",
+  "source_status": "active",
+  "repo": "https://github.com/qdrant/mcp-server-qdrant",
+  "default_branch": "master",
+  "previous_sha": "5fa6f6ff60c50c718e4ba934904042b23cf41b0f",
+  "current_sha": "f8d3cc474bcd3c6119f037aa0c80cb786028619c",
+  "mode": "delta",
+  "changed_files": [
+    ".pre-commit-config.yaml",
+    "src/mcp_server_qdrant/custom_server.py",
+    "src/mcp_server_qdrant/embeddings/factory.py",
+    "src/mcp_server_qdrant/embeddings/fastembed.py",
+    "src/mcp_server_qdrant/handlers/__init__.py",
+    "src/mcp_server_qdrant/handlers/decorators.py",
+    "src/mcp_server_qdrant/handlers/memory.py",
+    "src/mcp_server_qdrant/helper.py",
+    "src/mcp_server_qdrant/server.py",
+    "tests/test_custom_server.py"
+  ],
+  "source_config_hash": "a0637ccb912606093af359e3bce8860b1409f4e5e4f0cfb239320e08b5bad2c9",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:46:50.883Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-03-07T18:11:15+01:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "qdrant-mcp-server-qdrant::mcp-server::readme-md",
+      "source_id": "qdrant-mcp-server-qdrant",
+      "source_name": "Qdrant MCP Server",
+      "source_status": "active",
+      "name": "Qdrant MCP Server",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/qdrant/mcp-server-qdrant",
+      "repo_path_url": "https://github.com/qdrant/mcp-server-qdrant/blob/master/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-03-07T18:11:15+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:46:50.883Z"
+    }
+  ],
+  "issues": []
+}

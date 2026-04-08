@@ -1,0 +1,38 @@
+version: 1
+id: vibeforge1111-vibeship-spawner-skills
+name: Vibeship Spawner Skills
+status: active
+repo: https://github.com/vibeforge1111/vibeship-spawner-skills
+compatibility:
+  codex: check
+allowed_types:
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "SKILL.md"
+    - ".codex/skills/*/SKILL.md"
+    - "skills/*/SKILL.md"
+    - "skills/.curated/*/SKILL.md"
+    - "skills/.experimental/*/SKILL.md"
+    - "skills/.system/*/SKILL.md"
+  path_regex:
+    - pattern: "^(?:\\.codex/)?skills/(?:\\.[^/]+/)?[^/]+/SKILL\\.md$"
+      type: skill
+    - pattern: "^SKILL\\.md$"
+      type: skill
+artifacts:
+  - name: Vibeship Spawner Skills
+    type: skill
+    path: README.md
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/test/**"
+    - "**/tests/**"
+    - "**/examples/**"
+  artifacts: []
+metadata:
+  notes: "Codex skills repository discovered from GitHub search."

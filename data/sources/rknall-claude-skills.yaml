@@ -1,0 +1,26 @@
+version: 1
+id: rknall-claude-skills
+name: rknall Claude Skills
+status: active
+repo: https://github.com/rknall/claude-skills
+compatibility:
+  claude-code: check
+allowed_types:
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "*/SKILL.md"
+  path_regex:
+    - pattern: "^[^/]+/SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Personal Claude Code skills marketplace with root-level skill folders."

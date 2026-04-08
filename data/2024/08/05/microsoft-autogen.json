@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "source_id": "microsoft-autogen",
+  "source_name": "AutoGen",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/autogen",
+  "default_branch": "main",
+  "previous_sha": "37be630dd8c6161fdeec0e9893c76bb2b1ff190d",
+  "current_sha": "5ff275fad980274a54f84d99f27e542d22577da6",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/checks.yml",
+    ".github/workflows/docs.yml",
+    "python/docs/src/_static/css/custom.css",
+    "python/docs/src/conf.py",
+    "python/docs/src/cookbook/langgraph-agent.ipynb",
+    "python/docs/src/cookbook/llamaindex-agent.ipynb",
+    "python/docs/src/index.rst",
+    "python/pyproject.toml",
+    "python/src/agnext/core/_base_agent.py",
+    "python/teams/team-one/readme.md",
+    "python/teams/team-one/src/team_one/agents/base_agent.py",
+    "python/teams/team-one/src/team_one/agents/orchestrator.py"
+  ],
+  "source_config_hash": "42eb90e713a4d391b95ab1b9d0e6cdcb11f5f78c78f15e28270e6c43faa8b97a",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:38:38.540Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2024-08-05T13:36:25-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-autogen::agent::readme-md",
+      "source_id": "microsoft-autogen",
+      "source_name": "AutoGen",
+      "source_status": "active",
+      "name": "AutoGen",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/autogen",
+      "repo_path_url": "https://github.com/microsoft/autogen/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2024-08-05T13:36:25-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:38:38.540Z"
+    }
+  ],
+  "issues": []
+}

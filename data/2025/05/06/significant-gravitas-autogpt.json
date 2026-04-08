@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "significant-gravitas-autogpt",
+  "source_name": "AutoGPT",
+  "source_status": "active",
+  "repo": "https://github.com/Significant-Gravitas/AutoGPT",
+  "default_branch": "master",
+  "previous_sha": "505320fcd39901dc057e61fcd7c1f30a8a39ea21",
+  "current_sha": "519ad94ec9d8c690f3bc4ef6f8a963eb360ae2ea",
+  "mode": "delta",
+  "changed_files": [],
+  "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T17:06:22.849Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-05-06T20:30:36+07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "significant-gravitas-autogpt::agent::readme-md",
+      "source_id": "significant-gravitas-autogpt",
+      "source_name": "AutoGPT",
+      "source_status": "active",
+      "name": "AutoGPT",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/Significant-Gravitas/AutoGPT",
+      "repo_path_url": "https://github.com/Significant-Gravitas/AutoGPT/blob/master/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-05-06T20:30:36+07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T17:06:22.848Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "source_id": "crewaiinc-crewai",
+  "source_name": "CrewAI",
+  "source_status": "active",
+  "repo": "https://github.com/crewAIInc/crewAI",
+  "default_branch": "main",
+  "previous_sha": "7ad51d9d054cfb00f6abc3af83d85908bd763883",
+  "current_sha": "cb1a98cabf1d62f4a1eff44fad364854c866d346",
+  "mode": "delta",
+  "changed_files": [
+    ".github/security.md",
+    "docs/concepts/llms.mdx",
+    "docs/how-to/arize-phoenix-observability.mdx",
+    "pyproject.toml",
+    "src/crewai/__init__.py",
+    "src/crewai/cli/constants.py",
+    "src/crewai/cli/templates/crew/pyproject.toml",
+    "src/crewai/cli/templates/flow/pyproject.toml",
+    "src/crewai/cli/templates/tool/pyproject.toml",
+    "uv.lock"
+  ],
+  "source_config_hash": "7bf137970b4e47d19acceb7791326c21d4cdc8dc6434ee2b583db268b6a9a0fc",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:28:47.019Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2025-05-08T13:25:10-04:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "crewaiinc-crewai::agent::readme-md",
+      "source_id": "crewaiinc-crewai",
+      "source_name": "CrewAI",
+      "source_status": "active",
+      "name": "CrewAI",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/crewAIInc/crewAI",
+      "repo_path_url": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2025-05-08T13:25:10-04:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:28:47.019Z"
+    }
+  ],
+  "issues": []
+}

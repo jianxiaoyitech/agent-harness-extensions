@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "openai-openai-agents-python",
+  "source_name": "OpenAI Agents Python",
+  "source_status": "active",
+  "repo": "https://github.com/openai/openai-agents-python",
+  "default_branch": "main",
+  "previous_sha": "de9d1fd0c4a99578be85d76a6a623e6a065af85c",
+  "current_sha": "de9d1fd0c4a99578be85d76a6a623e6a065af85c",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "8259f02da1cbb42cb51216e52068fcd632c2cd4b2673c778efc3673fbc2d92af",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:47:10.469Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-08-29T10:07:36-04:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "openai-openai-agents-python::agent::readme-md",
+      "source_id": "openai-openai-agents-python",
+      "source_name": "OpenAI Agents Python",
+      "source_status": "active",
+      "name": "OpenAI Agents Python",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/openai/openai-agents-python",
+      "repo_path_url": "https://github.com/openai/openai-agents-python/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-08-29T10:07:36-04:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:47:10.469Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.cache/
+coverage/
+public/data/
+public/rss.xml
+tmp/
+*.log
+core.*
+.DS_Store

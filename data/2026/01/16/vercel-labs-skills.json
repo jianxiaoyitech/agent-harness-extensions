@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_id": "vercel-labs-skills",
+  "source_name": "Vercel Labs Skills",
+  "source_status": "active",
+  "repo": "https://github.com/vercel-labs/skills",
+  "default_branch": "main",
+  "previous_sha": "118ef3ce1dd24f56ae899eb34b1794804beceade",
+  "current_sha": "b20a0d9d062c549076488857a5168a389ae35d0c",
+  "mode": "delta",
+  "changed_files": [
+    ".github/ISSUE_TEMPLATE/agent-request.yml",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature-request.yml",
+    ".github/workflows/update-readme.yml",
+    "README.md",
+    "package-lock.json",
+    "package.json",
+    "scripts/update-readme.ts",
+    "src/agents.ts",
+    "src/index.ts",
+    "src/telemetry.ts",
+    "src/types.ts"
+  ],
+  "source_config_hash": "bd18b5335d3bcef6df0a29cb82a6863c888a55f153ffe9453c0864af6464666d",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:54:46.723Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-01-16T15:58:48-08:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

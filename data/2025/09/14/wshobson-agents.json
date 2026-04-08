@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_id": "wshobson-agents",
+  "source_name": "wshobson Agents",
+  "source_status": "active",
+  "repo": "https://github.com/wshobson/agents",
+  "default_branch": "main",
+  "previous_sha": "a36be5db085b55c0cf63942986bb6b966394d180",
+  "current_sha": "ac66a058d0e27201a42939277d3bb2978edea43a",
+  "mode": "delta",
+  "changed_files": [
+    "blockchain-developer.md"
+  ],
+  "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:57:14.238Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-09-14T12:31:05-07:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

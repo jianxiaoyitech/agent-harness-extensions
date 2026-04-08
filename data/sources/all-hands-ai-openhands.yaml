@@ -1,0 +1,25 @@
+version: 1
+id: all-hands-ai-openhands
+name: OpenHands
+status: active
+repo: https://github.com/All-Hands-AI/OpenHands
+compatibility:
+  codex: check
+  claude-code: question
+  cursor: question
+  openclaw: question
+allowed_types:
+  - agent
+discovery:
+  manifests: false
+  conventions: false
+  regex: false
+artifacts:
+  - name: OpenHands
+    type: agent
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Agentic software development repository discovered from GitHub search."

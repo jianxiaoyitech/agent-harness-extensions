@@ -1,0 +1,48 @@
+version: 1
+id: microsoft-skills
+name: Microsoft Skills
+status: active
+repo: https://github.com/microsoft/skills
+compatibility:
+  codex: check
+allowed_types:
+  - plugin
+  - skill
+  - mcp-server
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "SKILL.md"
+    - ".codex/skills/*/SKILL.md"
+    - ".github/plugins/*/.claude-plugin/plugin.json"
+    - ".github/plugins/*/.mcp.json"
+    - ".github/plugins/*/skills/**/SKILL.md"
+    - "skills/*/SKILL.md"
+    - "skills/.curated/*/SKILL.md"
+    - "skills/.experimental/*/SKILL.md"
+    - "skills/.system/*/SKILL.md"
+  path_regex:
+    - pattern: "^\\.github/plugins/[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^\\.github/plugins/[^/]+/\\.mcp\\.json$"
+      type: mcp-server
+    - pattern: "^\\.github/plugins/[^/]+/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+    - pattern: "^(?:\\.codex/)?skills/(?:\\.[^/]+/)?(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+    - pattern: "^SKILL\\.md$"
+      type: skill
+artifacts:
+  - name: Microsoft Skills
+    type: skill
+    path: README.md
+exclusions:
+  paths:
+    - "**/test/**"
+    - "**/tests/**"
+    - "**/examples/**"
+  artifacts: []
+metadata:
+  notes: "Microsoft skills repo with hidden .github plugin bundles, MCP manifests, and nested skills."

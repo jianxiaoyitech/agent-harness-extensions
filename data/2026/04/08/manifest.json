@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "generated_at": "2026-04-08T17:55:05.345Z",
+  "harness_count": 43,
+  "source_count": 68,
+  "invalid_sources": [],
+  "sync_issues": [],
+  "artifact_count": 6093,
+  "mismatch_count": 80,
+  "sources": [
+    {
+      "source_id": "agency-agents",
+      "current_sha": "4feb0cd736dd0e2e9830cd54dfc99770621bed90",
+      "previous_sha": "4feb0cd736dd0e2e9830cd54dfc99770621bed90",
+      "mode": "full",
+      "artifact_count": 162,
+      "changed_file_count": 212
+    },
+    {
+      "source_id": "all-hands-ai-openhands",
+      "current_sha": "754a96e7f33c68f55e7323d37f83234846cef519",
+      "previous_sha": "754a96e7f33c68f55e7323d37f83234846cef519",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "anas-khan93-ai-agency-agents",
+      "current_sha": "45c947f6eeeb4a24b83d44e90c547ed371dd56b2",
+      "previous_sha": "45c947f6eeeb4a24b83d44e90c547ed371dd56b2",
+      "mode": "unchanged",
+      "artifact_count": 56,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "anthropic-claude-plugins-official",
+      "current_sha": "62f2063abcd3bf325577e7777346ecb270233c80",
+      "previous_sha": "104d39be10b7b1380b2ae23a387a11a297b599c3",
+      "mode": "delta",
+      "artifact_count": 81,
+      "changed_file_count": 4
+    },
+    {
+      "source_id": "anthropics-skills",
+      "current_sha": "ca1e7dc13c0ab5e2dfaa6de71991cd951b8f1cf2",
+      "previous_sha": "98669c11ca63e9c81c11501e1437e5c47b556621",
+      "mode": "delta",
+      "artifact_count": 17,
+      "changed_file_count": 24
+    },
+    {
+      "source_id": "antvis-mcp-server-chart",
+      "current_sha": "7563a99ca758362733b4aa41bc8283c0285ccfb9",
+      "previous_sha": "7563a99ca758362733b4aa41bc8283c0285ccfb9",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "apify-actors-mcp-server",
+      "current_sha": "880f2fc51cd32fc820fd803561b885342321971d",
+      "previous_sha": "537a4d0d5b4253945a0d95b5f5febd8a40645e5d",
+      "mode": "delta",
+      "artifact_count": 2,
+      "changed_file_count": 32
+    },
+    {
+      "source_id": "awslabs-mcp",
+      "current_sha": "04d2ca24df76758ca17cc167c01587c7a531f559",
+      "previous_sha": "46894ec56c415d50f76cfaff007da1d0ea21972a",
+      "mode": "delta",
+      "artifact_count": 4,
+      "changed_file_count": 17
+    },
+    {
+      "source_id": "browser-use-browser-use",
+      "current_sha": "8de903dfddc35764f0b7ef27c1c44d867b235656",
+      "previous_sha": "8de903dfddc35764f0b7ef27c1c44d867b235656",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "browserbase-mcp-server-browserbase",
+      "current_sha": "f6bd321a3790fcacabc24a7beaa505d3037e19c6",
+      "previous_sha": "f6bd321a3790fcacabc24a7beaa505d3037e19c6",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "cloudflare-mcp-server-cloudflare",
+      "current_sha": "162239fd54954337471b5dda401a2020a19286fa",
+      "previous_sha": "162239fd54954337471b5dda401a2020a19286fa",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "coinpaprika-claude-marketplace",
+      "current_sha": "1d6c59d4ed169816789755f70611c7be8ee88186",
+      "previous_sha": "1d6c59d4ed169816789755f70611c7be8ee88186",
+      "mode": "unchanged",
+      "artifact_count": 9,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "crewaiinc-crewai",
+      "current_sha": "a0578bb6c3db57f7f763fe8b385ff9382dcfc064",
+      "previous_sha": "0450d06a6513828210bfb9fdefb6f7de98a7bcc7",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 48
+    },
+    {
+      "source_id": "docker-claude-plugins",
+      "current_sha": "278e8ebe3d46e17b771323ea6a6f281bded10e08",
+      "previous_sha": "278e8ebe3d46e17b771323ea6a6f281bded10e08",
+      "mode": "unchanged",
+      "artifact_count": 3,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "docker-mcp-gateway",
+      "current_sha": "4246962c6642402aadfaf13a1c4d834f0670c67e",
+      "previous_sha": "4246962c6642402aadfaf13a1c4d834f0670c67e",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "edmund-io-edmunds-claude-code",
+      "current_sha": "5fc6e86f8640b4955964087b0f3aa029e0577aab",
+      "previous_sha": "5fc6e86f8640b4955964087b0f3aa029e0577aab",
+      "mode": "unchanged",
+      "artifact_count": 12,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "elastic-mcp-server-elasticsearch",
+      "current_sha": "a2b050d07c1e0af19974f63efa20f4553cb43b2b",
+      "previous_sha": "a2b050d07c1e0af19974f63efa20f4553cb43b2b",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "executeautomation-mcp-playwright",
+      "current_sha": "2349c2891e7c499c8c07b7d78c7f3fb4c797a1da",
+      "previous_sha": "2349c2891e7c499c8c07b7d78c7f3fb4c797a1da",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "feiskyer-codex-settings",
+      "current_sha": "06025f674c7ab6448855f01fd5459adea24b49f5",
+      "previous_sha": "06025f674c7ab6448855f01fd5459adea24b49f5",
+      "mode": "unchanged",
+      "artifact_count": 7,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "francyjglisboa-agent-skill-creator",
+      "current_sha": "0e80457578123ef1f244abafeb21d811a7641246",
+      "previous_sha": "0e80457578123ef1f244abafeb21d811a7641246",
+      "mode": "unchanged",
+      "artifact_count": 2,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "futantan-agent-skills-md",
+      "current_sha": "98cd624fb1542ad7880e1112576061bb2874de8e",
+      "previous_sha": "98cd624fb1542ad7880e1112576061bb2874de8e",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "geekjourneyx-md2wechat-skill",
+      "current_sha": "3306fd1d9433d69d7881f097226c6d0fea472ad3",
+      "previous_sha": "3306fd1d9433d69d7881f097226c6d0fea472ad3",
+      "mode": "unchanged",
+      "artifact_count": 2,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "getsentry-sentry-mcp",
+      "current_sha": "8b21ab5be8e82a192ef68db9686f0e260fa83869",
+      "previous_sha": "fe1d7ae0476e92dcd981b8bd6b8dd0acde3f0745",
+      "mode": "delta",
+      "artifact_count": 6,
+      "changed_file_count": 30
+    },
+    {
+      "source_id": "getty104-claude-code-marketplace",
+      "current_sha": "d8dc71c4fd9b96ca6677fb9cd066f2a71ef40b01",
+      "previous_sha": "7e24bc61f4befe7c89bca05e013332f9af38729b",
+      "mode": "delta",
+      "artifact_count": 24,
+      "changed_file_count": 4
+    },
+    {
+      "source_id": "github-github-mcp-server",
+      "current_sha": "95726adfc4b3c0f7c83d143dcfde1a8a9f730644",
+      "previous_sha": "95726adfc4b3c0f7c83d143dcfde1a8a9f730644",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "google-a2a",
+      "current_sha": "f1b45c522ae29d3d197abe612a5b687f1393108a",
+      "previous_sha": "a40261c46425092c792ed39b4eb7075cc827a7ab",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 1
+    },
+    {
+      "source_id": "googleapis-genai-toolbox",
+      "current_sha": "881a92a3b72dd046c9b7f93af939e2930ee386d5",
+      "previous_sha": "070e9399c02f088d43175ce6bf343378beb7f584",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 19
+    },
+    {
+      "source_id": "invariantlabs-ai-mcp-scan",
+      "current_sha": "f3497b49a0f17880f3085de0683a38106cb85809",
+      "previous_sha": "f3497b49a0f17880f3085de0683a38106cb85809",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "jetbrains-mcpproxy",
+      "current_sha": "c8c2b85bc6f029130542fdddc3daf066e404df41",
+      "previous_sha": "c8c2b85bc6f029130542fdddc3daf066e404df41",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "jnmetacode-agency-agents-zh",
+      "current_sha": "0fe8c1802e3fe6227ecded3d9ef152d2cd958504",
+      "previous_sha": "0097d297ff83a2bebf40552daf115927ce142c24",
+      "mode": "delta",
+      "artifact_count": 181,
+      "changed_file_count": 7
+    },
+    {
+      "source_id": "langchain-ai-open-deep-research",
+      "current_sha": "fb77e90f0712a0e8b3fa8185f81bbbc48ee256fd",
+      "previous_sha": "fb77e90f0712a0e8b3fa8185f81bbbc48ee256fd",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "letta-ai-skills",
+      "current_sha": "2050af81b6d3663197cee2dd1eaf72536f9bf877",
+      "previous_sha": "2050af81b6d3663197cee2dd1eaf72536f9bf877",
+      "mode": "unchanged",
+      "artifact_count": 20,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "marcusrawlins-agency-agents",
+      "current_sha": "6254154899f510eb4a4de10561fecfc1f32ff17f",
+      "previous_sha": "6254154899f510eb4a4de10561fecfc1f32ff17f",
+      "mode": "unchanged",
+      "artifact_count": 156,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "mastra-ai-mastra",
+      "current_sha": "b6fc833d9227b5a8a5bf784a5c56c6ef30fd535e",
+      "previous_sha": "d0a827543f8d806b705a069f6c17a6fb0ceb03fe",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 186
+    },
+    {
+      "source_id": "mem0ai-mem0-mcp",
+      "current_sha": "624024deacbbe1948572a968abdb9d9e93ded548",
+      "previous_sha": "624024deacbbe1948572a968abdb9d9e93ded548",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "mhattingpete-claude-skills-marketplace",
+      "current_sha": "3fa16a94e0aba3509e4d4b318ca175d3191b5b7d",
+      "previous_sha": "3fa16a94e0aba3509e4d4b318ca175d3191b5b7d",
+      "mode": "unchanged",
+      "artifact_count": 24,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "microsoft-ai-agents-for-beginners",
+      "current_sha": "4d697b4e85e346982ff56efcac0d1c6e979a76f1",
+      "previous_sha": "4d697b4e85e346982ff56efcac0d1c6e979a76f1",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "microsoft-autogen",
+      "current_sha": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+      "previous_sha": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "microsoft-playwright-mcp",
+      "current_sha": "233e4ebb689fb65fda4e127f919cb01520f92eee",
+      "previous_sha": "63b18de5b69d7eb30df5d1ecd15878eb6b75c7ac",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 1
+    },
+    {
+      "source_id": "microsoft-skills",
+      "current_sha": "162d6c01f09e217cf68eaca7130d37dfa6fead0a",
+      "previous_sha": "80bbeddbf1e03ae208eacf675fb24a5377d2bcf2",
+      "mode": "delta",
+      "artifact_count": 177,
+      "changed_file_count": 26
+    },
+    {
+      "source_id": "modelcontextprotocol-servers",
+      "current_sha": "f4244583a6af9425633e433a3eec000d23f4e011",
+      "previous_sha": "f4244583a6af9425633e433a3eec000d23f4e011",
+      "mode": "unchanged",
+      "artifact_count": 2,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "mongodb-js-mongodb-mcp-server",
+      "current_sha": "44d3180274d3b29ff0cf6c815614a0f15aa31dba",
+      "previous_sha": "44d3180274d3b29ff0cf6c815614a0f15aa31dba",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "mrgoonie-claudekit-skills",
+      "current_sha": "80113d86bc4407f105af40a2c4ea58194f7c370a",
+      "previous_sha": "80113d86bc4407f105af40a2c4ea58194f7c370a",
+      "mode": "unchanged",
+      "artifact_count": 59,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "mxyhi-ok-skills",
+      "current_sha": "765e5854474075b80bf791946a616f14e7cce5ed",
+      "previous_sha": "765e5854474075b80bf791946a616f14e7cce5ed",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "nacerallahchemssy-agency-agents",
+      "current_sha": "eaa36d80c7135cbe8d16447d55f09041fa68c7dc",
+      "previous_sha": "87e6fde354f7fb82f9ddd077d6004353ed304cd6",
+      "mode": "delta",
+      "artifact_count": 51,
+      "changed_file_count": 1
+    },
+    {
+      "source_id": "narwhal-lab-magicskills",
+      "current_sha": "00f3e8640445b0d91682a670b8ba7cc4465151cb",
+      "previous_sha": "1ba6ae32b4df4349195ec38c283535b68619a085",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 5
+    },
+    {
+      "source_id": "obra-superpowers",
+      "current_sha": "74afe935da49efe782907e837a27ce618498099a",
+      "previous_sha": "74afe935da49efe782907e837a27ce618498099a",
+      "mode": "unchanged",
+      "artifact_count": 5,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "openai-openai-agents-python",
+      "current_sha": "fb67680fae60fef27cd0e71e73a68c73f9212526",
+      "previous_sha": "c06cd45004f63bd33ef9dd66bdc2b4d0cdc82e1b",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 2
+    },
+    {
+      "source_id": "openai-skills",
+      "current_sha": "736f600bf6ecbc000c04f1d2710b990899f28903",
+      "previous_sha": "736f600bf6ecbc000c04f1d2710b990899f28903",
+      "mode": "unchanged",
+      "artifact_count": 45,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "qdrant-mcp-server-qdrant",
+      "current_sha": "e4ec69b2daa187c8de86d860f09192200b4c834a",
+      "previous_sha": "e4ec69b2daa187c8de86d860f09192200b4c834a",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "redis-mcp-redis",
+      "current_sha": "a3fd40f7406cb96f686144e308525575659bcd92",
+      "previous_sha": "a3fd40f7406cb96f686144e308525575659bcd92",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "rknall-claude-skills",
+      "current_sha": "ca7fbd0e07f824b119030f323da3409bc779f9bc",
+      "previous_sha": "ca7fbd0e07f824b119030f323da3409bc779f9bc",
+      "mode": "unchanged",
+      "artifact_count": 10,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "ryszard-agency",
+      "current_sha": "8af7a72f37663f0b152ddbf38904265811eca53e",
+      "previous_sha": "8af7a72f37663f0b152ddbf38904265811eca53e",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "sammcj-mcp-package-docs",
+      "current_sha": "ba3a4b4418d92804300de049bd365e029f75efbc",
+      "previous_sha": "ba3a4b4418d92804300de049bd365e029f75efbc",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "sickn33-antigravity-awesome-skills",
+      "current_sha": "b7396833d37642329b2330f4679aa61fb3b2b272",
+      "previous_sha": "0a7a869ad47927e1d19b478d9174bd29478603c1",
+      "mode": "delta",
+      "artifact_count": 4431,
+      "changed_file_count": 132
+    },
+    {
+      "source_id": "significant-gravitas-autogpt",
+      "current_sha": "ef477ae4b9ea1d6f06807306ed0fde80dbd615a3",
+      "previous_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 2789
+    },
+    {
+      "source_id": "simular-ai-agent-s",
+      "current_sha": "5caa76cb19c6a6b947a524f74995c45848c2efbc",
+      "previous_sha": "5caa76cb19c6a6b947a524f74995c45848c2efbc",
+      "mode": "unchanged",
+      "artifact_count": 2,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "skalesapp-skales",
+      "current_sha": "cb076e05f7a53cf12918f4b7c203d3005b0487bf",
+      "previous_sha": "f8af07df8eb021a7bc4935da30dbc0a2eb73a42e",
+      "mode": "delta",
+      "artifact_count": 1,
+      "changed_file_count": 4
+    },
+    {
+      "source_id": "skillcreatorai-ai-agent-skills",
+      "current_sha": "a7bf55cdf34528d44b8c4959d9275d905a3be8f4",
+      "previous_sha": "a7bf55cdf34528d44b8c4959d9275d905a3be8f4",
+      "mode": "unchanged",
+      "artifact_count": 20,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "supabase-community-supabase-mcp",
+      "current_sha": "1cd04f03eda4f094fa2e88f8bd0256cbe58b6e71",
+      "previous_sha": "1cd04f03eda4f094fa2e88f8bd0256cbe58b6e71",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "thedecipherist-claude-code-mastery",
+      "current_sha": "2498435f1ea1fa51816f609632760422328fdeae",
+      "previous_sha": "2498435f1ea1fa51816f609632760422328fdeae",
+      "mode": "unchanged",
+      "artifact_count": 3,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "tinybirdco-mcp-tinybird",
+      "current_sha": "3a94f2abd101aea9e0b974d7f538731a92a2d23c",
+      "previous_sha": "3a94f2abd101aea9e0b974d7f538731a92a2d23c",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "upstash-context7",
+      "current_sha": "36463ad6e36f68c21ae8e609e80c309d609c22ed",
+      "previous_sha": "36463ad6e36f68c21ae8e609e80c309d609c22ed",
+      "mode": "unchanged",
+      "artifact_count": 6,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "vercel-labs-skills",
+      "current_sha": "df0579f85cb8a360473c921e1343359006100d3c",
+      "previous_sha": "df0579f85cb8a360473c921e1343359006100d3c",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "vibeforge1111-vibeship-spawner-skills",
+      "current_sha": "70b2e1062fc6a38fce854226c27097a87732cb5f",
+      "previous_sha": "70b2e1062fc6a38fce854226c27097a87732cb5f",
+      "mode": "unchanged",
+      "artifact_count": 74,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "win4r-openclaw-workspace",
+      "current_sha": "4e81a914b5f4ed52d88e0b31476354f92fcd4be7",
+      "previous_sha": "4e81a914b5f4ed52d88e0b31476354f92fcd4be7",
+      "mode": "unchanged",
+      "artifact_count": 2,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "wshobson-agents",
+      "current_sha": "70444e5b1fae2237f3cb087c70db043ab633fe11",
+      "previous_sha": "70444e5b1fae2237f3cb087c70db043ab633fe11",
+      "mode": "unchanged",
+      "artifact_count": 403,
+      "changed_file_count": 0
+    },
+    {
+      "source_id": "zcaceres-fetch-mcp",
+      "current_sha": "1ddb1a59cb09a2d38e759f2d7a97829680cbe514",
+      "previous_sha": "1ddb1a59cb09a2d38e759f2d7a97829680cbe514",
+      "mode": "unchanged",
+      "artifact_count": 1,
+      "changed_file_count": 0
+    }
+  ]
+}

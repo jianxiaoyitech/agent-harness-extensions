@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "source_id": "all-hands-ai-openhands",
+  "source_name": "OpenHands",
+  "source_status": "active",
+  "repo": "https://github.com/All-Hands-AI/OpenHands",
+  "default_branch": "main",
+  "previous_sha": "dc9489ddcd7b22c164c9e66bea71626808010865",
+  "current_sha": "f51eb93d3ea92231e72247266df6df2d024db826",
+  "mode": "delta",
+  "changed_files": [
+    "openhands/core/config/sandbox_config.py",
+    "openhands/integrations/github/github_service.py"
+  ],
+  "source_config_hash": "cbc601bfd387d49d5ae363c9cf30dc6a082937a02370ab1884e306a4b944c37f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:19:52.308Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-03-09T21:45:13Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "all-hands-ai-openhands::agent::readme-md",
+      "source_id": "all-hands-ai-openhands",
+      "source_name": "OpenHands",
+      "source_status": "active",
+      "name": "OpenHands",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/All-Hands-AI/OpenHands",
+      "repo_path_url": "https://github.com/All-Hands-AI/OpenHands/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-03-09T21:45:13Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:19:52.308Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,32 @@
+version: 1
+id: simular-ai-agent-s
+name: Agent S
+status: active
+repo: https://github.com/simular-ai/Agent-S
+compatibility:
+  codex: check
+  claude-code: question
+  cursor: question
+  openclaw: question
+allowed_types:
+  - agent
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "integrations/*/SKILL.md"
+  path_regex:
+    - pattern: "^integrations/[^/]+/SKILL\\.md$"
+      type: skill
+artifacts:
+  - name: Agent S
+    type: agent
+    path: README.md
+exclusions:
+  paths:
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Computer-use agent repository with integration-specific skills, including an OpenClaw skill."

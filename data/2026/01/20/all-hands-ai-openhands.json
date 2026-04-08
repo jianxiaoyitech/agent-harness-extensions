@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "source_id": "all-hands-ai-openhands",
+  "source_name": "OpenHands",
+  "source_status": "active",
+  "repo": "https://github.com/All-Hands-AI/OpenHands",
+  "default_branch": "main",
+  "previous_sha": "e8ba741f28fd1683523ea2ed1e96d0c4c653dee4",
+  "current_sha": "3bc56740b94d99c0a0c9a7d59a31f604e84d775a",
+  "mode": "delta",
+  "changed_files": [
+    "enterprise/integrations/jira/jira_manager.py",
+    "enterprise/integrations/jira/jira_view.py",
+    "enterprise/server/routes/integration/jira.py",
+    "enterprise/storage/jira_integration_store.py",
+    "enterprise/storage/lite_llm_manager.py",
+    "enterprise/tests/unit/integrations/jira/test_jira_manager.py",
+    "enterprise/tests/unit/integrations/jira/test_jira_view.py",
+    "enterprise/tests/unit/server/routes/test_jira_integration_routes.py",
+    "enterprise/tests/unit/test_lite_llm_manager.py",
+    "openhands/app_server/event_callback/webhook_router.py",
+    "openhands/app_server/services/db_session_injector.py",
+    "tests/unit/app_server/test_webhook_router_parent_conversation.py"
+  ],
+  "source_config_hash": "cbc601bfd387d49d5ae363c9cf30dc6a082937a02370ab1884e306a4b944c37f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:26:56.542Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-01-20T16:21:23-05:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "all-hands-ai-openhands::agent::readme-md",
+      "source_id": "all-hands-ai-openhands",
+      "source_name": "OpenHands",
+      "source_status": "active",
+      "name": "OpenHands",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/All-Hands-AI/OpenHands",
+      "repo_path_url": "https://github.com/All-Hands-AI/OpenHands/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2026-01-20T16:21:23-05:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:26:56.542Z"
+    }
+  ],
+  "issues": []
+}

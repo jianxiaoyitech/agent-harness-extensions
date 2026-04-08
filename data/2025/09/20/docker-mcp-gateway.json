@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "docker-mcp-gateway",
+  "source_name": "MCP Gateway",
+  "source_status": "active",
+  "repo": "https://github.com/docker/mcp-gateway",
+  "default_branch": "main",
+  "previous_sha": "9fdb37927244ea9ec0678f5fda302f3867953adf",
+  "current_sha": "9fdb37927244ea9ec0678f5fda302f3867953adf",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "a07c6f7bd6e036d4d407aa88666486b4a03ea4476ffae4092c8fe987414982b5",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:22:28.995Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-09-19T11:59:39-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "docker-mcp-gateway::mcp-server::readme-md",
+      "source_id": "docker-mcp-gateway",
+      "source_name": "MCP Gateway",
+      "source_status": "active",
+      "name": "MCP Gateway",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/docker/mcp-gateway",
+      "repo_path_url": "https://github.com/docker/mcp-gateway/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-09-19T11:59:39-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:22:28.995Z"
+    }
+  ],
+  "issues": []
+}

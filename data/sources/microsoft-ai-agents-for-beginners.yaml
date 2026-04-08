@@ -1,0 +1,25 @@
+version: 1
+id: microsoft-ai-agents-for-beginners
+name: AI Agents For Beginners
+status: active
+repo: https://github.com/microsoft/ai-agents-for-beginners
+compatibility:
+  codex: check
+  claude-code: question
+  cursor: question
+  openclaw: question
+allowed_types:
+  - agent
+discovery:
+  manifests: false
+  conventions: false
+  regex: false
+artifacts:
+  - name: AI Agents For Beginners
+    type: agent
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Educational agent repository discovered from GitHub search."

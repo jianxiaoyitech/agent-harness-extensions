@@ -1,0 +1,27 @@
+version: 1
+id: ryszard-agency
+name: Agency
+status: active
+repo: https://github.com/ryszard/agency
+compatibility:
+  claude-code: check
+  codex: check
+  cursor: check
+  github-copilot: check
+  openclaw: check
+  windsurf: check
+allowed_types:
+  - agent
+discovery:
+  manifests: false
+  conventions: false
+  regex: false
+artifacts:
+  - name: Agency
+    type: agent
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Agent workflow repository discovered from GitHub search."

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "source_id": "wshobson-agents",
+  "source_name": "wshobson Agents",
+  "source_status": "active",
+  "repo": "https://github.com/wshobson/agents",
+  "default_branch": "main",
+  "previous_sha": "2bc01c4ca97dbadcb1e1a5014bfeb00178accb1a",
+  "current_sha": "167009899925732840059cdb2eca2c2c5aacd7f7",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "hybrid-cloud-architect.md",
+    "kubernetes-architect.md"
+  ],
+  "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:57:05.267Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-08-25T07:29:52-04:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "source_id": "crewaiinc-crewai",
+  "source_name": "CrewAI",
+  "source_status": "active",
+  "repo": "https://github.com/crewAIInc/crewAI",
+  "default_branch": "main",
+  "previous_sha": "e1d7de0dbadcadb3ac485565b35f1d89ce1c2cf7",
+  "current_sha": "fb2323b3deb3ec62b3965526857e77a2264e4cd0",
+  "mode": "delta",
+  "changed_files": [
+    "lib/crewai-tools/src/crewai_tools/tools/code_interpreter_tool/README.md",
+    "lib/crewai-tools/src/crewai_tools/tools/code_interpreter_tool/code_interpreter_tool.py",
+    "lib/crewai-tools/tests/tools/test_code_interpreter_tool.py",
+    "lib/crewai/tests/cassettes/test_agents_do_not_get_delegation_tools_with_there_is_only_one_agent.yaml",
+    "lib/crewai/tests/cassettes/test_before_kickoff_callback.yaml",
+    "lib/crewai/tests/cassettes/test_crew_with_delegating_agents.yaml",
+    "lib/crewai/tests/cassettes/test_memory_remember_called_after_task.yaml",
+    "lib/crewai/tests/cassettes/test_task_tools_override_agent_tools.yaml",
+    "lib/crewai/tests/cassettes/test_using_memory_recall_and_save.yaml"
+  ],
+  "source_config_hash": "7bf137970b4e47d19acceb7791326c21d4cdc8dc6434ee2b583db268b6a9a0fc",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:33:27.689Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2026-03-15T13:18:02+08:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "crewaiinc-crewai::agent::readme-md",
+      "source_id": "crewaiinc-crewai",
+      "source_name": "CrewAI",
+      "source_status": "active",
+      "name": "CrewAI",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/crewAIInc/crewAI",
+      "repo_path_url": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2026-03-15T13:18:02+08:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:33:27.689Z"
+    }
+  ],
+  "issues": []
+}

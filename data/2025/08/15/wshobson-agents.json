@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "source_id": "wshobson-agents",
+  "source_name": "wshobson Agents",
+  "source_status": "active",
+  "repo": "https://github.com/wshobson/agents",
+  "default_branch": "main",
+  "previous_sha": "537cd8d98a31cbeb49891b314737a06cc44f4b17",
+  "current_sha": "d5ef7aa70dfff739858027cd301ef416c6c60751",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "hr-pro.md",
+    "seo-authority-builder.md",
+    "seo-cannibalization-detector.md",
+    "seo-content-auditor.md",
+    "seo-content-planner.md",
+    "seo-content-refresher.md",
+    "seo-content-writer.md",
+    "seo-keyword-strategist.md",
+    "seo-meta-optimizer.md",
+    "seo-snippet-hunter.md",
+    "seo-structure-architect.md"
+  ],
+  "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:57:00.382Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-08-15T18:18:17+02:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

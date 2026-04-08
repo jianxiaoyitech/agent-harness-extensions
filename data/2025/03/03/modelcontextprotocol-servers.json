@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "source_id": "modelcontextprotocol-servers",
+  "source_name": "Model Context Protocol Servers",
+  "source_status": "active",
+  "repo": "https://github.com/modelcontextprotocol/servers",
+  "default_branch": "main",
+  "previous_sha": "c63096e22953149be6687d4a4c8d193c00c7f4d0",
+  "current_sha": "32f49f44876ea4e8a7550cafad933b68ae7ace4f",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "src/github/index.ts"
+  ],
+  "source_config_hash": "1e3f102c0c6ce5a508ccccf27f840907452fbf8b49ba90d5337e9a196d37cba8",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:41:08.384Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-03-03T17:03:20-05:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "modelcontextprotocol-servers::mcp-server::readme-md",
+      "source_id": "modelcontextprotocol-servers",
+      "source_name": "Model Context Protocol Servers",
+      "source_status": "active",
+      "name": "Model Context Protocol Servers",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "repo_path_url": "https://github.com/modelcontextprotocol/servers/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-03-03T17:03:20-05:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:41:08.384Z"
+    }
+  ],
+  "issues": []
+}

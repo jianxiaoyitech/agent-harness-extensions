@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "source_id": "browser-use-browser-use",
+  "source_name": "Browser Use",
+  "source_status": "active",
+  "repo": "https://github.com/browser-use/browser-use",
+  "default_branch": "main",
+  "previous_sha": "87b4a95c07bcc6b05cc18ccdd39f8a0f3a17d2a2",
+  "current_sha": "8ff9dbe09003e741242d822f55a51b4c06b2ae3d",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/eval-on-pr.yml",
+    "AGENTS.MD",
+    "docs/customize/browser/basics.mdx",
+    "docs/customize/browser/remote.mdx",
+    "docs/development/monitoring/openlit.mdx",
+    "docs/docs.json",
+    "tests/ci/browser/test_navigation.py",
+    "tests/ci/evaluate_tasks.py",
+    "tests/ci/models/model_test_helper.py"
+  ],
+  "source_config_hash": "c61a6e2e2ad9e16b21e3989f51b173707bd99b4b1d1ca5e2d05903412466cdaa",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:19:09.850Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-10-26T16:40:57-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "browser-use-browser-use::agent::readme-md",
+      "source_id": "browser-use-browser-use",
+      "source_name": "Browser Use",
+      "source_status": "active",
+      "name": "Browser Use",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/browser-use/browser-use",
+      "repo_path_url": "https://github.com/browser-use/browser-use/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-10-26T16:40:57-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:19:09.850Z"
+    }
+  ],
+  "issues": []
+}

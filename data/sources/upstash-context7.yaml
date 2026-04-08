@@ -1,0 +1,37 @@
+version: 1
+id: upstash-context7
+name: Context7
+status: active
+repo: https://github.com/upstash/context7
+compatibility:
+  claude-code: check
+  codex: check
+  cursor: check
+  github-copilot: check
+  gemini-cli: check
+  openclaw: check
+  opencode: check
+  windsurf: check
+allowed_types:
+  - mcp-server
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".mcp.json"
+    - "**/.mcp.json"
+  path_regex:
+    - pattern: "^\\.mcp\\.json$"
+      type: mcp-server
+    - pattern: "^(?:.+/)?\\.mcp\\.json$"
+      type: mcp-server
+artifacts:
+  - name: Context7
+    type: mcp-server
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "MCP-compatible documentation server repository discovered from GitHub search."

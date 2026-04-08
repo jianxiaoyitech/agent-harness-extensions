@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "source_id": "all-hands-ai-openhands",
+  "source_name": "OpenHands",
+  "source_status": "active",
+  "repo": "https://github.com/All-Hands-AI/OpenHands",
+  "default_branch": "main",
+  "previous_sha": "98e0f5509c3fc52883de5608b64912cfdd0256e6",
+  "current_sha": "2d2ccf1329f4cb97d9d16f150f40bd6e98d54a65",
+  "mode": "delta",
+  "changed_files": [
+    "evaluation/benchmarks/miniwob/run_infer.py",
+    "evaluation/benchmarks/swe_bench/README.md",
+    "evaluation/benchmarks/swe_bench/SWE-bench-Live.md",
+    "evaluation/benchmarks/swe_bench/live_utils.py",
+    "evaluation/benchmarks/swe_bench/run_infer.py",
+    "evaluation/benchmarks/swe_bench/scripts/live/convert.py",
+    "evaluation/benchmarks/swe_bench/scripts/setup/instance_swe_entry_live.sh",
+    "evaluation/benchmarks/webarena/run_infer.py",
+    "evaluation/utils/shared.py",
+    "openhands/server/routes/mcp.py",
+    "tests/unit/test_mcp_routes.py"
+  ],
+  "source_config_hash": "cbc601bfd387d49d5ae363c9cf30dc6a082937a02370ab1884e306a4b944c37f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:22:08.694Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-06-15T15:41:08-04:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "all-hands-ai-openhands::agent::readme-md",
+      "source_id": "all-hands-ai-openhands",
+      "source_name": "OpenHands",
+      "source_status": "active",
+      "name": "OpenHands",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/All-Hands-AI/OpenHands",
+      "repo_path_url": "https://github.com/All-Hands-AI/OpenHands/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-06-15T15:41:08-04:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:22:08.694Z"
+    }
+  ],
+  "issues": []
+}

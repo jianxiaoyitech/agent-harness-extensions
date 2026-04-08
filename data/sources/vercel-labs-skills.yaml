@@ -1,0 +1,30 @@
+version: 1
+id: vercel-labs-skills
+name: Vercel Labs Skills
+status: active
+repo: https://github.com/vercel-labs/skills
+compatibility:
+  claude-code: check
+  codex: check
+  cursor: check
+  opencode: check
+allowed_types:
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "AGENTS.md"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Open agent skills ecosystem repo discovered from GitHub search and verified by clone."

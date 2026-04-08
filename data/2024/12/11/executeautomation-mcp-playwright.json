@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "source_id": "executeautomation-mcp-playwright",
+  "source_name": "MCP Playwright",
+  "source_status": "active",
+  "repo": "https://github.com/executeautomation/mcp-playwright",
+  "default_branch": "main",
+  "previous_sha": "1efce9dca5a2d9cbad3332b666a60b772b1ca3fd",
+  "current_sha": "1a640bb32043a07cbeb5e7de4a775babc8a3c5dc",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "package-lock.json",
+    "package.json",
+    "src/index.ts",
+    "src/tools.ts",
+    "src/toolsHandler.ts"
+  ],
+  "source_config_hash": "c26ac4806eed2ae817aae90a81a390f9cdfb611a00d6be9fea90d2defbb5012a",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:24:24.822Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2024-12-11T07:53:49Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "executeautomation-mcp-playwright::mcp-server::readme-md",
+      "source_id": "executeautomation-mcp-playwright",
+      "source_name": "MCP Playwright",
+      "source_status": "active",
+      "name": "MCP Playwright",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/executeautomation/mcp-playwright",
+      "repo_path_url": "https://github.com/executeautomation/mcp-playwright/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Unknown",
+        "updated_at": "2024-12-11T07:53:49Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:24:24.822Z"
+    }
+  ],
+  "issues": []
+}

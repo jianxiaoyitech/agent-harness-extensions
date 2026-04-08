@@ -1,0 +1,34 @@
+version: 1
+id: coinpaprika-claude-marketplace
+name: Coinpaprika Claude Marketplace
+status: active
+repo: https://github.com/coinpaprika/claude-marketplace
+compatibility:
+  claude-code: check
+allowed_types:
+  - plugin
+  - skill
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "plugins/*/.claude-plugin/plugin.json"
+    - "plugins/*/agents/*.md"
+    - "plugins/*/skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^plugins/[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^plugins/[^/]+/agents/[^/]+\\.md$"
+      type: agent
+    - pattern: "^plugins/[^/]+/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Finance-focused Claude marketplace with plugin packages, agents, and nested skills."

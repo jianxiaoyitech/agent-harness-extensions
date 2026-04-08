@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "source_id": "all-hands-ai-openhands",
+  "source_name": "OpenHands",
+  "source_status": "active",
+  "repo": "https://github.com/All-Hands-AI/OpenHands",
+  "default_branch": "main",
+  "previous_sha": "13762eba7c78597a346ad9379f23d010cf56cd22",
+  "current_sha": "ff28e13698d2a6c26d6717961db816f03c0360b8",
+  "mode": "delta",
+  "changed_files": [
+    "AGENTS.md",
+    "frontend/__tests__/components/features/conversation/conversation-tabs-context-menu.test.tsx",
+    "frontend/__tests__/components/providers/posthog-wrapper.test.tsx",
+    "frontend/__tests__/routes/root-layout-refetch.test.tsx",
+    "frontend/package-lock.json",
+    "frontend/package.json",
+    "frontend/src/components/features/conversation/conversation-tabs/conversation-tabs-context-menu.tsx",
+    "frontend/src/components/providers/posthog-wrapper.tsx",
+    "frontend/src/components/shared/buttons/new-project-button.tsx",
+    "frontend/src/components/shared/buttons/styled-tooltip.tsx",
+    "frontend/src/entry.client.tsx",
+    "frontend/src/routes/root-layout.tsx"
+  ],
+  "source_config_hash": "cbc601bfd387d49d5ae363c9cf30dc6a082937a02370ab1884e306a4b944c37f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:26:47.160Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-01-13T19:08:38Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "all-hands-ai-openhands::agent::readme-md",
+      "source_id": "all-hands-ai-openhands",
+      "source_name": "OpenHands",
+      "source_status": "active",
+      "name": "OpenHands",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/All-Hands-AI/OpenHands",
+      "repo_path_url": "https://github.com/All-Hands-AI/OpenHands/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2026-01-13T19:08:38Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:26:47.160Z"
+    }
+  ],
+  "issues": []
+}

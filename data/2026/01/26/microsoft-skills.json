@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "source_id": "microsoft-skills",
+  "source_name": "Microsoft Skills",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/skills",
+  "default_branch": "main",
+  "previous_sha": "377748e81152f957ed3e2ca42cd84455b6328173",
+  "current_sha": "377748e81152f957ed3e2ca42cd84455b6328173",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "0c972c8532fc90ec0153e62f3b6b7861be0c667e4688f481887ab2e49fb2cd89",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:39:11.741Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-01-22T17:31:35-08:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-skills::skill::readme-md",
+      "source_id": "microsoft-skills",
+      "source_name": "Microsoft Skills",
+      "source_status": "active",
+      "name": "Microsoft Skills",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/skills",
+      "repo_path_url": "https://github.com/microsoft/skills/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "blank",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2026-01-22T17:31:35-08:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:39:11.741Z"
+    }
+  ],
+  "issues": []
+}

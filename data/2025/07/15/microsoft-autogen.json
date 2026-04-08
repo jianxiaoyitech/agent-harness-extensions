@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "source_id": "microsoft-autogen",
+  "source_name": "AutoGen",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/autogen",
+  "default_branch": "main",
+  "previous_sha": "25d732876e4ec6f723b29d6e6a2c4579ab0ba022",
+  "current_sha": "ca39adc35830d948179b4df357efa8d708b283ab",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/single-python-package.yml",
+    "python/docs/src/user-guide/agentchat-user-guide/graph-flow.ipynb",
+    "python/packages/autogen-agentchat/src/autogen_agentchat/messages.py",
+    "python/packages/autogen-agentchat/tests/test_messages.py",
+    "python/packages/pyautogen/LICENSE-CODE",
+    "python/packages/pyautogen/README.md",
+    "python/packages/pyautogen/pyproject.toml",
+    "python/packages/pyautogen/src/pyautogen/__init__.py",
+    "python/uv.lock"
+  ],
+  "source_config_hash": "42eb90e713a4d391b95ab1b9d0e6cdcb11f5f78c78f15e28270e6c43faa8b97a",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:43:53.725Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2025-07-14T19:05:53-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-autogen::agent::readme-md",
+      "source_id": "microsoft-autogen",
+      "source_name": "AutoGen",
+      "source_status": "active",
+      "name": "AutoGen",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/autogen",
+      "repo_path_url": "https://github.com/microsoft/autogen/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2025-07-14T19:05:53-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:43:53.725Z"
+    }
+  ],
+  "issues": []
+}

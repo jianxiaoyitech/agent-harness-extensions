@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "source_id": "microsoft-autogen",
+  "source_name": "AutoGen",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/autogen",
+  "default_branch": "main",
+  "previous_sha": "780523f10fd8eb6b7ad7ad07b051114f1117aeb2",
+  "current_sha": "0a2b667f3cafbc292fe680889a042f9208ada9a5",
+  "mode": "delta",
+  "changed_files": [
+    "dotnet/sample/AutoGen.Anthropic.Samples/Anthropic_Agent_With_Prompt_Caching.cs",
+    "dotnet/sample/AutoGen.Anthropic.Samples/Program.cs",
+    "dotnet/src/AutoGen.Anthropic/Agent/AnthropicClientAgent.cs",
+    "dotnet/src/AutoGen.Anthropic/AnthropicClient.cs",
+    "dotnet/src/AutoGen.Anthropic/Converters/SystemMessageConverter.cs",
+    "dotnet/src/AutoGen.Anthropic/DTO/ChatCompletionRequest.cs",
+    "dotnet/src/AutoGen.Anthropic/DTO/ChatCompletionResponse.cs",
+    "dotnet/src/AutoGen.Anthropic/DTO/Content.cs",
+    "dotnet/src/AutoGen.Anthropic/DTO/Tool.cs",
+    "dotnet/src/AutoGen.Anthropic/Utils/AnthropicConstants.cs",
+    "dotnet/test/AutoGen.Anthropic.Tests/AnthropicClientTest.cs",
+    "dotnet/test/AutoGen.Anthropic.Tests/AnthropicTestUtils.cs"
+  ],
+  "source_config_hash": "42eb90e713a4d391b95ab1b9d0e6cdcb11f5f78c78f15e28270e6c43faa8b97a",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:38:53.206Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2024-08-18T16:14:51Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-autogen::agent::readme-md",
+      "source_id": "microsoft-autogen",
+      "source_name": "AutoGen",
+      "source_status": "active",
+      "name": "AutoGen",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/autogen",
+      "repo_path_url": "https://github.com/microsoft/autogen/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2024-08-18T16:14:51Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:38:53.206Z"
+    }
+  ],
+  "issues": []
+}

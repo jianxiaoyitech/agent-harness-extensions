@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "source_id": "awslabs-mcp",
+  "source_name": "AWS Labs MCP",
+  "source_status": "active",
+  "repo": "https://github.com/awslabs/mcp",
+  "default_branch": "main",
+  "previous_sha": "93eba84abfda6a67f207ef77ceb5662ee3303473",
+  "current_sha": "fc6a67667e02a26a7e6c9d5b5c69508a26944d98",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/mkdocs-requirements.txt",
+    ".secrets.baseline",
+    "DESIGN_GUIDELINES.md",
+    "src/iam-mcp-server/CHANGELOG.md",
+    "src/iam-mcp-server/README.md",
+    "src/iam-mcp-server/awslabs/iam_mcp_server/__init__.py",
+    "src/iam-mcp-server/awslabs/iam_mcp_server/context.py",
+    "src/iam-mcp-server/awslabs/iam_mcp_server/models.py",
+    "src/iam-mcp-server/awslabs/iam_mcp_server/server.py",
+    "src/iam-mcp-server/examples/get_policy_document_example.py",
+    "src/iam-mcp-server/examples/inline_policy_demo.py",
+    "src/iam-mcp-server/tests/test_inline_policies.py",
+    "src/iam-mcp-server/tests/test_server.py"
+  ],
+  "source_config_hash": "2192dfd764d80e204eada9aa332bfe7377fa783ee9dd314f7c321f448b043770",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:16:22.464Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-06-26T19:57:04Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "awslabs-mcp::mcp-server::readme-md",
+      "source_id": "awslabs-mcp",
+      "source_name": "AWS Labs MCP",
+      "source_status": "active",
+      "name": "AWS Labs MCP",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/awslabs/mcp",
+      "repo_path_url": "https://github.com/awslabs/mcp/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-06-26T19:57:04Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:16:22.464Z"
+    }
+  ],
+  "issues": []
+}

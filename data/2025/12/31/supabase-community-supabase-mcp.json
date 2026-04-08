@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "supabase-community-supabase-mcp",
+  "source_name": "Supabase MCP",
+  "source_status": "active",
+  "repo": "https://github.com/supabase-community/supabase-mcp",
+  "default_branch": "main",
+  "previous_sha": "0e3c201bf0ae0b9800d407a59ab315e9ca6acc04",
+  "current_sha": "0e3c201bf0ae0b9800d407a59ab315e9ca6acc04",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "11d58d680746ce2e279142f5a9c2be87282bc000fa436a0cf1e2102cc25657c2",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:55:39.778Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-12-23T14:58:35-05:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "supabase-community-supabase-mcp::mcp-server::readme-md",
+      "source_id": "supabase-community-supabase-mcp",
+      "source_name": "Supabase MCP",
+      "source_status": "active",
+      "name": "Supabase MCP",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/supabase-community/supabase-mcp",
+      "repo_path_url": "https://github.com/supabase-community/supabase-mcp/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-12-23T14:58:35-05:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:55:39.778Z"
+    }
+  ],
+  "issues": []
+}

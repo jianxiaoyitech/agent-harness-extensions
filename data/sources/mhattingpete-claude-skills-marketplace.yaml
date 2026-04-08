@@ -1,0 +1,35 @@
+version: 1
+id: mhattingpete-claude-skills-marketplace
+name: mhattingpete Claude Skills Marketplace
+status: active
+repo: https://github.com/mhattingpete/claude-skills-marketplace
+compatibility:
+  claude-code: check
+allowed_types:
+  - plugin
+  - skill
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "*/.claude-plugin/plugin.json"
+    - "*/agents/*.md"
+    - "*/agents/**/AGENT.md"
+    - "*/skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^[^/]+/agents/(?:[^/]+/)*[^/]+\\.md$"
+      type: agent
+    - pattern: "^[^/]+/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Claude Code marketplace with plugin bundles, nested agent files, and reusable workflow skills."

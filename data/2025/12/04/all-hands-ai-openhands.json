@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "source_id": "all-hands-ai-openhands",
+  "source_name": "OpenHands",
+  "source_status": "active",
+  "repo": "https://github.com/All-Hands-AI/OpenHands",
+  "default_branch": "main",
+  "previous_sha": "d0496fea8c3fef2d37c757e1d1e5966975442525",
+  "current_sha": "59ca8bd9a82535812c0454e6aa45e5ab7aa87af2",
+  "mode": "delta",
+  "changed_files": [
+    "enterprise/poetry.lock",
+    "frontend/__tests__/components/modals/microagents/microagent-modal.test.tsx",
+    "frontend/__tests__/hooks/use-terminal.test.tsx",
+    "frontend/__tests__/routes/secrets-settings.test.tsx",
+    "frontend/package-lock.json",
+    "frontend/package.json",
+    "frontend/src/hooks/use-terminal.ts",
+    "openhands/app_server/sandbox/sandbox_spec_service.py",
+    "openhands/app_server/utils/encryption_key.py",
+    "poetry.lock",
+    "pyproject.toml"
+  ],
+  "source_config_hash": "cbc601bfd387d49d5ae363c9cf30dc6a082937a02370ab1884e306a4b944c37f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:25:56.439Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-12-05T01:41:32+07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "all-hands-ai-openhands::agent::readme-md",
+      "source_id": "all-hands-ai-openhands",
+      "source_name": "OpenHands",
+      "source_status": "active",
+      "name": "OpenHands",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/All-Hands-AI/OpenHands",
+      "repo_path_url": "https://github.com/All-Hands-AI/OpenHands/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-12-05T01:41:32+07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:25:56.439Z"
+    }
+  ],
+  "issues": []
+}

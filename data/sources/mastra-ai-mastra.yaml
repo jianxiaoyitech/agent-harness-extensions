@@ -1,0 +1,25 @@
+version: 1
+id: mastra-ai-mastra
+name: Mastra
+status: active
+repo: https://github.com/mastra-ai/mastra
+compatibility:
+  codex: check
+  claude-code: question
+  cursor: question
+  openclaw: question
+allowed_types:
+  - agent
+discovery:
+  manifests: false
+  conventions: false
+  regex: false
+artifacts:
+  - name: Mastra
+    type: agent
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Agent framework repository discovered from GitHub search."

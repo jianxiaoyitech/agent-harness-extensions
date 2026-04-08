@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "kind": "delta",
+  "source_id": "agency-agents",
+  "date": "2026-01-13",
+  "base_date": "2026-01-12",
+  "current_sha": "76263536f4a1cade879945516127896f0cd87633",
+  "mode": "unchanged",
+  "changed_files": [],
+  "meta": {
+    "synced_at": "2026-04-08T14:50:57.302Z"
+  },
+  "artifacts": {
+    "added": [],
+    "removed": [],
+    "updated": []
+  }
+}

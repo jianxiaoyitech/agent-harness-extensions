@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "source_id": "wshobson-agents",
+  "source_name": "wshobson Agents",
+  "source_status": "active",
+  "repo": "https://github.com/wshobson/agents",
+  "default_branch": "main",
+  "previous_sha": "d8a7c7dc33000658d1331757171e48e8b05aab6c",
+  "current_sha": "e88a6ee87de2ab9c3cc69bf498e8a259f1c1ceea",
+  "mode": "delta",
+  "changed_files": [
+    ".github/FUNDING.yml",
+    "README.md",
+    "flutter-expert.md"
+  ],
+  "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:56:58.055Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-08-10T10:51:19-04:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

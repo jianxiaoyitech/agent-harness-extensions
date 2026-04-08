@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "source_id": "microsoft-autogen",
+  "source_name": "AutoGen",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/autogen",
+  "default_branch": "main",
+  "previous_sha": "de99564a6e235aeffd2e63b99495d4d28e0dac63",
+  "current_sha": "5f29d6b97dea054b757b60236b42e9b1daddb74d",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "autogen/agentchat/contrib/vectordb/chromadb.py",
+    "autogen/agentchat/conversable_agent.py",
+    "autogen/oai/gemini.py",
+    "setup.py",
+    "test/oai/test_gemini.py",
+    "website/docs/contributor-guide/maintainer.md",
+    "website/docs/topics/non-openai-models/cloud-gemini.ipynb"
+  ],
+  "source_config_hash": "42eb90e713a4d391b95ab1b9d0e6cdcb11f5f78c78f15e28270e6c43faa8b97a",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:37:25.182Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2024-06-03T22:16:58Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-autogen::agent::readme-md",
+      "source_id": "microsoft-autogen",
+      "source_name": "AutoGen",
+      "source_status": "active",
+      "name": "AutoGen",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/autogen",
+      "repo_path_url": "https://github.com/microsoft/autogen/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "LICENSE",
+        "updated_at": "2024-06-03T22:16:58Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:37:25.182Z"
+    }
+  ],
+  "issues": []
+}

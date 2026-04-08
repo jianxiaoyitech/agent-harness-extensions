@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "source_id": "crewaiinc-crewai",
+  "source_name": "CrewAI",
+  "source_status": "active",
+  "repo": "https://github.com/crewAIInc/crewAI",
+  "default_branch": "main",
+  "previous_sha": "308349442ca728684012f569e61c0c8a197e06ce",
+  "current_sha": "1f02c0b2764fcd9a0469ae60e0ac02b6973ff503",
+  "mode": "delta",
+  "changed_files": [
+    "crewai/__init__.py",
+    "crewai/agent.py",
+    "crewai/agents/agent_vote.py",
+    "crewai/crew.py",
+    "crewai/process.py",
+    "crewai/prompts.py",
+    "crewai/task.py",
+    "tests/agent_test.py",
+    "tests/cassettes/test_agent_execution.yaml",
+    "tests/crew_test.py"
+  ],
+  "source_config_hash": "7bf137970b4e47d19acceb7791326c21d4cdc8dc6434ee2b583db268b6a9a0fc",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:20:26.578Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2023-11-05T18:21:47-03:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "crewaiinc-crewai::agent::readme-md",
+      "source_id": "crewaiinc-crewai",
+      "source_name": "CrewAI",
+      "source_status": "active",
+      "name": "CrewAI",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/crewAIInc/crewAI",
+      "repo_path_url": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Unknown",
+        "updated_at": "2023-11-05T18:21:47-03:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:20:26.578Z"
+    }
+  ],
+  "issues": []
+}

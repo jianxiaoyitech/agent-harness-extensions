@@ -1,0 +1,41 @@
+version: 1
+id: getty104-claude-code-marketplace
+name: getty104 Claude Code Marketplace
+status: active
+repo: https://github.com/getty104/claude-code-marketplace
+compatibility:
+  claude-code: check
+allowed_types:
+  - plugin
+  - mcp-server
+  - skill
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".claude/skills/**/SKILL.md"
+    - "*/*.claude-plugin/plugin.json"
+    - "*/*.mcp.json"
+    - "*/agents/*.md"
+    - "*/skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^\\.claude/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+    - pattern: "^[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^[^/]+/\\.mcp\\.json$"
+      type: mcp-server
+    - pattern: "^[^/]+/agents/[^/]+\\.md$"
+      type: agent
+    - pattern: "^[^/]+/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Marketplace repo with top-level plugin bundles, MCP manifests, agents, and shared Claude skills."

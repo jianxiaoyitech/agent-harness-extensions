@@ -1,0 +1,37 @@
+version: 1
+id: redis-mcp-redis
+name: Redis MCP
+status: active
+repo: https://github.com/redis/mcp-redis
+compatibility:
+  claude-code: check
+  codex: check
+  cursor: check
+  github-copilot: check
+  gemini-cli: check
+  openclaw: check
+  opencode: check
+  windsurf: check
+allowed_types:
+  - mcp-server
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".mcp.json"
+    - "**/.mcp.json"
+  path_regex:
+    - pattern: "^\\.mcp\\.json$"
+      type: mcp-server
+    - pattern: "^(?:.+/)?\\.mcp\\.json$"
+      type: mcp-server
+artifacts:
+  - name: Redis MCP
+    type: mcp-server
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "MCP server repository discovered from GitHub search."

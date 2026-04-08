@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_id": "letta-ai-skills",
+  "source_name": "Letta AI Skills",
+  "source_status": "active",
+  "repo": "https://github.com/letta-ai/skills",
+  "default_branch": "main",
+  "previous_sha": "7bb4ac3eaba12099dc32a9db8f95988161293a0a",
+  "current_sha": "f14598895248be96f1a3682a74808130230dce7d",
+  "mode": "delta",
+  "changed_files": [
+    "ai/agents/letta/letta-fleet-management/LICENSE.txt",
+    "ai/agents/letta/letta-fleet-management/SKILL.md",
+    "ai/agents/letta/letta-fleet-management/reference/cli-commands.md",
+    "ai/agents/letta/letta-fleet-management/reference/fleet-config.md",
+    "ai/agents/letta/letta-fleet-management/reference/sdk-usage.md",
+    "ai/agents/letta/letta-fleet-management/reference/template-mode.md",
+    "development/tools/github-cli/SKILL.md",
+    "development/tools/github-cli/scripts/check-pr.sh",
+    "development/tools/github-cli/scripts/view-failed-logs.sh"
+  ],
+  "source_config_hash": "48d6ea0447160a92756e289e2e36b3f5dc26f3f666b0fab11bab44a53bd4845f",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:33:32.807Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-01-06T17:27:00-05:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

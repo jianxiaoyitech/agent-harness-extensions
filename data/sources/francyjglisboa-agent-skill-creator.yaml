@@ -1,0 +1,38 @@
+version: 1
+id: francyjglisboa-agent-skill-creator
+name: Agent Skill Creator
+status: active
+repo: https://github.com/FrancyJGLisboa/agent-skill-creator
+compatibility:
+  codex: check
+allowed_types:
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "SKILL.md"
+    - ".codex/skills/*/SKILL.md"
+    - "skills/*/SKILL.md"
+    - "skills/.curated/*/SKILL.md"
+    - "skills/.experimental/*/SKILL.md"
+    - "skills/.system/*/SKILL.md"
+  path_regex:
+    - pattern: "^(?:\\.codex/)?skills/(?:\\.[^/]+/)?[^/]+/SKILL\\.md$"
+      type: skill
+    - pattern: "^SKILL\\.md$"
+      type: skill
+artifacts:
+  - name: Agent Skill Creator
+    type: skill
+    path: README.md
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/test/**"
+    - "**/tests/**"
+    - "**/examples/**"
+  artifacts: []
+metadata:
+  notes: "Codex skill repository discovered from GitHub search."

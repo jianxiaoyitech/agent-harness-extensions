@@ -1,0 +1,28 @@
+version: 1
+id: letta-ai-skills
+name: Letta AI Skills
+status: active
+repo: https://github.com/letta-ai/skills
+compatibility:
+  claude-code: check
+allowed_types:
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "letta/**/SKILL.md"
+    - "meta/**/SKILL.md"
+    - "tools/**/SKILL.md"
+  path_regex:
+    - pattern: "^(?:letta|meta|tools)/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Community skills wiki for Letta and related agent tooling, verified from a local clone."

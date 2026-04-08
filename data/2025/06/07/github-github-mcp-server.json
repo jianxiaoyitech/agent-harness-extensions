@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "source_id": "github-github-mcp-server",
+  "source_name": "GitHub MCP Server",
+  "source_status": "active",
+  "repo": "https://github.com/github/github-mcp-server",
+  "default_branch": "main",
+  "previous_sha": "c17ebfe50b8e427614f7ed81bae4ba68df29efc9",
+  "current_sha": "392df2d68c76a1755cdb3cce571b17cfaf3cb9f1",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "pkg/github/code_scanning.go"
+  ],
+  "source_config_hash": "aac1c7f737e972385b05722336040983c76ee738a6bd0188ff39b8e494f02d2e",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:29:52.087Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-06-07T19:38:38+02:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "github-github-mcp-server::mcp-server::readme-md",
+      "source_id": "github-github-mcp-server",
+      "source_name": "GitHub MCP Server",
+      "source_status": "active",
+      "name": "GitHub MCP Server",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/github/github-mcp-server",
+      "repo_path_url": "https://github.com/github/github-mcp-server/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-06-07T19:38:38+02:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:29:52.087Z"
+    }
+  ],
+  "issues": []
+}

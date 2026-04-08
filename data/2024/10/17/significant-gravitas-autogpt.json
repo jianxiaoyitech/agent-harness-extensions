@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "source_id": "significant-gravitas-autogpt",
+  "source_name": "AutoGPT",
+  "source_status": "active",
+  "repo": "https://github.com/Significant-Gravitas/AutoGPT",
+  "default_branch": "master",
+  "previous_sha": "d6d2820b92ab1647f96cc4caff7085080d60b2bd",
+  "current_sha": "7f6354caaee4f1fed045f2b60b4eaba42db367ae",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/repo-pr-enforce-base-branch.yml",
+    "README.md",
+    "autogpt_platform/backend/backend/blocks/llm.py",
+    "autogpt_platform/backend/backend/data/credit.py",
+    "autogpt_platform/backend/backend/server/rest_api.py",
+    "autogpt_platform/frontend/src/components/Flow.tsx",
+    "autogpt_platform/frontend/src/hooks/useCopyPaste.ts",
+    "autogpt_platform/infra/helm/autogpt-builder/values.dev.yaml",
+    "autogpt_platform/infra/helm/autogpt-builder/values.prod.yaml",
+    "autogpt_platform/infra/helm/autogpt-market/values.dev.yaml"
+  ],
+  "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T17:01:37.020Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2024-10-17T16:26:35Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "significant-gravitas-autogpt::agent::readme-md",
+      "source_id": "significant-gravitas-autogpt",
+      "source_name": "AutoGPT",
+      "source_status": "active",
+      "name": "AutoGPT",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/Significant-Gravitas/AutoGPT",
+      "repo_path_url": "https://github.com/Significant-Gravitas/AutoGPT/blob/master/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2024-10-17T16:26:35Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T17:01:37.020Z"
+    }
+  ],
+  "issues": []
+}

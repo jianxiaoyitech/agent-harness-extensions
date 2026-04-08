@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "source_id": "vercel-labs-skills",
+  "source_name": "Vercel Labs Skills",
+  "source_status": "active",
+  "repo": "https://github.com/vercel-labs/skills",
+  "default_branch": "main",
+  "previous_sha": "690fa75b76800c53c22dc5f6375167e72db640ba",
+  "current_sha": "10438af3df616d7b5e8183fb722dc5ff21d7c0f3",
+  "mode": "delta",
+  "changed_files": [
+    "package.json",
+    "pnpm-lock.yaml",
+    "scripts/generate-licenses.ts",
+    "src/frontmatter.ts",
+    "src/providers/wellknown.ts",
+    "src/skills.ts"
+  ],
+  "source_config_hash": "bd18b5335d3bcef6df0a29cb82a6863c888a55f153ffe9453c0864af6464666d",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:55:27.698Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-04-01T09:21:11-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "vercel-labs-skills::skill::skills-find-skills-skill-md",
+      "source_id": "vercel-labs-skills",
+      "source_name": "Vercel Labs Skills",
+      "source_status": "active",
+      "name": "Find Skills",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "skills/find-skills/SKILL.md",
+      "repo": "https://github.com/vercel-labs/skills",
+      "repo_path_url": "https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Unknown",
+        "updated_at": "2026-04-01T09:21:11-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "convention"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:55:27.698Z"
+    }
+  ],
+  "issues": []
+}

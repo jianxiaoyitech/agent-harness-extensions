@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "source_id": "googleapis-genai-toolbox",
+  "source_name": "GenAI Toolbox",
+  "source_status": "active",
+  "repo": "https://github.com/googleapis/genai-toolbox",
+  "default_branch": "main",
+  "previous_sha": "0e7fbf465c488397aa9d8cab2e55165fff4eb53c",
+  "current_sha": "05799475b45868b3364df754711503ba752e7d19",
+  "mode": "delta",
+  "changed_files": [
+    "docs/ALLOYDBADMIN_README.md",
+    "docs/ALLOYDBPG_README.md",
+    "docs/BIGQUERY_README.md",
+    "docs/CLOUDSQLMSSQLADMIN_README.md",
+    "docs/CLOUDSQLMSSQL_README.md",
+    "docs/CLOUDSQLMYSQLADMIN_README.md",
+    "docs/CLOUDSQLMYSQL_README.md",
+    "docs/CLOUDSQLPGADMIN_README.md",
+    "docs/CLOUDSQLPG_README.md",
+    "docs/DATAPLEX_README.md",
+    "docs/LOOKER_README.md",
+    "docs/SPANNER_README.md",
+    "docs/TOOLBOX_README.md"
+  ],
+  "source_config_hash": "68379c7dc0b62999b0982e907ee01d3f51432494dd4332ad8cfc69df4b139935",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:37:34.386Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-12-02T12:25:31-08:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "googleapis-genai-toolbox::mcp-server::readme-md",
+      "source_id": "googleapis-genai-toolbox",
+      "source_name": "GenAI Toolbox",
+      "source_status": "active",
+      "name": "GenAI Toolbox",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/googleapis/genai-toolbox",
+      "repo_path_url": "https://github.com/googleapis/genai-toolbox/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-12-02T12:25:31-08:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:37:34.386Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "source_id": "google-a2a",
+  "source_name": "A2A",
+  "source_status": "active",
+  "repo": "https://github.com/google/A2A",
+  "default_branch": "main",
+  "previous_sha": "72b60eb6e6f28284a1d7b3723f4f59057153e7c4",
+  "current_sha": "cd9eb5e66219e4afab4e35985b2514bda5943b1f",
+  "mode": "delta",
+  "changed_files": [
+    "demo/ui/state/host_agent_service.py",
+    "samples/js/README.md",
+    "samples/js/src/agents/README.md",
+    "samples/js/src/agents/coder/index.ts",
+    "samples/js/src/agents/movie-agent/index.ts"
+  ],
+  "source_config_hash": "ca5b015c9a017cfdfe0cd6f131b76b4694a7514e1d2288215cdd4d68abf3a3d6",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:29:09.741Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-04-14T16:51:22-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "google-a2a::agent::readme-md",
+      "source_id": "google-a2a",
+      "source_name": "A2A",
+      "source_status": "active",
+      "name": "A2A",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "README.md",
+      "repo": "https://github.com/google/A2A",
+      "repo_path_url": "https://github.com/google/A2A/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "question",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-04-14T16:51:22-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:29:09.741Z"
+    }
+  ],
+  "issues": []
+}

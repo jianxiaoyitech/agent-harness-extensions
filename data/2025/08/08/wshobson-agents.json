@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source_id": "wshobson-agents",
+  "source_name": "wshobson Agents",
+  "source_status": "active",
+  "repo": "https://github.com/wshobson/agents",
+  "default_branch": "main",
+  "previous_sha": "2c1a9b824ada6d462c4668b6a522cee6e2d40b4e",
+  "current_sha": "d8a7c7dc33000658d1331757171e48e8b05aab6c",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "mermaid-expert.md",
+    "ruby-pro.md",
+    "scala-pro.md"
+  ],
+  "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:56:57.158Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-08-08T23:26:24+01:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

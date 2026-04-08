@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "upstash-context7",
+  "source_name": "Context7",
+  "source_status": "active",
+  "repo": "https://github.com/upstash/context7",
+  "default_branch": "master",
+  "previous_sha": "9d869a69271e1b09bca12947fb45fd8a4568659e",
+  "current_sha": "9d869a69271e1b09bca12947fb45fd8a4568659e",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "d3825cc4639603f1d12e81da67f0e8cff87e8176c2d57bbcc30ed55b75256365",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:54:15.468Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-05-19T23:24:26+03:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "upstash-context7::mcp-server::readme-md",
+      "source_id": "upstash-context7",
+      "source_name": "Context7",
+      "source_status": "active",
+      "name": "Context7",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/upstash/context7",
+      "repo_path_url": "https://github.com/upstash/context7/blob/master/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-05-19T23:24:26+03:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:54:15.467Z"
+    }
+  ],
+  "issues": []
+}

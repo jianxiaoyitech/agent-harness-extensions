@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "source_id": "googleapis-genai-toolbox",
+  "source_name": "GenAI Toolbox",
+  "source_status": "active",
+  "repo": "https://github.com/googleapis/genai-toolbox",
+  "default_branch": "main",
+  "previous_sha": "0857c29e06d39ccb3987e3bda8b92406eb663699",
+  "current_sha": "a10cf433b8e333b4bacbba288c6dd1f3f8368d06",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/lint.yaml",
+    ".github/workflows/tests.yaml",
+    "docs/en/documentation/configuration/pre-post-processing/js/adk/package-lock.json",
+    "docs/en/documentation/configuration/pre-post-processing/js/adk/package.json",
+    "docs/en/documentation/getting-started/quickstart/js/adk/package-lock.json",
+    "docs/en/documentation/getting-started/quickstart/js/adk/package.json",
+    "docs/en/documentation/getting-started/quickstart/js/genkit/package-lock.json",
+    "docs/en/documentation/getting-started/quickstart/js/langchain/package-lock.json",
+    "docs/en/documentation/getting-started/quickstart/js/llamaindex/package-lock.json",
+    "go.mod",
+    "go.sum"
+  ],
+  "source_config_hash": "68379c7dc0b62999b0982e907ee01d3f51432494dd4332ad8cfc69df4b139935",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:39:13.032Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-02T16:21:38-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "googleapis-genai-toolbox::mcp-server::readme-md",
+      "source_id": "googleapis-genai-toolbox",
+      "source_name": "GenAI Toolbox",
+      "source_status": "active",
+      "name": "GenAI Toolbox",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/googleapis/genai-toolbox",
+      "repo_path_url": "https://github.com/googleapis/genai-toolbox/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2026-04-02T16:21:38-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:39:13.032Z"
+    }
+  ],
+  "issues": []
+}

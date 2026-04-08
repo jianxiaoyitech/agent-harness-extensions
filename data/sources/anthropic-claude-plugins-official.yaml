@@ -1,0 +1,62 @@
+version: 1
+id: anthropic-claude-plugins-official
+name: Anthropic Claude Plugins Official
+status: active
+repo: https://github.com/anthropics/claude-plugins-official
+compatibility:
+  claude-code: check
+  codex: blank
+  cursor: blank
+  windsurf: blank
+  github-copilot: blank
+  openclaw: blank
+  qoder-cli: blank
+  kiro-cli: blank
+  amp: blank
+  auggie-cli: blank
+  codebuddy-cli: blank
+  roo-code: blank
+  gemini-cli: blank
+  forge: blank
+  ibm-bob: blank
+  jules: blank
+  kilo-code: blank
+  opencode: blank
+  pi: blank
+  qwen-code: blank
+  shai: blank
+  tabnine-cli: blank
+  mistral-vibe: blank
+  kimi-code: blank
+  iflow-cli: blank
+  junie: blank
+allowed_types:
+  - plugin
+  - skill
+  - mcp-server
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "plugins/*/.claude-plugin/plugin.json"
+    - "plugins/*/.mcp.json"
+    - "plugins/*/skills/**/SKILL.md"
+    - "external_plugins/*/.claude-plugin/plugin.json"
+    - "external_plugins/*/.mcp.json"
+    - "external_plugins/*/skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^(?:plugins|external_plugins)/[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^(?:plugins|external_plugins)/[^/]+/\\.mcp\\.json$"
+      type: mcp-server
+    - pattern: "^(?:plugins|external_plugins)/[^/]+/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - "**/test/**"
+    - "**/tests/**"
+  artifacts: []
+metadata:
+  notes: "Official Claude Code plugin directory with plugin, MCP, and nested skill bundles."

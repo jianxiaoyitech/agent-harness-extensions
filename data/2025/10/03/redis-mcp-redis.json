@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "source_id": "redis-mcp-redis",
+  "source_name": "Redis MCP",
+  "source_status": "active",
+  "repo": "https://github.com/redis/mcp-redis",
+  "default_branch": "main",
+  "previous_sha": "41e385119cdf38d30df863ad0e75277ddea5f513",
+  "current_sha": "9db504bb626958cdda5a204118ad673d77b31eff",
+  "mode": "delta",
+  "changed_files": [
+    "GEMINI.md",
+    "gemini-extension.json"
+  ],
+  "source_config_hash": "e099a0ba901ae012fc8938979b5c63e9f43b5f5073012007d5e4b0eaf2be1c1c",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:48:05.965Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-10-03T16:43:36+03:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "redis-mcp-redis::mcp-server::readme-md",
+      "source_id": "redis-mcp-redis",
+      "source_name": "Redis MCP",
+      "source_status": "active",
+      "name": "Redis MCP",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/redis/mcp-redis",
+      "repo_path_url": "https://github.com/redis/mcp-redis/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-10-03T16:43:36+03:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:48:05.965Z"
+    }
+  ],
+  "issues": []
+}

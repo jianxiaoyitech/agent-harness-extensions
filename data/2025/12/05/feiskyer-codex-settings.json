@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "source_id": "feiskyer-codex-settings",
+  "source_name": "feiskyer Codex Settings",
+  "source_status": "active",
+  "repo": "https://github.com/feiskyer/codex-settings",
+  "default_branch": "main",
+  "previous_sha": "01051d67f12791003ecbd297940b9645aa441f42",
+  "current_sha": "01051d67f12791003ecbd297940b9645aa441f42",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "ef66daf02545ac5393998a7ae531484ddaa812e7ad01f2ac177bac956f65de69",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:25:19.907Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-11-28T20:25:09+08:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

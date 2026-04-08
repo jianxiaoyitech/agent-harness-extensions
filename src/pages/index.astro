@@ -1,0 +1,8 @@
+---
+import App from "../App.jsx";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <App client:only="react" />
+</BaseLayout>

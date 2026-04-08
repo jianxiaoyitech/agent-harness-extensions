@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "source_id": "supabase-community-supabase-mcp",
+  "source_name": "Supabase MCP",
+  "source_status": "active",
+  "repo": "https://github.com/supabase-community/supabase-mcp",
+  "default_branch": "main",
+  "previous_sha": "2212f13a3bbbbc1b87a4ab358b2c17370ac4d23d",
+  "current_sha": "1ba996e0dbf81c01fd168d63a57ba01b5dc54ba1",
+  "mode": "delta",
+  "changed_files": [
+    "package-lock.json",
+    "packages/mcp-server-postgrest/package.json",
+    "packages/mcp-server-postgrest/src/server.test.ts",
+    "packages/mcp-server-postgrest/src/server.ts",
+    "packages/mcp-server-postgrest/src/stdio.ts",
+    "packages/mcp-server-postgrest/tsconfig.json",
+    "packages/mcp-server-postgrest/tsup.config.ts"
+  ],
+  "source_config_hash": "11d58d680746ce2e279142f5a9c2be87282bc000fa436a0cf1e2102cc25657c2",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:52:32.236Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2024-12-23T16:26:23-07:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

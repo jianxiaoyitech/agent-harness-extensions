@@ -1,0 +1,235 @@
+version: 1
+harnesses:
+  - id: aider
+    name: Aider
+    avatar_text: AD
+    avatar_bg: "#1D4ED8"
+    avatar_fg: "#DBEAFE"
+    url: https://github.com/Aider-AI/aider
+  - id: amp
+    name: Amp
+    avatar_text: AM
+    avatar_bg: "#BE123C"
+    avatar_fg: "#FFE4E6"
+  - id: antigravity
+    name: Antigravity
+    avatar_text: AG
+    avatar_bg: "#14532D"
+    avatar_fg: "#DCFCE7"
+  - id: auggie-cli
+    name: Auggie CLI
+    avatar_text: AU
+    avatar_bg: "#7C2D12"
+    avatar_fg: "#FFEDD5"
+  - id: claude-code
+    name: Claude Code
+    avatar_text: CC
+    avatar_bg: "#D97757"
+    avatar_fg: "#111827"
+    url: https://www.anthropic.com/claude-code
+  - id: cline
+    name: Cline
+    avatar_text: CL
+    avatar_bg: "#0284C7"
+    avatar_fg: "#E0F2FE"
+    url: https://github.com/cline/cline
+  - id: codebuddy-cli
+    name: CodeBuddy CLI
+    avatar_text: CB
+    avatar_bg: "#4C1D95"
+    avatar_fg: "#F3E8FF"
+  - id: codex
+    name: Codex
+    avatar_text: CX
+    avatar_bg: "#0F172A"
+    avatar_fg: "#E2E8F0"
+    url: https://github.com/openai/codex
+  - id: cursor
+    name: Cursor
+    avatar_text: CU
+    avatar_bg: "#111827"
+    avatar_fg: "#F9FAFB"
+    url: https://cursor.sh/
+  - id: forge
+    name: Forge
+    avatar_text: FG
+    avatar_bg: "#9A3412"
+    avatar_fg: "#FFEDD5"
+  - id: gemini-cli
+    name: Gemini CLI
+    avatar_text: GM
+    avatar_bg: "#F8FAFC"
+    avatar_fg: "#4338CA"
+    url: https://github.com/google-gemini/gemini-cli
+  - id: github-copilot
+    name: GitHub Copilot
+    avatar_text: GH
+    avatar_bg: "#18181B"
+    avatar_fg: "#F4F4F5"
+    url: https://code.visualstudio.com/
+  - id: ibm-bob
+    name: IBM Bob
+    avatar_text: BO
+    avatar_bg: "#1E3A8A"
+    avatar_fg: "#DBEAFE"
+  - id: iflow-cli
+    name: iFlow CLI
+    avatar_text: IF
+    avatar_bg: "#0F766E"
+    avatar_fg: "#CCFBF1"
+  - id: ironclaw
+    name: IronClaw
+    avatar_text: IR
+    avatar_bg: "#374151"
+    avatar_fg: "#F9FAFB"
+    url: https://github.com/nearai/ironclaw
+  - id: jules
+    name: Jules
+    avatar_text: JU
+    avatar_bg: "#92400E"
+    avatar_fg: "#FEF3C7"
+  - id: junie
+    name: Junie
+    avatar_text: JN
+    avatar_bg: "#A16207"
+    avatar_fg: "#FEFCE8"
+  - id: kilo-code
+    name: Kilo Code
+    avatar_text: KL
+    avatar_bg: "#166534"
+    avatar_fg: "#DCFCE7"
+  - id: kimi-code
+    name: Kimi Code
+    avatar_text: KM
+    avatar_bg: "#7E22CE"
+    avatar_fg: "#FAE8FF"
+    url: https://code.kimi.com/
+  - id: kimi-claw
+    name: KimiClaw
+    avatar_text: KC
+    avatar_bg: "#6D28D9"
+    avatar_fg: "#F5F3FF"
+    url: https://www.kimi.com/kimiplus/kimiclaw
+  - id: kiro-cli
+    name: Kiro CLI
+    avatar_text: KI
+    avatar_bg: "#1D4ED8"
+    avatar_fg: "#DBEAFE"
+  - id: linclaw
+    name: LinClaw
+    avatar_text: LC
+    avatar_bg: "#1E3A8A"
+    avatar_fg: "#DBEAFE"
+  - id: mistral-vibe
+    name: Mistral Vibe
+    avatar_text: MV
+    avatar_bg: "#3F3F46"
+    avatar_fg: "#FAFAFA"
+  - id: molili-claw
+    name: Molili Claw
+    avatar_text: MC
+    avatar_bg: "#0F766E"
+    avatar_fg: "#ECFEFF"
+    url: https://molili.com/
+  - id: moltis
+    name: Moltis
+    avatar_text: MO
+    avatar_bg: "#0F766E"
+    avatar_fg: "#ECFEFF"
+  - id: moltworker
+    name: Moltworker
+    avatar_text: MW
+    avatar_bg: "#1D4ED8"
+    avatar_fg: "#DBEAFE"
+  - id: openclaw
+    name: OpenClaw
+    avatar_text: OC
+    avatar_bg: "#7C3AED"
+    avatar_fg: "#F5F3FF"
+  - id: opencode
+    name: opencode
+    avatar_text: OP
+    avatar_bg: "#334155"
+    avatar_fg: "#E2E8F0"
+  - id: nanobot
+    name: Nanobot
+    avatar_text: NB
+    avatar_bg: "#0F172A"
+    avatar_fg: "#E2E8F0"
+    url: https://github.com/HKUDS/nanobot
+  - id: nanoclaw
+    name: NanoClaw
+    avatar_text: NC
+    avatar_bg: "#0369A1"
+    avatar_fg: "#E0F2FE"
+    url: https://github.com/qwibitai/nanoclaw
+  - id: pi
+    name: Pi Coding Agent
+    avatar_text: PI
+    avatar_bg: "#6D28D9"
+    avatar_fg: "#F5F3FF"
+    url: https://pi.dev/
+  - id: picoclaw
+    name: PicoClaw
+    avatar_text: PC
+    avatar_bg: "#9A3412"
+    avatar_fg: "#FFEDD5"
+    url: https://github.com/sipeed/picoclaw
+  - id: qclaw
+    name: QClaw
+    avatar_text: QC
+    avatar_bg: "#0F766E"
+    avatar_fg: "#CCFBF1"
+    url: https://claw.guanjia.qq.com/
+  - id: qoder-cli
+    name: Qoder CLI
+    avatar_text: QD
+    avatar_bg: "#0F766E"
+    avatar_fg: "#ECFEFF"
+  - id: qwen-code
+    name: Qwen Code
+    avatar_text: QW
+    avatar_bg: "#0F766E"
+    avatar_fg: "#CCFBF1"
+    url: https://github.com/QwenLM/qwen-code
+  - id: roo-code
+    name: Roo Code
+    avatar_text: RO
+    avatar_bg: "#65A30D"
+    avatar_fg: "#F7FEE7"
+  - id: shai
+    name: SHAI
+    avatar_text: SH
+    avatar_bg: "#1E293B"
+    avatar_fg: "#E2E8F0"
+  - id: tabnine-cli
+    name: Tabnine CLI
+    avatar_text: TN
+    avatar_bg: "#0C4A6E"
+    avatar_fg: "#E0F2FE"
+  - id: tinyclaw
+    name: TinyClaw
+    avatar_text: TC
+    avatar_bg: "#475569"
+    avatar_fg: "#F8FAFC"
+  - id: trae
+    name: Trae
+    avatar_text: TR
+    avatar_bg: "#1F2937"
+    avatar_fg: "#F3F4F6"
+  - id: windsurf
+    name: Windsurf
+    avatar_text: WS
+    avatar_bg: "#0F766E"
+    avatar_fg: "#CCFBF1"
+  - id: zeptoclaw
+    name: ZeptoClaw
+    avatar_text: ZP
+    avatar_bg: "#14532D"
+    avatar_fg: "#DCFCE7"
+  - id: zeroclaw
+    name: ZeroClaw
+    avatar_text: ZC
+    avatar_bg: "#7C2D12"
+    avatar_fg: "#FFEDD5"
+    url: https://www.zeroclaw.dev/

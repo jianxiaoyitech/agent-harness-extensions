@@ -1,0 +1,30 @@
+version: 1
+id: skillcreatorai-ai-agent-skills
+name: SkillCreatorAI AI Agent Skills
+status: active
+repo: https://github.com/skillcreatorai/Ai-Agent-Skills
+compatibility:
+  claude-code: check
+allowed_types:
+  - skill
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "skills/**/SKILL.md"
+    - "skills/**/agents/*.md"
+  path_regex:
+    - pattern: "^skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+    - pattern: "^skills/(?:[^/]+/)*agents/[^/]+\\.md$"
+      type: agent
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Installable AI agent skills library with nested helper agents inside selected skills."

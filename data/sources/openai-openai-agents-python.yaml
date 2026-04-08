@@ -1,0 +1,25 @@
+version: 1
+id: openai-openai-agents-python
+name: OpenAI Agents Python
+status: active
+repo: https://github.com/openai/openai-agents-python
+compatibility:
+  codex: check
+  claude-code: question
+  cursor: question
+  openclaw: question
+allowed_types:
+  - agent
+discovery:
+  manifests: false
+  conventions: false
+  regex: false
+artifacts:
+  - name: OpenAI Agents Python
+    type: agent
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Agent framework repository discovered from GitHub search."

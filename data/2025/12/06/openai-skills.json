@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "source_id": "openai-skills",
+  "source_name": "OpenAI Skills",
+  "source_status": "active",
+  "repo": "https://github.com/openai/skills",
+  "default_branch": "main",
+  "previous_sha": "4b79472e3812999b63c47f226493ad8215d2ded9",
+  "current_sha": "4b79472e3812999b63c47f226493ad8215d2ded9",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "1a758fd3993cb8bedd4fc02c2f649a5652c957758b50c7cc41103573d4d86707",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:46:37.971Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2025-11-24T22:25:43-08:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

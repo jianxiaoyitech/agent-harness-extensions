@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "sammcj-mcp-package-docs",
+  "source_name": "MCP Package Docs",
+  "source_status": "active",
+  "repo": "https://github.com/sammcj/mcp-package-docs",
+  "default_branch": "main",
+  "previous_sha": "8e9bd31f77cf731a15383577326ae777f52bf425",
+  "current_sha": "8e9bd31f77cf731a15383577326ae777f52bf425",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "1152bee23f7fa9d0c719552a5894c4d678ceac229e505558d11e5a61f645f1f2",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:50:29.414Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2025-04-04T16:42:53+11:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "sammcj-mcp-package-docs::mcp-server::readme-md",
+      "source_id": "sammcj-mcp-package-docs",
+      "source_name": "MCP Package Docs",
+      "source_status": "active",
+      "name": "MCP Package Docs",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/sammcj/mcp-package-docs",
+      "repo_path_url": "https://github.com/sammcj/mcp-package-docs/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "MIT",
+        "updated_at": "2025-04-04T16:42:53+11:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:50:29.414Z"
+    }
+  ],
+  "issues": []
+}

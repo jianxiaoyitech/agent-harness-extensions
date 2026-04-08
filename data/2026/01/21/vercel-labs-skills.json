@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source_id": "vercel-labs-skills",
+  "source_name": "Vercel Labs Skills",
+  "source_status": "active",
+  "repo": "https://github.com/vercel-labs/skills",
+  "default_branch": "main",
+  "previous_sha": "dc74f407a76acbeed8f434ede7ae226ef8352dfc",
+  "current_sha": "8caf991398ded0f8e1e89cf622fc0ed7f4edd136",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "package.json",
+    "pnpm-lock.yaml",
+    "src/agents.ts",
+    "src/index.ts",
+    "src/installer.ts",
+    "src/mintlify.ts",
+    "src/providers/huggingface.ts",
+    "src/providers/index.ts",
+    "src/providers/mintlify.ts",
+    "src/providers/registry.ts",
+    "src/providers/types.ts",
+    "src/source-parser.ts",
+    "src/telemetry.ts",
+    "src/types.ts"
+  ],
+  "source_config_hash": "bd18b5335d3bcef6df0a29cb82a6863c888a55f153ffe9453c0864af6464666d",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:54:49.287Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-01-21T13:09:27-08:00",
+    "archived": false
+  },
+  "artifacts": [],
+  "issues": []
+}

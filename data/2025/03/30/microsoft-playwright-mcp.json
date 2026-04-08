@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "source_id": "microsoft-playwright-mcp",
+  "source_name": "Playwright MCP",
+  "source_status": "active",
+  "repo": "https://github.com/microsoft/playwright-mcp",
+  "default_branch": "main",
+  "previous_sha": "88fbf50841d2c449492086cdc22ed2410c2fd153",
+  "current_sha": "a7392fc266583c1a8a3a6f65ac10f0e13a0932ac",
+  "mode": "delta",
+  "changed_files": [
+    "src/context.ts",
+    "src/index.ts",
+    "src/program.ts",
+    "src/server.ts",
+    "tests/basic.spec.ts",
+    "tests/fixtures.ts"
+  ],
+  "source_config_hash": "e8daacae77023dbc5255ab4bab4fd43596d061aaedd1a8b210ec1f0b7438e6cc",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:38:06.372Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-03-30T09:05:58-07:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "microsoft-playwright-mcp::mcp-server::readme-md",
+      "source_id": "microsoft-playwright-mcp",
+      "source_name": "Playwright MCP",
+      "source_status": "active",
+      "name": "Playwright MCP",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/microsoft/playwright-mcp",
+      "repo_path_url": "https://github.com/microsoft/playwright-mcp/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-03-30T09:05:58-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:38:06.372Z"
+    }
+  ],
+  "issues": []
+}

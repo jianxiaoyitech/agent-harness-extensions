@@ -1,0 +1,54 @@
+version: 1
+id: sickn33-antigravity-awesome-skills
+name: sickn33 Antigravity Awesome Skills
+status: active
+repo: https://github.com/sickn33/antigravity-awesome-skills
+compatibility:
+  antigravity: check
+  claude-code: check
+  codex: check
+  cursor: check
+  gemini-cli: check
+  github-copilot: question
+  kiro-cli: check
+  opencode: check
+allowed_types:
+  - plugin
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".claude-plugin/plugin.json"
+    - ".codex-plugin/plugin.json"
+    - "skills/**/SKILL.md"
+    - "plugins/*/.claude-plugin/plugin.json"
+    - "plugins/*/.codex-plugin/plugin.json"
+    - "plugins/*/skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^\\.codex-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+    - pattern: "^plugins/[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^plugins/[^/]+/\\.codex-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^plugins/[^/]+/skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - "apps/**"
+    - "docs/**"
+    - "**/node_modules/**"
+    - "skills/**/.claude-plugin/**"
+    - "skills/**/.codex-plugin/**"
+    - "**/AGENTS.md"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Large multi-tool skills library with Claude and Codex plugin bundles, verified from a local clone."

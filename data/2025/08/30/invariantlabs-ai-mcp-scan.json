@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "source_id": "invariantlabs-ai-mcp-scan",
+  "source_name": "MCP Scan",
+  "source_status": "active",
+  "repo": "https://github.com/invariantlabs-ai/mcp-scan",
+  "default_branch": "main",
+  "previous_sha": "07bba49e735bc08a5deb48ad145eb63055e56a57",
+  "current_sha": "07bba49e735bc08a5deb48ad145eb63055e56a57",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "d4e5891fc6cd062d6e228d54b66a8f2b528fc904f63aabba7178eaa4502edb56",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:31:17.404Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-08-27T09:57:35+02:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "invariantlabs-ai-mcp-scan::mcp-server::readme-md",
+      "source_id": "invariantlabs-ai-mcp-scan",
+      "source_name": "MCP Scan",
+      "source_status": "active",
+      "name": "MCP Scan",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/invariantlabs-ai/mcp-scan",
+      "repo_path_url": "https://github.com/invariantlabs-ai/mcp-scan/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-08-27T09:57:35+02:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:31:17.404Z"
+    }
+  ],
+  "issues": []
+}

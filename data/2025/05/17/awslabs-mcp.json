@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "source_id": "awslabs-mcp",
+  "source_name": "AWS Labs MCP",
+  "source_status": "active",
+  "repo": "https://github.com/awslabs/mcp",
+  "default_branch": "main",
+  "previous_sha": "79fc6a7c1de865e87762f48d477c5c91bad28470",
+  "current_sha": "6521a78a416dd97b3db2dba068e96100644d715c",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "src/amazon-sns-sqs-mcp-server/pyproject.toml",
+    "src/dynamodb-mcp-server/pyproject.toml",
+    "src/memcached-mcp-server/ELASTICACHECONNECT.md",
+    "src/memcached-mcp-server/README.md",
+    "src/valkey-mcp-server/ELASTICACHECONNECT.md",
+    "src/valkey-mcp-server/README.md",
+    "src/valkey-mcp-server/pyproject.toml"
+  ],
+  "source_config_hash": "2192dfd764d80e204eada9aa332bfe7377fa783ee9dd314f7c321f448b043770",
+  "detector_version": "2",
+  "synced_at": "2026-04-08T16:15:47.963Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2025-05-17T10:04:03Z",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "awslabs-mcp::mcp-server::readme-md",
+      "source_id": "awslabs-mcp",
+      "source_name": "AWS Labs MCP",
+      "source_status": "active",
+      "name": "AWS Labs MCP",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "README.md",
+      "repo": "https://github.com/awslabs/mcp",
+      "repo_path_url": "https://github.com/awslabs/mcp/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2025-05-17T10:04:03Z",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-08T16:15:47.963Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,30 @@
+version: 1
+id: edmund-io-edmunds-claude-code
+name: edmund.io Edmunds Claude Code
+status: active
+repo: https://github.com/edmund-io/edmunds-claude-code
+compatibility:
+  claude-code: check
+allowed_types:
+  - plugin
+  - agent
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - ".claude-plugin/plugin.json"
+    - ".claude/agents/*.md"
+  path_regex:
+    - pattern: "^\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^\\.claude/agents/[^/]+\\.md$"
+      type: agent
+artifacts: []
+exclusions:
+  paths:
+    - ".github/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Project-level Claude Code plugin with a curated set of hidden .claude agents."

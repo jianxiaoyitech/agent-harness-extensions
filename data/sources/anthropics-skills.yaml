@@ -1,0 +1,28 @@
+version: 1
+id: anthropics-skills
+name: Anthropics Skills
+status: active
+repo: https://github.com/anthropics/skills
+compatibility:
+  claude-code: check
+  codex: question
+allowed_types:
+  - skill
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "skills/**/SKILL.md"
+  path_regex:
+    - pattern: "^skills/(?:[^/]+/)*SKILL\\.md$"
+      type: skill
+artifacts: []
+exclusions:
+  paths:
+    - "template/**"
+    - "spec/**"
+    - "**/README.md"
+  artifacts: []
+metadata:
+  notes: "Official Anthropic skills repository discovered via GitHub search and clone audit."

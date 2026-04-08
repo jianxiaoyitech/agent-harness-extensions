@@ -1,0 +1,53 @@
+version: 1
+id: docker-claude-plugins
+name: Docker Claude Plugins
+status: active
+repo: https://github.com/docker/claude-plugins
+compatibility:
+  claude-code: check
+  codex: question
+  cursor: question
+  windsurf: question
+  github-copilot: question
+  openclaw: question
+  qoder-cli: question
+  kiro-cli: blank
+  amp: blank
+  auggie-cli: blank
+  codebuddy-cli: blank
+  roo-code: question
+  gemini-cli: blank
+  forge: blank
+  ibm-bob: blank
+  jules: blank
+  kilo-code: blank
+  opencode: blank
+  pi: blank
+  qwen-code: blank
+  shai: blank
+  tabnine-cli: blank
+  mistral-vibe: blank
+  kimi-code: blank
+  iflow-cli: blank
+  junie: blank
+allowed_types:
+  - plugin
+  - mcp-server
+discovery:
+  manifests: true
+  conventions: true
+  regex: true
+  path_patterns:
+    - "plugins/*/.claude-plugin/plugin.json"
+    - "plugins/*/.mcp.json"
+  path_regex:
+    - pattern: "^plugins/[^/]+/\\.claude-plugin/plugin\\.json$"
+      type: plugin
+    - pattern: "^plugins/[^/]+/\\.mcp\\.json$"
+      type: mcp-server
+artifacts: []
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Claude Code marketplace of Docker-focused plugins."

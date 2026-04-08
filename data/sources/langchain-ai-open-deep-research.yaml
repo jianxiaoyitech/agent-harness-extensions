@@ -1,0 +1,25 @@
+version: 1
+id: langchain-ai-open-deep-research
+name: Open Deep Research
+status: active
+repo: https://github.com/langchain-ai/open_deep_research
+compatibility:
+  codex: check
+  claude-code: question
+  cursor: question
+  openclaw: question
+allowed_types:
+  - agent
+discovery:
+  manifests: false
+  conventions: false
+  regex: false
+artifacts:
+  - name: Open Deep Research
+    type: agent
+    path: README.md
+exclusions:
+  paths: []
+  artifacts: []
+metadata:
+  notes: "Research agent repository discovered from GitHub search."
