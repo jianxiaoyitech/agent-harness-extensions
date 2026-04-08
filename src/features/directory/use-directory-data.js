@@ -7,6 +7,12 @@ const EMPTY_TABLES = {
   agent: [],
 };
 
+const BASE_URL = import.meta.env.BASE_URL || "/";
+
+function withBase(path) {
+  return `${BASE_URL}${path.replace(/^\//, "")}`;
+}
+
 export function useDirectoryData(initialData = null) {
   const [harnesses, setHarnesses] = useState(initialData?.harnesses ?? []);
   const [tables, setTables] = useState(initialData?.tables ?? EMPTY_TABLES);
@@ -30,13 +36,13 @@ export function useDirectoryData(initialData = null) {
         reportResponse,
         growthResponse,
       ] = await Promise.all([
-        fetch("/data/harnesses.json"),
-        fetch("/data/mcp-server.json"),
-        fetch("/data/skill.json"),
-        fetch("/data/plugin.json"),
-        fetch("/data/agent.json"),
-        fetch("/data/report.json"),
-        fetch("/data/growth.json"),
+        fetch(withBase("/data/harnesses.json")),
+        fetch(withBase("/data/mcp-server.json")),
+        fetch(withBase("/data/skill.json")),
+        fetch(withBase("/data/plugin.json")),
+        fetch(withBase("/data/agent.json")),
+        fetch(withBase("/data/report.json")),
+        fetch(withBase("/data/growth.json")),
       ]);
 
       const [

@@ -10,6 +10,10 @@ const {
   title = "Agent Harness Extensions",
   description = "A daily-refreshed directory of MCP servers, skills, plugins, and agents for agent harnesses.",
 } = Astro.props;
+const basePath = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const rssHref = new URL("rss.xml", `https://example.com${basePath}`).pathname;
 ---
 
 <!doctype html>
@@ -23,7 +27,7 @@ const {
       rel="alternate"
       type="application/rss+xml"
       title="Agent Harness Extensions Feed"
-      href={`${import.meta.env.BASE_URL}rss.xml`}
+      href={rssHref}
     />
   </head>
   <body>

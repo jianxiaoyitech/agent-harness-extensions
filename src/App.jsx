@@ -14,6 +14,11 @@ import {
 } from "@/features/directory/utils";
 
 const PAGE_SIZE = 100;
+const BASE_URL = import.meta.env.BASE_URL || "/";
+
+function withBase(path) {
+  return `${BASE_URL}${path.replace(/^\//, "")}`;
+}
 
 export default function App({ initialData = null }) {
   const [activeType, setActiveType] = useState("mcp-server");
@@ -162,7 +167,7 @@ export default function App({ initialData = null }) {
                   Add your extension
                 </a>
                 <a
-                  href={`${import.meta.env.BASE_URL}rss.xml`}
+                  href={withBase("/rss.xml")}
                   className="inline-flex items-center rounded-full border border-border/80 px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground"
                 >
                   Subscribe via RSS
