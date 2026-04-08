@@ -15,9 +15,10 @@ import {
 
 const PAGE_SIZE = 100;
 const BASE_URL = import.meta.env.BASE_URL || "/";
+const NORMALIZED_BASE_URL = BASE_URL.endsWith("/") ? BASE_URL : `${BASE_URL}/`;
 
 function withBase(path) {
-  return `${BASE_URL}${path.replace(/^\//, "")}`;
+  return `${NORMALIZED_BASE_URL}${path.replace(/^\//, "")}`;
 }
 
 export default function App({ initialData = null }) {
