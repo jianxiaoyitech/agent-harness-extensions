@@ -15,7 +15,6 @@ import {
   buildFilteredTypeCounts,
   buildQuerySummary,
   compareValues,
-  formatDate,
   repoLabel,
   supportedHarnessCount,
 } from "@/features/directory/utils";
@@ -104,11 +103,11 @@ function groupRowsBySource(filteredRows, allRows, query) {
 
 export default function App({ initialData = null }) {
   const [activeView, setActiveView] = useState("directory");
-  const [activeType, setActiveType] = useState("mcp-server");
+  const [activeType, setActiveType] = useState("agent");
   const [search, setSearch] = useState("");
   const [showSearchSuggestions, setShowSearchSuggestions] = useState(false);
   const [activeSuggestionIndex, setActiveSuggestionIndex] = useState(0);
-  const [sortKey, setSortKey] = useState("name");
+  const [sortKey, setSortKey] = useState("stars");
   const [sortDirection, setSortDirection] = useState("desc");
   const [compatibilityFilters, setCompatibilityFilters] = useState({});
   const [crossHarnessOnly, setCrossHarnessOnly] = useState(false);
@@ -281,6 +280,7 @@ export default function App({ initialData = null }) {
 
     return () => window.cancelAnimationFrame(frameId);
   }, [pendingFocusRowId, visibleRows]);
+  const pluginCount = tables.plugin?.length ?? 0;
   const skillCount = tables.skill?.length ?? 0;
   const mcpServerCount = tables["mcp-server"]?.length ?? 0;
   const agentCount = tables.agent?.length ?? 0;
@@ -289,31 +289,6 @@ export default function App({ initialData = null }) {
     () => groupedRows.find((row) => row.id === expandedRowId) || null,
     [expandedRowId, groupedRows],
   );
-  const expandedSourceSummary = useMemo(() => {
-    if (!expandedRow) {
-      return null;
-    }
-
-    const sourceRows = TYPE_ORDER.flatMap((type) =>
-      (tables[type] || []).filter((row) => row.source_id === expandedRow.source_id)
-    );
-
-    return {
-      sourceId: expandedRow.source_id,
-      sourceName: expandedRow.source_name,
-      repo: expandedRow.repo,
-      stars: expandedRow.stars ?? 0,
-      archived: expandedRow.archived ?? false,
-      updatedAt: expandedRow.updated_at ? formatDate(expandedRow.updated_at) : "Unknown",
-      totalArtifacts: sourceRows.length,
-      countsByType: Object.fromEntries(
-        TYPE_ORDER.map((type) => [
-          type,
-          sourceRows.filter((row) => row.type === type).length,
-        ])
-      ),
-    };
-  }, [expandedRow, tables]);
   const searchSuggestions = useMemo(() => {
     const normalizedQuery = search.trim().toLowerCase();
     if (normalizedQuery.length < 2) {
@@ -439,7 +414,7 @@ export default function App({ initialData = null }) {
                         setShowSearchSuggestions(false);
                       }
                     }}
-                    placeholder={`Search ${skillCount.toLocaleString()} skills, ${mcpServerCount.toLocaleString()} MCP servers, ${agentCount.toLocaleString()} agents, repos, or paths`}
+                    placeholder={`Search ${agentCount.toLocaleString()} agents, ${skillCount.toLocaleString()} skills, ${pluginCount.toLocaleString()} plugins, ${mcpServerCount.toLocaleString()} MCP servers, repos, or paths`}
                     className="h-11 rounded-md border-border/90 bg-background/90 pl-10 pr-3 text-left shadow-none focus-visible:border-foreground focus-visible:ring-0"
                     autoComplete="off"
                   />
@@ -548,10 +523,10 @@ export default function App({ initialData = null }) {
               filteredTypeCounts={filteredTypeCounts}
               querySummary={querySummary}
               rows={rows}
-              selectedSourceSummary={expandedSourceSummary}
               setActiveType={setActiveType}
               setCompatibilityFilters={setCompatibilityFilters}
               setCrossHarnessOnly={setCrossHarnessOnly}
+              setPage={setPage}
               tables={tables}
             />
 

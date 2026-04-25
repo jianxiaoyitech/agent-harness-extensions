@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TYPE_LABELS, TYPE_ORDER } from "../constants";
-import { compatibilityCount, formatNumber, repoLabel } from "../utils";
+import { compatibilityCount } from "../utils";
 
 export function DirectoryFilters({
   activeType,
@@ -16,10 +16,10 @@ export function DirectoryFilters({
   filteredTypeCounts,
   querySummary,
   rows,
-  selectedSourceSummary,
   setActiveType,
   setCompatibilityFilters,
   setCrossHarnessOnly,
+  setPage,
   tables,
 }) {
   return (
@@ -102,45 +102,6 @@ export function DirectoryFilters({
               Reusable Across Harnesses
             </Button>
           </div>
-
-          {selectedSourceSummary ? (
-            <div className="flex flex-wrap items-center gap-2 rounded-lg border border-border/70 bg-muted/35 px-3 py-2 text-[0.78rem] leading-tight">
-              <a
-                href={selectedSourceSummary.repo}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-foreground underline decoration-border underline-offset-4 transition hover:decoration-foreground"
-              >
-                {selectedSourceSummary.sourceName}
-              </a>
-              <span className="text-muted-foreground">·</span>
-              <span className="text-muted-foreground">{repoLabel(selectedSourceSummary.repo)}</span>
-              <span className="text-muted-foreground">·</span>
-              <span className="text-muted-foreground">
-                {formatNumber(selectedSourceSummary.totalArtifacts)} total
-              </span>
-              {TYPE_ORDER.map((type) =>
-                selectedSourceSummary.countsByType[type] > 0 ? (
-                  <span key={type} className="text-muted-foreground">
-                    {selectedSourceSummary.countsByType[type]} {TYPE_LABELS[type].toLowerCase()}
-                  </span>
-                ) : null
-              )}
-              {selectedSourceSummary.stars > 0 ? (
-                <span className="text-muted-foreground">
-                  {formatNumber(selectedSourceSummary.stars)} stars
-                </span>
-              ) : null}
-              <span className="text-muted-foreground">
-                Updated {selectedSourceSummary.updatedAt}
-              </span>
-              {selectedSourceSummary.archived ? (
-                <span className="rounded-full border border-border/70 px-2 py-0.5 text-[0.7rem] font-medium text-muted-foreground">
-                  Archived
-                </span>
-              ) : null}
-            </div>
-          ) : null}
         </div>
       </section>
 
@@ -163,9 +124,30 @@ export function DirectoryFilters({
               ))}
             </TabsList>
           </Tabs>
-          <div className="pb-3 text-sm text-muted-foreground">
-            Page{" "}
-            <span className="font-medium text-foreground">{page}</span> / {totalPages}
+          <div className="flex items-center gap-2 pb-3 text-sm text-muted-foreground">
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="rounded-full"
+              onClick={() => setPage((current) => Math.max(1, current - 1))}
+              disabled={page <= 1}
+            >
+              Previous
+            </Button>
+            <span className="min-w-20 text-center">
+              Page <span className="font-medium text-foreground">{page}</span> / {totalPages}
+            </span>
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="rounded-full"
+              onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
+              disabled={page >= totalPages}
+            >
+              Next
+            </Button>
           </div>
         </div>
       </section>

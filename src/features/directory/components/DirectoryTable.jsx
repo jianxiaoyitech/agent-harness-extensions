@@ -71,10 +71,11 @@ function InstallButton({ active, label, supported, onClick }) {
       type="button"
       variant={active ? "default" : "outline"}
       size="xs"
+      disabled={!supported}
       className={`rounded-full ${
         supported
           ? ""
-          : "border-border/60 bg-transparent text-muted-foreground/65 hover:bg-muted/25"
+          : "border-border/60 bg-transparent text-muted-foreground/65 hover:bg-transparent"
       }`}
       onClick={onClick}
     >
@@ -156,13 +157,19 @@ export function DirectoryTable({
   return (
     <section className="overflow-hidden">
       <div className="overflow-auto">
-        <Table className="min-w-[78rem] border-collapse">
+        <Table className="min-w-[78rem] table-fixed border-collapse">
           <TableHeader>
             <TableRow className="hover:bg-transparent">
               {SORT_COLUMNS.map((column) => (
                 <TableHead
                   key={column.key}
-                  className="h-12 border-b border-border bg-background px-3 py-0 align-middle"
+                  className={`h-12 border-b border-border bg-background px-3 py-0 align-middle ${
+                    column.key === "name"
+                      ? "w-[72%]"
+                      : column.key === "stars"
+                        ? "w-[10rem]"
+                        : "w-[18rem]"
+                  }`}
                 >
                   <button
                     type="button"
@@ -229,7 +236,7 @@ export function DirectoryTable({
                     key={row.id}
                     data-source-row-id={row.id}
                     className={`border-b border-border/80 transition hover:bg-muted/25 ${
-                      isExpanded ? "bg-accent/45 ring-1 ring-inset ring-border" : ""
+                      isExpanded ? "bg-accent/45" : ""
                     }`}
                     onClick={() =>
                       setExpandedRowId((current) => (current === row.id ? null : row.id))
@@ -268,10 +275,10 @@ export function DirectoryTable({
                         </div>
                       ) : null}
                     </TableCell>
-                    <TableCell className="px-3 py-3 text-sm text-muted-foreground">
+                    <TableCell className="w-[10rem] px-3 py-3 text-sm text-muted-foreground">
                       {row.stars > 0 ? formatNumber(row.stars) : "-"}
                     </TableCell>
-                    <TableCell className="px-3 py-3">
+                    <TableCell className="w-[18rem] px-3 py-3">
                       <div className="flex flex-wrap items-center gap-1.5">
                         <InstallButton
                           label="Codex"
@@ -402,31 +409,6 @@ export function DirectoryTable({
             )}
           </TableBody>
         </Table>
-      </div>
-      <div className="flex flex-wrap items-center justify-end gap-2 border-t border-border/70 px-1 py-3 text-sm text-muted-foreground">
-        <Button
-          type="button"
-          variant="outline"
-          size="sm"
-          className="rounded-full"
-          onClick={() => setPage((current) => Math.max(1, current - 1))}
-          disabled={page <= 1}
-        >
-          Previous
-        </Button>
-        <span className="min-w-20 text-center">
-          Page <span className="font-medium text-foreground">{page}</span> / {totalPages}
-        </span>
-        <Button
-          type="button"
-          variant="outline"
-          size="sm"
-          className="rounded-full"
-          onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
-          disabled={page >= totalPages}
-        >
-          Next
-        </Button>
       </div>
     </section>
   );

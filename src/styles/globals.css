@@ -73,10 +73,12 @@
     background:
       radial-gradient(circle at top left, oklch(0.89 0.035 70 / 0.55), transparent 28rem),
       linear-gradient(180deg, oklch(0.995 0.004 85) 0%, oklch(0.977 0.006 85) 100%);
+    scrollbar-gutter: stable;
   }
 
   body {
     @apply bg-transparent text-foreground antialiased;
+    overflow-y: scroll;
   }
 
   a {

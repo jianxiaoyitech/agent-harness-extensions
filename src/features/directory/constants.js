@@ -1,4 +1,4 @@
-export const TYPE_ORDER = ["mcp-server", "skill", "plugin", "agent"];
+export const TYPE_ORDER = ["agent", "skill", "plugin", "mcp-server"];
 
 export const TYPE_LABELS = {
   "mcp-server": "MCP Servers",
