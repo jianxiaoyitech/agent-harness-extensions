@@ -39,6 +39,19 @@ function formatRefreshTimestamp(value) {
   }).format(new Date(value));
 }
 
+function formatSourceLabel(sourceId) {
+  if (!sourceId) return null;
+
+  return String(sourceId)
+    .split("-")
+    .filter(Boolean)
+    .map((segment) => {
+      if (segment.toUpperCase() === segment) return segment;
+      return segment.charAt(0).toUpperCase() + segment.slice(1);
+    })
+    .join(" ");
+}
+
 function buildSuggestionScore(row, normalizedQuery) {
   const name = String(row.name || "").toLowerCase();
   const description = String(row.description || "").toLowerCase();
@@ -241,11 +254,12 @@ export default function App({ initialData = null }) {
       const fastestGroup = fastestSource
         ? overviewGroups.find((group) => group.source_id === fastestSource.source_id) || null
         : null;
+      const fallbackSourceName = formatSourceLabel(fastestSource?.source_id);
 
       return {
         label,
-        value: fastestGroup ? fastestGroup.source_name : "No data",
-        detail: fastestSource && fastestGroup
+        value: fastestGroup?.source_name || fallbackSourceName || "No data",
+        detail: fastestSource
           ? `+${formatNumber(Math.max(0, fastestSource.delta))} in the last 30 days`
           : "Growth history not available",
       };
