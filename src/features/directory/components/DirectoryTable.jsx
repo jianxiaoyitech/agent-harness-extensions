@@ -227,6 +227,7 @@ export function DirectoryTable({
                 return [
                   <TableRow
                     key={row.id}
+                    data-source-row-id={row.id}
                     className={`border-b border-border/80 transition hover:bg-muted/25 ${
                       isExpanded ? "bg-accent/45 ring-1 ring-inset ring-border" : ""
                     }`}
@@ -354,7 +355,9 @@ export function DirectoryTable({
                                   className="rounded-lg border border-border/70 bg-background px-3 py-2 transition hover:border-border hover:bg-muted/30"
                                 >
                                   <div className="flex flex-wrap items-center gap-2">
-                                    <span className="font-medium text-foreground">{artifact.name}</span>
+                                    <span className="font-medium break-words text-foreground">
+                                      {artifact.name}
+                                    </span>
                                     {artifact.color ? (
                                       <span className="inline-flex items-center gap-1 rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
                                         <span
@@ -366,7 +369,7 @@ export function DirectoryTable({
                                     ) : null}
                                   </div>
                                   {artifact.description ? (
-                                    <div className="mt-1 text-[0.76rem] leading-relaxed text-muted-foreground">
+                                    <div className="mt-1 break-words text-[0.76rem] leading-relaxed text-muted-foreground whitespace-normal">
                                       {artifact.description}
                                     </div>
                                   ) : null}

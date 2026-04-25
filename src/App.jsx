@@ -113,9 +113,12 @@ export default function App({ initialData = null }) {
   const [compatibilityFilters, setCompatibilityFilters] = useState({});
   const [crossHarnessOnly, setCrossHarnessOnly] = useState(false);
   const [expandedRowId, setExpandedRowId] = useState(null);
+  const [pendingFocusRowId, setPendingFocusRowId] = useState(null);
   const [page, setPage] = useState(1);
   const { growth, harnesses, report, tables } = useDirectoryData(initialData);
   const searchBlurTimeoutRef = useRef(null);
+  const preserveExpandedRowRef = useRef(false);
+  const searchInputRef = useRef(null);
 
   const rows = tables[activeType] || [];
   const deferredSearch = useDeferredValue(search);
@@ -211,6 +214,11 @@ export default function App({ initialData = null }) {
   }, [filteredRows, query, rows, sortDirection, sortKey]);
 
   useEffect(() => {
+    if (preserveExpandedRowRef.current) {
+      preserveExpandedRowRef.current = false;
+      return;
+    }
+
     setPage(1);
     setExpandedRowId(null);
   }, [activeType, query, sortDirection, sortKey, crossHarnessOnly, compatibilityFilters]);
@@ -246,6 +254,33 @@ export default function App({ initialData = null }) {
     () => groupedRows.slice(pageStart, pageStart + PAGE_SIZE),
     [groupedRows, pageStart],
   );
+
+  useEffect(() => {
+    if (!expandedRowId) return;
+
+    const rowIndex = groupedRows.findIndex((row) => row.id === expandedRowId);
+    if (rowIndex === -1) return;
+
+    const targetPage = Math.floor(rowIndex / PAGE_SIZE) + 1;
+    if (page !== targetPage) {
+      setPage(targetPage);
+    }
+  }, [expandedRowId, groupedRows, page]);
+
+  useEffect(() => {
+    if (!pendingFocusRowId) return;
+    if (!visibleRows.some((row) => row.id === pendingFocusRowId)) return;
+
+    const frameId = window.requestAnimationFrame(() => {
+      const element = document.querySelector(`[data-source-row-id="${pendingFocusRowId}"]`);
+      if (element instanceof HTMLElement) {
+        element.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
+      setPendingFocusRowId(null);
+    });
+
+    return () => window.cancelAnimationFrame(frameId);
+  }, [pendingFocusRowId, visibleRows]);
   const skillCount = tables.skill?.length ?? 0;
   const mcpServerCount = tables["mcp-server"]?.length ?? 0;
   const agentCount = tables.agent?.length ?? 0;
@@ -325,13 +360,21 @@ export default function App({ initialData = null }) {
 
   function selectSuggestion(suggestion) {
     clearSearchBlurTimeout();
+    preserveExpandedRowRef.current = true;
     setActiveType(suggestion.artifactType);
     setSearch(suggestion.name);
     setCompatibilityFilters({});
     setCrossHarnessOnly(false);
     setExpandedRowId(suggestion.source_id);
+    setPendingFocusRowId(suggestion.source_id);
     setPage(1);
     setShowSearchSuggestions(false);
+
+    window.requestAnimationFrame(() => {
+      if (searchInputRef.current instanceof HTMLInputElement) {
+        searchInputRef.current.focus();
+      }
+    });
   }
 
   return (
@@ -361,9 +404,13 @@ export default function App({ initialData = null }) {
                 >
                   <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
                   <Input
+                    ref={searchInputRef}
                     id="directory-search"
                     value={search}
-                    onChange={(event) => setSearch(event.target.value)}
+                    onChange={(event) => {
+                      setSearch(event.target.value);
+                      setShowSearchSuggestions(true);
+                    }}
                     onFocus={() => {
                       clearSearchBlurTimeout();
                       setShowSearchSuggestions(true);
