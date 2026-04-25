@@ -54,10 +54,10 @@
   ],
   "source_config_hash": "113265dbfa03b072bdb2b52c65d4df96ddf7487101ef268335b54b027c038b18",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:11.112Z",
+  "synced_at": "2026-04-25T12:21:06.057Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 185,
+    "forks": 29,
     "license": "MIT",
     "updated_at": "2026-03-09T09:37:27+08:00",
     "archived": false
@@ -68,7 +68,8 @@
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Autonomous Skill",
+      "name": "autonomous-skill",
+      "description": "Use when work must continue across multiple Codex sessions with `.autonomous/` tracking, resumable execution, or autonomous handoff. Use for long-running, multi-session, or resume-later tasks.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/autonomous-skill/SKILL.md",
@@ -120,8 +121,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -135,14 +136,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-claude-skill-skill-md",
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Claude Skill",
+      "name": "claude-skill",
+      "description": "Use when work should be delegated to Claude Code CLI, especially headless `claude -p` runs, automation scripts, CI jobs, resumable sessions, or requests to use Claude/Claude Code for a task.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/claude-skill/SKILL.md",
@@ -194,8 +196,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -209,14 +211,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-deep-research-skill-md",
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Deep Research",
+      "name": "deep-research",
+      "description": "深度调研的多实例（多 Agent）编排工作流：把一个调研目标拆成可并行子目标，用 Codex CLI（`codex exec`）在默认 `workspace-write` 沙箱内运行子进程；联网与采集优先使用已安装的 skills，其次使用 MCP 工具；用脚本聚合子结果并分章精修，最终交付“成品报告文件路径 + 关键结论/建议摘要”。用于：系统性网页/资料调研、竞品/行业分析、批量链接/数据集分片检索、长文写作与证据整合，或用户提及“深度调研/Deep Research/Wide Research/多 Agent 并行调研/多进程调研”等场景。",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/deep-research/SKILL.md",
@@ -268,8 +271,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -283,14 +286,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-kiro-skill-skill-md",
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Kiro Skill",
+      "name": "kiro-skill",
+      "description": "Interactive feature development workflow from idea to implementation. Creates requirements (EARS format), design documents, and implementation task lists. Use when creating feature specs, requirements documents, design documents, or implementation plans. Triggered by \"kiro\" or references to .kiro/specs/ directory.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/kiro-skill/SKILL.md",
@@ -342,8 +346,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -357,14 +361,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-nanobanana-skill-skill-md",
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Nanobanana Skill",
+      "name": "nanobanana-skill",
+      "description": "Generate, remix, or edit images with Nanobanana / Nano Banana 2 through the bundled Gemini CLI wrapper. Use this whenever the user wants AI image generation or editing, especially for reference-image composition, character consistency, grounded visuals that may need live web search, style transfer, marketing graphics, product mockups, social assets, or when they explicitly mention Nanobanana, Gemini image models, Google image generation, AI drawing, 图片生成, AI绘图, 图片编辑, or 生成图片.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/nanobanana-skill/SKILL.md",
@@ -416,8 +421,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -431,14 +436,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-spec-kit-skill-skill-md",
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Spec Kit Skill",
+      "name": "spec-kit-skill",
+      "description": "GitHub Spec-Kit integration for constitution-based spec-driven development. 7-phase workflow (constitution, specify, clarify, plan, tasks, analyze, implement). Use when working with spec-kit CLI, .specify/ directories, or creating specifications with constitution-driven development. Triggered by \"spec-kit\", \"speckit\", \"constitution\", \"specify\", references to .specify/ directory, or spec-kit commands.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/spec-kit-skill/SKILL.md",
@@ -490,8 +496,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -505,14 +511,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-youtube-transcribe-skill-skill-md",
       "source_id": "feiskyer-codex-settings",
       "source_name": "feiskyer Codex Settings",
       "source_status": "active",
-      "name": "Youtube Transcribe Skill",
+      "name": "youtube-transcribe-skill",
+      "description": "Extract subtitles/transcripts from a YouTube video URL and save as a local file. Use when you need to extract subtitles from a YouTube video.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/youtube-transcribe-skill/SKILL.md",
@@ -564,8 +571,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 185,
+        "forks": 29,
         "license": "MIT",
         "updated_at": "2026-03-09T09:37:27+08:00",
         "archived": false
@@ -579,7 +586,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.112Z"
+      "last_checked_at": "2026-04-25T12:21:06.056Z"
     }
   ],
   "issues": []

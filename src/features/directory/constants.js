@@ -9,6 +9,7 @@ export const TYPE_LABELS = {
 
 export const SORT_COLUMNS = [
   { key: "name", label: "Name" },
+  { key: "stars", label: "Stars", numeric: true },
   { key: "repo", label: "Install" },
 ];
 

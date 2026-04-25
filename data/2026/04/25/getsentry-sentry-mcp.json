@@ -710,10 +710,10 @@
   ],
   "source_config_hash": "ea22c8954c74ec3f4a78e06d322b4a1ac77ec71481a3d2a842bfb1cfb6958375",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:59:01.004Z",
+  "synced_at": "2026-04-25T12:21:07.693Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 667,
+    "forks": 102,
     "license": "Apache-2.0",
     "updated_at": "2026-04-24T12:10:31-07:00",
     "archived": false
@@ -776,8 +776,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 667,
+        "forks": 102,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T12:10:31-07:00",
         "archived": false
@@ -792,7 +792,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.004Z"
+      "last_checked_at": "2026-04-25T12:21:07.692Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::plugins-sentry-mcp-mcp-json",
@@ -851,8 +851,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 667,
+        "forks": 102,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T12:10:31-07:00",
         "archived": false
@@ -867,7 +867,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.004Z"
+      "last_checked_at": "2026-04-25T12:21:07.692Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::readme-md",
@@ -926,8 +926,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 667,
+        "forks": 102,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T12:10:31-07:00",
         "archived": false
@@ -941,7 +941,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.004Z"
+      "last_checked_at": "2026-04-25T12:21:07.692Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::plugins-sentry-mcp-experimental-mcp-json",
@@ -1000,8 +1000,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 667,
+        "forks": 102,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T12:10:31-07:00",
         "archived": false
@@ -1016,7 +1016,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.004Z"
+      "last_checked_at": "2026-04-25T12:21:07.692Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::packages-agent-cli-test-projects-stdio-mcp-json",
@@ -1075,8 +1075,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 667,
+        "forks": 102,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T12:10:31-07:00",
         "archived": false
@@ -1091,7 +1091,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.004Z"
+      "last_checked_at": "2026-04-25T12:21:07.692Z"
     }
   ],
   "issues": []

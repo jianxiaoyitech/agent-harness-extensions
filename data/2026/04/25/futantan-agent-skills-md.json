@@ -132,10 +132,10 @@
   ],
   "source_config_hash": "37d61619f03eac74f342a080fa7f8dc39124786c066fdbca5b8865af3be5298a",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:12.522Z",
+  "synced_at": "2026-04-25T12:21:07.185Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 157,
+    "forks": 22,
     "license": "Unknown",
     "updated_at": "2026-02-20T21:08:35+11:00",
     "archived": false
@@ -198,8 +198,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 157,
+        "forks": 22,
         "license": "Unknown",
         "updated_at": "2026-02-20T21:08:35+11:00",
         "archived": false
@@ -213,7 +213,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.522Z"
+      "last_checked_at": "2026-04-25T12:21:07.185Z"
     }
   ],
   "issues": []

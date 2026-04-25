@@ -356,10 +356,10 @@
   ],
   "source_config_hash": "61be9d2ca915811c103d335dbcd69749027ecc8b4a8d619584a3cde63e65ea68",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:05.295Z",
+  "synced_at": "2026-04-25T12:20:59.009Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 17784,
+    "forks": 2132,
     "license": "Apache-2.0",
     "updated_at": "2026-04-23T22:45:48+01:00",
     "archived": false
@@ -370,7 +370,8 @@
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Access",
+      "name": "access",
+      "description": "Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change policy for the Discord channel.",
       "type": "skill",
       "type_label": "Skill",
       "path": "external_plugins/discord/skills/access/SKILL.md",
@@ -422,8 +423,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -440,14 +441,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-imessage-skills-access-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Access",
+      "name": "access",
+      "description": "Manage iMessage channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change policy for the iMessage channel.",
       "type": "skill",
       "type_label": "Skill",
       "path": "external_plugins/imessage/skills/access/SKILL.md",
@@ -499,8 +501,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -517,14 +519,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-telegram-skills-access-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Access",
+      "name": "access",
+      "description": "Manage Telegram channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change policy for the Telegram channel.",
       "type": "skill",
       "type_label": "Skill",
       "path": "external_plugins/telegram/skills/access/SKILL.md",
@@ -576,8 +579,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -594,14 +597,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-agent-development-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Agent Development",
+      "name": "agent-development",
+      "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/agent-development/SKILL.md",
@@ -653,8 +657,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -671,14 +675,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-agent-sdk-dev-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Agent Sdk Dev",
+      "name": "agent-sdk-dev",
+      "description": "Claude Agent SDK Development Plugin",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/agent-sdk-dev/.claude-plugin/plugin.json",
@@ -730,8 +735,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -747,14 +752,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-asana-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Asana",
+      "name": "asana",
+      "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/asana/.claude-plugin/plugin.json",
@@ -806,8 +812,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -823,7 +829,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.005Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-asana-mcp-json",
@@ -882,8 +888,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -899,14 +905,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.005Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-mcp-server-dev-skills-build-mcp-app-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Build Mcp App",
+      "name": "build-mcp-app",
+      "description": "This skill should be used when the user wants to build an \"MCP app\", add \"interactive UI\" or \"widgets\" to an MCP server, \"render components in chat\", build \"MCP UI resources\", make a tool that shows a \"form\", \"picker\", \"dashboard\" or \"confirmation dialog\" inline in the conversation, or mentions \"apps SDK\" in the context of MCP. Use AFTER the build-mcp-server skill has settled the deployment model, or when the user already knows they want UI widgets.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/mcp-server-dev/skills/build-mcp-app/SKILL.md",
@@ -958,8 +965,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -976,14 +983,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-mcp-server-dev-skills-build-mcp-server-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Build Mcp Server",
+      "name": "build-mcp-server",
+      "description": "This skill should be used when the user asks to \"build an MCP server\", \"create an MCP\", \"make an MCP integration\", \"wrap an API for Claude\", \"expose tools to Claude\", \"make an MCP app\", or discusses building something with the Model Context Protocol. It is the entry point for MCP server development — it interrogates the user about their use case, determines the right deployment model (remote HTTP, MCPB, local stdio), picks a tool-design pattern, and hands off to specialized skills.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/mcp-server-dev/skills/build-mcp-server/SKILL.md",
@@ -1035,8 +1043,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1053,14 +1061,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-mcp-server-dev-skills-build-mcpb-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Build Mcpb",
+      "name": "build-mcpb",
+      "description": "This skill should be used when the user wants to \"package an MCP server\", \"bundle an MCP\", \"make an MCPB\", \"ship a local MCP server\", \"distribute a local MCP\", discusses \".mcpb files\", mentions bundling a Node or Python runtime with their MCP server, or needs an MCP server that interacts with the local filesystem, desktop apps, or OS and must be installable without the user having Node/Python set up.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/mcp-server-dev/skills/build-mcpb/SKILL.md",
@@ -1112,8 +1121,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1130,14 +1139,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-claude-code-setup-skills-claude-automation-recommender-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Claude Automation Recommender",
+      "name": "claude-automation-recommender",
+      "description": "Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use when user asks for automation recommendations, wants to optimize their Claude Code setup, mentions improving Claude Code workflows, asks how to first set up Claude Code for a project, or wants to know what Claude Code features they should use.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/claude-code-setup/skills/claude-automation-recommender/SKILL.md",
@@ -1189,8 +1199,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1207,14 +1217,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-claude-code-setup-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Claude Code Setup",
+      "name": "claude-code-setup",
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/claude-code-setup/.claude-plugin/plugin.json",
@@ -1266,8 +1277,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1283,14 +1294,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-claude-md-management-skills-claude-md-improver-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Claude Md Improver",
+      "name": "claude-md-improver",
+      "description": "Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates quality against templates, outputs quality report, then makes targeted updates. Also use when the user mentions \"CLAUDE.md maintenance\" or \"project memory optimization\".",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
@@ -1342,8 +1354,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1360,14 +1372,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-claude-md-management-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Claude Md Management",
+      "name": "claude-md-management",
+      "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/claude-md-management/.claude-plugin/plugin.json",
@@ -1419,8 +1432,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1436,14 +1449,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-code-review-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Code Review",
+      "name": "code-review",
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/code-review/.claude-plugin/plugin.json",
@@ -1495,8 +1509,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1512,14 +1526,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-code-simplifier-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Code Simplifier",
+      "name": "code-simplifier",
+      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/code-simplifier/.claude-plugin/plugin.json",
@@ -1571,8 +1586,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1588,14 +1603,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-command-development-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Command Development",
+      "name": "command-development",
+      "description": "This skill should be used when the user asks to \"create a slash command\", \"add a command\", \"write a custom command\", \"define command arguments\", \"use command frontmatter\", \"organize commands\", \"create command with file references\", \"interactive command\", \"use AskUserQuestion in command\", or needs guidance on slash command structure, YAML frontmatter fields, dynamic arguments, bash execution in commands, user interaction patterns, or command development best practices for Claude Code.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/command-development/SKILL.md",
@@ -1647,8 +1663,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1665,14 +1681,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-commit-commands-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Commit Commands",
+      "name": "commit-commands",
+      "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/commit-commands/.claude-plugin/plugin.json",
@@ -1724,8 +1741,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1741,14 +1758,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-discord-skills-configure-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Configure",
+      "name": "configure",
+      "description": "Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, asks \"how do I set this up\" or \"who can reach me,\" or wants to check channel status.",
       "type": "skill",
       "type_label": "Skill",
       "path": "external_plugins/discord/skills/configure/SKILL.md",
@@ -1800,8 +1818,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1818,14 +1836,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-imessage-skills-configure-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Configure",
+      "name": "configure",
+      "description": "Check iMessage channel setup and review access policy. Use when the user asks to configure iMessage, asks \"how do I set this up\" or \"who can reach me,\" or wants to know why texts aren't reaching the assistant.",
       "type": "skill",
       "type_label": "Skill",
       "path": "external_plugins/imessage/skills/configure/SKILL.md",
@@ -1877,8 +1896,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1895,14 +1914,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-telegram-skills-configure-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Configure",
+      "name": "configure",
+      "description": "Set up the Telegram channel — save the bot token and review access policy. Use when the user pastes a Telegram bot token, asks to configure Telegram, asks \"how do I set this up\" or \"who can reach me,\" or wants to check channel status.",
       "type": "skill",
       "type_label": "Skill",
       "path": "external_plugins/telegram/skills/configure/SKILL.md",
@@ -1954,8 +1974,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -1972,14 +1992,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-context7-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Context7",
+      "name": "context7",
+      "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/context7/.claude-plugin/plugin.json",
@@ -2031,8 +2052,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2048,7 +2069,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.005Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-context7-mcp-json",
@@ -2107,8 +2128,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2124,14 +2145,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.005Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-discord-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Discord",
+      "name": "discord",
+      "description": "Discord channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/discord/.claude-plugin/plugin.json",
@@ -2183,8 +2205,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2200,7 +2222,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.005Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-discord-mcp-json",
@@ -2259,8 +2281,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2276,160 +2298,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
-    },
-    {
-      "id": "anthropic-claude-plugins-official::skill::plugins-example-plugin-skills-example-command-skill-md",
-      "source_id": "anthropic-claude-plugins-official",
-      "source_name": "Anthropic Claude Plugins Official",
-      "source_status": "active",
-      "name": "Example Command",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": "plugins/example-plugin/skills/example-command/SKILL.md",
-      "repo": "https://github.com/anthropics/claude-plugins-official",
-      "repo_path_url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/skills/example-command/SKILL.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2026-04-23T22:45:48+01:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": "plugins/*/skills/**/SKILL.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
-    },
-    {
-      "id": "anthropic-claude-plugins-official::plugin::plugins-example-plugin-claude-plugin-plugin-json",
-      "source_id": "anthropic-claude-plugins-official",
-      "source_name": "Anthropic Claude Plugins Official",
-      "source_status": "active",
-      "name": "Example Plugin",
-      "type": "plugin",
-      "type_label": "Plugin",
-      "path": "plugins/example-plugin/.claude-plugin/plugin.json",
-      "repo": "https://github.com/anthropics/claude-plugins-official",
-      "repo_path_url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/.claude-plugin/plugin.json",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2026-04-23T22:45:48+01:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manifest"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::plugins-example-plugin-mcp-json",
@@ -2488,8 +2357,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2505,14 +2374,170 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
+    },
+    {
+      "id": "anthropic-claude-plugins-official::skill::plugins-example-plugin-skills-example-command-skill-md",
+      "source_id": "anthropic-claude-plugins-official",
+      "source_name": "Anthropic Claude Plugins Official",
+      "source_status": "active",
+      "name": "example-command",
+      "description": "An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "plugins/example-plugin/skills/example-command/SKILL.md",
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "repo_path_url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/skills/example-command/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 17784,
+        "forks": 2132,
+        "license": "Apache-2.0",
+        "updated_at": "2026-04-23T22:45:48+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": "plugins/*/skills/**/SKILL.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
+    },
+    {
+      "id": "anthropic-claude-plugins-official::plugin::plugins-example-plugin-claude-plugin-plugin-json",
+      "source_id": "anthropic-claude-plugins-official",
+      "source_name": "Anthropic Claude Plugins Official",
+      "source_status": "active",
+      "name": "example-plugin",
+      "description": "A comprehensive example plugin demonstrating all Claude Code extension options including commands, agents, skills, hooks, and MCP servers",
+      "type": "plugin",
+      "type_label": "Plugin",
+      "path": "plugins/example-plugin/.claude-plugin/plugin.json",
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "repo_path_url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/.claude-plugin/plugin.json",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 17784,
+        "forks": 2132,
+        "license": "Apache-2.0",
+        "updated_at": "2026-04-23T22:45:48+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manifest"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-example-plugin-skills-example-skill-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Example Skill",
+      "name": "example-skill",
+      "description": "This skill should be used when the user asks to \"demonstrate skills\", \"show skill format\", \"create a skill template\", or discusses skill development patterns. Provides a reference template for creating Claude Code plugin skills.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/example-plugin/skills/example-skill/SKILL.md",
@@ -2564,8 +2589,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2582,14 +2607,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-explanatory-output-style-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Explanatory Output Style",
+      "name": "explanatory-output-style",
+      "description": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/explanatory-output-style/.claude-plugin/plugin.json",
@@ -2641,8 +2667,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2658,14 +2684,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-fakechat-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Fakechat",
+      "name": "fakechat",
+      "description": "Localhost iMessage-style web chat for Claude Code — test surface with file upload and edits. No tokens, no access control.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/fakechat/.claude-plugin/plugin.json",
@@ -2717,8 +2744,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2734,7 +2761,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-fakechat-mcp-json",
@@ -2793,8 +2820,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2810,14 +2837,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-feature-dev-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Feature Dev",
+      "name": "feature-dev",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/feature-dev/.claude-plugin/plugin.json",
@@ -2869,8 +2897,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2886,14 +2914,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-firebase-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Firebase",
+      "name": "firebase",
+      "description": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/firebase/.claude-plugin/plugin.json",
@@ -2945,8 +2974,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -2962,7 +2991,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-firebase-mcp-json",
@@ -3021,8 +3050,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3038,14 +3067,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-frontend-design-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Frontend Design",
+      "name": "frontend-design",
+      "description": "Frontend design skill for UI/UX implementation",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/frontend-design/.claude-plugin/plugin.json",
@@ -3097,8 +3127,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3114,14 +3144,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-frontend-design-skills-frontend-design-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Frontend Design",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/frontend-design/skills/frontend-design/SKILL.md",
@@ -3173,8 +3204,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3191,14 +3222,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-github-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Github",
+      "name": "github",
+      "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/github/.claude-plugin/plugin.json",
@@ -3250,8 +3282,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3267,7 +3299,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-github-mcp-json",
@@ -3326,8 +3358,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3343,14 +3375,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-gitlab-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Gitlab",
+      "name": "gitlab",
+      "description": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/gitlab/.claude-plugin/plugin.json",
@@ -3402,8 +3435,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3419,7 +3452,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-gitlab-mcp-json",
@@ -3478,8 +3511,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3495,14 +3528,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-greptile-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Greptile",
+      "name": "greptile",
+      "description": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments directly from Claude Code.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/greptile/.claude-plugin/plugin.json",
@@ -3554,8 +3588,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3571,7 +3605,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-greptile-mcp-json",
@@ -3630,8 +3664,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3647,14 +3681,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-hook-development-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Hook Development",
+      "name": "hook-development",
+      "description": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"set up event-driven automation\", \"block dangerous commands\", or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance for creating and implementing Claude Code plugin hooks with focus on advanced prompt-based hooks API.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/hook-development/SKILL.md",
@@ -3706,8 +3741,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3724,14 +3759,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-hookify-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Hookify",
+      "name": "hookify",
+      "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/hookify/.claude-plugin/plugin.json",
@@ -3783,8 +3819,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3800,14 +3836,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-imessage-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Imessage",
+      "name": "imessage",
+      "description": "iMessage channel for Claude Code — reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via /imessage:access.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/imessage/.claude-plugin/plugin.json",
@@ -3859,8 +3896,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3876,7 +3913,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-imessage-mcp-json",
@@ -3935,8 +3972,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -3952,83 +3989,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
-    },
-    {
-      "id": "anthropic-claude-plugins-official::plugin::external-plugins-laravel-boost-claude-plugin-plugin-json",
-      "source_id": "anthropic-claude-plugins-official",
-      "source_name": "Anthropic Claude Plugins Official",
-      "source_status": "active",
-      "name": "Laravel Boost",
-      "type": "plugin",
-      "type_label": "Plugin",
-      "path": "external_plugins/laravel-boost/.claude-plugin/plugin.json",
-      "repo": "https://github.com/anthropics/claude-plugins-official",
-      "repo_path_url": "https://github.com/anthropics/claude-plugins-official/blob/main/external_plugins/laravel-boost/.claude-plugin/plugin.json",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2026-04-23T22:45:48+01:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manifest"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-laravel-boost-mcp-json",
@@ -4087,8 +4048,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4104,14 +4065,92 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
+    },
+    {
+      "id": "anthropic-claude-plugins-official::plugin::external-plugins-laravel-boost-claude-plugin-plugin-json",
+      "source_id": "anthropic-claude-plugins-official",
+      "source_name": "Anthropic Claude Plugins Official",
+      "source_status": "active",
+      "name": "laravel-boost",
+      "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+      "type": "plugin",
+      "type_label": "Plugin",
+      "path": "external_plugins/laravel-boost/.claude-plugin/plugin.json",
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "repo_path_url": "https://github.com/anthropics/claude-plugins-official/blob/main/external_plugins/laravel-boost/.claude-plugin/plugin.json",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 17784,
+        "forks": 2132,
+        "license": "Apache-2.0",
+        "updated_at": "2026-04-23T22:45:48+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manifest"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-learning-output-style-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Learning Output Style",
+      "name": "learning-output-style",
+      "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/learning-output-style/.claude-plugin/plugin.json",
@@ -4163,8 +4202,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4180,14 +4219,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-linear-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Linear",
+      "name": "linear",
+      "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/linear/.claude-plugin/plugin.json",
@@ -4239,8 +4279,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4256,7 +4296,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-linear-mcp-json",
@@ -4315,8 +4355,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4332,14 +4372,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-math-olympiad-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Math Olympiad",
+      "name": "math-olympiad",
+      "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/math-olympiad/.claude-plugin/plugin.json",
@@ -4391,8 +4432,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4408,14 +4449,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-math-olympiad-skills-math-olympiad-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Math Olympiad",
+      "name": "math-olympiad",
+      "description": "Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve this IMO problem', 'prove this olympiad inequality', 'verify this competition proof', 'find a counterexample', 'is this proof correct', or for any problem with 'IMO', 'Putnam', 'USAMO', 'olympiad', or 'competition math' in it. Uses pure reasoning (no tools) — then a fresh-context adversarial verifier attacks the proof using specific failure patterns, not generic 'check logic'. Outputs calibrated confidence — will say 'no confident solution' rather than bluff. If LaTeX is available, produces a clean PDF after verification passes.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/math-olympiad/skills/math-olympiad/SKILL.md",
@@ -4467,8 +4509,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4485,14 +4527,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-mcp-integration-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Mcp Integration",
+      "name": "mcp-integration",
+      "description": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CLAUDE_PLUGIN_ROOT} with MCP\", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides comprehensive guidance for integrating Model Context Protocol servers into Claude Code plugins for external tool and service integration.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
@@ -4544,8 +4587,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4562,14 +4605,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-mcp-server-dev-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Mcp Server Dev",
+      "name": "mcp-server-dev",
+      "description": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/mcp-server-dev/.claude-plugin/plugin.json",
@@ -4621,8 +4665,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4638,14 +4682,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-playground-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Playground",
+      "name": "playground",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/playground/.claude-plugin/plugin.json",
@@ -4697,8 +4742,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4714,14 +4759,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-playground-skills-playground-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Playground",
+      "name": "playground",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/playground/skills/playground/SKILL.md",
@@ -4773,8 +4819,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4791,14 +4837,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-playwright-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Playwright",
+      "name": "playwright",
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/playwright/.claude-plugin/plugin.json",
@@ -4850,8 +4897,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4867,7 +4914,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-playwright-mcp-json",
@@ -4926,8 +4973,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -4943,14 +4990,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.291Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-plugin-dev-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Plugin Dev",
+      "name": "plugin-dev",
+      "description": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/plugin-dev/.claude-plugin/plugin.json",
@@ -5002,8 +5050,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5019,14 +5067,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-plugin-settings-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Plugin Settings",
+      "name": "plugin-settings",
+      "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for storing plugin-specific configuration with YAML frontmatter and markdown content.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/plugin-settings/SKILL.md",
@@ -5078,8 +5127,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5096,14 +5145,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-plugin-structure-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Plugin Structure",
+      "name": "plugin-structure",
+      "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Claude Code plugin architecture best practices.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/plugin-structure/SKILL.md",
@@ -5155,8 +5205,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5173,14 +5223,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-pr-review-toolkit-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Pr Review Toolkit",
+      "name": "pr-review-toolkit",
+      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/pr-review-toolkit/.claude-plugin/plugin.json",
@@ -5232,8 +5283,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5249,14 +5300,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-ralph-loop-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Ralph Loop",
+      "name": "ralph-loop",
+      "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task completion.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/ralph-loop/.claude-plugin/plugin.json",
@@ -5308,8 +5360,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5325,14 +5377,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-security-guidance-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Security Guidance",
+      "name": "security-guidance",
+      "description": "Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/security-guidance/.claude-plugin/plugin.json",
@@ -5384,8 +5437,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5401,14 +5454,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-serena-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Serena",
+      "name": "serena",
+      "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/serena/.claude-plugin/plugin.json",
@@ -5460,8 +5514,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5477,7 +5531,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-serena-mcp-json",
@@ -5536,8 +5590,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5553,14 +5607,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-session-report-skills-session-report-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Session Report",
+      "name": "session-report",
+      "description": "Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/session-report/skills/session-report/SKILL.md",
@@ -5612,8 +5667,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5630,14 +5685,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-skill-creator-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Skill Creator",
+      "name": "skill-creator",
+      "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/skill-creator/.claude-plugin/plugin.json",
@@ -5689,8 +5745,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5706,14 +5762,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-skill-creator-skills-skill-creator-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Skill Creator",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/skill-creator/skills/skill-creator/SKILL.md",
@@ -5765,8 +5822,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5783,14 +5840,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-skill-development-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Skill Development",
+      "name": "skill-development",
+      "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/plugin-dev/skills/skill-development/SKILL.md",
@@ -5842,8 +5900,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5860,14 +5918,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.293Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-telegram-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Telegram",
+      "name": "telegram",
+      "description": "Telegram channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/telegram/.claude-plugin/plugin.json",
@@ -5919,8 +5978,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -5936,7 +5995,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-telegram-mcp-json",
@@ -5995,8 +6054,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -6012,14 +6071,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-terraform-claude-plugin-plugin-json",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Terraform",
+      "name": "terraform",
+      "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "external_plugins/terraform/.claude-plugin/plugin.json",
@@ -6071,8 +6131,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -6088,7 +6148,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-terraform-mcp-json",
@@ -6147,8 +6207,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -6164,14 +6224,15 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.006Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-hookify-skills-writing-rules-skill-md",
       "source_id": "anthropic-claude-plugins-official",
       "source_name": "Anthropic Claude Plugins Official",
       "source_status": "active",
-      "name": "Writing Rules",
+      "name": "writing-hookify-rules",
+      "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add a hookify rule\", or needs guidance on hookify rule syntax and patterns.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/hookify/skills/writing-rules/SKILL.md",
@@ -6223,8 +6284,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17784,
+        "forks": 2132,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T22:45:48+01:00",
         "archived": false
@@ -6241,7 +6302,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:05.292Z"
+      "last_checked_at": "2026-04-25T12:20:59.007Z"
     }
   ],
   "issues": []

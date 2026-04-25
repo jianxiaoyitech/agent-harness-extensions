@@ -40,6 +40,7 @@ function formatRefreshTimestamp(value) {
 
 function buildSuggestionScore(row, normalizedQuery) {
   const name = String(row.name || "").toLowerCase();
+  const description = String(row.description || "").toLowerCase();
   const sourceName = String(row.source_name || "").toLowerCase();
   const sourceId = String(row.source_id || "").toLowerCase();
   const path = String(row.path || "").toLowerCase();
@@ -51,7 +52,8 @@ function buildSuggestionScore(row, normalizedQuery) {
   if (sourceName.includes(normalizedQuery) || sourceId.includes(normalizedQuery)) return 3;
   if (repo.startsWith(normalizedQuery)) return 4;
   if (repo.includes(normalizedQuery)) return 5;
-  if (path.includes(normalizedQuery)) return 6;
+  if (description.includes(normalizedQuery)) return 6;
+  if (path.includes(normalizedQuery)) return 7;
   return 99;
 }
 
@@ -93,6 +95,7 @@ export default function App({ initialData = null }) {
           if (query) {
             const haystack = [
               row.name,
+              row.description,
               row.source_name,
               row.source_id,
               row.path,

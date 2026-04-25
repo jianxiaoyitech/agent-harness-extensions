@@ -404,10 +404,10 @@
   ],
   "source_config_hash": "ee1e308682120ca1957b2eeae274981d807b92b39ac182e27a4e229f842fd168",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:06.125Z",
+  "synced_at": "2026-04-25T12:21:00.469Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 123647,
+    "forks": 14454,
     "license": "Apache-2.0",
     "updated_at": "2026-04-23T10:07:18-07:00",
     "archived": false
@@ -418,7 +418,8 @@
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Algorithmic Art",
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/algorithmic-art/SKILL.md",
@@ -470,8 +471,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -485,14 +486,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.124Z"
+      "last_checked_at": "2026-04-25T12:21:00.466Z"
     },
     {
       "id": "anthropics-skills::skill::skills-brand-guidelines-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Brand Guidelines",
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/brand-guidelines/SKILL.md",
@@ -544,8 +546,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -559,14 +561,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.124Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-canvas-design-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Canvas Design",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/canvas-design/SKILL.md",
@@ -618,8 +621,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -633,14 +636,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.124Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-claude-api-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Claude Api",
+      "name": "claude-api",
+      "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements). TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks for the Claude API, Anthropic SDK, or Managed Agents; user adds/modifies/tunes a Claude feature (caching, thinking, compaction, tool use, batch, files, citations, memory) or model (Opus/Sonnet/Haiku) in a file; questions about prompt caching / cache hit rate in an Anthropic SDK project. SKIP: file imports `openai`/other-provider SDK, filename like `*-openai.py`/`*-generic.py`, provider-neutral code, general programming/ML.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/claude-api/SKILL.md",
@@ -692,8 +696,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -707,14 +711,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.124Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-doc-coauthoring-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Doc Coauthoring",
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/doc-coauthoring/SKILL.md",
@@ -766,8 +771,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -781,14 +786,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.124Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-docx-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Docx",
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/docx/SKILL.md",
@@ -840,8 +846,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -855,14 +861,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.124Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-frontend-design-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Frontend Design",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/frontend-design/SKILL.md",
@@ -914,8 +921,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -929,14 +936,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-internal-comms-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Internal Comms",
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/internal-comms/SKILL.md",
@@ -988,8 +996,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1003,14 +1011,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-mcp-builder-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Mcp Builder",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/mcp-builder/SKILL.md",
@@ -1062,8 +1071,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1077,14 +1086,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.467Z"
     },
     {
       "id": "anthropics-skills::skill::skills-pdf-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Pdf",
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/pdf/SKILL.md",
@@ -1136,8 +1146,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1151,14 +1161,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-pptx-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Pptx",
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/pptx/SKILL.md",
@@ -1210,8 +1221,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1225,14 +1236,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-skill-creator-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Skill Creator",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/skill-creator/SKILL.md",
@@ -1284,8 +1296,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1299,14 +1311,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-slack-gif-creator-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Slack Gif Creator",
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/slack-gif-creator/SKILL.md",
@@ -1358,8 +1371,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1373,14 +1386,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-theme-factory-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Theme Factory",
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/theme-factory/SKILL.md",
@@ -1432,8 +1446,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1447,14 +1461,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-web-artifacts-builder-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Web Artifacts Builder",
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/web-artifacts-builder/SKILL.md",
@@ -1506,8 +1521,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1521,14 +1536,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-webapp-testing-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Webapp Testing",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/webapp-testing/SKILL.md",
@@ -1580,8 +1596,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1595,14 +1611,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     },
     {
       "id": "anthropics-skills::skill::skills-xlsx-skill-md",
       "source_id": "anthropics-skills",
       "source_name": "Anthropics Skills",
       "source_status": "active",
-      "name": "Xlsx",
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/xlsx/SKILL.md",
@@ -1654,8 +1671,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 123647,
+        "forks": 14454,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T10:07:18-07:00",
         "archived": false
@@ -1669,7 +1686,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.125Z"
+      "last_checked_at": "2026-04-25T12:21:00.468Z"
     }
   ],
   "issues": []

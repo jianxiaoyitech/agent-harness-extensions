@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-04-25T11:59:04.971Z",
+  "generated_at": "2026-04-25T12:22:02.276Z",
   "harness_count": 43,
   "source_count": 68,
   "invalid_sources": [],
@@ -194,7 +194,7 @@
     },
     {
       "source_id": "getty104-claude-code-marketplace",
-      "current_sha": "372a3ec64905476c94a527f41a0259dec61655ad",
+      "current_sha": "48facd49aa064623b629248ff19fb7fcdc3242f4",
       "previous_sha": "aa5a1af56452e093fa2e3726f7ff11f68ea3a081",
       "mode": "full",
       "artifact_count": 25,

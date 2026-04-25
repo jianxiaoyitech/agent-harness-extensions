@@ -305,10 +305,10 @@
   ],
   "source_config_hash": "e5f9ce2a64cd6a032a9171c10906f63e556c227d3917a1305aa408cd8e88a4fc",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:06.132Z",
+  "synced_at": "2026-04-25T12:21:00.856Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 1150,
+    "forks": 155,
     "license": "MIT",
     "updated_at": "2026-04-23T20:48:48+02:00",
     "archived": false
@@ -371,8 +371,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 1150,
+        "forks": 155,
         "license": "MIT",
         "updated_at": "2026-04-23T20:48:48+02:00",
         "archived": false
@@ -386,7 +386,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.132Z"
+      "last_checked_at": "2026-04-25T12:21:00.855Z"
     },
     {
       "id": "apify-actors-mcp-server::mcp-server::readme-md",
@@ -445,8 +445,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 1150,
+        "forks": 155,
         "license": "MIT",
         "updated_at": "2026-04-23T20:48:48+02:00",
         "archived": false
@@ -460,7 +460,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:06.132Z"
+      "last_checked_at": "2026-04-25T12:21:00.855Z"
     }
   ],
   "issues": []

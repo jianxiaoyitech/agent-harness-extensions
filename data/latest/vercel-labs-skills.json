@@ -93,7 +93,7 @@
   ],
   "source_config_hash": "432470d5dee335ab87bcea5592f0f504a67bcde05ea7868472f5f65e42d01554",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:32.204Z",
+  "synced_at": "2026-04-25T12:21:28.608Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -107,7 +107,8 @@
       "source_id": "vercel-labs-skills",
       "source_name": "Vercel Labs Skills",
       "source_status": "active",
-      "name": "Find Skills",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/find-skills/SKILL.md",
@@ -174,7 +175,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:32.204Z"
+      "last_checked_at": "2026-04-25T12:21:28.608Z"
     }
   ],
   "issues": []

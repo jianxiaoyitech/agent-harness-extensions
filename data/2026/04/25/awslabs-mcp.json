@@ -3137,10 +3137,10 @@
   ],
   "source_config_hash": "7f911f5d97d6da9c3afd39c8961c9f6709b004903fbe2bc347de4c9d5df92374",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:59:01.076Z",
+  "synced_at": "2026-04-25T12:21:01.635Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 8864,
+    "forks": 1483,
     "license": "Apache-2.0",
     "updated_at": "2026-04-24T09:44:18Z",
     "archived": false
@@ -3203,8 +3203,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 8864,
+        "forks": 1483,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T09:44:18Z",
         "archived": false
@@ -3218,7 +3218,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.076Z"
+      "last_checked_at": "2026-04-25T12:21:01.635Z"
     },
     {
       "id": "awslabs-mcp::mcp-server::src-aurora-dsql-mcp-server-skills-dsql-skill-mcp-mcp-json",
@@ -3277,8 +3277,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 8864,
+        "forks": 1483,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T09:44:18Z",
         "archived": false
@@ -3293,7 +3293,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.076Z"
+      "last_checked_at": "2026-04-25T12:21:01.635Z"
     },
     {
       "id": "awslabs-mcp::mcp-server::src-cloudwatch-mcp-server-skills-agentcore-investigation-mcp-mcp-json",
@@ -3352,8 +3352,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 8864,
+        "forks": 1483,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T09:44:18Z",
         "archived": false
@@ -3368,7 +3368,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.076Z"
+      "last_checked_at": "2026-04-25T12:21:01.635Z"
     }
   ],
   "issues": []

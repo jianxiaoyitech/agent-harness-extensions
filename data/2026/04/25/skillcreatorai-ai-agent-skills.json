@@ -88,7 +88,7 @@
   ],
   "source_config_hash": "57230b2fe801682935e083d06a59098413367acd9bea95716f984dff549eb2c9",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:30.405Z",
+  "synced_at": "2026-04-25T12:21:25.857Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -102,7 +102,8 @@
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Ask Questions If Underspecified",
+      "name": "ask-questions-if-underspecified",
+      "description": "Clarify requirements before implementing. Do not use automatically, only when invoked explicitly.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/ask-questions-if-underspecified/SKILL.md",
@@ -170,14 +171,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.404Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-audit-library-health-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Audit Library Health",
+      "name": "audit-library-health",
+      "description": "Use when checking the overall health of a skills library. Run doctor, validate, check for stale skills, and verify generated docs are in sync.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/audit-library-health/SKILL.md",
@@ -245,14 +247,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.404Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-backend-development-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Backend Development",
+      "name": "backend-development",
+      "description": "Backend API design, database architecture, microservices patterns, and test-driven development. Use for designing APIs, database schemas, or backend system architecture.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/backend-development/SKILL.md",
@@ -320,14 +323,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.404Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-best-practices-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Best Practices",
+      "name": "best-practices",
+      "description": "Transforms vague prompts into optimized Claude Code prompts. Adds verification, specific context, constraints, and proper phasing. Invoke with /best-practices.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/best-practices/SKILL.md",
@@ -395,14 +399,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-best-practices-referencer-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Best Practices Referencer",
+      "name": "best-practices-referencer",
+      "description": "Use this agent to find relevant best practices, examples, and anti-patterns for a specific prompt. Searches the references/ folder to find transformation patterns that match the task type. Returns specific examples, rules, and guidance to apply during transformation.\n<example> Context: User wants to transform \"fix the login bug\" prompt: \"Find best practices for: fix the login bug\"\nassistant: \"I'll use best-practices-referencer to find relevant bug fix examples and transformation patterns from the references.\"\n<commentary> The agent searches before-after-examples.md for bug fix examples, checks anti-patterns.md for common mistakes, and returns specific patterns to apply. </commentary> </example>\n<example> Context: User wants to transform \"add dark mode to the app\" prompt: \"Find best practices for: add dark mode to the app\"\nassistant: \"Let me use best-practices-referencer to find feature implementation examples and relevant transformation rules.\"\n<commentary> The agent finds feature implementation examples, checks for UI-specific patterns, and returns transformation rules for feature requests. </commentary> </example>\n<example> Context: User wants to transform \"refactor the payment service\" prompt: \"Find best practices for: refactor the payment service\"\nassistant: \"I'll search the references for refactoring patterns and transformation rules specific to service refactoring.\"\n<commentary> The agent finds refactoring examples, identifies the \"preserve behavior\" constraints pattern, and surfaces anti-patterns around breaking changes. </commentary> </example>",
       "type": "agent",
       "type_label": "Agent",
       "path": "skills/best-practices/agents/best-practices-referencer.md",
@@ -471,14 +476,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-browse-and-evaluate-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Browse And Evaluate",
+      "name": "browse-and-evaluate",
+      "description": "Use when exploring the ai-agent-skills catalog to find, compare, and evaluate skills before installing. Always use --fields to limit output size and --dry-run before committing to an install.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/browse-and-evaluate/SKILL.md",
@@ -546,14 +552,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-build-workspace-docs-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Build Workspace Docs",
+      "name": "build-workspace-docs",
+      "description": "Use when regenerating README.md and WORK_AREAS.md in a managed library workspace. Always dry-run first to preview changes.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/build-workspace-docs/SKILL.md",
@@ -621,14 +628,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-changelog-generator-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Changelog Generator",
+      "name": "changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/changelog-generator/SKILL.md",
@@ -696,14 +704,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-code-documentation-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Code Documentation",
+      "name": "code-documentation",
+      "description": "Writing effective code documentation - API docs, README files, inline comments, and technical guides. Use for documenting codebases, APIs, or writing developer guides.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/code-documentation/SKILL.md",
@@ -771,14 +780,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-codebase-context-builder-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Codebase Context Builder",
+      "name": "codebase-context-builder",
+      "description": "Use this agent to gather codebase context for prompt transformation. Explores relevant files, finds similar implementations, identifies patterns to reference, and discovers tech stack constraints. Returns actionable context that makes transformed prompts specific to THIS codebase, not generic advice.\n<example> Context: User wants to improve \"add user authentication\" prompt: \"Gather codebase context for: add user authentication\"\nassistant: \"I'll use the codebase-context-builder agent to find existing auth patterns, related files, and how similar features are implemented.\"\n<commentary> The agent explores src/auth/, finds session handling patterns, discovers JWT usage, reads CLAUDE.md for conventions, and returns specific file paths and patterns to reference in the improved prompt. </commentary> </example>\n<example> Context: User wants to improve \"fix the payment bug\" prompt: \"Gather codebase context for: fix the payment bug\"\nassistant: \"Let me use codebase-context-builder to find payment-related files, existing error handling patterns, and test structures.\"\n<commentary> The agent finds PaymentService.ts, related tests in __tests__/payment/, error handling conventions in ErrorBoundary.tsx, and returns specific locations to reference in the improved prompt. </commentary> </example>\n<example> Context: User wants to improve \"optimize the API response time\" prompt: \"Gather codebase context for: optimize the API response time\"\nassistant: \"I'll explore the codebase to find API routes, existing caching patterns, database query patterns, and performance monitoring setup.\"\n<commentary> The agent finds the API routes in /api, discovers Redis caching in lib/cache.ts, finds slow query examples, and identifies existing performance tests. </commentary> </example>",
       "type": "agent",
       "type_label": "Agent",
       "path": "skills/best-practices/agents/codebase-context-builder.md",
@@ -847,14 +857,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-content-research-writer-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Content Research Writer",
+      "name": "content-research-writer",
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/content-research-writer/SKILL.md",
@@ -922,14 +933,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-curate-a-team-library-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Curate A Team Library",
+      "name": "curate-a-team-library",
+      "description": "Use when building a managed team skills library for a real stack. Map work to shelves, browse before curating, write meaningful `whyHere` notes, and create a starter pack once the first pass is solid.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/curate-a-team-library/SKILL.md",
@@ -997,14 +1009,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-database-design-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Database Design",
+      "name": "database-design",
+      "description": "Database schema design, optimization, and migration patterns for PostgreSQL, MySQL, and NoSQL databases. Use for designing schemas, writing migrations, or optimizing queries.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/database-design/SKILL.md",
@@ -1072,14 +1085,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-install-from-remote-library-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Install From Remote Library",
+      "name": "install-from-remote-library",
+      "description": "Use when installing skills from a shared ai-agent-skills library repo. Inspect with `--list` first, prefer `--collection`, and preview with `--dry-run` before installing.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/install-from-remote-library/SKILL.md",
@@ -1147,14 +1161,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-llm-application-dev-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Llm Application Dev",
+      "name": "llm-application-dev",
+      "description": "Building applications with Large Language Models - prompt engineering, RAG patterns, and LLM integration. Use for AI-powered features, chatbots, or LLM-based automation.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/llm-application-dev/SKILL.md",
@@ -1222,14 +1237,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-migrate-skills-between-libraries-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Migrate Skills Between Libraries",
+      "name": "migrate-skills-between-libraries",
+      "description": "Use when moving skills between library workspaces or upgrading from a personal library to a team library. Export from one workspace, import into another.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/migrate-skills-between-libraries/SKILL.md",
@@ -1297,14 +1313,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-review-a-skill-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Review A Skill",
+      "name": "review-a-skill",
+      "description": "Use when evaluating whether a skill belongs in a library. Preview content, check frontmatter, validate structure, and decide whether to keep, curate, or remove.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/review-a-skill/SKILL.md",
@@ -1372,14 +1389,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-share-a-library-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Share A Library",
+      "name": "share-a-library",
+      "description": "Use when a managed library is ready to publish to GitHub and hand to teammates as an install command. Run the GitHub publishing steps, then return the exact shareable install command.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/share-a-library/SKILL.md",
@@ -1447,14 +1465,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-task-intent-analyzer-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Task Intent Analyzer",
+      "name": "task-intent-analyzer",
+      "description": "Use this agent to deeply analyze a prompt's intent before transformation. Determines task type (bug fix, feature, refactor, etc.), identifies what's missing (verification, location, constraints), surfaces edge cases, and detects ambiguities that need clarification. Returns a structured analysis that guides transformation.\n<example> Context: User wants to improve \"fix the login bug\" prompt: \"Analyze task intent for: fix the login bug\"\nassistant: \"I'll use task-intent-analyzer to determine task type, identify missing elements, and surface potential edge cases.\"\n<commentary> The agent identifies this as a bug fix, notes missing: symptom description, reproduction steps, expected behavior. Surfaces edge cases: session timeout, token refresh, concurrent logins. </commentary> </example>\n<example> Context: User wants to improve \"add dark mode\" prompt: \"Analyze task intent for: add dark mode\"\nassistant: \"Let me use task-intent-analyzer to understand the scope, identify gaps, and surface implementation considerations.\"\n<commentary> The agent identifies this as a feature, notes missing: scope (entire app or specific pages?), persistence (localStorage?), system preference detection. Surfaces edge cases: images, third-party components, transitions. </commentary> </example>\n<example> Context: User wants to improve \"make the API faster\" prompt: \"Analyze task intent for: make the API faster\"\nassistant: \"I'll analyze the intent to understand what kind of performance improvement is needed and what's missing from the prompt.\"\n<commentary> The agent identifies this as performance optimization, notes missing: which endpoint, current latency, target latency, measurement method. Surfaces considerations: caching, N+1 queries, database indexes, async processing. </commentary> </example>",
       "type": "agent",
       "type_label": "Agent",
       "path": "skills/best-practices/agents/task-intent-analyzer.md",
@@ -1523,14 +1542,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.857Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-update-installed-skills-skill-md",
       "source_id": "skillcreatorai-ai-agent-skills",
       "source_name": "SkillCreatorAI AI Agent Skills",
       "source_status": "active",
-      "name": "Update Installed Skills",
+      "name": "update-installed-skills",
+      "description": "Use when syncing or updating previously installed skills to their latest version. Always dry-run updates before applying, and check for breaking changes.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/update-installed-skills/SKILL.md",
@@ -1598,7 +1618,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.405Z"
+      "last_checked_at": "2026-04-25T12:21:25.856Z"
     }
   ],
   "issues": []

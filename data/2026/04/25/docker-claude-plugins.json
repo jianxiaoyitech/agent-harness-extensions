@@ -26,10 +26,10 @@
   ],
   "source_config_hash": "bc079797754c7621241c627f8e6a6ea2913dd4126142c8eed222a65f9e495d9d",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:09.180Z",
+  "synced_at": "2026-04-25T12:21:03.830Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 16,
+    "forks": 4,
     "license": "Unknown",
     "updated_at": "2026-02-27T09:32:15-05:00",
     "archived": false
@@ -40,7 +40,8 @@
       "source_id": "docker-claude-plugins",
       "source_name": "Docker Claude Plugins",
       "source_status": "active",
-      "name": "Beta Mcp Skills",
+      "name": "beta-mcp-skills",
+      "description": "Beta MCP skills from Docker",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/beta-mcp-skills/.claude-plugin/plugin.json",
@@ -92,8 +93,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 16,
+        "forks": 4,
         "license": "Unknown",
         "updated_at": "2026-02-27T09:32:15-05:00",
         "archived": false
@@ -108,82 +109,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:09.179Z"
-    },
-    {
-      "id": "docker-claude-plugins::plugin::plugins-mcp-toolkit-claude-plugin-plugin-json",
-      "source_id": "docker-claude-plugins",
-      "source_name": "Docker Claude Plugins",
-      "source_status": "active",
-      "name": "Mcp Toolkit",
-      "type": "plugin",
-      "type_label": "Plugin",
-      "path": "plugins/mcp-toolkit/.claude-plugin/plugin.json",
-      "repo": "https://github.com/docker/claude-plugins",
-      "repo_path_url": "https://github.com/docker/claude-plugins/blob/main/plugins/mcp-toolkit/.claude-plugin/plugin.json",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "question",
-        "cursor": "question",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "question",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "question",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "question",
-        "qwen-code": "blank",
-        "roo-code": "question",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "question",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Unknown",
-        "updated_at": "2026-02-27T09:32:15-05:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manifest"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:09.179Z"
+      "last_checked_at": "2026-04-25T12:21:03.829Z"
     },
     {
       "id": "docker-claude-plugins::mcp-server::plugins-mcp-toolkit-mcp-json",
@@ -242,8 +168,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 16,
+        "forks": 4,
         "license": "Unknown",
         "updated_at": "2026-02-27T09:32:15-05:00",
         "archived": false
@@ -258,7 +184,83 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:09.180Z"
+      "last_checked_at": "2026-04-25T12:21:03.830Z"
+    },
+    {
+      "id": "docker-claude-plugins::plugin::plugins-mcp-toolkit-claude-plugin-plugin-json",
+      "source_id": "docker-claude-plugins",
+      "source_name": "Docker Claude Plugins",
+      "source_status": "active",
+      "name": "mcp-toolkit",
+      "description": "Integrates Docker Desktop's MCP Toolkit with Claude Code, enabling access to containerized MCP servers. Designed specifically for Docker Desktop's bundled MCP Gateway. Requires Docker Desktop 4.28+ with MCP Toolkit feature enabled.",
+      "type": "plugin",
+      "type_label": "Plugin",
+      "path": "plugins/mcp-toolkit/.claude-plugin/plugin.json",
+      "repo": "https://github.com/docker/claude-plugins",
+      "repo_path_url": "https://github.com/docker/claude-plugins/blob/main/plugins/mcp-toolkit/.claude-plugin/plugin.json",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "question",
+        "cursor": "question",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "question",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "question",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "question",
+        "qwen-code": "blank",
+        "roo-code": "question",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "question",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 16,
+        "forks": 4,
+        "license": "Unknown",
+        "updated_at": "2026-02-27T09:32:15-05:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manifest"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:03.830Z"
     }
   ],
   "issues": []

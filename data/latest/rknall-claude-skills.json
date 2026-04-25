@@ -62,96 +62,22 @@
   ],
   "source_config_hash": "2d65ad029ca6733a723651aceab539f593db1fe5b2d458d59a31733cd7f40da8",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:25.441Z",
+  "synced_at": "2026-04-25T12:21:21.960Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 42,
+    "forks": 5,
     "license": "Unknown",
     "updated_at": "2025-10-20T12:11:07+02:00",
     "archived": false
   },
   "artifacts": [
     {
-      "id": "rknall-claude-skills::skill::config-generator-skill-md",
-      "source_id": "rknall-claude-skills",
-      "source_name": "rknall Claude Skills",
-      "source_status": "active",
-      "name": "Config Generator",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": "config-generator/SKILL.md",
-      "repo": "https://github.com/rknall/claude-skills",
-      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/config-generator/SKILL.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Unknown",
-        "updated_at": "2025-10-20T12:11:07+02:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": "*/SKILL.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "skill"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:25.439Z"
-    },
-    {
       "id": "rknall-claude-skills::skill::docker-validation-skill-md",
       "source_id": "rknall-claude-skills",
       "source_name": "rknall Claude Skills",
       "source_status": "active",
-      "name": "Docker Validation",
+      "name": "Docker Configuration Validator",
+      "description": "Comprehensive Docker and Docker Compose validation following best practices and security standards. Use this skill when users ask to validate Dockerfiles, review Docker configurations, check Docker Compose files, verify multi-stage builds, audit Docker security, or ensure compliance with Docker best practices. Validates syntax, security, multi-stage builds, and modern Docker Compose requirements.",
       "type": "skill",
       "type_label": "Skill",
       "path": "docker-validation/SKILL.md",
@@ -203,8 +129,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -219,19 +145,20 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
     },
     {
-      "id": "rknall-claude-skills::skill::newt-blueprint-generator-skill-md",
+      "id": "rknall-claude-skills::skill::config-generator-skill-md",
       "source_id": "rknall-claude-skills",
       "source_name": "rknall Claude Skills",
       "source_status": "active",
-      "name": "Newt Blueprint Generator",
+      "name": "GitLab Stack Config Generator",
+      "description": "Generates service-specific configuration files for GitLab stack projects in ./config directory, using .env as the primary configuration source. Creates nginx, PostgreSQL, Redis, and custom service configs with strict validation for secrets, paths, and Docker best practices. Use when setting up service configurations, creating config templates, or ensuring configs follow stack patterns.",
       "type": "skill",
       "type_label": "Skill",
-      "path": "newt-blueprint-generator/SKILL.md",
+      "path": "config-generator/SKILL.md",
       "repo": "https://github.com/rknall/claude-skills",
-      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/newt-blueprint-generator/SKILL.md",
+      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/config-generator/SKILL.md",
       "compatibility": {
         "aider": "blank",
         "amp": "blank",
@@ -278,8 +205,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -294,164 +221,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
-    },
-    {
-      "id": "rknall-claude-skills::skill::python-architecture-review-skill-md",
-      "source_id": "rknall-claude-skills",
-      "source_name": "rknall Claude Skills",
-      "source_status": "active",
-      "name": "Python Architecture Review",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": "python-architecture-review/SKILL.md",
-      "repo": "https://github.com/rknall/claude-skills",
-      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/python-architecture-review/SKILL.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Unknown",
-        "updated_at": "2025-10-20T12:11:07+02:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": "*/SKILL.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "skill"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
-    },
-    {
-      "id": "rknall-claude-skills::skill::secrets-manager-skill-md",
-      "source_id": "rknall-claude-skills",
-      "source_name": "rknall Claude Skills",
-      "source_status": "active",
-      "name": "Secrets Manager",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": "secrets-manager/SKILL.md",
-      "repo": "https://github.com/rknall/claude-skills",
-      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/secrets-manager/SKILL.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Unknown",
-        "updated_at": "2025-10-20T12:11:07+02:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": "*/SKILL.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "skill"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
+      "last_checked_at": "2026-04-25T12:21:21.958Z"
     },
     {
       "id": "rknall-claude-skills::skill::stack-creator-skill-md",
       "source_id": "rknall-claude-skills",
       "source_name": "rknall Claude Skills",
       "source_status": "active",
-      "name": "Stack Creator",
+      "name": "GitLab Stack Creator",
+      "description": "Create new GitLab stack projects from templates with proper directory structure, git configuration, validation hooks, and documentation. Use when initializing new Docker stack projects that follow GitLab stack patterns.",
       "type": "skill",
       "type_label": "Skill",
       "path": "stack-creator/SKILL.md",
@@ -503,8 +281,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -519,14 +297,91 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
+    },
+    {
+      "id": "rknall-claude-skills::skill::secrets-manager-skill-md",
+      "source_id": "rknall-claude-skills",
+      "source_name": "rknall Claude Skills",
+      "source_status": "active",
+      "name": "GitLab Stack Secrets Manager",
+      "description": "Manages Docker secrets for GitLab stack projects, ensuring secrets are never in .env or docker-compose.yml, properly stored in ./secrets directory, and securely integrated with Docker secrets. Use when users need to create secrets, migrate from environment variables, validate secret configuration, audit secret usage, or ensure secrets are never committed to git.",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "secrets-manager/SKILL.md",
+      "repo": "https://github.com/rknall/claude-skills",
+      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/secrets-manager/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 42,
+        "forks": 5,
+        "license": "Unknown",
+        "updated_at": "2025-10-20T12:11:07+02:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": "*/SKILL.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
     },
     {
       "id": "rknall-claude-skills::skill::stack-validator-skill-md",
       "source_id": "rknall-claude-skills",
       "source_name": "rknall Claude Skills",
       "source_status": "active",
-      "name": "Stack Validator",
+      "name": "GitLab Stack Validator",
+      "description": "Validates GitLab stack projects before deployment, ensuring proper architecture patterns, directory structure, secrets management, .env configuration, and Docker best practices. Use when users ask to validate a stack, check stack configuration, verify stack architecture, audit stack setup, or ensure stack deployment readiness.",
       "type": "skill",
       "type_label": "Skill",
       "path": "stack-validator/SKILL.md",
@@ -578,8 +433,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -594,14 +449,167 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
+    },
+    {
+      "id": "rknall-claude-skills::skill::newt-blueprint-generator-skill-md",
+      "source_id": "rknall-claude-skills",
+      "source_name": "rknall Claude Skills",
+      "source_status": "active",
+      "name": "Newt Blueprint Generator",
+      "description": "Generate and validate Pangolin Newt blueprint configurations in YAML or Docker Labels format. Use when creating Pangolin resource configurations, proxy resources, client resources, authentication settings, or Docker Compose blueprints.",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "newt-blueprint-generator/SKILL.md",
+      "repo": "https://github.com/rknall/claude-skills",
+      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/newt-blueprint-generator/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 42,
+        "forks": 5,
+        "license": "Unknown",
+        "updated_at": "2025-10-20T12:11:07+02:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": "*/SKILL.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
+    },
+    {
+      "id": "rknall-claude-skills::skill::python-architecture-review-skill-md",
+      "source_id": "rknall-claude-skills",
+      "source_name": "rknall Claude Skills",
+      "source_status": "active",
+      "name": "Python Backend Architecture Review",
+      "description": "Comprehensive design architecture review for Python backend applications. Use this skill when users ask you to review, analyze, or provide feedback on backend architecture designs, system design documents, or Python application architecture. Covers scalability, security, performance, database design, API design, microservices patterns, deployment architecture, and best practices.",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "python-architecture-review/SKILL.md",
+      "repo": "https://github.com/rknall/claude-skills",
+      "repo_path_url": "https://github.com/rknall/claude-skills/blob/main/python-architecture-review/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 42,
+        "forks": 5,
+        "license": "Unknown",
+        "updated_at": "2025-10-20T12:11:07+02:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": "*/SKILL.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
     },
     {
       "id": "rknall-claude-skills::skill::svg-logo-designer-skill-md",
       "source_id": "rknall-claude-skills",
       "source_name": "rknall Claude Skills",
       "source_status": "active",
-      "name": "Svg Logo Designer",
+      "name": "SVG Logo Designer",
+      "description": "Create professional SVG logos from descriptions and design specifications. Generates multiple logo variations with different layouts, styles, and concepts. Produces scalable vector graphics that can be used directly or exported to PNG. Use this skill when users ask to create logos, brand identities, icons, or visual marks for their designs.",
       "type": "skill",
       "type_label": "Skill",
       "path": "svg-logo-designer/SKILL.md",
@@ -653,8 +661,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -669,14 +677,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
     },
     {
       "id": "rknall-claude-skills::skill::ui-design-review-skill-md",
       "source_id": "rknall-claude-skills",
       "source_name": "rknall Claude Skills",
       "source_status": "active",
-      "name": "Ui Design Review",
+      "name": "UI/UX Design Review",
+      "description": "Comprehensive design review for websites and desktop applications with extensive accessibility analysis. Use this skill when users ask you to review UI/UX designs, wireframes, mockups, prototypes, or deployed interfaces for usability, accessibility (WCAG compliance), visual design, interaction patterns, responsive design, and best practices for web and desktop applications.",
       "type": "skill",
       "type_label": "Skill",
       "path": "ui-design-review/SKILL.md",
@@ -728,8 +737,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -744,7 +753,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.440Z"
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
     },
     {
       "id": "rknall-claude-skills::skill::web-design-builder-skill-md",
@@ -752,6 +761,7 @@
       "source_name": "rknall Claude Skills",
       "source_status": "active",
       "name": "Web Design Builder",
+      "description": "Create and refactor HTML5/JavaScript web designs from specifications or descriptions. Generates complete, accessible, responsive web designs with modern frameworks. Automatically verifies designs using Playwright MCP for accessibility and functionality testing. Use this skill when users ask to create web designs, mockups, landing pages, web applications, or refactor existing HTML/CSS/JS designs.",
       "type": "skill",
       "type_label": "Skill",
       "path": "web-design-builder/SKILL.md",
@@ -803,8 +813,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 42,
+        "forks": 5,
         "license": "Unknown",
         "updated_at": "2025-10-20T12:11:07+02:00",
         "archived": false
@@ -819,7 +829,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:25.441Z"
+      "last_checked_at": "2026-04-25T12:21:21.959Z"
     }
   ],
   "issues": []

@@ -15,6 +15,7 @@ export const SNAPSHOT_ROOT_DIR = DATA_DIR;
 export const LATEST_SNAPSHOT_DIR = path.join(DATA_DIR, "latest");
 export const CACHE_DIR = path.join(ROOT_DIR, ".cache");
 export const CACHE_REPOS_DIR = path.join(CACHE_DIR, "repos");
+export const CACHE_GITHUB_METADATA_DIR = path.join(CACHE_DIR, "github-repo-metadata");
 export const DETECTOR_VERSION = "2";
 
 export function getSnapshotDateStamp(now: Date = new Date()): string {
@@ -115,6 +116,17 @@ export interface RepoSnapshot {
   files: string[];
 }
 
+interface GithubRepoMetadataCacheRecord {
+  fetched_at: string;
+  forks: number;
+  stars: number;
+}
+
+interface GithubRepoApiResponse {
+  forks_count?: number;
+  stargazers_count?: number;
+}
+
 interface Detector {
   type: ArtifactType;
   method: Exclude<DetectionMethod, "pattern" | "regex" | "manual">;
@@ -138,6 +150,8 @@ export interface ArtifactRecord {
   source_name: string;
   source_status: SourceStatus;
   name: string;
+  description?: string;
+  color?: string;
   type: ArtifactType;
   type_label: string;
   path: string;
@@ -162,6 +176,8 @@ export interface ArtifactRecord {
 export interface TableRow {
   id: string;
   name: string;
+  description?: string;
+  color?: string;
   type: ArtifactType;
   type_label: string;
   source_id: string;
@@ -337,6 +353,107 @@ export async function readJsonFile<T>(filePath: string): Promise<T> {
 export async function writeJson(filePath: string, data: unknown): Promise<void> {
   await ensureDir(path.dirname(filePath));
   await fs.writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+}
+
+function extractGithubRepoPath(repoUrl: string): { owner: string; repo: string } | null {
+  try {
+    const parsed = new URL(repoUrl);
+    if (parsed.hostname !== "github.com") return null;
+    const segments = parsed.pathname
+      .replace(/^\//, "")
+      .replace(/\.git$/, "")
+      .split("/")
+      .filter(Boolean);
+    if (segments.length < 2) return null;
+    return {
+      owner: segments[0]!,
+      repo: segments[1]!,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function githubMetadataCachePath(repoUrl: string): string | null {
+  const repoPath = extractGithubRepoPath(repoUrl);
+  if (!repoPath) return null;
+  return path.join(CACHE_GITHUB_METADATA_DIR, `${repoPath.owner}-${repoPath.repo}.json`);
+}
+
+async function readGithubRepoMetadataCache(
+  repoUrl: string,
+  now: Date = new Date(),
+): Promise<{ forks: number; stars: number } | null> {
+  const cachePath = githubMetadataCachePath(repoUrl);
+  if (!cachePath || !(await fileExists(cachePath))) return null;
+
+  try {
+    const cached = await readJsonFile<GithubRepoMetadataCacheRecord>(cachePath);
+    if (cached.fetched_at.slice(0, 10) !== getSnapshotDateStamp(now)) {
+      return null;
+    }
+
+    return {
+      forks: cached.forks ?? 0,
+      stars: cached.stars ?? 0,
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function writeGithubRepoMetadataCache(
+  repoUrl: string,
+  metadata: { forks: number; stars: number },
+): Promise<void> {
+  const cachePath = githubMetadataCachePath(repoUrl);
+  if (!cachePath) return;
+  await ensureDir(CACHE_GITHUB_METADATA_DIR);
+  await writeJson(cachePath, {
+    fetched_at: new Date().toISOString(),
+    forks: metadata.forks,
+    stars: metadata.stars,
+  } satisfies GithubRepoMetadataCacheRecord);
+}
+
+async function fetchGithubRepoMetadata(
+  repoUrl: string,
+): Promise<{ forks: number; stars: number } | null> {
+  const repoPath = extractGithubRepoPath(repoUrl);
+  if (!repoPath) return null;
+
+  const cached = await readGithubRepoMetadataCache(repoUrl);
+  if (cached) {
+    return cached;
+  }
+
+  const headers: Record<string, string> = {
+    Accept: "application/vnd.github+json",
+    "User-Agent": "agent-harness-extensions-sync",
+  };
+  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+  if (token) {
+    headers.Authorization = `Bearer ${token}`;
+  }
+
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/${repoPath.owner}/${repoPath.repo}`,
+      { headers },
+    );
+    if (!response.ok) {
+      return null;
+    }
+    const data = (await response.json()) as GithubRepoApiResponse;
+    const metadata = {
+      forks: data.forks_count ?? 0,
+      stars: data.stargazers_count ?? 0,
+    };
+    await writeGithubRepoMetadataCache(repoUrl, metadata);
+    return metadata;
+  } catch {
+    return null;
+  }
 }
 
 export async function loadHarnessRegistry(): Promise<{
@@ -551,6 +668,72 @@ function buildArtifactId(sourceId: string, type: ArtifactType, filePath: string)
   return `${sourceId}::${type}::${slugify(filePath)}`;
 }
 
+interface ArtifactContentMetadata {
+  color?: string;
+  description?: string;
+  name?: string;
+}
+
+function parseMarkdownFrontmatter(content: string): ArtifactContentMetadata {
+  if (!content.startsWith("---\n")) {
+    return {};
+  }
+
+  const endIndex = content.indexOf("\n---\n", 4);
+  if (endIndex === -1) {
+    return {};
+  }
+
+  try {
+    const frontmatter = parseYaml(content.slice(4, endIndex)) as Record<string, unknown>;
+    return {
+      name: typeof frontmatter.name === "string" ? frontmatter.name.trim() : undefined,
+      description:
+        typeof frontmatter.description === "string" ? frontmatter.description.trim() : undefined,
+      color: typeof frontmatter.color === "string" ? frontmatter.color.trim() : undefined,
+    };
+  } catch {
+    return {};
+  }
+}
+
+function parseJsonArtifactMetadata(content: string): ArtifactContentMetadata {
+  try {
+    const parsed = JSON.parse(content) as Record<string, unknown>;
+    return {
+      name: typeof parsed.name === "string" ? parsed.name.trim() : undefined,
+      description:
+        typeof parsed.description === "string" ? parsed.description.trim() : undefined,
+      color: typeof parsed.color === "string" ? parsed.color.trim() : undefined,
+    };
+  } catch {
+    return {};
+  }
+}
+
+async function extractArtifactMetadataFromGit(args: {
+  gitDir: string;
+  gitRef: string;
+  path: string;
+  type: ArtifactType;
+}): Promise<ArtifactContentMetadata> {
+  const extension = path.extname(args.path).toLowerCase();
+
+  try {
+    const content = await runGit(args.gitDir, ["show", `${args.gitRef}:${args.path}`]);
+    if (extension === ".md") {
+      return parseMarkdownFrontmatter(content);
+    }
+    if (extension === ".json") {
+      return parseJsonArtifactMetadata(content);
+    }
+  } catch {
+    return {};
+  }
+
+  return {};
+}
+
 function addDetectedArtifact(map: Map<string, DetectedArtifact>, artifact: DetectedArtifact): void {
   const existing = map.get(artifact.path);
   if (!existing) {
@@ -655,18 +838,22 @@ export function buildArtifactRecords(
   source: SourceDefinition,
   repoSnapshot: RepoSnapshot,
   harnesses: Harness[],
+  metadataByPath: Map<string, ArtifactContentMetadata> = new Map(),
 ): ArtifactRecord[] {
   const allowedTypes = new Set(source.allowed_types);
   const detectedArtifacts = detectArtifacts(source, repoSnapshot);
 
   return detectedArtifacts.map((artifact) => {
     const mismatch = !allowedTypes.has(artifact.type);
+    const metadata = metadataByPath.get(artifact.path) || {};
     return {
       id: buildArtifactId(source.id, artifact.type, artifact.path),
       source_id: source.id,
       source_name: source.name,
       source_status: source.status,
-      name: artifact.name,
+      name: metadata.name || artifact.name,
+      description: metadata.description,
+      color: metadata.color,
       type: artifact.type,
       type_label: artifactTypeLabel(artifact.type),
       path: artifact.path,
@@ -701,6 +888,8 @@ export function buildTableRows(
   return filtered.map((artifact) => ({
     id: artifact.id,
     name: artifact.name,
+    description: artifact.description,
+    color: artifact.color,
     type: artifact.type,
     type_label: artifact.type_label,
     source_id: artifact.source_id,
@@ -1131,10 +1320,12 @@ export function canReusePreviousSnapshotSource(args: {
 export function buildReusedSnapshotSourceRecord(args: {
   previousSnapshotSource: SnapshotSourceRecord;
   currentSha: string;
+  repoMetrics?: SnapshotSourceRecord["repo_metrics"];
   snapshotDate?: string;
   syncedAt?: string;
 }): SnapshotSourceRecord {
   const previous = args.previousSnapshotSource;
+  const repoMetrics = args.repoMetrics ?? previous.repo_metrics;
 
   return {
     ...previous,
@@ -1146,6 +1337,19 @@ export function buildReusedSnapshotSourceRecord(args: {
     mode: "unchanged",
     changed_files: [],
     synced_at: args.syncedAt ?? new Date().toISOString(),
+    repo_metrics: repoMetrics,
+    artifacts: previous.artifacts.map((artifact) => ({
+      ...artifact,
+      repo_metrics: {
+        ...artifact.repo_metrics,
+        stars: repoMetrics.stars,
+        forks: repoMetrics.forks,
+        license: repoMetrics.license,
+        updated_at: repoMetrics.updated_at,
+        archived: repoMetrics.archived,
+      },
+      last_checked_at: args.syncedAt ?? new Date().toISOString(),
+    })),
     issues: [],
   };
 }
@@ -1280,9 +1484,15 @@ export async function buildSnapshotSourceRecord(
   ) {
     const remoteHeadSha = await resolveRemoteHeadSha(source.repo);
     if (previous && remoteHeadSha && remoteHeadSha === previous.current_sha) {
+      const githubMetadata = await fetchGithubRepoMetadata(source.repo);
       return buildReusedSnapshotSourceRecord({
         previousSnapshotSource: previous,
         currentSha: remoteHeadSha,
+        repoMetrics: {
+          ...previous.repo_metrics,
+          stars: githubMetadata?.stars ?? previous.repo_metrics.stars,
+          forks: githubMetadata?.forks ?? previous.repo_metrics.forks,
+        },
         snapshotDate: options.snapshotDate,
       });
     }
@@ -1299,6 +1509,7 @@ export async function buildSnapshotSourceRecord(
   const license = historical
     ? await detectLicenseAtRef(gitDir, files, gitRef)
     : await detectLicense(gitDir, files);
+  const githubMetadata = await fetchGithubRepoMetadata(source.repo);
   const firstCommitDate =
     previous?.first_commit_date ?? options.firstCommitDate ?? (await resolveSourceFirstCommitDate(source));
 
@@ -1335,15 +1546,30 @@ export async function buildSnapshotSourceRecord(
   const repoSnapshot: RepoSnapshot = {
     defaultBranch,
     repoUrl: source.repo,
-    stars: 0,
-    forks: 0,
+    stars: githubMetadata?.stars ?? 0,
+    forks: githubMetadata?.forks ?? 0,
     license,
     updatedAt,
     archived: source.status === "archived",
     files,
   };
 
-  const artifacts = buildArtifactRecords(source, repoSnapshot, harnesses).sort((left, right) =>
+  const detectedArtifacts = detectArtifacts(source, repoSnapshot);
+  const metadataByPath = new Map<string, ArtifactContentMetadata>(
+    await Promise.all(
+      detectedArtifacts.map(async (artifact) => [
+        artifact.path,
+        await extractArtifactMetadataFromGit({
+          gitDir,
+          gitRef,
+          path: artifact.path,
+          type: artifact.type,
+        }),
+      ] as const),
+    ),
+  );
+
+  const artifacts = buildArtifactRecords(source, repoSnapshot, harnesses, metadataByPath).sort((left, right) =>
     left.name.localeCompare(right.name, "en", { sensitivity: "base" }),
   );
 
@@ -1366,8 +1592,8 @@ export async function buildSnapshotSourceRecord(
     detector_version: DETECTOR_VERSION,
     synced_at: new Date().toISOString(),
     repo_metrics: {
-      stars: 0,
-      forks: 0,
+      stars: githubMetadata?.stars ?? 0,
+      forks: githubMetadata?.forks ?? 0,
       license,
       updated_at: updatedAt,
       archived: source.status === "archived",

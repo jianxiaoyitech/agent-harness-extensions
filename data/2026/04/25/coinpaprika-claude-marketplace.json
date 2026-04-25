@@ -32,10 +32,10 @@
   ],
   "source_config_hash": "0575701bb8382e34d6267c034fa58f9057f645f715d1e85fa5602a84c0a1eda1",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:07.600Z",
+  "synced_at": "2026-04-25T12:21:03.466Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 6,
+    "forks": 2,
     "license": "MIT",
     "updated_at": "2026-04-14T13:32:40+02:00",
     "archived": false
@@ -46,7 +46,8 @@
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Batch Token Price Lookup",
+      "name": "batch-token-price-lookup",
+      "description": "Fetch current prices for multiple tokens on any blockchain network. Activates when users ask about token prices, price comparisons, or batch price lookups across 34+ chains.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/dexpaprika-claude-plugin/skills/batch-token-price-lookup/SKILL.md",
@@ -98,8 +99,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -116,14 +117,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::plugin::plugins-coinpaprika-claude-plugin-claude-plugin-plugin-json",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Coinpaprika Claude Plugin",
+      "name": "coinpaprika",
+      "description": "Access cryptocurrency market data from CoinPaprika: real-time prices, OHLCV, exchanges, contract lookups for 12,000+ coins and 350+ exchanges. Free tier, no API key needed.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/coinpaprika-claude-plugin/.claude-plugin/plugin.json",
@@ -175,8 +177,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -192,14 +194,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::agent::plugins-coinpaprika-claude-plugin-agents-crypto-analyst-md",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Crypto Analyst",
+      "name": "crypto-analyst",
+      "description": "Cryptocurrency market analyst - price trends, fundamentals, risk assessment using CoinPaprika data for 12,000+ coins and 350+ exchanges",
       "type": "agent",
       "type_label": "Agent",
       "path": "plugins/coinpaprika-claude-plugin/agents/crypto-analyst.md",
@@ -251,8 +254,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -269,14 +272,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-coinpaprika-claude-plugin-skills-crypto-market-search-skill-md",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Crypto Market Search",
+      "name": "crypto-market-search",
+      "description": "Search and analyze cryptocurrency market data using CoinPaprika. Activates when users search for coins, ask about prices, request market overviews, or look up tokens by contract address.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/coinpaprika-claude-plugin/skills/crypto-market-search/SKILL.md",
@@ -328,8 +332,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -346,14 +350,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::agent::plugins-dexpaprika-claude-plugin-agents-defi-data-analyst-md",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Defi Data Analyst",
+      "name": "defi-data-analyst",
+      "description": "DeFi security analyst - honeypot detection, scam identification, risk assessment using DexPaprika data across 34+ blockchains",
       "type": "agent",
       "type_label": "Agent",
       "path": "plugins/dexpaprika-claude-plugin/agents/defi-data-analyst.md",
@@ -405,8 +410,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -423,14 +428,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::plugin::plugins-dexpaprika-claude-plugin-claude-plugin-plugin-json",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Dexpaprika Claude Plugin",
+      "name": "dexpaprika",
+      "description": "Access comprehensive DeFi data from DexPaprika: DEXes, liquidity pools, tokens, and trading across 34+ blockchains. Free, no API key needed.",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/dexpaprika-claude-plugin/.claude-plugin/plugin.json",
@@ -482,8 +488,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -499,14 +505,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-dexpaprika-claude-plugin-skills-technical-analyzer-skill-md",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Technical Analyzer",
+      "name": "technical-analyzer",
+      "description": "Analyze OHLCV data to identify candlestick patterns, support/resistance levels, trend formations, and technical indicators. Activates when users ask about price patterns, chart analysis, or technical signals for any pool across 34+ chains.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/dexpaprika-claude-plugin/skills/technical-analyzer/SKILL.md",
@@ -558,8 +565,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -576,14 +583,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-dexpaprika-claude-plugin-skills-token-security-analyzer-skill-md",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Token Security Analyzer",
+      "name": "token-security-analyzer",
+      "description": "Analyze tokens for security risks, scams, and honeypots. Activates when users share token addresses, ask about token safety, or request honeypot/rug pull analysis across 34+ chains.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/dexpaprika-claude-plugin/skills/token-security-analyzer/SKILL.md",
@@ -635,8 +643,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -653,14 +661,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-dexpaprika-claude-plugin-skills-trending-pools-analyzer-skill-md",
       "source_id": "coinpaprika-claude-marketplace",
       "source_name": "Coinpaprika Claude Marketplace",
       "source_status": "active",
-      "name": "Trending Pools Analyzer",
+      "name": "trending-pools-analyzer",
+      "description": "Analyze top performing liquidity pools on any blockchain network ranked by 24h trading volume. Activates when users ask about trending tokens, hot pools, or volume leaders across 34+ chains.",
       "type": "skill",
       "type_label": "Skill",
       "path": "plugins/dexpaprika-claude-plugin/skills/trending-pools-analyzer/SKILL.md",
@@ -712,8 +721,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 6,
+        "forks": 2,
         "license": "MIT",
         "updated_at": "2026-04-14T13:32:40+02:00",
         "archived": false
@@ -730,7 +739,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.600Z"
+      "last_checked_at": "2026-04-25T12:21:03.465Z"
     }
   ],
   "issues": []

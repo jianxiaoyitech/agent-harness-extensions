@@ -121,7 +121,7 @@
   ],
   "source_config_hash": "7d28fb481b2dbc3d7e17ea6066cb61de1d83abff76a581acf38e0090e8d108f2",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:30.548Z",
+  "synced_at": "2026-04-25T12:21:26.767Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -202,7 +202,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.548Z"
+      "last_checked_at": "2026-04-25T12:21:26.767Z"
     }
   ],
   "issues": []

@@ -706,10 +706,10 @@
   ],
   "source_config_hash": "523f02bf5b26d3ab6057d7103bd3972312b2521871540933c5216dba89b725ba",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:21.578Z",
+  "synced_at": "2026-04-25T12:21:17.795Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 2031,
+    "forks": 404,
     "license": "LICENSE.txt",
     "updated_at": "2026-04-03T13:19:25+07:00",
     "archived": false
@@ -720,7 +720,8 @@
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Aesthetic",
+      "name": "aesthetic",
+      "description": "Create aesthetically beautiful interfaces following proven design principles. Use when building UI/UX, analyzing designs from inspiration sites, generating design images with ai-multimodal, implementing visual hierarchy and color theory, adding micro-interactions, or creating design documentation. Includes workflows for capturing and analyzing inspiration screenshots with chrome-devtools and ai-multimodal, iterative design image generation until aesthetic standards are met, and comprehensive design system guidance covering BEAUTIFUL (aesthetic principles), RIGHT (functionality/accessibility), SATISFYING (micro-interactions), and PEAK (storytelling) stages. Integrates with chrome-devtools, ai-multimodal, media-processing, ui-styling, and web-frameworks skills.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/aesthetic/SKILL.md",
@@ -772,8 +773,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -790,14 +791,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-ai-ml-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Ai Ml Tools",
+      "name": "ai-ml-tools",
+      "description": "AI and ML capabilities with Google Gemini API integration for multimodal processing and agent development",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/ai-ml-tools/.claude-plugin/plugin.json",
@@ -849,8 +851,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -866,14 +868,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.570Z"
+      "last_checked_at": "2026-04-25T12:21:17.783Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-ai-multimodal-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Ai Multimodal",
+      "name": "ai-multimodal",
+      "description": "Process and generate multimedia content using Google Gemini API. Capabilities include analyze audio files (transcription with timestamps, summarization, speech understanding, music/sound analysis up to 9.5 hours), understand images (captioning, object detection, OCR, visual Q&A, segmentation), process videos (scene detection, Q&A, temporal analysis, YouTube URLs, up to 6 hours), extract from documents (PDF tables, forms, charts, diagrams, multi-page), generate images (text-to-image, editing, composition, refinement). Use when working with audio/video files, analyzing images or screenshots, processing PDF documents, extracting structured data from media, creating images from text prompts, or implementing multimodal AI features. Supports multiple models (Gemini 2.5/2.0) with context windows up to 2M tokens.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/ai-multimodal/SKILL.md",
@@ -925,8 +928,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -943,14 +946,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-backend-development-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Backend Development",
+      "name": "backend-development",
+      "description": "Build robust backend systems with modern technologies (Node.js, Python, Go, Rust), frameworks (NestJS, FastAPI, Django), databases (PostgreSQL, MongoDB, Redis), APIs (REST, GraphQL, gRPC), authentication (OAuth 2.1, JWT), testing strategies, security best practices (OWASP Top 10), performance optimization, scalability patterns (microservices, caching, sharding), DevOps practices (Docker, Kubernetes, CI/CD), and monitoring. Use when designing APIs, implementing authentication, optimizing database queries, setting up CI/CD pipelines, handling security vulnerabilities, building microservices, or developing production-ready backend systems.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/backend-development/SKILL.md",
@@ -1002,8 +1006,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1020,14 +1024,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-backend-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Backend Tools",
+      "name": "backend-tools",
+      "description": "Backend development skills for Node.js, Python, Go, REST/GraphQL APIs, and authentication frameworks",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/backend-tools/.claude-plugin/plugin.json",
@@ -1079,8 +1084,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1096,14 +1101,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.570Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-better-auth-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Better Auth",
+      "name": "better-auth",
+      "description": "Implement authentication and authorization with Better Auth - a framework-agnostic TypeScript authentication framework. Features include email/password authentication with verification, OAuth providers (Google, GitHub, Discord, etc.), two-factor authentication (TOTP, SMS), passkeys/WebAuthn support, session management, role-based access control (RBAC), rate limiting, and database adapters. Use when adding authentication to applications, implementing OAuth flows, setting up 2FA/MFA, managing user sessions, configuring authorization rules, or building secure authentication systems for web applications.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/better-auth/SKILL.md",
@@ -1155,8 +1161,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1173,14 +1179,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-bunny-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Bunny",
+      "name": "bunny",
+      "description": "Integrate Bunny.net services (CDN, Storage, Stream, DNS, Edge Scripting, Shield, Magic Containers, Optimizer, Database). Use when building with Bunny.net APIs, deploying to Bunny CDN, uploading files to Edge Storage, managing video streaming, configuring DNS zones, writing edge scripts, setting up WAF/DDoS protection, deploying containers, or optimizing images. Triggers on \"bunny\", \"bunnycdn\", \"b-cdn\", \"pull zone\", \"edge storage\", \"bunny stream\".",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/bunny/SKILL.md",
@@ -1232,8 +1239,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1250,14 +1257,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-chrome-devtools-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Chrome Devtools",
+      "name": "chrome-devtools",
+      "description": "Browser automation, debugging, and performance analysis using Puppeteer CLI scripts. Use for automating browsers, taking screenshots, analyzing performance, monitoring network traffic, web scraping, form automation, and JavaScript debugging.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/chrome-devtools/SKILL.md",
@@ -1309,8 +1317,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1327,7 +1335,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-claude-code-skill-md",
@@ -1386,8 +1394,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1404,14 +1412,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-code-review-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Code Review",
+      "name": "code-review",
+      "description": "Use when receiving code review feedback (especially if unclear or technically questionable), when completing tasks or major features requiring review before proceeding, or before making any completion/success claims. Covers three practices - receiving feedback with technical rigor over performative agreement, requesting reviews via code-reviewer subagent, and verification gates requiring evidence before any status claims. Essential for subagent-driven development, pull requests, and preventing false completion claims.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/code-review/SKILL.md",
@@ -1463,8 +1472,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1481,14 +1490,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-collision-zone-thinking-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Collision Zone Thinking",
+      "name": "Collision-Zone Thinking",
+      "description": "Force unrelated concepts together to discover emergent properties - \"What if we treated X like Y?\"",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/collision-zone-thinking/SKILL.md",
@@ -1540,8 +1550,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1558,14 +1568,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-context-engineering-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Context Engineering",
+      "name": "context-engineering",
+      "description": "Master context engineering for AI agent systems. Use when designing agent architectures, debugging context failures, optimizing token usage, implementing memory systems, building multi-agent coordination, evaluating agent performance, or developing LLM-powered pipelines. Covers context fundamentals, degradation patterns, optimization techniques (compaction, masking, caching), compression strategies, memory architectures, multi-agent patterns, LLM-as-Judge evaluation, tool design, and project development.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/context-engineering/SKILL.md",
@@ -1617,8 +1628,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1635,14 +1646,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-databases-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Databases",
+      "name": "databases",
+      "description": "Work with MongoDB (document database, BSON documents, aggregation pipelines, Atlas cloud) and PostgreSQL (relational database, SQL queries, psql CLI, pgAdmin). Use when designing database schemas, writing queries and aggregations, optimizing indexes for performance, performing database migrations, configuring replication and sharding, implementing backup and restore strategies, managing database users and permissions, analyzing query performance, or administering production databases.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/databases/SKILL.md",
@@ -1694,8 +1706,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1712,14 +1724,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Debugging",
+      "name": "debugging",
+      "description": "Systematic debugging frameworks for finding and fixing bugs - includes root cause analysis, defense-in-depth validation, and verification protocols",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/debugging/SKILL.md",
@@ -1771,8 +1784,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1789,14 +1802,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-debugging-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Debugging Tools",
+      "name": "debugging-tools",
+      "description": "Systematic debugging frameworks ensuring root cause investigation and verification before completion",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/debugging-tools/.claude-plugin/plugin.json",
@@ -1848,8 +1862,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1865,14 +1879,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.570Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-defense-in-depth-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Defense In Depth",
+      "name": "Defense-in-Depth Validation",
+      "description": "Validate at every layer data passes through to make bugs impossible",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/debugging/defense-in-depth/SKILL.md",
@@ -1924,8 +1939,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -1942,14 +1957,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-devops-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Devops",
+      "name": "devops",
+      "description": "Deploy to Cloudflare (Workers, R2, D1), Docker, GCP (Cloud Run, GKE), Kubernetes (kubectl, Helm). Use for serverless, containers, CI/CD, GitOps, security audit.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/devops/SKILL.md",
@@ -2001,8 +2017,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2019,14 +2035,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-devops-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Devops Tools",
+      "name": "devops-tools",
+      "description": "DevOps and infrastructure skills for Cloudflare, Docker, GCP, databases (MongoDB/PostgreSQL), and browser automation",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/devops-tools/.claude-plugin/plugin.json",
@@ -2078,8 +2095,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2095,14 +2112,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.570Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-docs-seeker-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Docs Seeker",
+      "name": "docs-seeker",
+      "description": "Searching internet for technical documentation using llms.txt standard, GitHub repositories via Repomix, and parallel exploration. Use when user needs: (1) Latest documentation for libraries/frameworks, (2) Documentation in llms.txt format, (3) GitHub repository analysis, (4) Documentation without direct llms.txt support, (5) Multiple documentation sources in parallel",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/docs-seeker/SKILL.md",
@@ -2154,8 +2172,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2172,14 +2190,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-document-processing-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Document Processing",
+      "name": "document-processing",
+      "description": "Document processing skills for Word (DOCX), PDF, PowerPoint (PPTX), and Excel (XLSX) files",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/document-processing/.claude-plugin/plugin.json",
@@ -2231,8 +2250,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2248,14 +2267,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.570Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-docx-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Docx",
+      "name": "docx",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/document-skills/docx/SKILL.md",
@@ -2307,8 +2327,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2325,14 +2345,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-frontend-design-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Frontend Design",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/frontend-design/SKILL.md",
@@ -2384,8 +2405,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2402,14 +2423,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-frontend-development-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Frontend Development",
+      "name": "frontend-dev-guidelines",
+      "description": "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/frontend-development/SKILL.md",
@@ -2461,8 +2483,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2479,7 +2501,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-google-adk-python-skill-md",
@@ -2538,8 +2560,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2556,7 +2578,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-inversion-exercise-skill-md",
@@ -2564,6 +2586,7 @@
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
       "name": "Inversion Exercise",
+      "description": "Flip core assumptions to reveal hidden constraints and alternative approaches - \"what if the opposite were true?\"",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/inversion-exercise/SKILL.md",
@@ -2615,8 +2638,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2633,238 +2656,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
-    },
-    {
-      "id": "mrgoonie-claudekit-skills::skill::claude-skills-mcp-builder-skill-md",
-      "source_id": "mrgoonie-claudekit-skills",
-      "source_name": "mrgoonie Claudekit Skills",
-      "source_status": "active",
-      "name": "Mcp Builder",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": ".claude/skills/mcp-builder/SKILL.md",
-      "repo": "https://github.com/mrgoonie/claudekit-skills",
-      "repo_path_url": "https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/mcp-builder/SKILL.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "LICENSE.txt",
-        "updated_at": "2026-04-03T13:19:25+07:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": ".claude/skills/**/SKILL.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
-    },
-    {
-      "id": "mrgoonie-claudekit-skills::skill::claude-skills-mcp-management-skill-md",
-      "source_id": "mrgoonie-claudekit-skills",
-      "source_name": "mrgoonie Claudekit Skills",
-      "source_status": "active",
-      "name": "Mcp Management",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": ".claude/skills/mcp-management/SKILL.md",
-      "repo": "https://github.com/mrgoonie/claudekit-skills",
-      "repo_path_url": "https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/mcp-management/SKILL.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "LICENSE.txt",
-        "updated_at": "2026-04-03T13:19:25+07:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": ".claude/skills/**/SKILL.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
-    },
-    {
-      "id": "mrgoonie-claudekit-skills::agent::claude-agents-mcp-manager-md",
-      "source_id": "mrgoonie-claudekit-skills",
-      "source_name": "mrgoonie Claudekit Skills",
-      "source_status": "active",
-      "name": "Mcp Manager",
-      "type": "agent",
-      "type_label": "Agent",
-      "path": ".claude/agents/mcp-manager.md",
-      "repo": "https://github.com/mrgoonie/claudekit-skills",
-      "repo_path_url": "https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/agents/mcp-manager.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "LICENSE.txt",
-        "updated_at": "2026-04-03T13:19:25+07:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": ".claude/agents/*.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::agent::plugins-platform-tools-agents-mcp-manager-md",
@@ -2923,8 +2715,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -2941,14 +2733,249 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.788Z"
+    },
+    {
+      "id": "mrgoonie-claudekit-skills::skill::claude-skills-mcp-builder-skill-md",
+      "source_id": "mrgoonie-claudekit-skills",
+      "source_name": "mrgoonie Claudekit Skills",
+      "source_status": "active",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": ".claude/skills/mcp-builder/SKILL.md",
+      "repo": "https://github.com/mrgoonie/claudekit-skills",
+      "repo_path_url": "https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/mcp-builder/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 2031,
+        "forks": 404,
+        "license": "LICENSE.txt",
+        "updated_at": "2026-04-03T13:19:25+07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": ".claude/skills/**/SKILL.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
+    },
+    {
+      "id": "mrgoonie-claudekit-skills::skill::claude-skills-mcp-management-skill-md",
+      "source_id": "mrgoonie-claudekit-skills",
+      "source_name": "mrgoonie Claudekit Skills",
+      "source_status": "active",
+      "name": "mcp-management",
+      "description": "Manage Model Context Protocol (MCP) servers - discover, analyze, and execute tools/prompts/resources from configured MCP servers. Use when working with MCP integrations, need to discover available MCP capabilities, filter MCP tools for specific tasks, execute MCP tools programmatically, access MCP prompts/resources, or implement MCP client functionality. Supports intelligent tool selection, multi-server management, and context-efficient capability discovery.",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": ".claude/skills/mcp-management/SKILL.md",
+      "repo": "https://github.com/mrgoonie/claudekit-skills",
+      "repo_path_url": "https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/mcp-management/SKILL.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 2031,
+        "forks": 404,
+        "license": "LICENSE.txt",
+        "updated_at": "2026-04-03T13:19:25+07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": ".claude/skills/**/SKILL.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
+    },
+    {
+      "id": "mrgoonie-claudekit-skills::agent::claude-agents-mcp-manager-md",
+      "source_id": "mrgoonie-claudekit-skills",
+      "source_name": "mrgoonie Claudekit Skills",
+      "source_status": "active",
+      "name": "mcp-manager",
+      "description": "Manage MCP (Model Context Protocol) server integrations - discover tools/prompts/resources, analyze relevance for tasks, and execute MCP capabilities. Use when need to work with MCP servers, discover available MCP tools, filter MCP capabilities for specific tasks, execute MCP tools programmatically, or implement MCP client functionality. Keeps main context clean by handling MCP discovery in subagent context.",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": ".claude/agents/mcp-manager.md",
+      "repo": "https://github.com/mrgoonie/claudekit-skills",
+      "repo_path_url": "https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/agents/mcp-manager.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 2031,
+        "forks": 404,
+        "license": "LICENSE.txt",
+        "updated_at": "2026-04-03T13:19:25+07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": ".claude/agents/*.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-media-processing-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Media Processing",
+      "name": "media-processing",
+      "description": "Process multimedia files with FFmpeg (video/audio encoding, conversion, streaming, filtering, hardware acceleration) and ImageMagick (image manipulation, format conversion, batch processing, effects, composition). Use when converting media formats, encoding videos with specific codecs (H.264, H.265, VP9), resizing/cropping images, extracting audio from video, applying filters and effects, optimizing file sizes, creating streaming manifests (HLS/DASH), generating thumbnails, batch processing images, creating composite images, or implementing media processing pipelines. Supports 100+ formats, hardware acceleration (NVENC, QSV), and complex filtergraphs.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/media-processing/SKILL.md",
@@ -3000,8 +3027,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3018,14 +3045,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-media-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Media Tools",
+      "name": "media-tools",
+      "description": "Media processing with FFmpeg (video/audio) and ImageMagick (images) for encoding, conversion, and manipulation",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/media-tools/.claude-plugin/plugin.json",
@@ -3077,8 +3105,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3094,14 +3122,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.570Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-mermaidjs-v11-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Mermaidjs V11",
+      "name": "mermaidjs-v11",
+      "description": "Create diagrams and visualizations using Mermaid.js v11 syntax. Use when generating flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, Gantt charts, user journeys, timelines, architecture diagrams, or any of 24+ diagram types. Supports JavaScript API integration, CLI rendering to SVG/PNG/PDF, theming, configuration, and accessibility features. Essential for documentation, technical diagrams, project planning, system architecture, and visual communication.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/mermaidjs-v11/SKILL.md",
@@ -3153,8 +3182,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3171,14 +3200,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-meta-pattern-recognition-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Meta Pattern Recognition",
+      "name": "Meta-Pattern Recognition",
+      "description": "Spot patterns appearing in 3+ domains to find universal principles",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/meta-pattern-recognition/SKILL.md",
@@ -3230,8 +3260,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3248,14 +3278,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-meta-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Meta Tools",
+      "name": "meta-tools",
+      "description": "Meta development tools for creating new skills and code review workflows",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/meta-tools/.claude-plugin/plugin.json",
@@ -3307,8 +3338,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3324,14 +3355,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-payment-integration-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Payment Integration",
+      "name": "payment-integration",
+      "description": "Integrate payments with SePay (VietQR), Polar, Stripe, Paddle (MoR subscriptions), Creem.io (licensing). Checkout, webhooks, subscriptions, QR codes, multi-provider orders.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/payment-integration/SKILL.md",
@@ -3383,8 +3415,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3401,14 +3433,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-pdf-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Pdf",
+      "name": "pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/document-skills/pdf/SKILL.md",
@@ -3460,8 +3493,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3478,14 +3511,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-platform-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Platform Tools",
+      "name": "platform-tools",
+      "description": "Platform integration skills for Shopify, Bunny.net (CDN, Storage, Stream, DNS, Edge Scripting, Shield, Containers), payment providers (SePay, Polar, Stripe, Paddle, Creem), and MCP server management",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/platform-tools/.claude-plugin/plugin.json",
@@ -3537,8 +3571,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3554,14 +3588,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.784Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-pptx-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Pptx",
+      "name": "pptx",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/document-skills/pptx/SKILL.md",
@@ -3613,8 +3648,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3631,14 +3666,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Problem Solving",
+      "name": "problem-solving",
+      "description": "Creative problem-solving techniques for breaking through stuck points - includes collision-zone thinking, inversion, pattern recognition, and simplification",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/SKILL.md",
@@ -3690,8 +3726,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3708,14 +3744,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-problem-solving-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Problem Solving Tools",
+      "name": "problem-solving-tools",
+      "description": "Advanced problem-solving techniques including collision-zone thinking, inversion exercise, meta-pattern recognition, and more",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/problem-solving-tools/.claude-plugin/plugin.json",
@@ -3767,8 +3804,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3784,14 +3821,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-repomix-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Repomix",
+      "name": "repomix",
+      "description": "Package entire code repositories into single AI-friendly files using Repomix. Capabilities include pack codebases with customizable include/exclude patterns, generate multiple output formats (XML, Markdown, plain text), preserve file structure and context, optimize for AI consumption with token counting, filter by file types and directories, add custom headers and summaries. Use when packaging codebases for AI analysis, creating repository snapshots for LLM context, analyzing third-party libraries, preparing for security audits, generating documentation context, or evaluating unfamiliar codebases.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/repomix/SKILL.md",
@@ -3843,8 +3881,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3861,14 +3899,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-research-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Research Tools",
+      "name": "research-tools",
+      "description": "Research capabilities including documentation discovery (llms.txt) and repository packaging for AI analysis",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/research-tools/.claude-plugin/plugin.json",
@@ -3920,8 +3959,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -3937,7 +3976,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-root-cause-tracing-skill-md",
@@ -3945,6 +3984,7 @@
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
       "name": "Root Cause Tracing",
+      "description": "Systematically trace bugs backward through call stack to find original trigger",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/debugging/root-cause-tracing/SKILL.md",
@@ -3996,8 +4036,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4014,7 +4054,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-scale-game-skill-md",
@@ -4022,6 +4062,7 @@
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
       "name": "Scale Game",
+      "description": "Test at extremes (1000x bigger/smaller, instant/year-long) to expose fundamental truths hidden at normal scales",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/scale-game/SKILL.md",
@@ -4073,8 +4114,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4091,14 +4132,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-sequential-thinking-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Sequential Thinking",
+      "name": "sequential-thinking",
+      "description": "Use when complex problems require systematic step-by-step reasoning with ability to revise thoughts, branch into alternative approaches, or dynamically adjust scope. Ideal for multi-stage analysis, design planning, problem decomposition, or tasks with initially unclear scope.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/sequential-thinking/SKILL.md",
@@ -4150,8 +4192,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4168,14 +4210,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-shopify-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Shopify",
+      "name": "shopify",
+      "description": "Build Shopify applications, extensions, and themes using GraphQL/REST APIs, Shopify CLI, Polaris UI components, and Liquid templating. Capabilities include app development with OAuth authentication, checkout UI extensions for customizing checkout flow, admin UI extensions for dashboard integration, POS extensions for retail, theme development with Liquid, webhook management, billing API integration, product/order/customer management. Use when building Shopify apps, implementing checkout customizations, creating admin interfaces, developing themes, integrating payment processing, managing store data via APIs, or extending Shopify functionality.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/shopify/SKILL.md",
@@ -4227,8 +4270,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4245,7 +4288,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-simplification-cascades-skill-md",
@@ -4253,6 +4296,7 @@
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
       "name": "Simplification Cascades",
+      "description": "Find one insight that eliminates multiple components - \"if this is true, we don't need X, Y, or Z\"",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/simplification-cascades/SKILL.md",
@@ -4304,8 +4348,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4322,14 +4366,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-skill-creator-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Skill Creator",
+      "name": "skill-creator",
+      "description": "Create or update Claude skills. Use for new skills, skill references, skill scripts, optimizing existing skills, extending Claude's capabilities.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/skill-creator/SKILL.md",
@@ -4381,8 +4426,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4399,14 +4444,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-specialized-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Specialized Tools",
+      "name": "specialized-tools",
+      "description": "Specialized skills for sequential reasoning and Mermaid diagram generation",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/specialized-tools/.claude-plugin/plugin.json",
@@ -4458,8 +4504,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4475,7 +4521,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-systematic-debugging-skill-md",
@@ -4483,6 +4529,7 @@
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
       "name": "Systematic Debugging",
+      "description": "Four-phase debugging framework that ensures root cause investigation before attempting fixes. Never jump to solutions.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/debugging/systematic-debugging/SKILL.md",
@@ -4534,8 +4581,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4552,14 +4599,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-template-skill-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Template Skill",
+      "name": "template-skill",
+      "description": "Replace with description of the skill and when Claude should use it.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/template-skill/SKILL.md",
@@ -4611,8 +4659,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4629,14 +4677,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.788Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-threejs-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Threejs",
+      "name": "threejs",
+      "description": "Build 3D web apps with Three.js (WebGL/WebGPU). Use for 3D scenes, animations, custom shaders, PBR materials, VR/XR experiences, games, data visualizations, product configurators.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/threejs/SKILL.md",
@@ -4688,8 +4737,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4706,14 +4755,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.788Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-ui-styling-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Ui Styling",
+      "name": "ui-styling",
+      "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/ui-styling/SKILL.md",
@@ -4765,8 +4815,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4783,7 +4833,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.788Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-verification-before-completion-skill-md",
@@ -4791,6 +4841,7 @@
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
       "name": "Verification Before Completion",
+      "description": "Run verification commands and confirm output before claiming success",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/debugging/verification-before-completion/SKILL.md",
@@ -4842,8 +4893,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4860,14 +4911,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-web-dev-tools-claude-plugin-plugin-json",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Web Dev Tools",
+      "name": "web-dev-tools",
+      "description": "Comprehensive web development skills covering React, TypeScript, Next.js, Tailwind CSS, Three.js 3D graphics, modern frontend patterns, and testing",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "plugins/web-dev-tools/.claude-plugin/plugin.json",
@@ -4919,8 +4971,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -4936,14 +4988,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.571Z"
+      "last_checked_at": "2026-04-25T12:21:17.785Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-web-frameworks-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Web Frameworks",
+      "name": "web-frameworks",
+      "description": "Build modern full-stack web applications with Next.js (App Router, Server Components, RSC, PPR, SSR, SSG, ISR), Turborepo (monorepo management, task pipelines, remote caching, parallel execution), and RemixIcon (3100+ SVG icons in outlined/filled styles). Use when creating React applications, implementing server-side rendering, setting up monorepos with multiple packages, optimizing build performance and caching strategies, adding icon libraries, managing shared dependencies, or working with TypeScript full-stack projects.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/web-frameworks/SKILL.md",
@@ -4995,8 +5048,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -5013,14 +5066,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.788Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-web-testing-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Web Testing",
+      "name": "web-testing",
+      "description": "Web testing with Playwright, Vitest, k6. E2E/unit/integration/load/security/visual/a11y testing. Use for test automation, flakiness, Core Web Vitals, mobile gestures, cross-browser.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/web-testing/SKILL.md",
@@ -5072,8 +5126,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -5090,14 +5144,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.788Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-when-stuck-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "When Stuck",
+      "name": "When Stuck - Problem-Solving Dispatch",
+      "description": "Dispatch to the right problem-solving technique based on how you're stuck",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/problem-solving/when-stuck/SKILL.md",
@@ -5149,8 +5204,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -5167,14 +5222,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.573Z"
+      "last_checked_at": "2026-04-25T12:21:17.787Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-xlsx-skill-md",
       "source_id": "mrgoonie-claudekit-skills",
       "source_name": "mrgoonie Claudekit Skills",
       "source_status": "active",
-      "name": "Xlsx",
+      "name": "xlsx",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/document-skills/xlsx/SKILL.md",
@@ -5226,8 +5282,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 2031,
+        "forks": 404,
         "license": "LICENSE.txt",
         "updated_at": "2026-04-03T13:19:25+07:00",
         "archived": false
@@ -5244,7 +5300,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.572Z"
+      "last_checked_at": "2026-04-25T12:21:17.786Z"
     }
   ],
   "issues": []

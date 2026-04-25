@@ -331,10 +331,10 @@
   ],
   "source_config_hash": "79c30e5a8d7ebfcfa03f549450938a3f7346606234c553a01ed5eb376b9eaa42",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:28.768Z",
+  "synced_at": "2026-04-25T12:21:24.698Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 853,
+    "forks": 144,
     "license": "Apache-2.0",
     "updated_at": "2026-04-23T20:11:17+02:00",
     "archived": false
@@ -397,8 +397,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 853,
+        "forks": 144,
         "license": "Apache-2.0",
         "updated_at": "2026-04-23T20:11:17+02:00",
         "archived": false
@@ -412,7 +412,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:28.768Z"
+      "last_checked_at": "2026-04-25T12:21:24.698Z"
     }
   ],
   "issues": []

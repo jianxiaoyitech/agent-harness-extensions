@@ -65,10 +65,10 @@
   ],
   "source_config_hash": "9c758586a7d2475db819282b4cf72db5cf1fbe66f986247cdba0d3f776cf62e0",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:07.581Z",
+  "synced_at": "2026-04-25T12:21:02.182Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 3286,
+    "forks": 353,
     "license": "Apache-2.0",
     "updated_at": "2026-03-30T18:51:10-07:00",
     "archived": false
@@ -131,8 +131,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 3286,
+        "forks": 353,
         "license": "Apache-2.0",
         "updated_at": "2026-03-30T18:51:10-07:00",
         "archived": false
@@ -146,7 +146,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:07.581Z"
+      "last_checked_at": "2026-04-25T12:21:02.182Z"
     }
   ],
   "issues": []

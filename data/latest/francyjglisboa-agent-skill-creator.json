@@ -53,10 +53,10 @@
   ],
   "source_config_hash": "68a4217efd8fd30045b8210b031b2094244aea393b9aac1876e6ecfa7b1546a2",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:11.099Z",
+  "synced_at": "2026-04-25T12:21:06.625Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 791,
+    "forks": 124,
     "license": "Unknown",
     "updated_at": "2026-03-26T07:29:51-03:00",
     "archived": false
@@ -119,8 +119,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 791,
+        "forks": 124,
         "license": "Unknown",
         "updated_at": "2026-03-26T07:29:51-03:00",
         "archived": false
@@ -134,14 +134,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.099Z"
+      "last_checked_at": "2026-04-25T12:21:06.625Z"
     },
     {
       "id": "francyjglisboa-agent-skill-creator::skill::skill-md",
       "source_id": "francyjglisboa-agent-skill-creator",
       "source_name": "Agent Skill Creator",
       "source_status": "active",
-      "name": "SKILL.md",
+      "name": "agent-skill-creator",
+      "description": "Create cross-platform agent skills from workflow descriptions. Activates when users ask to create an agent, automate a repetitive workflow, create a custom skill, or need advanced agent creation. Triggers on phrases like create agent for, automate workflow, create skill for, every day I have to, daily I need to, turn process into agent, need to automate, create a cross-platform skill, validate this skill, export this skill, migrate this skill. Supports single skills, multi-agent suites, transcript processing, template-based creation, interactive configuration, cross-platform export, and spec validation.",
       "type": "skill",
       "type_label": "Skill",
       "path": "SKILL.md",
@@ -193,8 +194,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 791,
+        "forks": 124,
         "license": "Unknown",
         "updated_at": "2026-03-26T07:29:51-03:00",
         "archived": false
@@ -209,7 +210,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:11.099Z"
+      "last_checked_at": "2026-04-25T12:21:06.624Z"
     }
   ],
   "issues": []

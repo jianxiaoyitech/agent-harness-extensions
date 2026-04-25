@@ -207,10 +207,10 @@
   ],
   "source_config_hash": "b005ab75a5a3c72a5806e8fd2e963b5a77d1488d5bc880a50ccab92451246e9e",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:12.653Z",
+  "synced_at": "2026-04-25T12:21:07.310Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 1545,
+    "forks": 214,
     "license": "MIT",
     "updated_at": "2026-03-30T15:41:37Z",
     "archived": false
@@ -221,7 +221,8 @@
       "source_id": "geekjourneyx-md2wechat-skill",
       "source_name": "Md2Wechat Skill",
       "source_status": "active",
-      "name": "Md2wechat",
+      "name": "md2wechat",
+      "description": "Convert Markdown to WeChat Official Account HTML. Use this whenever the user wants WeChat article conversion, draft upload, image generation for articles, cover or infographic generation, image-post creation, writer-style drafting, AI trace removal, or needs to inspect supported providers, themes, and prompt templates before running the workflow.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/md2wechat/SKILL.md",
@@ -273,8 +274,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 1545,
+        "forks": 214,
         "license": "MIT",
         "updated_at": "2026-03-30T15:41:37Z",
         "archived": false
@@ -288,7 +289,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.653Z"
+      "last_checked_at": "2026-04-25T12:21:07.310Z"
     },
     {
       "id": "geekjourneyx-md2wechat-skill::skill::readme-md",
@@ -347,8 +348,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 1545,
+        "forks": 214,
         "license": "MIT",
         "updated_at": "2026-03-30T15:41:37Z",
         "archived": false
@@ -362,7 +363,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.653Z"
+      "last_checked_at": "2026-04-25T12:21:07.310Z"
     }
   ],
   "issues": []

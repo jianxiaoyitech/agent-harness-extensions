@@ -779,10 +779,10 @@
   ],
   "source_config_hash": "f13ebb0036edb0691dbc58c083fbf18ab229e72df330002c8ab731749c3551d6",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:24.674Z",
+  "synced_at": "2026-04-25T12:21:21.043Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 17472,
+    "forks": 1101,
     "license": "Apache-2.0",
     "updated_at": "2026-04-24T14:26:33-07:00",
     "archived": false
@@ -793,7 +793,8 @@
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Aspnet Core",
+      "name": "aspnet-core",
+      "description": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/aspnet-core/SKILL.md",
@@ -845,8 +846,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -861,14 +862,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-chatgpt-apps-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Chatgpt Apps",
+      "name": "chatgpt-apps",
+      "description": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply Apps SDK metadata or CSP or domain settings, or produce a docs-aligned project scaffold. Prefer a docs-first workflow by invoking the openai-docs skill or OpenAI developer docs MCP tools before generating code.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/chatgpt-apps/SKILL.md",
@@ -920,8 +922,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -936,14 +938,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-cli-creator-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Cli Creator",
+      "name": "cli-creator",
+      "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/cli-creator/SKILL.md",
@@ -995,8 +998,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1011,14 +1014,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-cloudflare-deploy-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Cloudflare Deploy",
+      "name": "cloudflare-deploy",
+      "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/cloudflare-deploy/SKILL.md",
@@ -1070,8 +1074,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1086,14 +1090,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-doc-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Doc",
+      "name": "doc",
+      "description": "Use when the task involves reading, creating, or editing `.docx` documents, especially when formatting or layout fidelity matters; prefer `python-docx` plus the bundled `scripts/render_docx.py` for visual checks.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/doc/SKILL.md",
@@ -1145,8 +1150,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1161,14 +1166,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma",
+      "name": "figma",
+      "description": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma/SKILL.md",
@@ -1220,8 +1226,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1236,14 +1242,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-code-connect-components-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Code Connect Components",
+      "name": "figma-code-connect-components",
+      "description": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wants to establish mappings between Figma designs and code implementations. For canvas writes via `use_figma`, use `figma-use`.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-code-connect-components/SKILL.md",
@@ -1295,8 +1302,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1311,14 +1318,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-create-design-system-rules-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Create Design System Rules",
+      "name": "figma-create-design-system-rules",
+      "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-create-design-system-rules/SKILL.md",
@@ -1370,8 +1378,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1386,14 +1394,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-create-new-file-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Create New File",
+      "name": "figma-create-new-file",
+      "description": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType] [fileName] (e.g. /figma-create-new-file figjam My Whiteboard)",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-create-new-file/SKILL.md",
@@ -1445,8 +1454,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1461,14 +1470,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-generate-design-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Generate Design",
+      "name": "figma-generate-design",
+      "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code'. This is the preferred workflow skill whenever the user wants to build or update a full page, screen, or view in Figma from code or a description. Discovers design system components, variables, and styles via search_design_system, imports them, and assembles screens incrementally section-by-section using design system tokens instead of hardcoded values.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-generate-design/SKILL.md",
@@ -1520,8 +1530,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1536,14 +1546,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.040Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-generate-library-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Generate Library",
+      "name": "figma-generate-library",
+      "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. This skill teaches WHAT to build and in WHAT ORDER — it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-generate-library/SKILL.md",
@@ -1595,8 +1606,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1611,14 +1622,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-implement-design-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Implement Design",
+      "name": "figma-implement-design",
+      "description": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use `figma-use`.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-implement-design/SKILL.md",
@@ -1670,8 +1682,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1686,14 +1698,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-use-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Figma Use",
+      "name": "figma-use",
+      "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context — e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/figma-use/SKILL.md",
@@ -1745,8 +1758,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1761,14 +1774,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-gh-address-comments-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Gh Address Comments",
+      "name": "gh-address-comments",
+      "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/gh-address-comments/SKILL.md",
@@ -1820,8 +1834,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1836,14 +1850,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-gh-fix-ci-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Gh Fix Ci",
+      "name": "gh-fix-ci",
+      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/gh-fix-ci/SKILL.md",
@@ -1895,8 +1910,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1911,14 +1926,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-system-imagegen-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Imagegen",
+      "name": "imagegen",
+      "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.system/imagegen/SKILL.md",
@@ -1970,8 +1986,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -1986,14 +2002,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-jupyter-notebook-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Jupyter Notebook",
+      "name": "jupyter-notebook",
+      "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/jupyter-notebook/SKILL.md",
@@ -2045,8 +2062,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2061,14 +2078,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-linear-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Linear",
+      "name": "linear",
+      "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/linear/SKILL.md",
@@ -2120,8 +2138,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2136,14 +2154,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-netlify-deploy-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Netlify Deploy",
+      "name": "netlify-deploy",
+      "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/netlify-deploy/SKILL.md",
@@ -2195,8 +2214,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2211,14 +2230,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-knowledge-capture-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Notion Knowledge Capture",
+      "name": "notion-knowledge-capture",
+      "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/notion-knowledge-capture/SKILL.md",
@@ -2270,8 +2290,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2286,14 +2306,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.671Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-meeting-intelligence-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Notion Meeting Intelligence",
+      "name": "notion-meeting-intelligence",
+      "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/notion-meeting-intelligence/SKILL.md",
@@ -2345,8 +2366,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2361,14 +2382,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-research-documentation-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Notion Research Documentation",
+      "name": "notion-research-documentation",
+      "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/notion-research-documentation/SKILL.md",
@@ -2420,8 +2442,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2436,14 +2458,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-spec-to-implementation-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Notion Spec To Implementation",
+      "name": "notion-spec-to-implementation",
+      "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/notion-spec-to-implementation/SKILL.md",
@@ -2495,8 +2518,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2511,14 +2534,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-openai-docs-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Openai Docs",
+      "name": "openai-docs",
+      "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/openai-docs/SKILL.md",
@@ -2570,8 +2594,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2586,14 +2610,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-system-openai-docs-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Openai Docs",
+      "name": "openai-docs",
+      "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.system/openai-docs/SKILL.md",
@@ -2645,8 +2670,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2661,14 +2686,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-pdf-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Pdf",
+      "name": "pdf",
+      "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/pdf/SKILL.md",
@@ -2720,8 +2746,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2736,14 +2762,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-playwright-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Playwright",
+      "name": "playwright",
+      "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/playwright/SKILL.md",
@@ -2795,8 +2822,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2811,14 +2838,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-playwright-interactive-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Playwright Interactive",
+      "name": "playwright-interactive",
+      "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/playwright-interactive/SKILL.md",
@@ -2870,8 +2898,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2886,14 +2914,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-system-plugin-creator-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Plugin Creator",
+      "name": "plugin-creator",
+      "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.system/plugin-creator/SKILL.md",
@@ -2945,8 +2974,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -2961,14 +2990,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-render-deploy-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Render Deploy",
+      "name": "render-deploy",
+      "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/render-deploy/SKILL.md",
@@ -3020,8 +3050,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3036,14 +3066,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-screenshot-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Screenshot",
+      "name": "screenshot",
+      "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/screenshot/SKILL.md",
@@ -3095,8 +3126,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3111,14 +3142,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-security-best-practices-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Security Best Practices",
+      "name": "security-best-practices",
+      "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/security-best-practices/SKILL.md",
@@ -3170,8 +3202,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3186,14 +3218,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-security-ownership-map-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Security Ownership Map",
+      "name": "security-ownership-map",
+      "description": "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/security-ownership-map/SKILL.md",
@@ -3245,8 +3278,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3261,14 +3294,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-security-threat-model-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Security Threat Model",
+      "name": "security-threat-model",
+      "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/security-threat-model/SKILL.md",
@@ -3320,8 +3354,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3336,14 +3370,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-sentry-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Sentry",
+      "name": "sentry",
+      "description": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/sentry/SKILL.md",
@@ -3395,8 +3430,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3411,14 +3446,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-creator-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Skill Creator",
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.system/skill-creator/SKILL.md",
@@ -3470,8 +3506,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3486,14 +3522,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-installer-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Skill Installer",
+      "name": "skill-installer",
+      "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.system/skill-installer/SKILL.md",
@@ -3545,8 +3582,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3561,14 +3598,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-sora-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Sora",
+      "name": "sora",
+      "description": "Use when the user asks to generate, edit, extend, poll, list, download, or delete Sora videos, create reusable non-human Sora character references, or run local multi-video queues via the bundled CLI (`scripts/sora.py`); includes requests like: (i) generate AI video, (ii) edit this Sora clip, (iii) extend this video, (iv) create a character reference, (v) download video/thumbnail/spritesheet, and (vi) Sora batch planning; requires `OPENAI_API_KEY` and Sora API access.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/sora/SKILL.md",
@@ -3620,8 +3658,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3636,14 +3674,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-speech-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Speech",
+      "name": "speech",
+      "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/speech/SKILL.md",
@@ -3695,8 +3734,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3711,14 +3750,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-transcribe-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Transcribe",
+      "name": "transcribe",
+      "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/transcribe/SKILL.md",
@@ -3770,8 +3810,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3786,14 +3826,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-vercel-deploy-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Vercel Deploy",
+      "name": "vercel-deploy",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/vercel-deploy/SKILL.md",
@@ -3845,8 +3886,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3861,14 +3902,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-winui-app-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Winui App",
+      "name": "winui-app",
+      "description": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a brand new app, preparing a machine for WinUI, reviewing, refactoring, planning, troubleshooting, environment-checking, or setting up WinUI 3 XAML, controls, navigation, windowing, theming, accessibility, responsiveness, performance, deployment, or related Windows app design and development work.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/winui-app/SKILL.md",
@@ -3920,8 +3962,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -3936,14 +3978,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-yeet-skill-md",
       "source_id": "openai-skills",
       "source_name": "OpenAI Skills",
       "source_status": "active",
-      "name": "Yeet",
+      "name": "yeet",
+      "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/.curated/yeet/SKILL.md",
@@ -3995,8 +4038,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 17472,
+        "forks": 1101,
         "license": "Apache-2.0",
         "updated_at": "2026-04-24T14:26:33-07:00",
         "archived": false
@@ -4011,7 +4054,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:24.672Z"
+      "last_checked_at": "2026-04-25T12:21:21.041Z"
     }
   ],
   "issues": []

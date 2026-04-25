@@ -154,10 +154,10 @@
   ],
   "source_config_hash": "e5a152ca9b7e854cd2e34876b70e3b43941d9d2d24ff6ab6d2fbfa6e72c5728b",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:21.076Z",
+  "synced_at": "2026-04-25T12:21:16.856Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 84499,
+    "forks": 10497,
     "license": "MIT",
     "updated_at": "2026-04-17T18:59:54-04:00",
     "archived": false
@@ -220,8 +220,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 84499,
+        "forks": 10497,
         "license": "MIT",
         "updated_at": "2026-04-17T18:59:54-04:00",
         "archived": false
@@ -235,7 +235,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.076Z"
+      "last_checked_at": "2026-04-25T12:21:16.855Z"
     },
     {
       "id": "modelcontextprotocol-servers::mcp-server::readme-md",
@@ -294,8 +294,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 84499,
+        "forks": 10497,
         "license": "MIT",
         "updated_at": "2026-04-17T18:59:54-04:00",
         "archived": false
@@ -309,7 +309,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:21.076Z"
+      "last_checked_at": "2026-04-25T12:21:16.856Z"
     }
   ],
   "issues": []

@@ -13,6 +13,7 @@ import { SORT_COLUMNS } from "../constants";
 import {
   buildInstallGuide,
   compatibilityGlyph,
+  formatNumber,
   repoLabel,
   shortPathLabel,
   supportedHarnessCount,
@@ -205,7 +206,6 @@ export function DirectoryTable({
               </TableRow>
             ) : (
               filteredRows.flatMap((row) => {
-                const count = supportedHarnessCount(row);
                 const isExpanded = expandedRowId === row.id;
                 const codexGuide = buildInstallGuide(row, "codex");
                 const claudeCodeGuide = buildInstallGuide(row, "claude-code");
@@ -250,15 +250,24 @@ export function DirectoryTable({
                             {row.name}
                           </a>
                         </div>
-                        <div className="inline-flex rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
-                          {row.type_label}
-                        </div>
-                        {count >= 2 ? (
-                          <div className="inline-flex rounded-full bg-secondary px-2 py-0.5 text-[0.68rem] font-medium text-secondary-foreground">
-                            Reusable
+                        {isExpanded && row.color ? (
+                          <div className="inline-flex items-center gap-1 rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
+                            <span
+                              className="inline-flex size-2 rounded-full"
+                              style={{ backgroundColor: row.color }}
+                            />
+                            {row.color}
                           </div>
                         ) : null}
                       </div>
+                      {isExpanded && row.description ? (
+                        <div className="mt-1 max-w-3xl text-[0.78rem] leading-relaxed text-muted-foreground whitespace-normal">
+                          {row.description}
+                        </div>
+                      ) : null}
+                    </TableCell>
+                    <TableCell className="px-3 py-3 text-sm text-muted-foreground">
+                      {row.stars > 0 ? formatNumber(row.stars) : "-"}
                     </TableCell>
                     <TableCell className="relative px-3 py-3">
                       <div className="flex flex-wrap items-center gap-1.5">

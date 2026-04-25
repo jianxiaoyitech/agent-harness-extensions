@@ -1851,10 +1851,10 @@
   ],
   "source_config_hash": "d4372bd681f29baa47b04ba1d493e0121e81a4489f6dbe48bf37c302f4f10ce9",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:19.594Z",
+  "synced_at": "2026-04-25T12:21:15.187Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 57424,
+    "forks": 8657,
     "license": "LICENSE",
     "updated_at": "2026-04-06T15:35:32-07:00",
     "archived": false
@@ -1917,8 +1917,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 57424,
+        "forks": 8657,
         "license": "LICENSE",
         "updated_at": "2026-04-06T15:35:32-07:00",
         "archived": false
@@ -1932,7 +1932,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:19.594Z"
+      "last_checked_at": "2026-04-25T12:21:15.187Z"
     }
   ],
   "issues": []

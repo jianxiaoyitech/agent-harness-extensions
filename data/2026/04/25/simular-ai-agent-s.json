@@ -140,10 +140,10 @@
   ],
   "source_config_hash": "950d89e29ea6f06fc3dec64644d111d0e6320489b9787fdf0e2818e56e492093",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:28.529Z",
+  "synced_at": "2026-04-25T12:21:24.685Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 10911,
+    "forks": 1271,
     "license": "Apache-2.0",
     "updated_at": "2026-02-20T22:09:49-08:00",
     "archived": false
@@ -206,8 +206,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 10911,
+        "forks": 1271,
         "license": "Apache-2.0",
         "updated_at": "2026-02-20T22:09:49-08:00",
         "archived": false
@@ -222,7 +222,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:28.529Z"
+      "last_checked_at": "2026-04-25T12:21:24.685Z"
     },
     {
       "id": "simular-ai-agent-s::skill::integrations-openclaw-skill-md",
@@ -281,8 +281,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 10911,
+        "forks": 1271,
         "license": "Apache-2.0",
         "updated_at": "2026-02-20T22:09:49-08:00",
         "archived": false
@@ -298,7 +298,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:28.529Z"
+      "last_checked_at": "2026-04-25T12:21:24.685Z"
     }
   ],
   "issues": []

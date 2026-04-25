@@ -19,7 +19,7 @@
   ],
   "source_config_hash": "f37863473ac62172ed9e49bb6214cfd73927d43c738bcd5dacc07347eaf37ec4",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:33.854Z",
+  "synced_at": "2026-04-25T12:21:30.448Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -100,14 +100,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:33.854Z"
+      "last_checked_at": "2026-04-25T12:21:30.448Z"
     },
     {
       "id": "win4r-openclaw-workspace::skill::skill-md",
       "source_id": "win4r-openclaw-workspace",
       "source_name": "OpenClaw Workspace",
       "source_status": "active",
-      "name": "SKILL.md",
+      "name": "openclaw-workspace",
+      "description": "Use when maintaining or optimizing OpenClaw workspace files — AGENTS.md, TOOLS.md, SOUL.md, USER.md, IDENTITY.md, HEARTBEAT.md, BOOT.md, MEMORY.md, and related checklists and memory files. Covers workspace auditing, token budget analysis, new agent workspace setup from scratch, memory distillation, and cross-file consistency reviews.",
       "type": "skill",
       "type_label": "Skill",
       "path": "SKILL.md",
@@ -175,7 +176,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:33.854Z"
+      "last_checked_at": "2026-04-25T12:21:30.448Z"
     }
   ],
   "issues": []

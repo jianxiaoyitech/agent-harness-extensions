@@ -8,7 +8,7 @@
   "repo": "https://github.com/getty104/claude-code-marketplace",
   "default_branch": "main",
   "previous_sha": "aa5a1af56452e093fa2e3726f7ff11f68ea3a081",
-  "current_sha": "372a3ec64905476c94a527f41a0259dec61655ad",
+  "current_sha": "48facd49aa064623b629248ff19fb7fcdc3242f4",
   "mode": "full",
   "changed_files": [
     ".claude-plugin/marketplace.json",
@@ -58,12 +58,12 @@
   ],
   "source_config_hash": "63b5725b386df3f0420a8de36de9c9af56993d74f94c9a5ea5837633ffdeeed2",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:12.740Z",
+  "synced_at": "2026-04-25T12:21:08.113Z",
   "repo_metrics": {
-    "stars": 0,
+    "stars": 11,
     "forks": 0,
     "license": "Unknown",
-    "updated_at": "2026-04-25T14:36:28+09:00",
+    "updated_at": "2026-04-25T21:12:34+09:00",
     "archived": false
   },
   "artifacts": [
@@ -72,7 +72,8 @@
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Answer Issue Questions",
+      "name": "answer-issue-questions",
+      "description": "GitHub Issueの確認事項に対して、コードベースやドキュメントを徹底的に調査し、根拠に基づいた回答を提供するスキル。Issueの最後のコメントに含まれる確認事項を調査・回答し、コメントに追記する。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/answer-issue-questions/SKILL.md",
@@ -124,10 +125,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -143,84 +144,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
-    },
-    {
-      "id": "getty104-claude-code-marketplace::plugin::base-tools-claude-plugin-plugin-json",
-      "source_id": "getty104-claude-code-marketplace",
-      "source_name": "getty104 Claude Code Marketplace",
-      "source_status": "active",
-      "name": "Base Tools",
-      "type": "plugin",
-      "type_label": "Plugin",
-      "path": "base-tools/.claude-plugin/plugin.json",
-      "repo": "https://github.com/getty104/claude-code-marketplace",
-      "repo_path_url": "https://github.com/getty104/claude-code-marketplace/blob/main/base-tools/.claude-plugin/plugin.json",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manifest"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "mcp-server",
-          "skill",
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::mcp-server::base-tools-mcp-json",
@@ -279,10 +203,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -297,14 +221,93 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.110Z"
+    },
+    {
+      "id": "getty104-claude-code-marketplace::plugin::base-tools-claude-plugin-plugin-json",
+      "source_id": "getty104-claude-code-marketplace",
+      "source_name": "getty104 Claude Code Marketplace",
+      "source_status": "active",
+      "name": "base-tools",
+      "description": "This is a getty104's base tool set",
+      "type": "plugin",
+      "type_label": "Plugin",
+      "path": "base-tools/.claude-plugin/plugin.json",
+      "repo": "https://github.com/getty104/claude-code-marketplace",
+      "repo_path_url": "https://github.com/getty104/claude-code-marketplace/blob/main/base-tools/.claude-plugin/plugin.json",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 11,
+        "forks": 0,
+        "license": "Unknown",
+        "updated_at": "2026-04-25T21:12:34+09:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manifest"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "mcp-server",
+          "skill",
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:08.110Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-breakdown-issues-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Breakdown Issues",
+      "name": "breakdown-issues",
+      "description": "依頼された内容を要件とTODOに分解し、タスクごとにGitHub Issueを作成するスキル。タスクの整理・分解、複数Issueの一括作成、依存関係の明示が必要な場合に使用する。「この機能をIssueに分けて」「タスクを洗い出してIssueにして」「要件を整理してチケット化して」といったリクエストで発動する。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/breakdown-issues/SKILL.md",
@@ -356,10 +359,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -375,14 +378,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::claude-skills-bump-version-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Bump Version",
+      "name": "bump-version",
+      "description": "base-toolsプラグインのバージョン（patchバージョン）をインクリメントし、commit-pushでコミット・プッシュする。「バージョンを上げて」「バージョンアップ」「bump version」などのリクエストで使用する。",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/bump-version/SKILL.md",
@@ -434,10 +438,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -453,14 +457,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.110Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-check-dependabot-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Check Dependabot",
+      "name": "check-dependabot",
+      "description": "指定されたPR番号のDependabot PRを確認し、依存ライブラリのバージョンアップ内容をCHANGELOGとcontext7から取得して、コード修正が必要かを判定します。修正が必要な場合は修正を行い、pushまで実施します。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/check-dependabot/SKILL.md",
@@ -512,10 +517,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -531,14 +536,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-check-library-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Check Library",
+      "name": "check-library",
+      "description": "ライブラリの情報を確認するためのスキル。Next.js、shadcn、その他のライブラリについて、適切なMCPサーバーを使用して最新のドキュメントと使用方法を取得します。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/check-library/SKILL.md",
@@ -590,10 +596,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -609,14 +615,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-commit-push-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Commit Push",
+      "name": "commit-push",
+      "description": "コード変更を適切なgitコミット戦略でgit commitし、pushします。基本的には既存のgitコミットへのsquash戦略を採用し、必要に応じてブランチ全体のgitコミット履歴を再構成します。実装完了時やユーザーがgit commitを依頼した時に使用します。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/commit-push/SKILL.md",
@@ -668,10 +675,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -687,14 +694,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::claude-skills-create-agent-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Create Agent",
+      "name": "create-agent",
+      "description": "Create a new sub-agent definition file (agents/*.md) for the Claude Code plugin. Use this skill when the user wants to add a new specialized agent, define a new agent type, or create an agent that handles a specific domain of tasks. Trigger whenever the user mentions creating, adding, or defining a new agent or sub-agent.",
       "type": "skill",
       "type_label": "Skill",
       "path": ".claude/skills/create-agent/SKILL.md",
@@ -746,10 +754,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -765,14 +773,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.111Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-issue-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Create Issue",
+      "name": "create-issue",
+      "description": "Create an implementation plan and a GitHub Issue based on the task description provided as an argument. If an issue number is provided, update the existing issue instead.",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/create-issue/SKILL.md",
@@ -824,10 +833,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -843,14 +852,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-pr-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Create Pr",
+      "name": "create-pr",
+      "description": "GitHubでPull Request（PR）を作成します。PRのdescriptionには指定されたテンプレートを使用し、必要な情報を記載します。PR作成後、PRのURLを報告します。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/create-pr/SKILL.md",
@@ -902,10 +912,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -921,14 +931,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-review-fix-plan-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Create Review Fix Plan",
+      "name": "create-review-fix-plan",
+      "description": "GitHub PRの未解決レビューコメントとCIステータスを確認し、修正プランを作成します。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/create-review-fix-plan/SKILL.md",
@@ -980,10 +991,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -999,14 +1010,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-task-summary-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Create Task Summary",
+      "name": "create-task-summary",
+      "description": "直近一週間で自身が作成したPRを取得し、やったことのサマリーを作成する。週次報告や作業振り返り時に使用。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/create-task-summary/SKILL.md",
@@ -1058,10 +1070,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1077,14 +1089,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-exec-issue-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Exec Issue",
+      "name": "exec-issue",
+      "description": "Execute tasks based on GitHub Issue content",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/exec-issue/SKILL.md",
@@ -1136,10 +1149,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1155,14 +1168,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-fix-review-point-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Fix Review Point",
+      "name": "fix-review-point",
+      "description": "Address unresolved review comments on specified PR",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/fix-review-point/SKILL.md",
@@ -1214,10 +1228,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1233,14 +1247,16 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-frontend-implementer-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Frontend Implementer",
+      "name": "frontend-implementer",
+      "description": "デザインに基づいてフロントエンドUIを実装する際に使用するエージェント。定義されたデザインシステムとコンポーネントを活用する。例:\\n\\n<example>\\nContext: ユーザーがデザインを元に新しいページやUIコンポーネントを実装したい。\\nuser: \"このデザインを元にダッシュボードページを実装してください\"\\nassistant: \"frontend-implementerエージェントを使用してダッシュボードページを実装します\"\\n<commentary>\\nUIの実装タスクなので、frontend-implementerエージェントを起動してデザインシステムを活用した実装を行う。\\n</commentary>\\n</example>\\n\\n<example>\\nContext: ユーザーが既存のデザインパターンに従って新しいコンポーネントを構築したい。\\nuser: \"shadcn/uiを使ってユーザープロフィールカードコンポーネントを作成して\"\\nassistant: \"frontend-implementerエージェントを使用してプロフィールカードコンポーネントを実装します\"\\n<commentary>\\nコンポーネント作成タスクなので、frontend-implementerエージェントを起動してデザインシステムに沿った実装を行う。\\n</commentary>\\n</example>\\n\\n<example>\\nContext: ユーザーがUIの不整合を修正したり、デザイントークンを適用したい。\\nuser: \"このフォームのスタイルをデザインシステムに合わせて修正して\"\\nassistant: \"frontend-implementerエージェントを起動してデザインシステムに準拠した修正を行います\"\\n<commentary>\\nデザインシステムへの準拠修正タスクなので、frontend-implementerエージェントを使用する。\\n</commentary>\\n</example>",
+      "color": "yellow",
       "type": "agent",
       "type_label": "Agent",
       "path": "base-tools/agents/frontend-implementer.md",
@@ -1292,10 +1308,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1311,14 +1327,16 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.111Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-general-purpose-assistant-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "General Purpose Assistant",
+      "name": "general-purpose-assistant",
+      "description": "Use this agent when the user has a general request that doesn't fit into a specific specialized agent's domain, or when the task requires broad problem-solving capabilities across multiple areas. This agent should be used as a fallback for diverse tasks including:\\n\\n<example>\\nContext: User needs help with a task that doesn't match any specialized agent.\\nuser: \"プロジェクトの全体的な構造を説明してください\"\\nassistant: \"一般的な質問なので、general-purpose-assistantエージェントを使用して回答します\"\\n<commentary>\\nThis is a general inquiry about project structure that doesn't require specialized expertise, so the general-purpose-assistant agent is appropriate.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: User asks for advice on workflow or process improvements.\\nuser: \"開発効率を上げるためのアドバイスをください\"\\nassistant: \"開発効率の改善についての一般的なアドバイスが必要なので、general-purpose-assistantエージェントを使用します\"\\n<commentary>\\nThis requires broad knowledge across development practices, making it suitable for the general-purpose agent.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: User needs help understanding or explaining concepts.\\nuser: \"このコードベースで使われているアーキテクチャパターンについて教えて\"\\nassistant: \"アーキテクチャの説明という一般的なタスクなので、general-purpose-assistantエージェントを使用します\"\\n<commentary>\\nExplaining architectural concepts is a general educational task suitable for this agent.\\n</commentary>\\n</example>",
+      "color": "blue",
       "type": "agent",
       "type_label": "Agent",
       "path": "base-tools/agents/general-purpose-assistant.md",
@@ -1370,10 +1388,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1389,14 +1407,16 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-lightweight-assistant-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Lightweight Assistant",
+      "name": "lightweight-assistant",
+      "description": "Use this agent for simple, well-defined, single-step tasks where speed and cost-efficiency matter more than deep reasoning. Ideal for mechanical operations like file lookups, simple text transformations, straightforward code reads, or quick answers that don't require multi-step planning or complex judgment. This is the haiku-powered lightweight counterpart to general-purpose-assistant — delegate here when the task is obvious and bounded.\\n\\n<example>\\nContext: ユーザーが単純なファイル確認を依頼。\\nuser: \"package.jsonに記載されているReactのバージョンを教えて\"\\nassistant: \"単純な参照タスクなので、lightweight-assistantエージェントで素早く対応します\"\\n<commentary>\\n単一ファイルの参照のみで完結する軽量なタスクなので、haikuベースのlightweight-assistantが最適。\\n</commentary>\\n</example>\\n\\n<example>\\nContext: ユーザーが機械的なテキスト変換を依頼。\\nuser: \"このリストをアルファベット順にソートして\"\\nassistant: \"機械的な処理なので、lightweight-assistantエージェントを使用します\"\\n<commentary>\\n複雑な判断が不要な単純作業なので、高速・低コストなlightweight-assistantを選択。\\n</commentary>\\n</example>\\n\\n<example>\\nContext: ユーザーが簡単な情報検索を依頼。\\nuser: \"このプロジェクトのREADMEに記載されているインストール手順を抜き出して\"\\nassistant: \"単純な抜粋タスクなので、lightweight-assistantエージェントで対応します\"\\n<commentary>\\n情報の抽出のみで深い解釈が不要なため、lightweight-assistantで十分。\\n</commentary>\\n</example>",
+      "color": "green",
       "type": "agent",
       "type_label": "Agent",
       "path": "base-tools/agents/lightweight-assistant.md",
@@ -1448,10 +1468,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1467,14 +1487,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-playwright-cli-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Playwright Cli",
+      "name": "playwright-cli",
+      "description": "Automate browser interactions, test web pages and work with Playwright tests.",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/playwright-cli/SKILL.md",
@@ -1526,10 +1547,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1545,14 +1566,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-read-github-issue-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Read Github Issue",
+      "name": "read-github-issue",
+      "description": "GitHub Issueの内容を取得し、並列実行可能な単位に分解します。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/read-github-issue/SKILL.md",
@@ -1604,10 +1626,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1623,14 +1645,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-requirement-todo-organizer-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Requirement Todo Organizer",
+      "name": "requirement-todo-organizer",
+      "description": "タスク、機能リクエスト、漠然としたアイデアを明確な要件と依存関係付きのTODOリストに分解する必要がある場合にこのエージェントを使用します。新機能の計画、プロジェクト要求の分析、実装前の作業構造化などが含まれます。\\n\\nExamples:\\n\\n<example>\\nContext: ユーザーが新しい機能の構築について説明している。\\nuser: \"ユーザー認証機能を追加したい。メール認証とOAuth対応で。\"\\nassistant: \"要件を整理してTODOに分解するために、requirement-todo-organizer エージェントを使います。\"\\n<commentary>\\nユーザーが要件とタスクに分解する必要のある機能を説明しているため、Agent ツールを使って requirement-todo-organizer エージェントを起動します。\\n</commentary>\\n</example>\\n\\n<example>\\nContext: ユーザーが漠然としたアイデアを持っており、構造化が必要。\\nuser: \"ECサイトの検索機能を改善したいんだけど、何から手をつければいいかわからない\"\\nassistant: \"requirement-todo-organizer エージェントを使って、要件を整理し、依存関係付きのTODOリストを作成します。\"\\n<commentary>\\nユーザーの漠然としたリクエストには要件分析とタスク整理が必要です。Agent ツールを使って requirement-todo-organizer エージェントを起動します。\\n</commentary>\\n</example>",
       "type": "agent",
       "type_label": "Agent",
       "path": "base-tools/agents/requirement-todo-organizer.md",
@@ -1682,10 +1705,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1701,14 +1724,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.738Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-resolve-pr-comments-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Resolve Pr Comments",
+      "name": "resolve-pr-comments",
+      "description": "GitHub PRの未解決Review threadsを一括Resolveします。",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/resolve-pr-comments/SKILL.md",
@@ -1760,10 +1784,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1779,14 +1803,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-triage-issue-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Triage Issue",
+      "name": "triage-issue",
+      "description": "Triage GitHub issue assigned to the user. Categorize and process issues by adding appropriate labels (cc-create-issue, cc-exec-issue, or cc-update-issue) based on dependency analysis, issue detail status, and whether confirmation items need answers.",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/triage-issue/SKILL.md",
@@ -1838,10 +1863,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1857,14 +1882,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-triage-pr-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Triage Pr",
+      "name": "triage-pr",
+      "description": "Triage a single GitHub PR by PR number. Check out the PR's branch, resolve conflicts with main, generate and evaluate a fix plan via create-review-fix-plan, then take action (add cc-fix-onetime label if fixes are needed, or merge the PR if it's ready).",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/triage-pr/SKILL.md",
@@ -1916,10 +1942,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -1935,14 +1961,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-update-issue-skill-md",
       "source_id": "getty104-claude-code-marketplace",
       "source_name": "getty104 Claude Code Marketplace",
       "source_status": "active",
-      "name": "Update Issue",
+      "name": "update-issue",
+      "description": "Update an existing GitHub Issue's description based on the issue number and request provided as arguments",
       "type": "skill",
       "type_label": "Skill",
       "path": "base-tools/skills/update-issue/SKILL.md",
@@ -1994,10 +2021,10 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
+        "stars": 11,
         "forks": 0,
         "license": "Unknown",
-        "updated_at": "2026-04-25T14:36:28+09:00",
+        "updated_at": "2026-04-25T21:12:34+09:00",
         "archived": false
       },
       "detection": {
@@ -2013,7 +2040,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:12.739Z"
+      "last_checked_at": "2026-04-25T12:21:08.112Z"
     }
   ],
   "issues": []

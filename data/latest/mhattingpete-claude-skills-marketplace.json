@@ -101,98 +101,22 @@
   ],
   "source_config_hash": "e7a1a332898ab27a7cce47ec78abde8c3754324aacafd5454de18ef3fc713d1d",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:18.144Z",
+  "synced_at": "2026-04-25T12:21:13.957Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 561,
+    "forks": 66,
     "license": "Apache-2.0",
     "updated_at": "2026-03-06T11:13:48+01:00",
     "archived": false
   },
   "artifacts": [
     {
-      "id": "mhattingpete-claude-skills-marketplace::agent::engineering-workflow-plugin-agents-ensemble-orchestrator-agent-md",
-      "source_id": "mhattingpete-claude-skills-marketplace",
-      "source_name": "mhattingpete Claude Skills Marketplace",
-      "source_status": "active",
-      "name": "AGENT",
-      "type": "agent",
-      "type_label": "Agent",
-      "path": "engineering-workflow-plugin/agents/ensemble-orchestrator/AGENT.md",
-      "repo": "https://github.com/mhattingpete/claude-skills-marketplace",
-      "repo_path_url": "https://github.com/mhattingpete/claude-skills-marketplace/blob/main/engineering-workflow-plugin/agents/ensemble-orchestrator/AGENT.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "blank",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2026-03-06T11:13:48+01:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "pattern",
-        "pattern": "*/agents/**/AGENT.md"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "plugin",
-          "skill",
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
-    },
-    {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-architecture-diagram-creator-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Architecture Diagram Creator",
+      "name": "architecture-diagram-creator",
+      "description": "Create comprehensive HTML architecture diagrams showing data flows, business objectives, features, technical architecture, and deployment. Use when users request system architecture, project documentation, high-level overviews, or technical specifications.",
       "type": "skill",
       "type_label": "Skill",
       "path": "visual-documentation-plugin/skills/architecture-diagram-creator/SKILL.md",
@@ -244,8 +168,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -262,14 +186,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::productivity-skills-plugin-skills-code-auditor-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Code Auditor",
+      "name": "code-auditor",
+      "description": "Performs comprehensive codebase analysis covering architecture, code quality, security, performance, testing, and maintainability. Use when user wants to audit code quality, identify technical debt, find security issues, assess test coverage, or get a codebase health check.",
       "type": "skill",
       "type_label": "Skill",
       "path": "productivity-skills-plugin/skills/code-auditor/SKILL.md",
@@ -321,8 +246,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -339,14 +264,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::code-operations-plugin-skills-code-execution-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Code Execution",
+      "name": "code-execution",
+      "description": "Execute Python code locally with marketplace API access for 90%+ token savings on bulk operations. Activates when user requests bulk operations (10+ files), complex multi-step workflows, iterative processing, or mentions efficiency/performance.",
       "type": "skill",
       "type_label": "Skill",
       "path": "code-operations-plugin/skills/code-execution/SKILL.md",
@@ -398,8 +324,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -416,14 +342,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::plugin::code-operations-plugin-claude-plugin-plugin-json",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Code Operations Plugin",
+      "name": "code-operations-skills",
+      "description": "Skills for code manipulation operations including line-based code transfer, bulk refactoring, and file analysis - converted from code-copy-mcp",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "code-operations-plugin/.claude-plugin/plugin.json",
@@ -475,8 +402,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -492,14 +419,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.142Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::code-operations-plugin-skills-code-refactor-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Code Refactor",
+      "name": "code-refactor",
+      "description": "Perform bulk code refactoring operations like renaming variables/functions across files, replacing patterns, and updating API calls. Use when users request renaming identifiers, replacing deprecated code patterns, updating method calls, or making consistent changes across multiple locations.",
       "type": "skill",
       "type_label": "Skill",
       "path": "code-operations-plugin/skills/code-refactor/SKILL.md",
@@ -551,8 +479,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -569,14 +497,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::code-operations-plugin-skills-code-transfer-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Code Transfer",
+      "name": "code-transfer",
+      "description": "Transfer code between files with line-based precision. Use when users request copying code from one location to another, moving functions or classes between files, extracting code blocks, or inserting code at specific line numbers.",
       "type": "skill",
       "type_label": "Skill",
       "path": "code-operations-plugin/skills/code-transfer/SKILL.md",
@@ -628,8 +557,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -646,14 +575,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::productivity-skills-plugin-skills-codebase-documenter-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Codebase Documenter",
+      "name": "codebase-documenter",
+      "description": "Generates comprehensive documentation explaining how a codebase works, including architecture, key components, data flow, and development guidelines. Use when user wants to understand unfamiliar code, create onboarding docs, document architecture, or explain how the system works.",
       "type": "skill",
       "type_label": "Skill",
       "path": "productivity-skills-plugin/skills/codebase-documenter/SKILL.md",
@@ -705,8 +635,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -723,14 +653,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::productivity-skills-plugin-skills-conversation-analyzer-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Conversation Analyzer",
+      "name": "conversation-analyzer",
+      "description": "Analyzes your Claude Code conversation history to identify patterns, common mistakes, and opportunities for workflow improvement. Use when user wants to understand usage patterns, optimize workflow, identify automation opportunities, or check if they're following best practices.",
       "type": "skill",
       "type_label": "Skill",
       "path": "productivity-skills-plugin/skills/conversation-analyzer/SKILL.md",
@@ -782,8 +713,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -800,14 +731,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-dashboard-creator-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Dashboard Creator",
+      "name": "dashboard-creator",
+      "description": "Create HTML dashboards with KPI metric cards, bar/pie/line charts, progress indicators, and data visualizations. Use when users request dashboards, metrics displays, KPI visualizations, data charts, or monitoring interfaces.",
       "type": "skill",
       "type_label": "Skill",
       "path": "visual-documentation-plugin/skills/dashboard-creator/SKILL.md",
@@ -859,8 +791,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -877,14 +809,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::plugin::engineering-workflow-plugin-claude-plugin-plugin-json",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Engineering Workflow Plugin",
+      "name": "engineering-workflow-skills",
+      "description": "Skills for software engineering workflows: git operations, test fixing, code review, feature planning, and ensemble problem solving (generates multiple solutions in parallel and selects the best)",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "engineering-workflow-plugin/.claude-plugin/plugin.json",
@@ -936,8 +869,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -953,14 +886,93 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.142Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
+    },
+    {
+      "id": "mhattingpete-claude-skills-marketplace::agent::engineering-workflow-plugin-agents-ensemble-orchestrator-agent-md",
+      "source_id": "mhattingpete-claude-skills-marketplace",
+      "source_name": "mhattingpete Claude Skills Marketplace",
+      "source_status": "active",
+      "name": "ensemble-orchestrator",
+      "description": "Generates multiple solution approaches in parallel and selects the best result. Use for creative tasks, complex reasoning, architecture decisions, or code generation where exploring multiple angles improves quality.",
+      "type": "agent",
+      "type_label": "Agent",
+      "path": "engineering-workflow-plugin/agents/ensemble-orchestrator/AGENT.md",
+      "repo": "https://github.com/mhattingpete/claude-skills-marketplace",
+      "repo_path_url": "https://github.com/mhattingpete/claude-skills-marketplace/blob/main/engineering-workflow-plugin/agents/ensemble-orchestrator/AGENT.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "blank",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 561,
+        "forks": 66,
+        "license": "Apache-2.0",
+        "updated_at": "2026-03-06T11:13:48+01:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "pattern",
+        "pattern": "*/agents/**/AGENT.md"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "plugin",
+          "skill",
+          "agent"
+        ]
+      },
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-ensemble-solving-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Ensemble Solving",
+      "name": "ensemble-solving",
+      "description": "Generate multiple diverse solutions in parallel and select the best. Use for architecture decisions, code generation with multiple valid approaches, or creative tasks where exploring alternatives improves quality.",
       "type": "skill",
       "type_label": "Skill",
       "path": "engineering-workflow-plugin/skills/ensemble-solving/SKILL.md",
@@ -1012,8 +1024,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1030,14 +1042,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-feature-planning-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Feature Planning",
+      "name": "feature-planning",
+      "description": "Break down feature requests into detailed, implementable plans with clear tasks. Use when user requests a new feature, enhancement, or complex change.",
       "type": "skill",
       "type_label": "Skill",
       "path": "engineering-workflow-plugin/skills/feature-planning/SKILL.md",
@@ -1089,8 +1102,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1107,14 +1120,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::code-operations-plugin-skills-file-operations-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "File Operations",
+      "name": "file-operations",
+      "description": "Analyze files and get detailed metadata including size, line counts, modification times, and content statistics. Use when users request file information, statistics, or analysis without modifying files.",
       "type": "skill",
       "type_label": "Skill",
       "path": "code-operations-plugin/skills/file-operations/SKILL.md",
@@ -1166,8 +1180,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1184,14 +1198,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-flowchart-creator-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Flowchart Creator",
+      "name": "flowchart-creator",
+      "description": "Create HTML flowcharts and process diagrams with decision trees, color-coded stages, arrows, and swimlanes. Use when users request flowcharts, process diagrams, workflow visualizations, or decision trees.",
       "type": "skill",
       "type_label": "Skill",
       "path": "visual-documentation-plugin/skills/flowchart-creator/SKILL.md",
@@ -1243,8 +1258,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1261,14 +1276,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-git-pushing-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Git Pushing",
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
       "type": "skill",
       "type_label": "Skill",
       "path": "engineering-workflow-plugin/skills/git-pushing/SKILL.md",
@@ -1320,8 +1336,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1338,14 +1354,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::agent::engineering-workflow-plugin-agents-plan-implementer-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Plan Implementer",
+      "name": "plan-implementer",
+      "description": "Implement code based on a specific plan or task description. This agent is designed for focused, incremental implementation work where there is a clear specification or plan to execute. Use when there are well-defined implementation tasks from a feature plan.",
       "type": "agent",
       "type_label": "Agent",
       "path": "engineering-workflow-plugin/agents/plan-implementer.md",
@@ -1397,8 +1414,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1415,14 +1432,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::plugin::productivity-skills-plugin-claude-plugin-plugin-json",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Productivity Skills Plugin",
+      "name": "productivity-skills",
+      "description": "Productivity and workflow optimization skills for analyzing usage patterns, auditing code, bootstrapping projects, and generating documentation",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "productivity-skills-plugin/.claude-plugin/plugin.json",
@@ -1474,8 +1492,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1491,14 +1509,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.142Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::productivity-skills-plugin-skills-project-bootstrapper-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Project Bootstrapper",
+      "name": "project-bootstrapper",
+      "description": "Sets up new projects or improves existing projects with development best practices, tooling, documentation, and workflow automation. Use when user wants to start a new project, improve project structure, add development tooling, or establish professional workflows.",
       "type": "skill",
       "type_label": "Skill",
       "path": "productivity-skills-plugin/skills/project-bootstrapper/SKILL.md",
@@ -1550,8 +1569,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1568,14 +1587,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-review-implementing-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Review Implementing",
+      "name": "review-implementing",
+      "description": "Process and implement code review feedback systematically. Use when user provides reviewer comments, PR feedback, code review notes, or asks to implement suggestions from reviews.",
       "type": "skill",
       "type_label": "Skill",
       "path": "engineering-workflow-plugin/skills/review-implementing/SKILL.md",
@@ -1627,8 +1647,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1645,14 +1665,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-technical-doc-creator-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Technical Doc Creator",
+      "name": "technical-doc-creator",
+      "description": "Create HTML technical documentation with code blocks, API workflows, system architecture diagrams, and syntax highlighting. Use when users request technical documentation, API docs, API references, code examples, or developer documentation.",
       "type": "skill",
       "type_label": "Skill",
       "path": "visual-documentation-plugin/skills/technical-doc-creator/SKILL.md",
@@ -1704,8 +1725,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1722,14 +1743,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-test-fixing-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Test Fixing",
+      "name": "test-fixing",
+      "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
       "type": "skill",
       "type_label": "Skill",
       "path": "engineering-workflow-plugin/skills/test-fixing/SKILL.md",
@@ -1781,8 +1803,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1799,14 +1821,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-timeline-creator-skill-md",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Timeline Creator",
+      "name": "timeline-creator",
+      "description": "Create HTML timelines and project roadmaps with Gantt charts, milestones, phase groupings, and progress indicators. Use when users request timelines, roadmaps, Gantt charts, project schedules, or milestone visualizations.",
       "type": "skill",
       "type_label": "Skill",
       "path": "visual-documentation-plugin/skills/timeline-creator/SKILL.md",
@@ -1858,8 +1881,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1876,14 +1899,15 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.143Z"
+      "last_checked_at": "2026-04-25T12:21:13.956Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::plugin::visual-documentation-plugin-claude-plugin-plugin-json",
       "source_id": "mhattingpete-claude-skills-marketplace",
       "source_name": "mhattingpete Claude Skills Marketplace",
       "source_status": "active",
-      "name": "Visual Documentation Plugin",
+      "name": "visual-documentation-skills",
+      "description": "Skills for creating stunning visual HTML documentation with modern UI design, SVG diagrams, flowcharts, dashboards, timelines, technical documentation, and comprehensive project architecture diagrams",
       "type": "plugin",
       "type_label": "Plugin",
       "path": "visual-documentation-plugin/.claude-plugin/plugin.json",
@@ -1935,8 +1959,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 561,
+        "forks": 66,
         "license": "Apache-2.0",
         "updated_at": "2026-03-06T11:13:48+01:00",
         "archived": false
@@ -1952,7 +1976,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:18.142Z"
+      "last_checked_at": "2026-04-25T12:21:13.955Z"
     }
   ],
   "issues": []

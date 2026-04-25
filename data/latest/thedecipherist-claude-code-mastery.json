@@ -45,7 +45,7 @@
   ],
   "source_config_hash": "65abd177edf503e0427f376755b32ae4c685016a876801eb8fdfa51ed40e4b53",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:30.561Z",
+  "synced_at": "2026-04-25T12:21:26.770Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -126,14 +126,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.561Z"
+      "last_checked_at": "2026-04-25T12:21:26.770Z"
     },
     {
       "id": "thedecipherist-claude-code-mastery::skill::skills-commit-messages-skill-md",
       "source_id": "thedecipherist-claude-code-mastery",
       "source_name": "Claude Code Mastery",
       "source_status": "active",
-      "name": "Commit Messages",
+      "name": "commit-messages",
+      "description": "Generate clear, conventional commit messages from git diffs. Use when writing commit messages, reviewing staged changes, or preparing releases.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/commit-messages/SKILL.md",
@@ -200,14 +201,15 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.561Z"
+      "last_checked_at": "2026-04-25T12:21:26.769Z"
     },
     {
       "id": "thedecipherist-claude-code-mastery::skill::skills-security-audit-skill-md",
       "source_id": "thedecipherist-claude-code-mastery",
       "source_name": "Claude Code Mastery",
       "source_status": "active",
-      "name": "Security Audit",
+      "name": "security-audit",
+      "description": "Audit code and dependencies for security vulnerabilities. Use when reviewing PRs, checking dependencies, preparing for deployment, or when user mentions security, vulnerabilities, or audit.",
       "type": "skill",
       "type_label": "Skill",
       "path": "skills/security-audit/SKILL.md",
@@ -274,7 +276,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:30.561Z"
+      "last_checked_at": "2026-04-25T12:21:26.770Z"
     }
   ],
   "issues": []

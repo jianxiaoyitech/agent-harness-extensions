@@ -467,10 +467,10 @@
   ],
   "source_config_hash": "91d19c4d84c37228b7ca2828112b38654a30b943c6ce51364a7d41cc59ab4ca1",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:56:14.371Z",
+  "synced_at": "2026-04-25T12:21:08.718Z",
   "repo_metrics": {
-    "stars": 0,
-    "forks": 0,
+    "stars": 29238,
+    "forks": 4064,
     "license": "MIT",
     "updated_at": "2026-04-23T12:21:29+01:00",
     "archived": false
@@ -533,8 +533,8 @@
         "zeroclaw": "blank"
       },
       "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 29238,
+        "forks": 4064,
         "license": "MIT",
         "updated_at": "2026-04-23T12:21:29+01:00",
         "archived": false
@@ -548,7 +548,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:56:14.371Z"
+      "last_checked_at": "2026-04-25T12:21:08.718Z"
     }
   ],
   "issues": []

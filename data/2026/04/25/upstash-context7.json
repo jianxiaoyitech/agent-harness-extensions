@@ -274,7 +274,7 @@
   ],
   "source_config_hash": "c9b51b6cb52381719c2ced438a68948f42bafe6eeb60251f437ae56891a592df",
   "detector_version": "2",
-  "synced_at": "2026-04-25T11:59:01.026Z",
+  "synced_at": "2026-04-25T12:21:28.627Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -356,7 +356,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.026Z"
+      "last_checked_at": "2026-04-25T12:21:28.627Z"
     },
     {
       "id": "upstash-context7::mcp-server::readme-md",
@@ -430,7 +430,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-25T11:59:01.026Z"
+      "last_checked_at": "2026-04-25T12:21:28.627Z"
     }
   ],
   "issues": []
