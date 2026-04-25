@@ -35,7 +35,6 @@ Follow updates: [RSS feed](https://jianxiaoyitech.github.io/agent-harness-extens
 - `scripts/`: sync, derive, verify, and build pipeline scripts
 - `data/`: harness metadata, source definitions, historical snapshots, and latest outputs
 - `public/`: generated public assets served by the site
-- `skills/`: guided workflows for contributors working inside the repo
 
 ## How Data Gets In
 
@@ -61,20 +60,6 @@ npm run sync
 npm run build:site
 npm run dev
 ```
-
-## Contributing Data
-
-Start with [`CONTRIBUTING.md`](./CONTRIBUTING.md).
-
-Add your extension through the repo skill:
-
-- [`skills/add-data-and-test/SKILL.md`](./skills/add-data-and-test/SKILL.md)
-
-This skill guides contributors through:
-
-1. Adding or updating authored data in `data/`
-2. Creating or editing `data/sources/*.yaml`
-3. Running the required local validation steps
 
 ## Support
 
