@@ -136,6 +136,12 @@ function singularLabel(type) {
   return TYPE_LABELS[type]?.replace(/s$/, "") || "Item";
 }
 
+function hasActiveTextSelection() {
+  if (typeof window === "undefined") return false;
+  const selection = window.getSelection();
+  return Boolean(selection && String(selection).trim().length > 0);
+}
+
 export function DirectoryTable({
   emptyMessage,
   expandedRowId,
@@ -238,9 +244,13 @@ export function DirectoryTable({
                     className={`border-b border-border/80 transition hover:bg-muted/25 ${
                       isExpanded ? "bg-accent/45" : ""
                     }`}
-                    onClick={() =>
-                      setExpandedRowId((current) => (current === row.id ? null : row.id))
-                    }
+                    onClick={() => {
+                      if (hasActiveTextSelection()) {
+                        return;
+                      }
+
+                      setExpandedRowId((current) => (current === row.id ? null : row.id));
+                    }}
                   >
                     <TableCell
                       className={`sticky left-0 z-10 px-3 py-3 font-medium ${

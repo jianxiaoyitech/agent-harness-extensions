@@ -71,6 +71,7 @@ function ChartTooltipContent({
   indicator = "dot",
   labelFormatter,
   formatter,
+  payloadSorter,
 }) {
   const { config } = useChart();
 
@@ -78,9 +79,27 @@ function ChartTooltipContent({
     return null;
   }
 
+  const visiblePayload = payload.filter((item) => {
+    if (!item) return false;
+    if (!item.dataKey) return false;
+    if (item.hide) return false;
+
+    const value = item.value;
+    if (value == null) return false;
+    if (typeof value === "number" && !Number.isFinite(value)) return false;
+
+    return true;
+  });
+
+  if (!visiblePayload.length) {
+    return null;
+  }
+
+  const sortedPayload = payloadSorter ? [...visiblePayload].sort(payloadSorter) : visiblePayload;
+
   const tooltipLabel = labelFormatter
-    ? labelFormatter(payload[0]?.payload?.date, payload)
-    : payload[0]?.payload?.date;
+    ? labelFormatter(sortedPayload[0]?.payload?.date, sortedPayload)
+    : sortedPayload[0]?.payload?.date;
 
   return (
     <div
@@ -94,12 +113,12 @@ function ChartTooltipContent({
       ) : null}
 
       <div className="grid gap-1.5">
-        {payload.map((item) => {
+        {sortedPayload.map((item, index) => {
           const key = item.dataKey;
           const itemConfig = key ? config?.[key] : null;
 
           return (
-            <div key={item.dataKey} className="flex items-center justify-between gap-3">
+            <div key={`${item.dataKey}-${index}`} className="flex items-center justify-between gap-3">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <span
                   className={cn(

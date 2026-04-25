@@ -15,6 +15,7 @@ import {
   buildFilteredTypeCounts,
   buildQuerySummary,
   compareValues,
+  formatNumber,
   repoLabel,
   supportedHarnessCount,
 } from "@/features/directory/utils";
@@ -101,6 +102,15 @@ function groupRowsBySource(filteredRows, allRows, query) {
   }));
 }
 
+function daysSince(value) {
+  if (!value) return Number.POSITIVE_INFINITY;
+
+  const timestamp = new Date(value).getTime();
+  if (Number.isNaN(timestamp)) return Number.POSITIVE_INFINITY;
+
+  return Math.floor((Date.now() - timestamp) / (1000 * 60 * 60 * 24));
+}
+
 export default function App({ initialData = null }) {
   const [activeView, setActiveView] = useState("directory");
   const [activeType, setActiveType] = useState("agent");
@@ -120,6 +130,10 @@ export default function App({ initialData = null }) {
   const searchInputRef = useRef(null);
 
   const rows = tables[activeType] || [];
+  const allRows = useMemo(
+    () => TYPE_ORDER.flatMap((type) => tables[type] || []),
+    [tables],
+  );
   const deferredSearch = useDeferredValue(search);
   const query = deferredSearch.trim().toLowerCase();
   const activeCompatibilityFilters = useMemo(
@@ -211,6 +225,49 @@ export default function App({ initialData = null }) {
       return left.source_name.localeCompare(right.source_name);
     });
   }, [filteredRows, query, rows, sortDirection, sortKey]);
+  const overviewGroups = useMemo(
+    () => groupRowsBySource(allRows, allRows, ""),
+    [allRows],
+  );
+  const overviewStats = useMemo(() => {
+    const recentlyUpdatedRepos = overviewGroups.filter(
+      (group) => daysSince(group.updated_at) <= 30,
+    );
+    const archivedRepos = overviewGroups.filter((group) => Boolean(group.archived));
+    const fastestGrowingByKind = growth?.fastest_growing_sources_30d_by_kind || {};
+
+    function fastestRepoStat(kind, label) {
+      const fastestSource = fastestGrowingByKind?.[kind] || null;
+      const fastestGroup = fastestSource
+        ? overviewGroups.find((group) => group.source_id === fastestSource.source_id) || null
+        : null;
+
+      return {
+        label,
+        value: fastestGroup ? fastestGroup.source_name : "No data",
+        detail: fastestSource && fastestGroup
+          ? `+${formatNumber(Math.max(0, fastestSource.delta))} in the last 30 days`
+          : "Growth history not available",
+      };
+    }
+
+    return [
+      {
+        label: "Recently Updated",
+        value: `${formatNumber(recentlyUpdatedRepos.length)} / ${formatNumber(overviewGroups.length)}`,
+        detail: "Repos updated in the last 30 days",
+      },
+      fastestRepoStat("agent", "Fastest Growing Agent Repo"),
+      fastestRepoStat("skill", "Fastest Growing Skill Repo"),
+      fastestRepoStat("plugin", "Fastest Growing Plugin Repo"),
+      fastestRepoStat("mcp_server", "Fastest Growing MCP Repo"),
+      {
+        label: "Archived Repos",
+        value: `${formatNumber(archivedRepos.length)} / ${formatNumber(overviewGroups.length)}`,
+        detail: "Still listed, but upstream is read-only",
+      },
+    ];
+  }, [growth, overviewGroups]);
 
   useEffect(() => {
     if (preserveExpandedRowRef.current) {
@@ -499,7 +556,7 @@ export default function App({ initialData = null }) {
                 value="growth"
                 className="rounded-none border-0 border-b border-transparent px-0 py-3 text-base font-medium text-muted-foreground shadow-none transition hover:text-foreground data-[state=active]:border-foreground data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
               >
-                Growth
+                Stats & Growth
               </TabsTrigger>
             </TabsList>
             {refreshedAt ? (
@@ -549,6 +606,24 @@ export default function App({ initialData = null }) {
           </TabsContent>
 
           <TabsContent value="growth" className="mt-0 border-b border-border py-3">
+            <div className="grid gap-2 pb-3 sm:grid-cols-2 xl:grid-cols-3">
+              {overviewStats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="rounded-xl border border-border/70 bg-card/40 px-4 py-3"
+                >
+                  <div className="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                    {stat.label}
+                  </div>
+                  <div className="pt-1 text-xl font-semibold tracking-[-0.03em] text-foreground">
+                    {stat.value}
+                  </div>
+                  <div className="pt-1 text-sm leading-snug text-muted-foreground">
+                    {stat.detail}
+                  </div>
+                </div>
+              ))}
+            </div>
             <GrowthChart growth={growth} />
           </TabsContent>
         </Tabs>

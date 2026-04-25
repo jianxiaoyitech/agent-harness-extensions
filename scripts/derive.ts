@@ -177,6 +177,7 @@ export function buildExtensionGrowthSeriesFromTotals(history: GrowthTotalPoint[]
     }
 
     return {
+      ...point,
       date: point.date,
       added,
       removed,

@@ -3,6 +3,7 @@ import {
   CartesianGrid,
   ComposedChart,
   Line,
+  ReferenceLine,
   XAxis,
   YAxis,
 } from "recharts";
@@ -17,11 +18,40 @@ function formatCompactTick(value, fractionDigits = 0) {
 }
 
 export function GrowthChart({ growth }) {
-  const points = growth?.series || [];
+  const rawPoints = growth?.series || [];
+  const points = rawPoints.map((point) => ({
+    ...point,
+    total: point.total > 0 ? point.total : null,
+    agent: point.agent > 0 ? point.agent : null,
+    skill: point.skill > 0 ? point.skill : null,
+    plugin: point.plugin > 0 ? point.plugin : null,
+    mcp_server: point.mcp_server > 0 ? point.mcp_server : null,
+  }));
+  const yearMarkers = points.filter((point, index) => {
+    const year = String(point.date || "").slice(0, 4);
+    const previousYear = String(points[index - 1]?.date || "").slice(0, 4);
+    return Boolean(year) && year !== previousYear;
+  });
   const chartConfig = {
     total: {
       label: "Total Listed",
       color: "#67e8f9",
+    },
+    agent: {
+      label: "Agents",
+      color: "#0f766e",
+    },
+    skill: {
+      label: "Skills",
+      color: "#2563eb",
+    },
+    plugin: {
+      label: "Plugins",
+      color: "#ca8a04",
+    },
+    mcp_server: {
+      label: "MCP Servers",
+      color: "#7c3aed",
     },
   };
   const maxTotal = Math.max(...points.map((point) => point.total || 0), 1);
@@ -29,7 +59,6 @@ export function GrowthChart({ growth }) {
     { length: Math.floor(Math.log10(maxTotal)) + 1 },
     (_, exponent) => 10 ** exponent,
   );
-
   if (!points.length) {
     return (
       <div className="rounded-2xl border border-border/80 bg-card/55 p-5 text-sm text-muted-foreground">
@@ -70,6 +99,21 @@ export function GrowthChart({ growth }) {
               </linearGradient>
             </defs>
             <CartesianGrid vertical={false} strokeDasharray="3 3" />
+            {yearMarkers.map((point) => (
+              <ReferenceLine
+                key={point.date}
+                x={point.date}
+                stroke="var(--color-border)"
+                strokeDasharray="2 6"
+                strokeOpacity={0.45}
+                label={{
+                  value: String(point.date).slice(0, 4),
+                  position: "insideTopLeft",
+                  fill: "var(--color-muted-foreground)",
+                  fontSize: 11,
+                }}
+              />
+            ))}
             <XAxis
               dataKey="date"
               minTickGap={28}
@@ -96,18 +140,47 @@ export function GrowthChart({ growth }) {
                 <ChartTooltipContent
                   labelFormatter={(value) => formatLongDate(value)}
                   formatter={(value) => formatNumber(value)}
+                  payloadSorter={(left, right) => Number(right?.value || 0) - Number(left?.value || 0)}
                 />
               }
             />
             <Area
-              type="monotone"
+              type="linear"
               dataKey="total"
               stroke="none"
               fill="url(#fill-active-metric)"
               fillOpacity={1}
             />
             <Line
-              type="monotone"
+              type="linear"
+              dataKey="agent"
+              stroke="var(--color-agent)"
+              strokeWidth={1.8}
+              dot={false}
+            />
+            <Line
+              type="linear"
+              dataKey="skill"
+              stroke="var(--color-skill)"
+              strokeWidth={1.8}
+              dot={false}
+            />
+            <Line
+              type="linear"
+              dataKey="plugin"
+              stroke="var(--color-plugin)"
+              strokeWidth={1.8}
+              dot={false}
+            />
+            <Line
+              type="linear"
+              dataKey="mcp_server"
+              stroke="var(--color-mcp_server)"
+              strokeWidth={1.8}
+              dot={false}
+            />
+            <Line
+              type="linear"
               dataKey="total"
               stroke="var(--color-total)"
               strokeWidth={3}

@@ -3,10 +3,12 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { build as astroBuild } from "astro";
 import {
+  getSnapshotDirForDate,
   LATEST_SNAPSHOT_DIR,
   ROOT_DIR,
   ensureDir,
   loadHarnessRegistry,
+  listSnapshotDateStamps,
   readRepoReadmeSummary,
   loadSnapshotSourceRecords,
   loadSourceFiles,
@@ -25,6 +27,13 @@ import {
 
 const PUBLIC_DATA_DIR = path.join(ROOT_DIR, "public", "data");
 const DATA_DIR = path.join(ROOT_DIR, "data");
+const ZERO_GROWTH_COUNTS = {
+  total: 0,
+  agent: 0,
+  skill: 0,
+  plugin: 0,
+  mcp_server: 0,
+};
 
 function parseMultiValueFlag(argv: string[], flag: string): string[] {
   const values: string[] = [];
@@ -56,78 +65,163 @@ async function writeJson(to: string, data: unknown): Promise<void> {
   await fs.writeFile(to, `${JSON.stringify(data, null, 2)}\n`, "utf8");
 }
 
-async function listFilesRecursively(dir: string): Promise<string[]> {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = await Promise.all(
-    entries.map(async (entry) => {
-      const resolved = path.join(dir, entry.name);
-      if (entry.isDirectory()) {
-        return listFilesRecursively(resolved);
-      }
-      return [resolved];
-    }),
-  );
+function countArtifactsByType(artifacts: Array<{ type?: string }>) {
+  const counts = { ...ZERO_GROWTH_COUNTS };
 
-  return files.flat();
+  for (const artifact of artifacts) {
+    counts.total += 1;
+    if (artifact?.type === "agent") counts.agent += 1;
+    else if (artifact?.type === "skill") counts.skill += 1;
+    else if (artifact?.type === "plugin") counts.plugin += 1;
+    else if (artifact?.type === "mcp-server") counts.mcp_server += 1;
+  }
+
+  return counts;
+}
+
+async function readSnapshotCounts(
+  snapshotDir: string,
+  sourceId: string,
+  cache: Map<string, typeof ZERO_GROWTH_COUNTS>,
+): Promise<typeof ZERO_GROWTH_COUNTS> {
+  const cacheKey = `${snapshotDir}::${sourceId}`;
+  const cached = cache.get(cacheKey);
+  if (cached) return cached;
+
+  const filePath = path.join(snapshotDir, `${sourceId}.json`);
+  let raw: any;
+  try {
+    raw = JSON.parse(await fs.readFile(filePath, "utf8"));
+  } catch {
+    cache.set(cacheKey, { ...ZERO_GROWTH_COUNTS });
+    return cache.get(cacheKey);
+  }
+
+  if (
+    raw &&
+    raw.version === 2 &&
+    raw.mode === "unchanged" &&
+    typeof raw.carry_forward_from === "string"
+  ) {
+    const carriedCounts = await readSnapshotCounts(
+      getSnapshotDirForDate(raw.carry_forward_from),
+      sourceId,
+      cache,
+    );
+    cache.set(cacheKey, carriedCounts);
+    return carriedCounts;
+  }
+
+  const counts = countArtifactsByType(Array.isArray(raw?.artifacts) ? raw.artifacts : []);
+  cache.set(cacheKey, counts);
+  return counts;
 }
 
 async function buildGrowthData(sourceFilter: Set<string>) {
-  const files = await listFilesRecursively(DATA_DIR);
-  const datedHistoryFiles = files
-    .map((file) => ({
-      file,
-      relativePath: path.relative(DATA_DIR, file).split(path.sep).join("/"),
-    }))
-    .filter(({ relativePath }) =>
-      /^\d{4}\/\d{2}\/\d{2}\/[^/]+\.json$/.test(relativePath),
-    )
-    .filter(({ relativePath }) => {
-      if (sourceFilter.size === 0) {
-        return true;
-      }
+  const dates = await listSnapshotDateStamps();
+  const sortedDates = [...dates].sort((left, right) => left.localeCompare(right));
+  const sourceIds = new Set<string>();
+  const countCache = new Map<string, typeof ZERO_GROWTH_COUNTS>();
+  const perDay = new Map<
+    string,
+    {
+      date: string;
+      total: number;
+      agent: number;
+      skill: number;
+      plugin: number;
+      mcp_server: number;
+    }
+  >();
 
-      const sourceId = relativePath.split("/").at(-1)?.replace(/\.json$/, "");
-      return sourceId ? sourceFilter.has(sourceId) : false;
-    })
-    .sort((left, right) => left.relativePath.localeCompare(right.relativePath));
+  for (const date of sortedDates) {
+    const snapshotDir = getSnapshotDirForDate(date);
+    const sourceFiles = (await fs.readdir(snapshotDir, { withFileTypes: true }))
+      .filter((entry) => entry.isFile() && entry.name.endsWith(".json") && entry.name !== "manifest.json")
+      .map((entry) => entry.name.replace(/\.json$/, ""))
+      .filter((sourceId) => (sourceFilter.size > 0 ? sourceFilter.has(sourceId) : true));
 
-  const historyEntries = await Promise.all(
-    datedHistoryFiles.map(async ({ file, relativePath }) => {
-      const snapshot = await readJsonFile<{
-        date?: string;
-        source_id?: string;
-        artifact_count?: number;
-        artifacts?: unknown[];
-      }>(file);
-
-      return {
-        date: snapshot.date || relativePath.slice(0, 10).replaceAll("/", "-"),
-        source_id: snapshot.source_id || relativePath.split("/").at(-1)?.replace(/\.json$/, "") || "unknown",
-        total:
-          typeof snapshot.artifact_count === "number"
-            ? snapshot.artifact_count
-            : Array.isArray(snapshot.artifacts)
-              ? snapshot.artifacts.length
-              : 0,
-      };
-    }),
-  );
-
-  const sourceIds = new Set(historyEntries.map((entry) => entry.source_id));
-  const perDay = new Map<string, { date: string; total: number }>();
-
-  for (const entry of historyEntries) {
-    const current = perDay.get(entry.date) || {
-      date: entry.date,
+    const current = {
+      date,
       total: 0,
+      agent: 0,
+      skill: 0,
+      plugin: 0,
+      mcp_server: 0,
     };
-    current.total += entry.total;
-    perDay.set(entry.date, current);
+
+    for (const sourceId of sourceFiles) {
+      sourceIds.add(sourceId);
+      const counts = await readSnapshotCounts(snapshotDir, sourceId, countCache);
+      current.total += counts.total;
+      current.agent += counts.agent;
+      current.skill += counts.skill;
+      current.plugin += counts.plugin;
+      current.mcp_server += counts.mcp_server;
+    }
+
+    perDay.set(date, current);
   }
 
   const history = [...perDay.values()].sort((left, right) => left.date.localeCompare(right.date));
   const growth = buildExtensionGrowthSeriesFromTotals(history);
   const sourceCount = sourceIds.size;
+  const latestDate = sortedDates.at(-1) || null;
+  const latestTimestamp = latestDate ? new Date(latestDate).getTime() : Number.NaN;
+  const baselineTarget = Number.isNaN(latestTimestamp)
+    ? Number.NaN
+    : latestTimestamp - (30 * 24 * 60 * 60 * 1000);
+  const baselineDate = Number.isNaN(baselineTarget)
+    ? null
+    : [...sortedDates].reverse().find((date) => {
+        const timestamp = new Date(date).getTime();
+        return !Number.isNaN(timestamp) && timestamp <= baselineTarget;
+      }) || sortedDates[0] || null;
+  let fastestGrowingSource30d:
+    | {
+        source_id: string;
+        delta: number;
+      }
+    | null = null;
+  const fastestGrowingSources30dByKind: Record<
+    "agent" | "skill" | "plugin" | "mcp_server",
+    { source_id: string; delta: number } | null
+  > = {
+    agent: null,
+    skill: null,
+    plugin: null,
+    mcp_server: null,
+  };
+
+  if (latestDate && baselineDate) {
+    const latestDir = getSnapshotDirForDate(latestDate);
+    const baselineDir = getSnapshotDirForDate(baselineDate);
+
+    for (const sourceId of sourceIds) {
+      const latestCounts = await readSnapshotCounts(latestDir, sourceId, countCache);
+      const baselineCounts = await readSnapshotCounts(baselineDir, sourceId, countCache);
+      const delta = latestCounts.total - baselineCounts.total;
+
+      if (!fastestGrowingSource30d || delta > fastestGrowingSource30d.delta) {
+        fastestGrowingSource30d = {
+          source_id: sourceId,
+          delta,
+        };
+      }
+
+      for (const kind of ["agent", "skill", "plugin", "mcp_server"] as const) {
+        const kindDelta = latestCounts[kind] - baselineCounts[kind];
+        const currentLeader = fastestGrowingSources30dByKind[kind];
+
+        if (!currentLeader || kindDelta > currentLeader.delta) {
+          fastestGrowingSources30dByKind[kind] = {
+            source_id: sourceId,
+            delta: kindDelta,
+          };
+        }
+      }
+    }
+  }
 
   return {
     source_id: sourceFilter.size > 0 ? "filtered-sources" : "all-daily-snapshots",
@@ -137,6 +231,8 @@ async function buildGrowthData(sourceFilter: Set<string>) {
       sourceCount > 0
         ? `Aggregated daily history across ${sourceCount} tracked sources with dated snapshots. Sources without dated history are not included in this chart.`
         : "No dated history is available for the current source selection.",
+    fastest_growing_source_30d: fastestGrowingSource30d,
+    fastest_growing_sources_30d_by_kind: fastestGrowingSources30dByKind,
     ...growth,
   };
 }
