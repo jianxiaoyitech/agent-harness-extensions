@@ -93,8 +93,9 @@ async function readSnapshotCounts(
   try {
     raw = JSON.parse(await fs.readFile(filePath, "utf8"));
   } catch {
-    cache.set(cacheKey, { ...ZERO_GROWTH_COUNTS });
-    return cache.get(cacheKey);
+    const emptyCounts = { ...ZERO_GROWTH_COUNTS };
+    cache.set(cacheKey, emptyCounts);
+    return emptyCounts;
   }
 
   if (
