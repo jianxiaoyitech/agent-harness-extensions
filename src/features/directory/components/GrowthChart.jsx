@@ -1,40 +1,34 @@
-import { useState } from "react";
 import {
   Area,
   CartesianGrid,
   ComposedChart,
   Line,
-  ReferenceLine,
   XAxis,
   YAxis,
 } from "recharts";
-import { Button } from "@/components/ui/button";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { formatLongDate, formatMonthTick, formatNumber } from "../utils";
 
+function formatCompactTick(value, fractionDigits = 0) {
+  return new Intl.NumberFormat("en-US", {
+    notation: "compact",
+    maximumFractionDigits: fractionDigits,
+  }).format(value ?? 0);
+}
+
 export function GrowthChart({ growth }) {
-  const [activeMetric, setActiveMetric] = useState("total");
   const points = growth?.series || [];
-  const metricOptions = [
-    { id: "total", label: "Total Listed", accent: "#67e8f9" },
-    { id: "rolling_avg_net_7d", label: "7d Growth Avg", accent: "#f59e0b" },
-    { id: "net", label: "Daily Net Change", accent: "#34d399" },
-  ];
   const chartConfig = {
     total: {
       label: "Total Listed",
       color: "#67e8f9",
     },
-    rolling_avg_net_7d: {
-      label: "7d Growth Avg",
-      color: "#f59e0b",
-    },
-    net: {
-      label: "Daily Net Change",
-      color: "#34d399",
-    },
   };
-  const activeMetricOption = metricOptions.find((option) => option.id === activeMetric) || metricOptions[0];
+  const maxTotal = Math.max(...points.map((point) => point.total || 0), 1);
+  const yAxisTicks = Array.from(
+    { length: Math.floor(Math.log10(maxTotal)) + 1 },
+    (_, exponent) => 10 ** exponent,
+  );
 
   if (!points.length) {
     return (
@@ -45,26 +39,13 @@ export function GrowthChart({ growth }) {
   }
 
   return (
-    <div className="space-y-4 rounded-2xl border border-border/80 bg-card/55 p-4 sm:p-5">
-      <div className="flex flex-wrap gap-2">
-        {metricOptions.map((option) => {
-          const selected = option.id === activeMetric;
-          return (
-            <Button
-              key={option.id}
-              type="button"
-              variant={selected ? "default" : "outline"}
-              size="sm"
-              className="rounded-full"
-              onClick={() => setActiveMetric(option.id)}
-            >
-              {option.label}
-            </Button>
-          );
-        })}
-      </div>
-
-      <div className="rounded-2xl border border-border/70 bg-background/40 p-2 sm:p-3">
+    <div className="space-y-4">
+      <div className="relative rounded-2xl border border-border/70 bg-background/40 p-2 sm:p-3">
+        <div className="pointer-events-none absolute inset-x-0 top-3 z-10 px-8 text-center">
+          <div className="text-sm text-foreground">
+            Total listed extensions over time
+          </div>
+        </div>
         <ChartContainer
           config={chartConfig}
           className="h-[20rem] w-full sm:h-[23rem]"
@@ -72,18 +53,18 @@ export function GrowthChart({ growth }) {
           <ComposedChart
             accessibilityLayer
             data={points}
-            margin={{ top: 12, right: 10, bottom: 12, left: 8 }}
+            margin={{ top: 36, right: 10, bottom: 12, left: 8 }}
           >
             <defs>
               <linearGradient id="fill-active-metric" x1="0" y1="0" x2="0" y2="1">
                 <stop
                   offset="0%"
-                  stopColor={activeMetricOption.accent}
+                  stopColor="#67e8f9"
                   stopOpacity={0.28}
                 />
                 <stop
                   offset="100%"
-                  stopColor={activeMetricOption.accent}
+                  stopColor="#67e8f9"
                   stopOpacity={0.03}
                 />
               </linearGradient>
@@ -98,49 +79,43 @@ export function GrowthChart({ growth }) {
               tickFormatter={formatMonthTick}
             />
             <YAxis
+              type="number"
+              scale="log"
+              domain={[1, maxTotal]}
+              ticks={yAxisTicks}
+              allowDataOverflow
               tickLine={false}
               axisLine={false}
-              width={44}
+              width={56}
               tickMargin={10}
-              tickFormatter={(value) =>
-                activeMetric === "rolling_avg_net_7d"
-                  ? Number(value).toFixed(1)
-                  : formatNumber(Math.round(value))
-              }
+              tickFormatter={(value) => formatCompactTick(Math.round(value), 1)}
             />
-            {activeMetric !== "total" ? (
-              <ReferenceLine y={0} stroke="var(--color-border)" strokeDasharray="5 5" />
-            ) : null}
             <ChartTooltip
-              cursor={{ stroke: activeMetricOption.accent, strokeDasharray: "4 4", strokeOpacity: 0.4 }}
+              cursor={{ stroke: "#67e8f9", strokeDasharray: "4 4", strokeOpacity: 0.4 }}
               content={
                 <ChartTooltipContent
                   labelFormatter={(value) => formatLongDate(value)}
-                  formatter={(value) =>
-                    activeMetric === "rolling_avg_net_7d"
-                      ? Number(value || 0).toFixed(2)
-                      : formatNumber(value)
-                  }
+                  formatter={(value) => formatNumber(value)}
                 />
               }
             />
             <Area
               type="monotone"
-              dataKey={activeMetric}
+              dataKey="total"
               stroke="none"
               fill="url(#fill-active-metric)"
               fillOpacity={1}
             />
             <Line
               type="monotone"
-              dataKey={activeMetric}
-              stroke={`var(--color-${activeMetric})`}
+              dataKey="total"
+              stroke="var(--color-total)"
               strokeWidth={3}
               dot={false}
               activeDot={{
                 r: 5,
                 strokeWidth: 2,
-                fill: `var(--color-${activeMetric})`,
+                fill: "var(--color-total)",
               }}
             />
           </ComposedChart>

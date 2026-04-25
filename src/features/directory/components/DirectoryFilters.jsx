@@ -1,8 +1,6 @@
-import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { SORT_COLUMNS, TYPE_LABELS, TYPE_ORDER } from "../constants";
+import { TYPE_LABELS, TYPE_ORDER } from "../constants";
 import { compatibilityCount } from "../utils";
 
 export function DirectoryFilters({
@@ -13,11 +11,9 @@ export function DirectoryFilters({
   filteredTypeCounts,
   querySummary,
   rows,
-  search,
   setActiveType,
   setCompatibilityFilters,
   setCrossHarnessOnly,
-  setSearch,
   setShowCompatibility,
   showCompatibility,
   tables,
@@ -136,18 +132,6 @@ export function DirectoryFilters({
               ))}
             </TabsList>
           </Tabs>
-
-          <div className="ml-auto flex min-w-0 flex-1 justify-end">
-            <div className="relative w-full max-w-md">
-              <Search className="pointer-events-none absolute left-3 top-1/2 size-3.5 -translate-y-1/2 text-muted-foreground" />
-              <Input
-                value={search}
-                onChange={(event) => setSearch(event.target.value)}
-                placeholder="Search workflow names, repos, or paths"
-                className="h-9 rounded-md border-border/90 bg-background/80 pl-9 pr-3 text-left shadow-none focus-visible:border-foreground focus-visible:ring-0"
-              />
-            </div>
-          </div>
         </div>
       </section>
     </>

@@ -1,4 +1,6 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { Search } from "lucide-react";
+import { Input } from "@/components/ui/input";
 import { FEATURED_HARNESS_IDS } from "@/features/directory/constants";
 import { DirectoryFilters } from "@/features/directory/components/DirectoryFilters";
 import { DirectoryTable } from "@/features/directory/components/DirectoryTable";
@@ -8,7 +10,6 @@ import {
   buildFilteredTypeCounts,
   buildQuerySummary,
   compareValues,
-  formatNumber,
   repoLabel,
   supportedHarnessCount,
 } from "@/features/directory/utils";
@@ -145,20 +146,38 @@ export default function App({ initialData = null }) {
     () => filteredRows.slice(pageStart, pageStart + PAGE_SIZE),
     [filteredRows, pageStart],
   );
+  const skillCount = tables.skill?.length ?? 0;
+  const mcpServerCount = tables["mcp-server"]?.length ?? 0;
+  const agentCount = tables.agent?.length ?? 0;
 
   return (
     <main className="min-h-screen bg-background text-foreground">
       <div className="mx-auto flex w-full max-w-[110rem] flex-col px-4 pb-8 pt-3 sm:px-6 lg:px-8">
         <section className="border-b border-border py-6">
-          <div className="grid gap-6 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)] lg:items-end">
-            <div className="space-y-3">
-              <div className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-                Agent Harness Extensions
+          <div className="space-y-3">
+            <div className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+              Agent Harness Extensions
+            </div>
+            <div className="max-w-4xl text-2xl leading-tight font-semibold tracking-[-0.03em] text-foreground sm:text-3xl">
+              Browse extensions by agent harness.
+            </div>
+            <div className="flex flex-col gap-3 pt-1 lg:flex-row lg:items-center">
+              <div className="min-w-0 flex-1 max-w-xl">
+                <label className="sr-only" htmlFor="directory-search">
+                  Search extensions
+                </label>
+                <div className="relative">
+                  <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+                  <Input
+                    id="directory-search"
+                    value={search}
+                    onChange={(event) => setSearch(event.target.value)}
+                    placeholder={`Search ${skillCount.toLocaleString()} skills, ${mcpServerCount.toLocaleString()} MCP servers, ${agentCount.toLocaleString()} agents, repos, or paths`}
+                    className="h-11 rounded-md border-border/90 bg-background/90 pl-10 pr-3 text-left shadow-none focus-visible:border-foreground focus-visible:ring-0"
+                  />
+                </div>
               </div>
-              <div className="max-w-4xl text-2xl leading-tight font-semibold tracking-[-0.03em] text-foreground sm:text-3xl">
-                Browse extensions by agent harness.
-              </div>
-              <div className="flex flex-wrap items-center gap-2 pt-1">
+              <div className="flex flex-wrap items-center gap-2 lg:ml-auto lg:justify-end">
                 <a
                   href="https://github.com/JianxiaoyiTech/agent-harness-extensions/tree/main/skills/add-data-and-test"
                   target="_blank"
@@ -175,21 +194,6 @@ export default function App({ initialData = null }) {
                 </a>
               </div>
             </div>
-
-            <div className="flex flex-wrap items-center justify-start gap-x-4 gap-y-2 text-sm text-muted-foreground lg:justify-end">
-              <span>
-                <span className="font-semibold text-foreground">
-                  {formatNumber(report?.artifact_count)}
-                </span>{" "}
-                extensions
-              </span>
-              <span>
-                <span className="font-semibold text-foreground">
-                  {formatNumber(report?.harness_count)}
-                </span>{" "}
-                harnesses
-              </span>
-            </div>
           </div>
         </section>
 
@@ -205,11 +209,9 @@ export default function App({ initialData = null }) {
           filteredTypeCounts={filteredTypeCounts}
           querySummary={querySummary}
           rows={rows}
-          search={search}
           setActiveType={setActiveType}
           setCompatibilityFilters={setCompatibilityFilters}
           setCrossHarnessOnly={setCrossHarnessOnly}
-          setSearch={setSearch}
           setShowCompatibility={setShowCompatibility}
           showCompatibility={showCompatibility}
           tables={tables}
