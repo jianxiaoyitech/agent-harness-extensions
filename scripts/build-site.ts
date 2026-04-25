@@ -24,6 +24,7 @@ import {
   collectDerivedArtifacts,
   selectValidSources,
 } from "./derive.ts";
+import packageJson from "../package.json" with { type: "json" };
 
 const PUBLIC_DATA_DIR = path.join(ROOT_DIR, "public", "data");
 const DATA_DIR = path.join(ROOT_DIR, "data");
@@ -291,6 +292,7 @@ async function buildSiteData(targetRoot: string): Promise<void> {
     ]),
   ) as typeof tables;
   const report = buildDerivedReport({
+    buildVersion: packageJson.version,
     harnesses: harnessRegistry.harnesses,
     validSources,
     invalidSources: filteredInvalidSources,

@@ -1,6 +1,6 @@
 {
   "name": "agent-harness-extensions",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Community-expandable, daily-refreshed directory of MCP servers, skills, and plugins for agent harnesses.",
   "type": "module",
   "scripts": {

@@ -331,6 +331,7 @@ export function buildRssFeed({
 }
 
 export function buildDerivedReport(args: {
+  buildVersion: string;
   harnesses: Harness[];
   validSources: SourceDefinition[];
   invalidSources: Array<{ file: string; source_id: string | null; issues: string[] }>;
@@ -340,6 +341,7 @@ export function buildDerivedReport(args: {
   const artifacts = collectDerivedArtifacts(args.snapshotSources);
 
   return summarizeReport({
+    buildVersion: args.buildVersion,
     harnesses: args.harnesses,
     sources: args.validSources,
     invalidSources: args.invalidSources,

@@ -911,18 +911,21 @@ export function buildTableRows(
 }
 
 export function summarizeReport({
+  buildVersion,
   harnesses,
   sources,
   invalidSources,
   syncIssues,
   artifacts,
 }: {
+  buildVersion: string;
   harnesses: Harness[];
   sources: SourceDefinition[];
   invalidSources: Array<{ file: string; source_id: string | null; issues: string[] }>;
   syncIssues: Array<{ source_id: string; issues: string[] }>;
   artifacts: ArtifactRecord[];
 }): {
+  build_version: string;
   generated_at: string;
   harness_count: number;
   source_count: number;
@@ -935,6 +938,7 @@ export function summarizeReport({
 } {
   const mismatches = artifacts.filter((artifact) => artifact?.mismatch?.type);
   return {
+    build_version: buildVersion,
     generated_at: new Date().toISOString(),
     harness_count: harnesses.length,
     source_count: sources.length,

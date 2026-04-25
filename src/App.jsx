@@ -342,6 +342,7 @@ export default function App({ initialData = null }) {
   const mcpServerCount = tables["mcp-server"]?.length ?? 0;
   const agentCount = tables.agent?.length ?? 0;
   const refreshedAt = formatRefreshTimestamp(report?.generated_at);
+  const buildVersion = typeof report?.build_version === "string" ? report.build_version : null;
   const expandedRow = useMemo(
     () => groupedRows.find((row) => row.id === expandedRowId) || null,
     [expandedRowId, groupedRows],
@@ -559,9 +560,11 @@ export default function App({ initialData = null }) {
                 Stats & Growth
               </TabsTrigger>
             </TabsList>
-            {refreshedAt ? (
+            {refreshedAt || buildVersion ? (
               <div className="pb-3 text-sm text-muted-foreground">
-                Updated {refreshedAt}
+                {buildVersion ? `v${buildVersion}` : null}
+                {buildVersion && refreshedAt ? " · " : null}
+                {refreshedAt ? `Updated ${refreshedAt}` : null}
               </div>
             ) : null}
           </div>

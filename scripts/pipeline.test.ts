@@ -143,6 +143,7 @@ describe("pipeline integration", () => {
     });
     const artifacts = collectDerivedArtifacts(snapshotSources);
     const report = summarizeReport({
+      buildVersion: "1.2.3",
       harnesses,
       sources: validSources,
       invalidSources: manifest.invalid_sources,
@@ -159,6 +160,7 @@ describe("pipeline integration", () => {
     });
 
     expect(manifest.artifact_count).toBe(2);
+    expect(report.build_version).toBe("1.2.3");
     expect(report.artifact_count).toBe(2);
     expect(manifest.source_count).toBe(report.source_count);
     expect(report.sync_issues).toEqual([]);
@@ -179,6 +181,7 @@ describe("pipeline integration", () => {
     });
     const artifacts = collectDerivedArtifacts(snapshotSources);
     const report = summarizeReport({
+      buildVersion: "1.2.3",
       harnesses,
       sources: validSources,
       invalidSources: manifest.invalid_sources,
