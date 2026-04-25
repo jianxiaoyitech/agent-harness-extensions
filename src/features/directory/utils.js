@@ -134,86 +134,292 @@ function pathParent(filePath) {
   return segments.slice(0, -1).join("/");
 }
 
-function quotedPath(value) {
-  return value ? `"${value}"` : "<path>";
+function shellQuote(value) {
+  if (!value) return "''";
+  return `'${String(value).replace(/'/g, `'\\''`)}'`;
 }
 
-function buildSkillInstallTarget(harnessId) {
+function repoDirName(repoUrl) {
+  const label = repoLabel(repoUrl);
+  const last = label.split("/").filter(Boolean).pop() || "repo";
+  return last.replace(/\.git$/i, "");
+}
+
+function fileStem(filePath) {
+  const name = String(filePath || "").split("/").filter(Boolean).pop() || "artifact";
+  return name.replace(/\.[^.]+$/, "");
+}
+
+function pluginRoot(filePath) {
+  const segments = String(filePath || "").split("/").filter(Boolean);
+  const pluginIndex = segments.findIndex(
+    (segment) => segment === "plugins" || segment === "external_plugins",
+  );
+
+  if (pluginIndex === -1 || !segments[pluginIndex + 1]) return "";
+  return `${segments[pluginIndex]}/${segments[pluginIndex + 1]}`;
+}
+
+function pluginNameFromPath(filePath) {
+  const root = pluginRoot(filePath);
+  return root.split("/").pop() || fileStem(filePath);
+}
+
+function artifactCopyDir(row) {
+  if (row.type === "skill") {
+    return pathParent(row.path);
+  }
+
+  if (row.type === "plugin" || row.type === "mcp-server") {
+    return pluginRoot(row.path) || pathParent(row.path);
+  }
+
+  return row.path;
+}
+
+function buildCloneSnippet(row, lines) {
+  const repoDir = repoDirName(row.repo);
+  return [`git clone ${row.repo}`, `cd ${repoDir}`, ...lines].join("\n");
+}
+
+function buildGenericSkillTarget(harnessId, row) {
+  const folderName = pathParent(row.path).split("/").filter(Boolean).pop() || fileStem(row.path);
+
   if (harnessId === "codex") {
     return {
       label: "Codex",
-      folder: "~/.codex/skills/<skill-name>/",
-      reload: "Restart Codex or reload your skills.",
+      folder: `~/.codex/skills/${folderName}`,
+      reload: "Restart Codex so it reloads the new skill.",
+    };
+  }
+
+  if (harnessId === "openclaw") {
+    return {
+      label: "OpenClaw",
+      folder: `~/.openclaw/skills/${folderName}`,
+      reload: "Restart OpenClaw after adding the skill files.",
     };
   }
 
   return {
     label: "Claude Code",
-    folder: ".claude/skills/<skill-name>/",
+    folder: `~/.claude/skills/${folderName}`,
     reload: "Restart Claude Code or start a new session.",
   };
 }
 
+function isAgencyAgentsFamily(row) {
+  return String(row.source_id || "").includes("agency-agents");
+}
+
+function buildSourceSpecificGuide(row, harnessId) {
+  if (isAgencyAgentsFamily(row)) {
+    if (harnessId === "claude-code") {
+      return {
+        title: "Install in Claude Code",
+        steps: [
+          "This repo documents a native Claude Code installer.",
+          "Clone the repo, then run the installer for the full repo catalog.",
+          "Start a new Claude Code session after installation.",
+        ],
+        snippet: buildCloneSnippet(row, ["./scripts/install.sh --tool claude-code"]),
+      };
+    }
+
+    if (harnessId === "codex") {
+      return {
+        title: "Install in Codex",
+        steps: [
+          "This repo documents a Codex conversion and install flow.",
+          "Clone the repo, generate the Codex format, then run the installer for the repo catalog.",
+          "Start a fresh Codex session after installation.",
+        ],
+        snippet: buildCloneSnippet(row, [
+          "./scripts/install.sh --tool codex",
+        ]),
+      };
+    }
+
+    if (harnessId === "openclaw") {
+      return {
+        title: "Install in OpenClaw",
+        steps: [
+          "This repo documents OpenClaw installation through its conversion and install scripts.",
+          "Clone the repo, generate the OpenClaw workspaces, then run the installer.",
+          "Restart the OpenClaw gateway if the new agents do not appear immediately.",
+        ],
+        snippet: buildCloneSnippet(row, [
+          "./scripts/convert.sh --tool openclaw",
+          "./scripts/install.sh --tool openclaw",
+          "openclaw gateway restart",
+        ]),
+      };
+    }
+  }
+
+  if (row.source_id === "anthropic-claude-plugins-official" && harnessId === "claude-code") {
+    const pluginName = pluginNameFromPath(row.path);
+
+    return {
+      title: "Install in Claude Code",
+      steps: [
+        "This source is Claude Code's plugin marketplace.",
+        "Install the parent plugin directly from the marketplace command.",
+        "The selected skill, agent, or MCP server ships with that plugin.",
+      ],
+      snippet: `/plugin install ${pluginName}@claude-plugins-official`,
+    };
+  }
+
+  if (row.source_id === "feiskyer-codex-settings" && harnessId === "codex") {
+    return {
+      title: "Install in Codex",
+      steps: [
+        "This repo is documented as a full Codex home directory setup.",
+        "Clone it into ~/.codex to install the included prompts, skills, and config together.",
+        "Start a fresh Codex session after cloning.",
+      ],
+      snippet: [
+        "# back up an existing Codex home first if you already have one",
+        "mv ~/.codex ~/.codex.bak",
+        `git clone ${row.repo} ~/.codex`,
+      ].join("\n"),
+    };
+  }
+
+  if (row.source_id === "openai-skills" && harnessId === "codex" && row.type === "skill") {
+    const skillFolder = pathParent(row.path);
+    const skillName = skillFolder.split("/").filter(Boolean).pop() || fileStem(row.path);
+
+    return {
+      title: "Install in Codex",
+      steps: [
+        "This source is already structured for Codex skills.",
+        "Clone the repo, then copy just the selected skill folder into ~/.codex/skills.",
+        "Restart Codex after the copy completes.",
+      ],
+      snippet: buildCloneSnippet(row, [
+        `mkdir -p ~/.codex/skills/${skillName}`,
+        `cp -R ${shellQuote(skillFolder)}/. ~/.codex/skills/${skillName}/`,
+      ]),
+    };
+  }
+
+  if (row.source_id === "win4r-openclaw-workspace" && harnessId === "claude-code") {
+    return {
+      title: "Install in Claude Code",
+      steps: [
+        "The README documents this repo as a Claude Code skill.",
+        "Clone it directly into your Claude Code skills directory.",
+        "Start a new Claude Code session so the skill is discovered.",
+      ],
+      snippet: `git clone ${row.repo} ~/.claude/skills/openclaw-workspace`,
+    };
+  }
+
+  return null;
+}
+
 function buildSkillInstructions(row, harnessId) {
   const sourceFolder = pathParent(row.path);
-  const target = buildSkillInstallTarget(harnessId);
+  const target = buildGenericSkillTarget(harnessId, row);
 
   return {
     title: `Install in ${target.label}`,
     steps: [
-      `Open the upstream skill folder: ${sourceFolder || row.path}.`,
-      `Copy that folder into ${target.folder}`,
+      "Clone the repo so you have the full skill folder locally.",
+      `Copy the skill folder you want into ${target.folder}.`,
       target.reload,
     ],
-    snippet: sourceFolder
-      ? `git clone ${row.repo}\ncp -R ${quotedPath(`<repo>/${sourceFolder}`)} ${quotedPath(target.folder)}`
-      : null,
+    snippet: buildCloneSnippet(row, [
+      `mkdir -p ${target.folder}`,
+      `# repeat for each skill folder you want to install`,
+      `cp -R ${shellQuote(sourceFolder || row.path)}/. ${target.folder}/`,
+    ]),
   };
 }
 
 function buildMcpInstructions(row, harnessId) {
-  const harnessLabel = harnessId === "codex" ? "Codex" : "Claude Code";
+  const harnessLabel =
+    harnessId === "codex" ? "Codex" : harnessId === "openclaw" ? "OpenClaw" : "Claude Code";
+  const sourceDir = artifactCopyDir(row);
 
   return {
     title: `Add to ${harnessLabel}`,
     steps: [
-      `Open the upstream README and install the server package or binary.`,
-      `Copy the server command, args, and env values from the upstream setup docs.`,
-      `Add that server entry to your ${harnessLabel} MCP configuration.`,
+      "Clone the repo so you can inspect the exact server package and README.",
+      `Use the repo README and ${row.path} as your starting point for the command, args, and env in ${harnessLabel}.`,
+      `Add the finished server entry to your ${harnessLabel} MCP configuration.`,
     ],
-    snippet: `{\n  "mcpServers": {\n    "${row.name}": {\n      "command": "<from upstream README>",\n      "args": ["<args>"]\n    }\n  }\n}`,
+    snippet: buildCloneSnippet(row, [
+      `cd ${shellQuote(sourceDir)}`,
+      "# open the local README and .mcp.json, then copy the command into your harness config",
+    ]),
   };
 }
 
 function buildPluginInstructions(row, harnessId) {
-  const harnessLabel = harnessId === "codex" ? "Codex" : "Claude Code";
+  const harnessLabel =
+    harnessId === "codex" ? "Codex" : harnessId === "openclaw" ? "OpenClaw" : "Claude Code";
+  const sourceDir = artifactCopyDir(row);
 
   return {
     title: `Use with ${harnessLabel}`,
     steps: [
-      `Open the plugin manifest in the upstream repo.`,
-      `Follow the upstream install steps if this repo supports ${harnessLabel}.`,
-      `If not, copy the prompt or config pieces you need into your local workflow.`,
+      "Clone the repo so the full plugin directory is local.",
+      `Copy the plugin folder or reuse the parts you want for ${harnessLabel}.`,
+      "Restart the harness after adding the new files.",
     ],
-    snippet: null,
+    snippet: buildCloneSnippet(row, [
+      `mkdir -p ~/tmp/${repoDirName(row.repo)}-install`,
+      `cp -R ${shellQuote(sourceDir)} ~/tmp/${repoDirName(row.repo)}-install/`,
+    ]),
   };
 }
 
 function buildAgentInstructions(row, harnessId) {
+  if (harnessId === "openclaw") {
+    return {
+      title: "Install in OpenClaw",
+      steps: [
+        "Clone the repo so you have the original prompt files locally.",
+        "Copy the agent markdown files you want into your OpenClaw workspace docs or agent prompt directory.",
+        "Restart the OpenClaw gateway if the new prompt is not picked up immediately.",
+      ],
+      snippet: buildCloneSnippet(row, [
+        "mkdir -p ~/.openclaw/workspace/docs/agents",
+        "# repeat for each agent file you want to add",
+        `cp ${shellQuote(row.path)} ~/.openclaw/workspace/docs/agents/`,
+        "openclaw gateway restart",
+      ]),
+    };
+  }
+
   const harnessLabel = harnessId === "codex" ? "Codex" : "Claude Code";
+  const targetFolder = harnessId === "codex" ? "~/.codex/prompts" : "~/.claude/agents";
 
   return {
     title: `Reuse in ${harnessLabel}`,
     steps: [
-      `Open the upstream markdown prompt or agent file.`,
-      `Copy the sections you want into your ${harnessLabel} workflow or local prompt library.`,
-      `Adapt any tool names, model assumptions, or file paths before using it.`,
+      "Clone the repo so you can copy the original prompt files directly.",
+      `Copy the agent markdown files you want into ${targetFolder}.`,
+      `Start a fresh ${harnessLabel} session after adding it.`,
     ],
-    snippet: null,
+    snippet: buildCloneSnippet(row, [
+      `mkdir -p ${targetFolder}`,
+      "# repeat for each agent file you want to add",
+      `cp ${shellQuote(row.path)} ${targetFolder}/`,
+    ]),
   };
 }
 
 export function buildInstallGuide(row, harnessId) {
+  const sourceSpecificGuide = buildSourceSpecificGuide(row, harnessId);
+
+  if (sourceSpecificGuide) {
+    return sourceSpecificGuide;
+  }
+
   if (row.type === "skill") {
     return buildSkillInstructions(row, harnessId);
   }

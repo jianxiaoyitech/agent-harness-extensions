@@ -9,14 +9,13 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { SORT_COLUMNS } from "../constants";
+import { SORT_COLUMNS, TYPE_LABELS } from "../constants";
 import {
   buildInstallGuide,
   compatibilityGlyph,
   formatNumber,
+  formatDate,
   repoLabel,
-  shortPathLabel,
-  supportedHarnessCount,
 } from "../utils";
 
 function SortIcon({ direction, active }) {
@@ -86,7 +85,7 @@ function InstallButton({ active, label, supported, onClick }) {
 
 function InstallInlineGuide({ guide, row }) {
   return (
-    <div className="mt-2 rounded-lg border border-border/70 bg-muted/35 px-3 py-2">
+    <div className="mt-2 rounded-lg border border-border/80 bg-background shadow-sm px-3 py-2">
       <div className="text-[0.72rem] font-semibold text-foreground">
         {guide.title}
       </div>
@@ -130,6 +129,10 @@ function InstallInlineGuide({ guide, row }) {
       </div>
     </div>
   );
+}
+
+function singularLabel(type) {
+  return TYPE_LABELS[type]?.replace(/s$/, "") || "Item";
 }
 
 export function DirectoryTable({
@@ -207,13 +210,21 @@ export function DirectoryTable({
             ) : (
               filteredRows.flatMap((row) => {
                 const isExpanded = expandedRowId === row.id;
-                const codexGuide = buildInstallGuide(row, "codex");
-                const claudeCodeGuide = buildInstallGuide(row, "claude-code");
+                const installTargetRow = row.primaryRow;
+                const codexGuide = buildInstallGuide(installTargetRow, "codex");
+                const claudeCodeGuide = buildInstallGuide(installTargetRow, "claude-code");
+                const openclawGuide = buildInstallGuide(installTargetRow, "openclaw");
                 const codexSupported = row.compatibility?.codex === "check";
                 const claudeCodeSupported = row.compatibility?.["claude-code"] === "check";
+                const openclawSupported = row.compatibility?.openclaw === "check";
                 const installGuideOpen = activeInstallGuide?.rowId === row.id;
+                const itemLabel = singularLabel(installTargetRow?.type);
+                const countLabel =
+                  row.hasQuery && row.matchCount !== row.totalCount
+                    ? `${row.matchCount} of ${row.totalCount} ${TYPE_LABELS[installTargetRow?.type].toLowerCase()}`
+                    : `${row.totalCount} ${TYPE_LABELS[installTargetRow?.type].toLowerCase()}`;
 
-                return (
+                return [
                   <TableRow
                     key={row.id}
                     className={`border-b border-border/80 transition hover:bg-muted/25 ${
@@ -229,39 +240,29 @@ export function DirectoryTable({
                       }`}
                     >
                       <div className="flex flex-wrap items-center gap-2">
-                        <div className="font-medium text-foreground">
-                          <a
-                            href={row.repo}
-                            target="_blank"
-                            rel="noreferrer"
-                            onClick={(event) => event.stopPropagation()}
-                            className="text-muted-foreground underline decoration-border underline-offset-4 transition hover:text-foreground hover:decoration-foreground"
-                          >
-                            {repoLabel(row.repo)}
-                          </a>
-                          <span className="px-1 text-muted-foreground/65">/</span>
-                          <a
-                            href={row.repo_path_url}
-                            target="_blank"
-                            rel="noreferrer"
-                            onClick={(event) => event.stopPropagation()}
-                            className="underline decoration-border underline-offset-4 transition hover:decoration-foreground"
-                          >
-                            {row.name}
-                          </a>
-                        </div>
-                        {isExpanded && row.color ? (
-                          <div className="inline-flex items-center gap-1 rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
-                            <span
-                              className="inline-flex size-2 rounded-full"
-                              style={{ backgroundColor: row.color }}
-                            />
-                            {row.color}
-                          </div>
+                        <a
+                          href={row.repo}
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={(event) => event.stopPropagation()}
+                          className="font-medium text-foreground underline decoration-border underline-offset-4 transition hover:decoration-foreground"
+                        >
+                          {row.source_name}
+                        </a>
+                        <span className="text-[0.78rem] text-muted-foreground">
+                          {repoLabel(row.repo)}
+                        </span>
+                        <span className="rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
+                          {countLabel}
+                        </span>
+                        {row.archived ? (
+                          <span className="rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
+                            Archived
+                          </span>
                         ) : null}
                       </div>
-                      {isExpanded && row.description ? (
-                        <div className="mt-1 max-w-3xl text-[0.78rem] leading-relaxed text-muted-foreground whitespace-normal">
+                      {row.description ? (
+                        <div className="mt-1 max-w-4xl text-[0.78rem] leading-relaxed text-muted-foreground whitespace-normal">
                           {row.description}
                         </div>
                       ) : null}
@@ -269,7 +270,7 @@ export function DirectoryTable({
                     <TableCell className="px-3 py-3 text-sm text-muted-foreground">
                       {row.stars > 0 ? formatNumber(row.stars) : "-"}
                     </TableCell>
-                    <TableCell className="relative px-3 py-3">
+                    <TableCell className="px-3 py-3">
                       <div className="flex flex-wrap items-center gap-1.5">
                         <InstallButton
                           label="Codex"
@@ -280,6 +281,7 @@ export function DirectoryTable({
                           }
                           onClick={(event) => {
                             event.stopPropagation();
+                            setExpandedRowId(row.id);
                             setActiveInstallGuide((current) =>
                               current?.rowId === row.id && current?.target === "codex"
                                 ? null
@@ -296,6 +298,7 @@ export function DirectoryTable({
                           }
                           onClick={(event) => {
                             event.stopPropagation();
+                            setExpandedRowId(row.id);
                             setActiveInstallGuide((current) =>
                               current?.rowId === row.id && current?.target === "claude-code"
                                 ? null
@@ -303,34 +306,24 @@ export function DirectoryTable({
                             );
                           }}
                         />
-                        {installGuideOpen ? (
-                          <Button
-                            type="button"
-                            variant="ghost"
-                            size="xs"
-                            className="text-muted-foreground"
-                            onClick={(event) => {
-                              event.stopPropagation();
-                              setActiveInstallGuide(null);
-                            }}
-                          >
-                            Hide
-                            <ChevronDown className="size-3 rotate-180" />
-                          </Button>
-                        ) : null}
+                        <InstallButton
+                          label="OpenClaw"
+                          supported={openclawSupported}
+                          active={
+                            activeInstallGuide?.rowId === row.id &&
+                            activeInstallGuide?.target === "openclaw"
+                          }
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            setExpandedRowId(row.id);
+                            setActiveInstallGuide((current) =>
+                              current?.rowId === row.id && current?.target === "openclaw"
+                                ? null
+                                : { rowId: row.id, target: "openclaw" }
+                            );
+                          }}
+                        />
                       </div>
-                      {installGuideOpen ? (
-                        <div onClick={(event) => event.stopPropagation()}>
-                          <InstallInlineGuide
-                            row={row}
-                            guide={
-                              activeInstallGuide.target === "codex"
-                                ? codexGuide
-                                : claudeCodeGuide
-                            }
-                          />
-                        </div>
-                      ) : null}
                     </TableCell>
 
                     {visibleHarnesses.map((harness) => (
@@ -341,8 +334,67 @@ export function DirectoryTable({
                         {compatibilityGlyph(row.compatibility?.[harness.id])}
                       </TableCell>
                     ))}
-                  </TableRow>
-                );
+                  </TableRow>,
+                  isExpanded ? (
+                    <TableRow key={`${row.id}-details`} className="border-b border-border/80 bg-muted/20">
+                      <TableCell
+                        colSpan={SORT_COLUMNS.length + visibleHarnesses.length}
+                        className="px-3 py-3"
+                      >
+                        <div className="grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(20rem,0.85fr)]">
+                          <div className="min-w-0">
+                            <div className="grid gap-2">
+                              {row.rows.map((artifact) => (
+                                <a
+                                  key={artifact.id}
+                                  href={artifact.repo_path_url}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  onClick={(event) => event.stopPropagation()}
+                                  className="rounded-lg border border-border/70 bg-background px-3 py-2 transition hover:border-border hover:bg-muted/30"
+                                >
+                                  <div className="flex flex-wrap items-center gap-2">
+                                    <span className="font-medium text-foreground">{artifact.name}</span>
+                                    {artifact.color ? (
+                                      <span className="inline-flex items-center gap-1 rounded-full border border-border/80 px-2 py-0.5 text-[0.68rem] font-medium text-muted-foreground">
+                                        <span
+                                          className="inline-flex size-2 rounded-full"
+                                          style={{ backgroundColor: artifact.color }}
+                                        />
+                                        {artifact.color}
+                                      </span>
+                                    ) : null}
+                                  </div>
+                                  {artifact.description ? (
+                                    <div className="mt-1 text-[0.76rem] leading-relaxed text-muted-foreground">
+                                      {artifact.description}
+                                    </div>
+                                  ) : null}
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                          <div className="min-w-0">
+                            {installGuideOpen ? (
+                              <div onClick={(event) => event.stopPropagation()}>
+                                <InstallInlineGuide
+                                  row={installTargetRow}
+                                  guide={
+                                    activeInstallGuide.target === "codex"
+                                      ? codexGuide
+                                      : activeInstallGuide.target === "openclaw"
+                                        ? openclawGuide
+                                        : claudeCodeGuide
+                                  }
+                                />
+                              </div>
+                            ) : null}
+                          </div>
+                        </div>
+                      </TableCell>
+                    </TableRow>
+                  ) : null,
+                ];
               })
             )}
           </TableBody>

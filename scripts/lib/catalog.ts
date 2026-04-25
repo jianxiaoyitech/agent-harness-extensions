@@ -177,6 +177,7 @@ export interface TableRow {
   id: string;
   name: string;
   description?: string;
+  source_description?: string;
   color?: string;
   type: ArtifactType;
   type_label: string;
@@ -889,6 +890,7 @@ export function buildTableRows(
     id: artifact.id,
     name: artifact.name,
     description: artifact.description,
+    source_description: undefined,
     color: artifact.color,
     type: artifact.type,
     type_label: artifact.type_label,
@@ -962,6 +964,104 @@ export function hashSourceConfig(source: SourceDefinition): string {
   };
 
   return createHash("sha256").update(JSON.stringify(config)).digest("hex");
+}
+
+function stripMarkdownInline(value: string): string {
+  return value
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
+    .replace(/_([^_]+)_/g, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractReadmeSummary(content: string): string | null {
+  let withoutFrontmatter = content;
+  if (content.startsWith("---\n")) {
+    const endIndex = content.indexOf("\n---\n", 4);
+    if (endIndex !== -1) {
+      withoutFrontmatter = content.slice(endIndex + 5);
+    }
+  }
+  const lines = withoutFrontmatter.split("\n");
+  const paragraphs: string[] = [];
+  let buffer: string[] = [];
+  let inCodeFence = false;
+
+  function flushBuffer(): void {
+    if (buffer.length === 0) return;
+    const paragraph = stripMarkdownInline(buffer.join(" ").trim());
+    buffer = [];
+    if (!paragraph) return;
+    if (/^(#+|\||-\s|[*+]\s|\d+\.\s)/.test(paragraph)) return;
+    if (/^(License|Quick Start|Installation|Install|Usage|Contributing)\b/i.test(paragraph)) return;
+    if (paragraph.length < 40) return;
+    paragraphs.push(paragraph);
+  }
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (line.startsWith("```")) {
+      inCodeFence = !inCodeFence;
+      continue;
+    }
+    if (inCodeFence) continue;
+    if (!line) {
+      flushBuffer();
+      continue;
+    }
+    if (/^#{1,6}\s/.test(line)) {
+      flushBuffer();
+      continue;
+    }
+    if (/^(?:!\[.*\]\(.*\)|<img\b|<p\b|<div\b|<table\b|<tr\b|<td\b|<a\b)/i.test(line)) {
+      continue;
+    }
+    if (/^\[!\[/.test(line) || /^\[.*badge/i.test(line)) {
+      continue;
+    }
+    if (/^[-*_]{3,}$/.test(line)) {
+      flushBuffer();
+      continue;
+    }
+    if (/^\|.*\|$/.test(line)) {
+      continue;
+    }
+
+    buffer.push(line.replace(/^>\s?/, ""));
+  }
+
+  flushBuffer();
+  return paragraphs[0] || null;
+}
+
+export async function readRepoReadmeSummary(source: Pick<SourceDefinition, "id">): Promise<string | null> {
+  const gitDir = path.join(CACHE_REPOS_DIR, `${source.id}.git`);
+  if (!(await fileExists(gitDir))) return null;
+
+  try {
+    const readmeCandidates = (
+      await runGit(gitDir, ["ls-tree", "-r", "--name-only", "HEAD"])
+    )
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .filter((filePath) => /^README(?:\.[^/]+)?(?:\.md)?$/i.test(path.basename(filePath)))
+      .sort((left, right) => left.length - right.length);
+
+    const readmePath = readmeCandidates[0];
+    if (!readmePath) return null;
+
+    const content = await runGit(gitDir, ["show", `HEAD:${readmePath}`]);
+    return extractReadmeSummary(content);
+  } catch {
+    return null;
+  }
 }
 
 async function runGit(gitDir: string, args: string[]): Promise<string> {

@@ -7,6 +7,7 @@ import {
   ROOT_DIR,
   ensureDir,
   loadHarnessRegistry,
+  readRepoReadmeSummary,
   loadSnapshotSourceRecords,
   loadSourceFiles,
   readJsonFile,
@@ -176,6 +177,22 @@ async function buildSiteData(targetRoot: string): Promise<void> {
     artifacts,
     harnesses: harnessRegistry.harnesses,
   });
+  const sourceDescriptionEntries = await Promise.all(
+    validSources.map(async (source) => [
+      source.id,
+      (await readRepoReadmeSummary(source)) || source.metadata?.notes || "",
+    ] as const),
+  );
+  const sourceDescriptions = Object.fromEntries(sourceDescriptionEntries);
+  const enrichedTables = Object.fromEntries(
+    Object.entries(tables).map(([type, rows]) => [
+      type,
+      rows.map((row) => ({
+        ...row,
+        source_description: sourceDescriptions[row.source_id] || "",
+      })),
+    ]),
+  ) as typeof tables;
   const report = buildDerivedReport({
     harnesses: harnessRegistry.harnesses,
     validSources,
@@ -200,10 +217,10 @@ async function buildSiteData(targetRoot: string): Promise<void> {
     }),
     recent_updates: buildRecentUpdates(artifacts),
   });
-  await writeJson(path.join(targetRoot, "mcp-server.json"), tables["mcp-server"]);
-  await writeJson(path.join(targetRoot, "skill.json"), tables.skill);
-  await writeJson(path.join(targetRoot, "plugin.json"), tables.plugin);
-  await writeJson(path.join(targetRoot, "agent.json"), tables.agent);
+  await writeJson(path.join(targetRoot, "mcp-server.json"), enrichedTables["mcp-server"]);
+  await writeJson(path.join(targetRoot, "skill.json"), enrichedTables.skill);
+  await writeJson(path.join(targetRoot, "plugin.json"), enrichedTables.plugin);
+  await writeJson(path.join(targetRoot, "agent.json"), enrichedTables.agent);
   await fs.writeFile(
     path.join(path.dirname(targetRoot), "rss.xml"),
     buildRssFeed({

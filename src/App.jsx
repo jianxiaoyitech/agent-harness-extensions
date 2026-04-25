@@ -15,6 +15,7 @@ import {
   buildFilteredTypeCounts,
   buildQuerySummary,
   compareValues,
+  formatDate,
   repoLabel,
   supportedHarnessCount,
 } from "@/features/directory/utils";
@@ -41,6 +42,7 @@ function formatRefreshTimestamp(value) {
 function buildSuggestionScore(row, normalizedQuery) {
   const name = String(row.name || "").toLowerCase();
   const description = String(row.description || "").toLowerCase();
+  const sourceDescription = String(row.source_description || "").toLowerCase();
   const sourceName = String(row.source_name || "").toLowerCase();
   const sourceId = String(row.source_id || "").toLowerCase();
   const path = String(row.path || "").toLowerCase();
@@ -52,9 +54,52 @@ function buildSuggestionScore(row, normalizedQuery) {
   if (sourceName.includes(normalizedQuery) || sourceId.includes(normalizedQuery)) return 3;
   if (repo.startsWith(normalizedQuery)) return 4;
   if (repo.includes(normalizedQuery)) return 5;
-  if (description.includes(normalizedQuery)) return 6;
-  if (path.includes(normalizedQuery)) return 7;
+  if (sourceDescription.includes(normalizedQuery)) return 6;
+  if (description.includes(normalizedQuery)) return 7;
+  if (path.includes(normalizedQuery)) return 8;
   return 99;
+}
+
+function groupRowsBySource(filteredRows, allRows, query) {
+  const totalBySource = new Map();
+  for (const row of allRows) {
+    totalBySource.set(row.source_id, (totalBySource.get(row.source_id) || 0) + 1);
+  }
+
+  const groups = new Map();
+  for (const row of filteredRows) {
+    const existing = groups.get(row.source_id);
+    if (existing) {
+      existing.rows.push(row);
+      if (!existing.description && row.source_description) {
+        existing.description = row.source_description;
+      }
+      continue;
+    }
+
+    groups.set(row.source_id, {
+      id: row.source_id,
+      source_id: row.source_id,
+      source_name: row.source_name,
+      name: row.source_name,
+      repo: row.repo,
+      stars: row.stars,
+      updated_at: row.updated_at,
+      archived: row.archived,
+      compatibility: row.compatibility,
+      primaryRow: row,
+      rows: [row],
+      description: row.source_description || "",
+      totalCount: totalBySource.get(row.source_id) || 1,
+      matchCount: 1,
+      hasQuery: Boolean(query),
+    });
+  }
+
+  return [...groups.values()].map((group) => ({
+    ...group,
+    matchCount: group.rows.length,
+  }));
 }
 
 export default function App({ initialData = null }) {
@@ -96,6 +141,7 @@ export default function App({ initialData = null }) {
             const haystack = [
               row.name,
               row.description,
+              row.source_description,
               row.source_name,
               row.source_id,
               row.path,
@@ -138,6 +184,31 @@ export default function App({ initialData = null }) {
         }),
     [compatibilityFilters, crossHarnessOnly, query, rows, sortDirection, sortKey],
   );
+  const groupedRows = useMemo(() => {
+    const grouped = groupRowsBySource(filteredRows, rows, query);
+
+    return grouped.sort((left, right) => {
+      const leftValue =
+        sortKey === "name"
+          ? left.source_name
+          : sortKey === "repo"
+            ? repoLabel(left.repo)
+            : left[sortKey];
+      const rightValue =
+        sortKey === "name"
+          ? right.source_name
+          : sortKey === "repo"
+            ? repoLabel(right.repo)
+            : right[sortKey];
+      const comparison = compareValues(leftValue, rightValue, sortKey === "stars");
+
+      if (comparison !== 0) {
+        return sortDirection === "asc" ? comparison : -comparison;
+      }
+
+      return left.source_name.localeCompare(right.source_name);
+    });
+  }, [filteredRows, query, rows, sortDirection, sortKey]);
 
   useEffect(() => {
     setPage(1);
@@ -167,20 +238,47 @@ export default function App({ initialData = null }) {
     [activeCompatibilityFilters.length, compatibilityFilters, crossHarnessOnly, tables],
   );
   const totalPages = Math.max(1, Math.ceil(filteredRows.length / PAGE_SIZE));
+  const groupedTotalPages = Math.max(1, Math.ceil(groupedRows.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
-  const pageStart = (currentPage - 1) * PAGE_SIZE;
+  const currentGroupedPage = Math.min(page, groupedTotalPages);
+  const pageStart = (currentGroupedPage - 1) * PAGE_SIZE;
   const visibleRows = useMemo(
-    () => filteredRows.slice(pageStart, pageStart + PAGE_SIZE),
-    [filteredRows, pageStart],
+    () => groupedRows.slice(pageStart, pageStart + PAGE_SIZE),
+    [groupedRows, pageStart],
   );
   const skillCount = tables.skill?.length ?? 0;
   const mcpServerCount = tables["mcp-server"]?.length ?? 0;
   const agentCount = tables.agent?.length ?? 0;
   const refreshedAt = formatRefreshTimestamp(report?.generated_at);
   const expandedRow = useMemo(
-    () => rows.find((row) => row.id === expandedRowId) || null,
-    [expandedRowId, rows],
+    () => groupedRows.find((row) => row.id === expandedRowId) || null,
+    [expandedRowId, groupedRows],
   );
+  const expandedSourceSummary = useMemo(() => {
+    if (!expandedRow) {
+      return null;
+    }
+
+    const sourceRows = TYPE_ORDER.flatMap((type) =>
+      (tables[type] || []).filter((row) => row.source_id === expandedRow.source_id)
+    );
+
+    return {
+      sourceId: expandedRow.source_id,
+      sourceName: expandedRow.source_name,
+      repo: expandedRow.repo,
+      stars: expandedRow.stars ?? 0,
+      archived: expandedRow.archived ?? false,
+      updatedAt: expandedRow.updated_at ? formatDate(expandedRow.updated_at) : "Unknown",
+      totalArtifacts: sourceRows.length,
+      countsByType: Object.fromEntries(
+        TYPE_ORDER.map((type) => [
+          type,
+          sourceRows.filter((row) => row.type === type).length,
+        ])
+      ),
+    };
+  }, [expandedRow, tables]);
   const searchSuggestions = useMemo(() => {
     const normalizedQuery = search.trim().toLowerCase();
     if (normalizedQuery.length < 2) {
@@ -231,7 +329,7 @@ export default function App({ initialData = null }) {
     setSearch(suggestion.name);
     setCompatibilityFilters({});
     setCrossHarnessOnly(false);
-    setExpandedRowId(suggestion.id);
+    setExpandedRowId(suggestion.source_id);
     setPage(1);
     setShowSearchSuggestions(false);
   }
@@ -253,7 +351,7 @@ export default function App({ initialData = null }) {
                   Search extensions
                 </label>
                 <div
-                  className="relative"
+                  className="relative z-50"
                   onBlur={() => {
                     clearSearchBlurTimeout();
                     searchBlurTimeoutRef.current = window.setTimeout(() => {
@@ -299,7 +397,7 @@ export default function App({ initialData = null }) {
                     autoComplete="off"
                   />
                   {showSearchSuggestions && searchSuggestions.length > 0 ? (
-                    <div className="absolute inset-x-0 top-[calc(100%+0.5rem)] z-30 overflow-hidden rounded-xl border border-border/80 bg-background/98 shadow-[0_18px_50px_rgba(15,23,42,0.12)] backdrop-blur">
+                    <div className="absolute inset-x-0 top-[calc(100%+0.5rem)] z-[70] overflow-hidden rounded-xl border border-border/80 bg-background shadow-[0_18px_50px_rgba(15,23,42,0.16)]">
                       <div className="border-b border-border/70 px-3 py-2 text-[0.72rem] font-medium text-muted-foreground">
                         Matching extensions
                       </div>
@@ -395,14 +493,15 @@ export default function App({ initialData = null }) {
               compatibilityFilters={compatibilityFilters}
               crossHarnessOnly={crossHarnessOnly}
               expandedRow={expandedRow}
-              page={currentPage}
+              page={currentGroupedPage}
               pageSize={PAGE_SIZE}
-              totalPages={totalPages}
-              totalRows={filteredRows.length}
+              totalPages={groupedTotalPages}
+              totalRows={groupedRows.length}
               featuredHarnesses={harnesses}
               filteredTypeCounts={filteredTypeCounts}
               querySummary={querySummary}
               rows={rows}
+              selectedSourceSummary={expandedSourceSummary}
               setActiveType={setActiveType}
               setCompatibilityFilters={setCompatibilityFilters}
               setCrossHarnessOnly={setCrossHarnessOnly}
@@ -414,7 +513,7 @@ export default function App({ initialData = null }) {
               expandedRowId={expandedRowId}
               filteredRows={visibleRows}
               harnesses={harnesses}
-              page={currentPage}
+              page={currentGroupedPage}
               pageSize={PAGE_SIZE}
               setPage={setPage}
               setExpandedRowId={setExpandedRowId}
@@ -422,7 +521,7 @@ export default function App({ initialData = null }) {
               setSortKey={setSortKey}
               sortDirection={sortDirection}
               sortKey={sortKey}
-              totalPages={totalPages}
+              totalPages={groupedTotalPages}
               visibleHarnesses={visibleHarnesses}
             />
           </TabsContent>
