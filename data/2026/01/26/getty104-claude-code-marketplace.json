@@ -3,6 +3,8 @@
   "source_id": "getty104-claude-code-marketplace",
   "source_name": "getty104 Claude Code Marketplace",
   "source_status": "active",
+  "snapshot_date": "2026-01-26",
+  "first_commit_date": "2025-10-16",
   "repo": "https://github.com/getty104/claude-code-marketplace",
   "default_branch": "main",
   "previous_sha": "c7ad22d3bb939b92cb709a193fcc33358c0faedf",
@@ -16,7 +18,7 @@
   ],
   "source_config_hash": "555f4bd72aac8e5afd96243420f966e4ffdfa1fd6acb71a858618e22c6d40b6a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:29:23.395Z",
+  "synced_at": "2026-04-25T10:36:29.555Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -100,7 +102,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.393Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::mcp-server::base-tools-mcp-json",
@@ -177,7 +179,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.393Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-check-library-skill-md",
@@ -255,7 +257,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.393Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-commit-push-skill-md",
@@ -333,7 +335,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.393Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-git-worktree-skill-md",
@@ -411,7 +413,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-plan-skill-md",
@@ -489,7 +491,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-pr-skill-md",
@@ -567,7 +569,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-exec-issue-skill-md",
@@ -645,7 +647,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-fix-review-point-skill-md",
@@ -723,7 +725,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-fix-review-point-loop-skill-md",
@@ -801,7 +803,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-general-purpose-assistant-md",
@@ -879,7 +881,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.393Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-read-github-issue-skill-md",
@@ -957,7 +959,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-read-unresolved-pr-comments-skill-md",
@@ -1035,7 +1037,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-resolve-pr-comments-skill-md",
@@ -1113,7 +1115,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:23.394Z"
+      "last_checked_at": "2026-04-25T10:36:29.555Z"
     }
   ],
   "issues": []

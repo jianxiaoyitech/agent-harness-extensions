@@ -3,20 +3,39 @@
   "source_id": "significant-gravitas-autogpt",
   "source_name": "AutoGPT",
   "source_status": "active",
+  "snapshot_date": "2026-03-30",
+  "first_commit_date": "2023-09-06",
   "repo": "https://github.com/Significant-Gravitas/AutoGPT",
   "default_branch": "master",
-  "previous_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "current_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "ca74f980c18232ee9535eae7483e54f428ef06c2",
+  "current_sha": "7ba05366ed6c4614a85d13eb6c597e149ba7f561",
+  "mode": "delta",
+  "changed_files": [
+    "autogpt_platform/backend/backend/copilot/db.py",
+    "autogpt_platform/backend/backend/copilot/model.py",
+    "autogpt_platform/backend/backend/copilot/stream_registry.py",
+    "autogpt_platform/backend/backend/data/db_manager.py",
+    "autogpt_platform/backend/migrations/20260326120000_add_chat_message_duration_ms/migration.sql",
+    "autogpt_platform/backend/schema.prisma",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/CopilotPage.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/components/ChatContainer/ChatContainer.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/components/ChatMessagesContainer/ChatMessagesContainer.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/components/ChatMessagesContainer/components/ThinkingIndicator.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/components/JobStatsBar/TurnStatsBar.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/components/JobStatsBar/formatElapsed.ts",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/components/JobStatsBar/useElapsedTimer.ts",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/helpers/convertChatSessionToUiMessages.ts",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/useChatSession.ts",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/useCopilotPage.ts"
+  ],
   "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:13:55.632Z",
+  "synced_at": "2026-04-25T11:06:53.532Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-27T13:11:23+07:00",
+    "updated_at": "2026-03-30T16:46:31+07:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +99,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-27T13:11:23+07:00",
+        "updated_at": "2026-03-30T16:46:31+07:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +111,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T17:13:55.632Z"
+      "last_checked_at": "2026-04-25T11:06:53.532Z"
     }
   ],
   "issues": []

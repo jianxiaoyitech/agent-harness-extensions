@@ -3,6 +3,8 @@
   "source_id": "modelcontextprotocol-servers",
   "source_name": "Model Context Protocol Servers",
   "source_status": "active",
+  "snapshot_date": "2024-12-02",
+  "first_commit_date": "2024-11-19",
   "repo": "https://github.com/modelcontextprotocol/servers",
   "default_branch": "main",
   "previous_sha": "dc70c024035fe8d580ee7f19d1f4e6681c1817b7",
@@ -25,7 +27,7 @@
   ],
   "source_config_hash": "1e3f102c0c6ce5a508ccccf27f840907452fbf8b49ba90d5337e9a196d37cba8",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:39:49.188Z",
+  "synced_at": "2026-04-25T10:49:21.700Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -106,7 +108,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:49.188Z"
+      "last_checked_at": "2026-04-25T10:49:21.700Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "getty104-claude-code-marketplace",
   "source_name": "getty104 Claude Code Marketplace",
   "source_status": "active",
+  "snapshot_date": "2026-01-21",
+  "first_commit_date": "2025-10-16",
   "repo": "https://github.com/getty104/claude-code-marketplace",
   "default_branch": "main",
   "previous_sha": "e14f0f3785cd1092a157d847823043a9a35f4d1f",
@@ -17,7 +19,7 @@
   ],
   "source_config_hash": "555f4bd72aac8e5afd96243420f966e4ffdfa1fd6acb71a858618e22c6d40b6a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:29:21.136Z",
+  "synced_at": "2026-04-25T10:36:27.450Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -102,7 +104,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-create-git-worktree-skill-md",
@@ -180,7 +182,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-create-pr-skill-md",
@@ -258,7 +260,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.136Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-general-purpose-assistant-md",
@@ -336,7 +338,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::plugin::getty104-claude-plugin-plugin-json",
@@ -413,7 +415,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.449Z"
     },
     {
       "id": "getty104-claude-code-marketplace::mcp-server::getty104-mcp-json",
@@ -490,7 +492,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.449Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-high-quality-commit-skill-md",
@@ -568,7 +570,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.136Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-pr-review-planner-md",
@@ -646,7 +648,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-read-github-issue-skill-md",
@@ -724,7 +726,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.136Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-read-unresolved-pr-comments-skill-md",
@@ -802,7 +804,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.136Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-resolve-pr-comments-skill-md",
@@ -880,7 +882,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.136Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-serena-mcp-skill-md",
@@ -958,7 +960,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.136Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-task-requirement-analyzer-md",
@@ -1036,7 +1038,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:21.135Z"
+      "last_checked_at": "2026-04-25T10:36:27.450Z"
     }
   ],
   "issues": []

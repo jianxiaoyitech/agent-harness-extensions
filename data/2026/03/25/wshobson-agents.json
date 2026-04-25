@@ -3,15 +3,17 @@
   "source_id": "wshobson-agents",
   "source_name": "wshobson Agents",
   "source_status": "active",
+  "snapshot_date": "2026-03-25",
+  "first_commit_date": "2025-07-24",
   "repo": "https://github.com/wshobson/agents",
   "default_branch": "main",
-  "previous_sha": "55f80f9bb8c1bc696f017801754173d2d6dada7d",
+  "previous_sha": "adb75be05ea5a61305d646d2ff79a63635706f66",
   "current_sha": "5aff99cf4f6150c10326627ba39f5ce93fc2a851",
   "mode": "delta",
   "changed_files": [
-    "docs/agent-skills.md",
     "docs/superpowers/plans/2025-03-25-plugineval-plan.md",
     "docs/superpowers/specs/2025-03-25-plugineval-design.md",
+    "plugins/agent-teams/commands/team-spawn.md",
     "plugins/plugin-eval/.claude-plugin/plugin.json",
     "plugins/plugin-eval/README.md",
     "plugins/plugin-eval/agents/eval-orchestrator.md",
@@ -52,7 +54,7 @@
   ],
   "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:58:49.316Z",
+  "synced_at": "2026-04-25T11:09:20.690Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -135,7 +137,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-accessibility-compliance-skill-md",
@@ -212,7 +214,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-ui-design-agents-accessibility-expert-md",
@@ -289,7 +291,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-agent-orchestration-claude-plugin-plugin-json",
@@ -365,7 +367,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-agent-teams-claude-plugin-plugin-json",
@@ -441,7 +443,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-llm-application-dev-agents-ai-engineer-md",
@@ -518,7 +520,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-data-engineering-skills-airflow-dag-patterns-skill-md",
@@ -595,7 +597,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-framework-migration-skills-angular-migration-skill-md",
@@ -672,7 +674,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-reverse-engineering-skills-anti-reversing-techniques-skill-md",
@@ -749,7 +751,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-api-design-principles-skill-md",
@@ -826,7 +828,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-api-testing-observability-agents-api-documenter-md",
@@ -903,7 +905,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-documentation-generation-agents-api-documenter-md",
@@ -980,7 +982,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-api-scaffolding-claude-plugin-plugin-json",
@@ -1056,7 +1058,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-api-testing-observability-claude-plugin-plugin-json",
@@ -1132,7 +1134,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-application-performance-claude-plugin-plugin-json",
@@ -1208,7 +1210,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-comprehensive-review-agents-architect-review-md",
@@ -1285,7 +1287,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-framework-migration-agents-architect-review-md",
@@ -1362,7 +1364,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-documentation-generation-skills-architecture-decision-records-skill-md",
@@ -1439,7 +1441,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-architecture-patterns-skill-md",
@@ -1516,7 +1518,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-arm-cortex-microcontrollers-agents-arm-cortex-expert-md",
@@ -1593,7 +1595,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-arm-cortex-microcontrollers-claude-plugin-plugin-json",
@@ -1669,7 +1671,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-async-python-patterns-skill-md",
@@ -1746,7 +1748,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-security-scanning-skills-attack-tree-construction-skill-md",
@@ -1823,7 +1825,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-auth-implementation-patterns-skill-md",
@@ -1900,7 +1902,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-backend-api-security-claude-plugin-plugin-json",
@@ -1976,7 +1978,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-api-scaffolding-agents-backend-architect-md",
@@ -2053,7 +2055,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-api-security-agents-backend-architect-md",
@@ -2130,7 +2132,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-backend-architect-md",
@@ -2207,7 +2209,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-data-engineering-agents-backend-architect-md",
@@ -2284,7 +2286,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-cloud-optimization-agents-backend-architect-md",
@@ -2361,7 +2363,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-multi-platform-apps-agents-backend-architect-md",
@@ -2438,7 +2440,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-backend-development-claude-plugin-plugin-json",
@@ -2514,7 +2516,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-api-security-agents-backend-security-coder-md",
@@ -2591,7 +2593,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-data-validation-suite-agents-backend-security-coder-md",
@@ -2668,7 +2670,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-quantitative-trading-skills-backtesting-frameworks-skill-md",
@@ -2745,7 +2747,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-shell-scripting-skills-bash-defensive-patterns-skill-md",
@@ -2822,7 +2824,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-shell-scripting-agents-bash-pro-md",
@@ -2899,7 +2901,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-shell-scripting-skills-bats-testing-patterns-skill-md",
@@ -2976,7 +2978,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-bazel-build-optimization-skill-md",
@@ -3053,7 +3055,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-payment-processing-skills-billing-automation-skill-md",
@@ -3130,7 +3132,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-reverse-engineering-skills-binary-analysis-patterns-skill-md",
@@ -3207,7 +3209,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-blockchain-web3-agents-blockchain-developer-md",
@@ -3284,7 +3286,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-blockchain-web3-claude-plugin-plugin-json",
@@ -3360,7 +3362,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.293Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-business-analytics-agents-business-analyst-md",
@@ -3437,7 +3439,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-business-analytics-claude-plugin-plugin-json",
@@ -3513,7 +3515,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-systems-programming-agents-c-pro-md",
@@ -3590,7 +3592,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-c4-architecture-claude-plugin-plugin-json",
@@ -3666,7 +3668,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-c4-architecture-agents-c4-code-md",
@@ -3743,7 +3745,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-c4-architecture-agents-c4-component-md",
@@ -3820,7 +3822,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-c4-architecture-agents-c4-container-md",
@@ -3897,7 +3899,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-c4-architecture-agents-c4-context-md",
@@ -3974,7 +3976,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-documentation-generation-skills-changelog-automation-skill-md",
@@ -4051,7 +4053,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-cicd-automation-claude-plugin-plugin-json",
@@ -4127,7 +4129,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cicd-automation-agents-cloud-architect-md",
@@ -4204,7 +4206,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-cloud-architect-md",
@@ -4281,7 +4283,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-cloud-optimization-agents-cloud-architect-md",
@@ -4358,7 +4360,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-deployment-validation-agents-cloud-architect-md",
@@ -4435,7 +4437,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-cloud-infrastructure-claude-plugin-plugin-json",
@@ -4511,7 +4513,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-code-documentation-claude-plugin-plugin-json",
@@ -4587,7 +4589,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-code-refactoring-claude-plugin-plugin-json",
@@ -4663,7 +4665,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-code-review-excellence-skill-md",
@@ -4740,7 +4742,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-code-documentation-agents-code-reviewer-md",
@@ -4817,7 +4819,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-code-refactoring-agents-code-reviewer-md",
@@ -4894,7 +4896,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-codebase-cleanup-agents-code-reviewer-md",
@@ -4971,7 +4973,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-comprehensive-review-agents-code-reviewer-md",
@@ -5048,7 +5050,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-git-pr-workflows-agents-code-reviewer-md",
@@ -5125,7 +5127,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-incident-response-agents-code-reviewer-md",
@@ -5202,7 +5204,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-tdd-workflows-agents-code-reviewer-md",
@@ -5279,7 +5281,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-codebase-cleanup-claude-plugin-plugin-json",
@@ -5355,7 +5357,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-startup-business-analyst-skills-competitive-landscape-skill-md",
@@ -5432,7 +5434,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-comprehensive-review-claude-plugin-plugin-json",
@@ -5508,7 +5510,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-conductor-claude-plugin-plugin-json",
@@ -5584,7 +5586,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-conductor-agents-conductor-validator-md",
@@ -5661,7 +5663,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-content-marketing-agents-content-marketer-md",
@@ -5738,7 +5740,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-content-marketing-claude-plugin-plugin-json",
@@ -5814,7 +5816,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-conductor-skills-context-driven-development-skill-md",
@@ -5891,7 +5893,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-context-management-claude-plugin-plugin-json",
@@ -5967,7 +5969,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-agent-orchestration-agents-context-manager-md",
@@ -6044,7 +6046,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-context-management-agents-context-manager-md",
@@ -6121,7 +6123,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-cost-optimization-skill-md",
@@ -6198,7 +6200,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-systems-programming-agents-cpp-pro-md",
@@ -6275,7 +6277,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-cqrs-implementation-skill-md",
@@ -6352,7 +6354,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-jvm-languages-agents-csharp-pro-md",
@@ -6429,7 +6431,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-customer-sales-automation-claude-plugin-plugin-json",
@@ -6505,7 +6507,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-customer-sales-automation-agents-customer-support-md",
@@ -6582,7 +6584,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-data-engineering-agents-data-engineer-md",
@@ -6659,7 +6661,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-data-engineering-claude-plugin-plugin-json",
@@ -6735,7 +6737,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-data-engineering-skills-data-quality-frameworks-skill-md",
@@ -6812,7 +6814,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-machine-learning-ops-agents-data-scientist-md",
@@ -6889,7 +6891,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-business-analytics-skills-data-storytelling-skill-md",
@@ -6966,7 +6968,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-data-validation-suite-claude-plugin-plugin-json",
@@ -7042,7 +7044,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-migrations-agents-database-admin-md",
@@ -7119,7 +7121,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-cloud-optimization-agents-database-architect-md",
@@ -7196,7 +7198,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-design-agents-database-architect-md",
@@ -7273,7 +7275,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-database-cloud-optimization-claude-plugin-plugin-json",
@@ -7349,7 +7351,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-database-design-claude-plugin-plugin-json",
@@ -7425,7 +7427,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-framework-migration-skills-database-migration-skill-md",
@@ -7502,7 +7504,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-database-migrations-claude-plugin-plugin-json",
@@ -7578,7 +7580,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-cloud-optimization-agents-database-optimizer-md",
@@ -7655,7 +7657,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-migrations-agents-database-optimizer-md",
@@ -7732,7 +7734,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-observability-monitoring-agents-database-optimizer-md",
@@ -7809,7 +7811,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-data-engineering-skills-dbt-transformation-patterns-skill-md",
@@ -7886,7 +7888,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-debugging-toolkit-agents-debugger-md",
@@ -7963,7 +7965,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-error-debugging-agents-debugger-md",
@@ -8040,7 +8042,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-error-diagnostics-agents-debugger-md",
@@ -8117,7 +8119,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-incident-response-agents-debugger-md",
@@ -8194,7 +8196,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-unit-testing-agents-debugger-md",
@@ -8271,7 +8273,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-debugging-strategies-skill-md",
@@ -8348,7 +8350,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-debugging-toolkit-claude-plugin-plugin-json",
@@ -8424,7 +8426,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-blockchain-web3-skills-defi-protocol-templates-skill-md",
@@ -8501,7 +8503,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-dependency-management-claude-plugin-plugin-json",
@@ -8577,7 +8579,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-framework-migration-skills-dependency-upgrade-skill-md",
@@ -8654,7 +8656,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cicd-automation-agents-deployment-engineer-md",
@@ -8731,7 +8733,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-deployment-engineer-md",
@@ -8808,7 +8810,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-deployment-strategies-agents-deployment-engineer-md",
@@ -8885,7 +8887,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-full-stack-orchestration-agents-deployment-engineer-md",
@@ -8962,7 +8964,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cicd-automation-skills-deployment-pipeline-design-skill-md",
@@ -9039,7 +9041,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-deployment-strategies-claude-plugin-plugin-json",
@@ -9115,7 +9117,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-deployment-validation-claude-plugin-plugin-json",
@@ -9191,7 +9193,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-ui-design-agents-design-system-architect-md",
@@ -9268,7 +9270,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-design-system-patterns-skill-md",
@@ -9345,7 +9347,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-developer-essentials-claude-plugin-plugin-json",
@@ -9421,7 +9423,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cicd-automation-agents-devops-troubleshooter-md",
@@ -9498,7 +9500,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-distributed-debugging-agents-devops-troubleshooter-md",
@@ -9575,7 +9577,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-incident-response-agents-devops-troubleshooter-md",
@@ -9652,7 +9654,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-distributed-debugging-claude-plugin-plugin-json",
@@ -9728,7 +9730,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-observability-monitoring-skills-distributed-tracing-skill-md",
@@ -9805,7 +9807,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-api-scaffolding-agents-django-pro-md",
@@ -9882,7 +9884,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-python-development-agents-django-pro-md",
@@ -9959,7 +9961,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-code-documentation-agents-docs-architect-md",
@@ -10036,7 +10038,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-documentation-generation-agents-docs-architect-md",
@@ -10113,7 +10115,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-documentation-generation-claude-plugin-plugin-json",
@@ -10189,7 +10191,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-dotnet-contribution-agents-dotnet-architect-md",
@@ -10266,7 +10268,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-dotnet-contribution-skills-dotnet-backend-patterns-skill-md",
@@ -10343,7 +10345,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-dotnet-contribution-claude-plugin-plugin-json",
@@ -10419,7 +10421,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-debugging-toolkit-agents-dx-optimizer-md",
@@ -10496,7 +10498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-team-collaboration-agents-dx-optimizer-md",
@@ -10573,7 +10575,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-e2e-testing-patterns-skill-md",
@@ -10650,7 +10652,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-functional-programming-agents-elixir-pro-md",
@@ -10727,7 +10729,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-embedding-strategies-skill-md",
@@ -10804,7 +10806,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-hr-legal-compliance-skills-employment-contract-templates-skill-md",
@@ -10881,7 +10883,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-error-debugging-claude-plugin-plugin-json",
@@ -10957,7 +10959,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-distributed-debugging-agents-error-detective-md",
@@ -11034,7 +11036,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-error-debugging-agents-error-detective-md",
@@ -11111,7 +11113,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-error-diagnostics-agents-error-detective-md",
@@ -11188,7 +11190,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-incident-response-agents-error-detective-md",
@@ -11265,7 +11267,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-error-diagnostics-claude-plugin-plugin-json",
@@ -11341,7 +11343,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-error-handling-patterns-skill-md",
@@ -11418,7 +11420,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-plugin-eval-agents-eval-orchestrator-md",
@@ -11495,7 +11497,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-plugin-eval-skills-evaluation-methodology-skill-md",
@@ -11572,7 +11574,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-event-sourcing-architect-md",
@@ -11649,7 +11651,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-event-store-design-skill-md",
@@ -11726,7 +11728,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-api-scaffolding-agents-fastapi-pro-md",
@@ -11803,7 +11805,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-python-development-agents-fastapi-pro-md",
@@ -11880,7 +11882,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-api-scaffolding-skills-fastapi-templates-skill-md",
@@ -11957,7 +11959,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-reverse-engineering-agents-firmware-analyst-md",
@@ -12034,7 +12036,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-multi-platform-apps-agents-flutter-expert-md",
@@ -12111,7 +12113,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-framework-migration-claude-plugin-plugin-json",
@@ -12187,7 +12189,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-application-performance-agents-frontend-developer-md",
@@ -12264,7 +12266,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-frontend-mobile-development-agents-frontend-developer-md",
@@ -12341,7 +12343,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-frontend-mobile-security-agents-frontend-developer-md",
@@ -12418,7 +12420,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-multi-platform-apps-agents-frontend-developer-md",
@@ -12495,7 +12497,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-frontend-mobile-development-claude-plugin-plugin-json",
@@ -12571,7 +12573,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-frontend-mobile-security-claude-plugin-plugin-json",
@@ -12647,7 +12649,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-frontend-mobile-security-agents-frontend-security-coder-md",
@@ -12724,7 +12726,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-full-stack-orchestration-claude-plugin-plugin-json",
@@ -12800,7 +12802,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-functional-programming-claude-plugin-plugin-json",
@@ -12876,7 +12878,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-meigen-ai-design-agents-gallery-researcher-md",
@@ -12953,7 +12955,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-game-development-claude-plugin-plugin-json",
@@ -13029,7 +13031,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-hr-legal-compliance-skills-gdpr-data-handling-skill-md",
@@ -13106,7 +13108,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-git-advanced-workflows-skill-md",
@@ -13183,7 +13185,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-git-pr-workflows-claude-plugin-plugin-json",
@@ -13259,7 +13261,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cicd-automation-skills-github-actions-templates-skill-md",
@@ -13336,7 +13338,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cicd-automation-skills-gitlab-ci-patterns-skill-md",
@@ -13413,7 +13415,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-kubernetes-operations-skills-gitops-workflow-skill-md",
@@ -13490,7 +13492,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-systems-programming-skills-go-concurrency-patterns-skill-md",
@@ -13567,7 +13569,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-game-development-skills-godot-gdscript-patterns-skill-md",
@@ -13644,7 +13646,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-systems-programming-agents-golang-pro-md",
@@ -13721,7 +13723,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-observability-monitoring-skills-grafana-dashboards-skill-md",
@@ -13798,7 +13800,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-api-scaffolding-agents-graphql-architect-md",
@@ -13875,7 +13877,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-graphql-architect-md",
@@ -13952,7 +13954,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-functional-programming-agents-haskell-pro-md",
@@ -14029,7 +14031,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-kubernetes-operations-skills-helm-chart-scaffolding-skill-md",
@@ -14106,7 +14108,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-hr-legal-compliance-claude-plugin-plugin-json",
@@ -14182,7 +14184,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-hr-legal-compliance-agents-hr-pro-md",
@@ -14259,7 +14261,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-hybrid-cloud-architect-md",
@@ -14336,7 +14338,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-hybrid-cloud-networking-skill-md",
@@ -14413,7 +14415,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-hybrid-search-implementation-skill-md",
@@ -14490,7 +14492,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-meigen-ai-design-agents-image-generator-md",
@@ -14567,7 +14569,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-incident-response-agents-incident-responder-md",
@@ -14644,7 +14646,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-incident-response-claude-plugin-plugin-json",
@@ -14720,7 +14722,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-incident-response-skills-incident-runbook-templates-skill-md",
@@ -14797,7 +14799,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-interaction-design-skill-md",
@@ -14874,7 +14876,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-multi-platform-apps-agents-ios-developer-md",
@@ -14951,7 +14953,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-istio-traffic-management-skill-md",
@@ -15028,7 +15030,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-jvm-languages-agents-java-pro-md",
@@ -15105,7 +15107,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-javascript-typescript-agents-javascript-pro-md",
@@ -15182,7 +15184,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-javascript-typescript-skills-javascript-testing-patterns-skill-md",
@@ -15259,7 +15261,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-javascript-typescript-claude-plugin-plugin-json",
@@ -15335,7 +15337,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-julia-development-claude-plugin-plugin-json",
@@ -15411,7 +15413,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-julia-development-agents-julia-pro-md",
@@ -15488,7 +15490,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-jvm-languages-claude-plugin-plugin-json",
@@ -15564,7 +15566,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-kubernetes-operations-skills-k8s-manifest-generator-skill-md",
@@ -15641,7 +15643,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-kubernetes-operations-skills-k8s-security-policies-skill-md",
@@ -15718,7 +15720,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-business-analytics-skills-kpi-dashboard-design-skill-md",
@@ -15795,7 +15797,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cicd-automation-agents-kubernetes-architect-md",
@@ -15872,7 +15874,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-kubernetes-architect-md",
@@ -15949,7 +15951,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-kubernetes-operations-agents-kubernetes-architect-md",
@@ -16026,7 +16028,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-kubernetes-operations-claude-plugin-plugin-json",
@@ -16102,7 +16104,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-langchain-architecture-skill-md",
@@ -16179,7 +16181,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-code-refactoring-agents-legacy-modernizer-md",
@@ -16256,7 +16258,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-dependency-management-agents-legacy-modernizer-md",
@@ -16333,7 +16335,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-framework-migration-agents-legacy-modernizer-md",
@@ -16410,7 +16412,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-hr-legal-compliance-agents-legal-advisor-md",
@@ -16487,7 +16489,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-linkerd-patterns-skill-md",
@@ -16564,7 +16566,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-llm-application-dev-claude-plugin-plugin-json",
@@ -16640,7 +16642,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-llm-evaluation-skill-md",
@@ -16717,7 +16719,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-machine-learning-ops-claude-plugin-plugin-json",
@@ -16793,7 +16795,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-reverse-engineering-agents-malware-analyst-md",
@@ -16870,7 +16872,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-startup-business-analyst-skills-market-sizing-analysis-skill-md",
@@ -16947,7 +16949,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-meigen-ai-design-claude-plugin-plugin-json",
@@ -17023,7 +17025,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-reverse-engineering-skills-memory-forensics-skill-md",
@@ -17100,7 +17102,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-systems-programming-skills-memory-safety-patterns-skill-md",
@@ -17177,7 +17179,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-documentation-generation-agents-mermaid-expert-md",
@@ -17254,7 +17256,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-microservices-patterns-skill-md",
@@ -17331,7 +17333,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-game-development-agents-minecraft-bukkit-pro-md",
@@ -17408,7 +17410,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-machine-learning-ops-agents-ml-engineer-md",
@@ -17485,7 +17487,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-machine-learning-ops-skills-ml-pipeline-workflow-skill-md",
@@ -17562,7 +17564,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-machine-learning-ops-agents-mlops-engineer-md",
@@ -17639,7 +17641,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-mobile-android-design-skill-md",
@@ -17716,7 +17718,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-frontend-mobile-development-agents-mobile-developer-md",
@@ -17793,7 +17795,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-multi-platform-apps-agents-mobile-developer-md",
@@ -17870,7 +17872,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-mobile-ios-design-skill-md",
@@ -17947,7 +17949,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-frontend-mobile-security-agents-mobile-security-coder-md",
@@ -18024,7 +18026,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-javascript-typescript-skills-modern-javascript-patterns-skill-md",
@@ -18101,7 +18103,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-developer-essentials-agents-monorepo-architect-md",
@@ -18178,7 +18180,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-monorepo-management-skill-md",
@@ -18255,7 +18257,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-mtls-configuration-skill-md",
@@ -18332,7 +18334,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-multi-cloud-architecture-skill-md",
@@ -18409,7 +18411,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-multi-platform-apps-claude-plugin-plugin-json",
@@ -18485,7 +18487,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-agent-teams-skills-multi-reviewer-patterns-skill-md",
@@ -18562,7 +18564,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-network-engineer-md",
@@ -18639,7 +18641,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-observability-monitoring-agents-network-engineer-md",
@@ -18716,7 +18718,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-frontend-mobile-development-skills-nextjs-app-router-patterns-skill-md",
@@ -18793,7 +18795,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-blockchain-web3-skills-nft-standards-skill-md",
@@ -18870,7 +18872,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-javascript-typescript-skills-nodejs-backend-patterns-skill-md",
@@ -18947,7 +18949,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-nx-workspace-patterns-skill-md",
@@ -19024,7 +19026,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-application-performance-agents-observability-engineer-md",
@@ -19101,7 +19103,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-observability-monitoring-agents-observability-engineer-md",
@@ -19178,7 +19180,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-observability-monitoring-claude-plugin-plugin-json",
@@ -19254,7 +19256,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-incident-response-skills-on-call-handoff-patterns-skill-md",
@@ -19331,7 +19333,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-documentation-generation-skills-openapi-spec-generation-skill-md",
@@ -19408,7 +19410,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-agent-teams-skills-parallel-debugging-skill-md",
@@ -19485,7 +19487,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-agent-teams-skills-parallel-feature-development-skill-md",
@@ -19562,7 +19564,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-payment-processing-agents-payment-integration-md",
@@ -19639,7 +19641,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-payment-processing-claude-plugin-plugin-json",
@@ -19715,7 +19717,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-payment-processing-skills-paypal-integration-skill-md",
@@ -19792,7 +19794,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-payment-processing-skills-pci-compliance-skill-md",
@@ -19869,7 +19871,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-application-performance-agents-performance-engineer-md",
@@ -19946,7 +19948,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-performance-engineer-md",
@@ -20023,7 +20025,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-full-stack-orchestration-agents-performance-engineer-md",
@@ -20100,7 +20102,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-observability-monitoring-agents-performance-engineer-md",
@@ -20177,7 +20179,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-performance-testing-review-agents-performance-engineer-md",
@@ -20254,7 +20256,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-performance-testing-review-claude-plugin-plugin-json",
@@ -20330,7 +20332,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-web-scripting-agents-php-pro-md",
@@ -20407,7 +20409,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-plugin-eval-claude-plugin-plugin-json",
@@ -20483,7 +20485,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-shell-scripting-agents-posix-shell-pro-md",
@@ -20560,7 +20562,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-database-design-skills-postgresql-skill-md",
@@ -20637,7 +20639,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-incident-response-skills-postmortem-writing-skill-md",
@@ -20714,7 +20716,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-projection-patterns-skill-md",
@@ -20791,7 +20793,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-observability-monitoring-skills-prometheus-configuration-skill-md",
@@ -20868,7 +20870,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-meigen-ai-design-agents-prompt-crafter-md",
@@ -20945,7 +20947,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-llm-application-dev-agents-prompt-engineer-md",
@@ -21022,7 +21024,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-prompt-engineering-patterns-skill-md",
@@ -21099,7 +21101,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-reverse-engineering-skills-protocol-reverse-engineering-skill-md",
@@ -21176,7 +21178,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-anti-patterns-skill-md",
@@ -21253,7 +21255,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-background-jobs-skill-md",
@@ -21330,7 +21332,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-code-style-skill-md",
@@ -21407,7 +21409,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-configuration-skill-md",
@@ -21484,7 +21486,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-design-patterns-skill-md",
@@ -21561,7 +21563,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-python-development-claude-plugin-plugin-json",
@@ -21637,7 +21639,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-error-handling-skill-md",
@@ -21714,7 +21716,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-observability-skill-md",
@@ -21791,7 +21793,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-packaging-skill-md",
@@ -21868,7 +21870,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-performance-optimization-skill-md",
@@ -21945,7 +21947,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-python-development-agents-python-pro-md",
@@ -22022,7 +22024,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-project-structure-skill-md",
@@ -22099,7 +22101,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-resilience-skill-md",
@@ -22176,7 +22178,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-resource-management-skill-md",
@@ -22253,7 +22255,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-testing-patterns-skill-md",
@@ -22330,7 +22332,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-python-type-safety-skill-md",
@@ -22407,7 +22409,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-quantitative-trading-agents-quant-analyst-md",
@@ -22484,7 +22486,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-quantitative-trading-claude-plugin-plugin-json",
@@ -22560,7 +22562,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-rag-implementation-skill-md",
@@ -22637,7 +22639,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-framework-migration-skills-react-modernization-skill-md",
@@ -22714,7 +22716,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-frontend-mobile-development-skills-react-native-architecture-skill-md",
@@ -22791,7 +22793,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-react-native-design-skill-md",
@@ -22868,7 +22870,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-frontend-mobile-development-skills-react-state-management-skill-md",
@@ -22945,7 +22947,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-documentation-generation-agents-reference-builder-md",
@@ -23022,7 +23024,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-responsive-design-skill-md",
@@ -23099,7 +23101,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-reverse-engineering-agents-reverse-engineer-md",
@@ -23176,7 +23178,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-reverse-engineering-claude-plugin-plugin-json",
@@ -23252,7 +23254,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-quantitative-trading-agents-risk-manager-md",
@@ -23329,7 +23331,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-quantitative-trading-skills-risk-metrics-calculation-skill-md",
@@ -23406,7 +23408,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-web-scripting-agents-ruby-pro-md",
@@ -23483,7 +23485,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-systems-programming-skills-rust-async-patterns-skill-md",
@@ -23560,7 +23562,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-systems-programming-agents-rust-pro-md",
@@ -23637,7 +23639,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-saga-orchestration-skill-md",
@@ -23714,7 +23716,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-customer-sales-automation-agents-sales-automator-md",
@@ -23791,7 +23793,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-security-scanning-skills-sast-configuration-skill-md",
@@ -23868,7 +23870,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-jvm-languages-agents-scala-pro-md",
@@ -23945,7 +23947,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-accessibility-compliance-skills-screen-reader-testing-skill-md",
@@ -24022,7 +24024,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-content-marketing-agents-search-specialist-md",
@@ -24099,7 +24101,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cicd-automation-skills-secrets-management-skill-md",
@@ -24176,7 +24178,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-security-auditor-md",
@@ -24253,7 +24255,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-comprehensive-review-agents-security-auditor-md",
@@ -24330,7 +24332,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-full-stack-orchestration-agents-security-auditor-md",
@@ -24407,7 +24409,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-security-compliance-agents-security-auditor-md",
@@ -24484,7 +24486,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-security-scanning-agents-security-auditor-md",
@@ -24561,7 +24563,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-security-compliance-claude-plugin-plugin-json",
@@ -24637,7 +24639,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-security-scanning-skills-security-requirement-extraction-skill-md",
@@ -24714,7 +24716,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-security-scanning-claude-plugin-plugin-json",
@@ -24790,7 +24792,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-seo-analysis-monitoring-claude-plugin-plugin-json",
@@ -24866,7 +24868,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-analysis-monitoring-agents-seo-authority-builder-md",
@@ -24943,7 +24945,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-analysis-monitoring-agents-seo-cannibalization-detector-md",
@@ -25020,7 +25022,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-content-creation-agents-seo-content-auditor-md",
@@ -25097,7 +25099,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-seo-content-creation-claude-plugin-plugin-json",
@@ -25173,7 +25175,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-content-creation-agents-seo-content-planner-md",
@@ -25250,7 +25252,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-analysis-monitoring-agents-seo-content-refresher-md",
@@ -25327,7 +25329,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-content-creation-agents-seo-content-writer-md",
@@ -25404,7 +25406,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-technical-optimization-agents-seo-keyword-strategist-md",
@@ -25481,7 +25483,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-technical-optimization-agents-seo-meta-optimizer-md",
@@ -25558,7 +25560,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-technical-optimization-agents-seo-snippet-hunter-md",
@@ -25635,7 +25637,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-seo-technical-optimization-agents-seo-structure-architect-md",
@@ -25712,7 +25714,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-seo-technical-optimization-claude-plugin-plugin-json",
@@ -25788,7 +25790,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-service-mesh-expert-md",
@@ -25865,7 +25867,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-service-mesh-observability-skill-md",
@@ -25942,7 +25944,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-shell-scripting-claude-plugin-plugin-json",
@@ -26018,7 +26020,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-shell-scripting-skills-shellcheck-configuration-skill-md",
@@ -26095,7 +26097,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-similarity-search-patterns-skill-md",
@@ -26172,7 +26174,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-observability-monitoring-skills-slo-implementation-skill-md",
@@ -26249,7 +26251,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-blockchain-web3-skills-solidity-security-skill-md",
@@ -26326,7 +26328,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-data-engineering-skills-spark-optimization-skill-md",
@@ -26403,7 +26405,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-sql-optimization-patterns-skill-md",
@@ -26480,7 +26482,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-database-design-agents-sql-pro-md",
@@ -26557,7 +26559,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-startup-business-analyst-agents-startup-analyst-md",
@@ -26634,7 +26636,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-startup-business-analyst-claude-plugin-plugin-json",
@@ -26710,7 +26712,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-startup-business-analyst-skills-startup-financial-modeling-skill-md",
@@ -26787,7 +26789,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-startup-business-analyst-skills-startup-metrics-framework-skill-md",
@@ -26864,7 +26866,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-security-scanning-skills-stride-analysis-patterns-skill-md",
@@ -26941,7 +26943,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-payment-processing-skills-stripe-integration-skill-md",
@@ -27018,7 +27020,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-systems-programming-claude-plugin-plugin-json",
@@ -27094,7 +27096,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-frontend-mobile-development-skills-tailwind-design-system-skill-md",
@@ -27171,7 +27173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-agent-teams-skills-task-coordination-strategies-skill-md",
@@ -27248,7 +27250,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-tdd-orchestrator-md",
@@ -27325,7 +27327,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-tdd-workflows-agents-tdd-orchestrator-md",
@@ -27402,7 +27404,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-tdd-workflows-claude-plugin-plugin-json",
@@ -27478,7 +27480,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-team-collaboration-claude-plugin-plugin-json",
@@ -27554,7 +27556,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-agent-teams-skills-team-communication-protocols-skill-md",
@@ -27631,7 +27633,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-startup-business-analyst-skills-team-composition-analysis-skill-md",
@@ -27708,7 +27710,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-agent-teams-skills-team-composition-patterns-skill-md",
@@ -27785,7 +27787,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-agent-teams-agents-team-debugger-md",
@@ -27862,7 +27864,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-agent-teams-agents-team-implementer-md",
@@ -27939,7 +27941,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-agent-teams-agents-team-lead-md",
@@ -28016,7 +28018,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-agent-teams-agents-team-reviewer-md",
@@ -28093,7 +28095,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-temporal-python-pro-md",
@@ -28170,7 +28172,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-temporal-python-testing-skill-md",
@@ -28247,7 +28249,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-cloud-infrastructure-skills-terraform-module-library-skill-md",
@@ -28324,7 +28326,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cicd-automation-agents-terraform-specialist-md",
@@ -28401,7 +28403,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-cloud-infrastructure-agents-terraform-specialist-md",
@@ -28478,7 +28480,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-deployment-strategies-agents-terraform-specialist-md",
@@ -28555,7 +28557,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-backend-development-agents-test-automator-md",
@@ -28632,7 +28634,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-codebase-cleanup-agents-test-automator-md",
@@ -28709,7 +28711,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-full-stack-orchestration-agents-test-automator-md",
@@ -28786,7 +28788,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-incident-response-agents-test-automator-md",
@@ -28863,7 +28865,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-performance-testing-review-agents-test-automator-md",
@@ -28940,7 +28942,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-unit-testing-agents-test-automator-md",
@@ -29017,7 +29019,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-security-scanning-skills-threat-mitigation-mapping-skill-md",
@@ -29094,7 +29096,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-security-scanning-agents-threat-modeling-expert-md",
@@ -29171,7 +29173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-conductor-skills-track-management-skill-md",
@@ -29248,7 +29250,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-developer-essentials-skills-turborepo-caching-skill-md",
@@ -29325,7 +29327,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-code-documentation-agents-tutorial-engineer-md",
@@ -29402,7 +29404,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-documentation-generation-agents-tutorial-engineer-md",
@@ -29479,7 +29481,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-javascript-typescript-skills-typescript-advanced-types-skill-md",
@@ -29556,7 +29558,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-javascript-typescript-agents-typescript-pro-md",
@@ -29633,7 +29635,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-ui-design-claude-plugin-plugin-json",
@@ -29709,7 +29711,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-ui-design-agents-ui-designer-md",
@@ -29786,7 +29788,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-multi-platform-apps-agents-ui-ux-designer-md",
@@ -29863,7 +29865,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-accessibility-compliance-agents-ui-visual-validator-md",
@@ -29940,7 +29942,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-unit-testing-claude-plugin-plugin-json",
@@ -30016,7 +30018,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-game-development-agents-unity-developer-md",
@@ -30093,7 +30095,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.295Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-game-development-skills-unity-ecs-patterns-skill-md",
@@ -30170,7 +30172,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-python-development-skills-uv-package-manager-skill-md",
@@ -30247,7 +30249,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::agent::plugins-llm-application-dev-agents-vector-database-engineer-md",
@@ -30324,7 +30326,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-llm-application-dev-skills-vector-index-tuning-skill-md",
@@ -30401,7 +30403,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-visual-design-foundations-skill-md",
@@ -30478,7 +30480,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-accessibility-compliance-skills-wcag-audit-patterns-skill-md",
@@ -30555,7 +30557,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-ui-design-skills-web-component-design-skill-md",
@@ -30632,7 +30634,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.298Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     },
     {
       "id": "wshobson-agents::plugin::plugins-web-scripting-claude-plugin-plugin-json",
@@ -30708,7 +30710,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.294Z"
+      "last_checked_at": "2026-04-25T11:09:20.679Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-blockchain-web3-skills-web3-testing-skill-md",
@@ -30785,7 +30787,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-backend-development-skills-workflow-orchestration-patterns-skill-md",
@@ -30862,7 +30864,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.296Z"
+      "last_checked_at": "2026-04-25T11:09:20.680Z"
     },
     {
       "id": "wshobson-agents::skill::plugins-conductor-skills-workflow-patterns-skill-md",
@@ -30939,7 +30941,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:58:49.297Z"
+      "last_checked_at": "2026-04-25T11:09:20.681Z"
     }
   ],
   "issues": []

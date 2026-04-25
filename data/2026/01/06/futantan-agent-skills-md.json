@@ -3,6 +3,8 @@
   "source_id": "futantan-agent-skills-md",
   "source_name": "Agent Skills",
   "source_status": "active",
+  "snapshot_date": "2026-01-06",
+  "first_commit_date": "2026-01-01",
   "repo": "https://github.com/futantan/agent-skills.md",
   "default_branch": "main",
   "previous_sha": "40dd260da2daa87b6b4723676dc4e27f0dd6c554",
@@ -16,7 +18,7 @@
   ],
   "source_config_hash": "6d7716848d3a46adb4752710427c858cd4718e17fd440ea9d31e3dd7c393de98",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:27:42.012Z",
+  "synced_at": "2026-04-25T10:34:36.378Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -97,7 +99,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:27:42.012Z"
+      "last_checked_at": "2026-04-25T10:34:36.378Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "microsoft-playwright-mcp",
   "source_name": "Playwright MCP",
   "source_status": "active",
+  "snapshot_date": "2025-04-14",
+  "first_commit_date": "2025-03-21",
   "repo": "https://github.com/microsoft/playwright-mcp",
   "default_branch": "main",
   "previous_sha": "77080e8ca40d06f05d760b6b7524a184fc3d43a3",
@@ -26,7 +28,7 @@
   ],
   "source_config_hash": "e8daacae77023dbc5255ab4bab4fd43596d061aaedd1a8b210ec1f0b7438e6cc",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:38:14.790Z",
+  "synced_at": "2026-04-25T10:47:13.423Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -107,7 +109,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:38:14.790Z"
+      "last_checked_at": "2026-04-25T10:47:13.423Z"
     }
   ],
   "issues": []

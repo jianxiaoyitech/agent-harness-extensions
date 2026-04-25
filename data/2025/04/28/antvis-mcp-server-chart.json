@@ -3,6 +3,8 @@
   "source_id": "antvis-mcp-server-chart",
   "source_name": "Chart MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-04-28",
+  "first_commit_date": "2025-04-25",
   "repo": "https://github.com/antvis/mcp-server-chart",
   "default_branch": "main",
   "previous_sha": "5e08b28c2c4e8cb44aab43534df54c188abc8c3f",
@@ -16,7 +18,7 @@
   ],
   "source_config_hash": "e8b608b7b8854b07d062a4fff6c6eae11a42636481d4291671a8066edf5842e7",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:12:14.508Z",
+  "synced_at": "2026-04-25T10:23:06.165Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -97,7 +99,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:14.508Z"
+      "last_checked_at": "2026-04-25T10:23:06.165Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "awslabs-mcp",
   "source_name": "AWS Labs MCP",
   "source_status": "active",
+  "snapshot_date": "2025-09-29",
+  "first_commit_date": "2025-03-21",
   "repo": "https://github.com/awslabs/mcp",
   "default_branch": "main",
   "previous_sha": "db2404555edb94f408531d66006c31ff4d1cf297",
@@ -45,7 +47,7 @@
   ],
   "source_config_hash": "2192dfd764d80e204eada9aa332bfe7377fa783ee9dd314f7c321f448b043770",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:17:40.773Z",
+  "synced_at": "2026-04-25T10:25:15.802Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -126,7 +128,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:17:40.773Z"
+      "last_checked_at": "2026-04-25T10:25:15.802Z"
     }
   ],
   "issues": []

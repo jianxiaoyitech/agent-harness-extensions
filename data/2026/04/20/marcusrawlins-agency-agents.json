@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "marcusrawlins-agency-agents",
+  "source_name": "Agency Agents",
+  "source_status": "active",
+  "snapshot_date": "2026-04-20",
+  "first_commit_date": "2025-10-13",
+  "repo": "https://github.com/MarcusRawlins/agency-agents",
+  "default_branch": "main",
+  "previous_sha": "6254154899f510eb4a4de10561fecfc1f32ff17f",
+  "current_sha": "6254154899f510eb4a4de10561fecfc1f32ff17f",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "6644109d25c6f742100f7382ac66edb5878dac0b4c47a46ee0baf27d79e8a3f3",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:44:13.339Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-03-15T16:37:35-05:00",
+    "archived": false
+  },
+  "artifact_count": 156,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-03-15",
+  "issues": []
+}

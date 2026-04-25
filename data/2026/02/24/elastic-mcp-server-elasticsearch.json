@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "elastic-mcp-server-elasticsearch",
   "source_name": "Elasticsearch MCP Server",
   "source_status": "active",
+  "snapshot_date": "2026-02-24",
+  "first_commit_date": "2025-03-24",
   "repo": "https://github.com/elastic/mcp-server-elasticsearch",
   "default_branch": "main",
   "previous_sha": "e1141c13e7103c100c4555ad32e1f7e3d2c5ad40",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "ee62487f355e872156ef0a76061e89abbea66d559ab8c84f798230694d53443e",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:25:25.437Z",
+  "synced_at": "2026-04-25T10:34:08.987Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2026-01-20T09:19:36-06:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "elastic-mcp-server-elasticsearch::mcp-server::readme-md",
-      "source_id": "elastic-mcp-server-elasticsearch",
-      "source_name": "Elasticsearch MCP Server",
-      "source_status": "active",
-      "name": "Elasticsearch MCP Server",
-      "type": "mcp-server",
-      "type_label": "MCP Server",
-      "path": "README.md",
-      "repo": "https://github.com/elastic/mcp-server-elasticsearch",
-      "repo_path_url": "https://github.com/elastic/mcp-server-elasticsearch/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "check",
-        "forge": "blank",
-        "gemini-cli": "check",
-        "github-copilot": "check",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "check",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "check",
-        "opencode": "check",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "check",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2026-01-20T09:19:36-06:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:25:25.437Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-01-20",
   "issues": []
 }

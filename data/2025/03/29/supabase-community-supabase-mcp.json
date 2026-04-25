@@ -3,6 +3,8 @@
   "source_id": "supabase-community-supabase-mcp",
   "source_name": "Supabase MCP",
   "source_status": "active",
+  "snapshot_date": "2025-03-29",
+  "first_commit_date": "2024-12-20",
   "repo": "https://github.com/supabase-community/supabase-mcp",
   "default_branch": "main",
   "previous_sha": "b614e93934795a0b32c9ac63a4bdce6ed6453afe",
@@ -27,7 +29,7 @@
   ],
   "source_config_hash": "11d58d680746ce2e279142f5a9c2be87282bc000fa436a0cf1e2102cc25657c2",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:53:21.329Z",
+  "synced_at": "2026-04-25T11:03:51.516Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -108,7 +110,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:21.329Z"
+      "last_checked_at": "2026-04-25T11:03:51.516Z"
     }
   ],
   "issues": []

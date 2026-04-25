@@ -3,6 +3,8 @@
   "source_id": "anthropics-skills",
   "source_name": "Anthropics Skills",
   "source_status": "active",
+  "snapshot_date": "2025-12-16",
+  "first_commit_date": "2025-10-15",
   "repo": "https://github.com/anthropics/skills",
   "default_branch": "main",
   "previous_sha": "00756142ab04c82a447693cf373c4e0c554d1005",
@@ -16,7 +18,7 @@
   ],
   "source_config_hash": "669bf39d998f27a35719bf03bc58e14102ae0b75c73edf72cd8238626f76a999",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:12:33.103Z",
+  "synced_at": "2026-04-25T10:22:40.301Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -97,7 +99,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-brand-guidelines-skill-md",
@@ -171,7 +173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-canvas-design-skill-md",
@@ -245,7 +247,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-doc-coauthoring-skill-md",
@@ -319,7 +321,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-docx-skill-md",
@@ -393,7 +395,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-frontend-design-skill-md",
@@ -467,7 +469,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-internal-comms-skill-md",
@@ -541,7 +543,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-mcp-builder-skill-md",
@@ -615,7 +617,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-pdf-skill-md",
@@ -689,7 +691,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-pptx-skill-md",
@@ -763,7 +765,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-skill-creator-skill-md",
@@ -837,7 +839,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-slack-gif-creator-skill-md",
@@ -911,7 +913,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-theme-factory-skill-md",
@@ -985,7 +987,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.102Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-web-artifacts-builder-skill-md",
@@ -1059,7 +1061,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.103Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-webapp-testing-skill-md",
@@ -1133,7 +1135,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.103Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     },
     {
       "id": "anthropics-skills::skill::skills-xlsx-skill-md",
@@ -1207,7 +1209,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:12:33.103Z"
+      "last_checked_at": "2026-04-25T10:22:40.300Z"
     }
   ],
   "issues": []

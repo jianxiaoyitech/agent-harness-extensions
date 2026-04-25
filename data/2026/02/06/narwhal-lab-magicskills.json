@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "narwhal-lab-magicskills",
   "source_name": "MagicSkills",
   "source_status": "active",
+  "snapshot_date": "2026-02-06",
+  "first_commit_date": "2025-12-30",
   "repo": "https://github.com/Narwhal-Lab/MagicSkills",
   "default_branch": "main",
   "previous_sha": "0a9c1f5718d88775b449cef8a84327b20ead458f",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "de910c183c52a6cab6427f1fea80008fce4771c152e6131981a14d49190f8e59",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:44:06.976Z",
+  "synced_at": "2026-04-25T10:53:06.143Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-12-31T16:36:44+08:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "narwhal-lab-magicskills::skill::readme-md",
-      "source_id": "narwhal-lab-magicskills",
-      "source_name": "MagicSkills",
-      "source_status": "active",
-      "name": "MagicSkills",
-      "type": "skill",
-      "type_label": "Skill",
-      "path": "README.md",
-      "repo": "https://github.com/Narwhal-Lab/MagicSkills",
-      "repo_path_url": "https://github.com/Narwhal-Lab/MagicSkills/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "blank",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "blank",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "blank",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "MIT",
-        "updated_at": "2025-12-31T16:36:44+08:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "skill"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:44:06.976Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-12-31",
   "issues": []
 }

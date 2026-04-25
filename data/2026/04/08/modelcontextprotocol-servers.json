@@ -3,20 +3,26 @@
   "source_id": "modelcontextprotocol-servers",
   "source_name": "Model Context Protocol Servers",
   "source_status": "active",
+  "snapshot_date": "2026-04-08",
+  "first_commit_date": "2024-11-19",
   "repo": "https://github.com/modelcontextprotocol/servers",
   "default_branch": "main",
-  "previous_sha": "f4244583a6af9425633e433a3eec000d23f4e011",
-  "current_sha": "f4244583a6af9425633e433a3eec000d23f4e011",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "6e320090c030c439637c06ac197cbbecf8e1ec53",
+  "current_sha": "bae042b4f213e72a3e1e8b9e813f960167a2e019",
+  "mode": "delta",
+  "changed_files": [
+    "CLAUDE.md",
+    "src/everything/AGENTS.md",
+    "src/sequentialthinking/README.md"
+  ],
   "source_config_hash": "1e3f102c0c6ce5a508ccccf27f840907452fbf8b49ba90d5337e9a196d37cba8",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:54:53.393Z",
+  "synced_at": "2026-04-25T10:53:03.234Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-17T07:21:11-07:00",
+    "updated_at": "2026-04-08T23:49:45+01:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +86,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-17T07:21:11-07:00",
+        "updated_at": "2026-04-08T23:49:45+01:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +98,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:53.392Z"
+      "last_checked_at": "2026-04-25T10:53:03.234Z"
     },
     {
       "id": "modelcontextprotocol-servers::mcp-server::readme-md",
@@ -154,7 +160,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-17T07:21:11-07:00",
+        "updated_at": "2026-04-08T23:49:45+01:00",
         "archived": false
       },
       "detection": {
@@ -166,7 +172,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:53.393Z"
+      "last_checked_at": "2026-04-25T10:53:03.234Z"
     }
   ],
   "issues": []

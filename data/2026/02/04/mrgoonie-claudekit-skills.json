@@ -3,6 +3,8 @@
   "source_id": "mrgoonie-claudekit-skills",
   "source_name": "mrgoonie Claudekit Skills",
   "source_status": "active",
+  "snapshot_date": "2026-02-04",
+  "first_commit_date": "2025-10-23",
   "repo": "https://github.com/mrgoonie/claudekit-skills",
   "default_branch": "main",
   "previous_sha": "d554edec410ea1c1f6aa3260ac75bd2aca5cc26e",
@@ -32,7 +34,7 @@
   ],
   "source_config_hash": "4cabad375429a59f7a12c103df55dbfaea9d22f814318b09afd368cd6998c33a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:42:31.967Z",
+  "synced_at": "2026-04-25T10:52:12.236Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -116,7 +118,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-ai-ml-tools-claude-plugin-plugin-json",
@@ -192,7 +194,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-ai-multimodal-skill-md",
@@ -269,7 +271,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-backend-development-skill-md",
@@ -346,7 +348,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-backend-tools-claude-plugin-plugin-json",
@@ -422,7 +424,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-better-auth-skill-md",
@@ -499,7 +501,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-chrome-devtools-skill-md",
@@ -576,7 +578,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-claude-code-skill-md",
@@ -653,7 +655,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-code-review-skill-md",
@@ -730,7 +732,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-collision-zone-thinking-skill-md",
@@ -807,7 +809,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-context-engineering-skill-md",
@@ -884,7 +886,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-databases-skill-md",
@@ -961,7 +963,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-skill-md",
@@ -1038,7 +1040,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-debugging-tools-claude-plugin-plugin-json",
@@ -1114,7 +1116,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-defense-in-depth-skill-md",
@@ -1191,7 +1193,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-devops-skill-md",
@@ -1268,7 +1270,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-devops-tools-claude-plugin-plugin-json",
@@ -1344,7 +1346,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-docs-seeker-skill-md",
@@ -1421,7 +1423,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-document-processing-claude-plugin-plugin-json",
@@ -1497,7 +1499,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-docx-skill-md",
@@ -1574,7 +1576,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-frontend-design-skill-md",
@@ -1651,7 +1653,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-frontend-development-skill-md",
@@ -1728,7 +1730,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-google-adk-python-skill-md",
@@ -1805,7 +1807,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-inversion-exercise-skill-md",
@@ -1882,7 +1884,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-mcp-builder-skill-md",
@@ -1959,7 +1961,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-mcp-management-skill-md",
@@ -2036,7 +2038,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::agent::claude-agents-mcp-manager-md",
@@ -2113,7 +2115,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::agent::plugins-platform-tools-agents-mcp-manager-md",
@@ -2190,7 +2192,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-media-processing-skill-md",
@@ -2267,7 +2269,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-media-tools-claude-plugin-plugin-json",
@@ -2343,7 +2345,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-mermaidjs-v11-skill-md",
@@ -2420,7 +2422,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-meta-pattern-recognition-skill-md",
@@ -2497,7 +2499,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-meta-tools-claude-plugin-plugin-json",
@@ -2573,7 +2575,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-payment-integration-skill-md",
@@ -2650,7 +2652,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-pdf-skill-md",
@@ -2727,7 +2729,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-platform-tools-claude-plugin-plugin-json",
@@ -2803,7 +2805,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-pptx-skill-md",
@@ -2880,7 +2882,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-skill-md",
@@ -2957,7 +2959,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-problem-solving-tools-claude-plugin-plugin-json",
@@ -3033,7 +3035,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-repomix-skill-md",
@@ -3110,7 +3112,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-research-tools-claude-plugin-plugin-json",
@@ -3186,7 +3188,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-root-cause-tracing-skill-md",
@@ -3263,7 +3265,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-scale-game-skill-md",
@@ -3340,7 +3342,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-sequential-thinking-skill-md",
@@ -3417,7 +3419,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-shopify-skill-md",
@@ -3494,7 +3496,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-simplification-cascades-skill-md",
@@ -3571,7 +3573,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-skill-creator-skill-md",
@@ -3648,7 +3650,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-specialized-tools-claude-plugin-plugin-json",
@@ -3724,7 +3726,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-systematic-debugging-skill-md",
@@ -3801,7 +3803,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-template-skill-skill-md",
@@ -3878,7 +3880,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-threejs-skill-md",
@@ -3955,7 +3957,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-ui-styling-skill-md",
@@ -4032,7 +4034,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-debugging-verification-before-completion-skill-md",
@@ -4109,7 +4111,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::plugin::plugins-web-dev-tools-claude-plugin-plugin-json",
@@ -4185,7 +4187,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.234Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-web-frameworks-skill-md",
@@ -4262,7 +4264,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-web-testing-skill-md",
@@ -4339,7 +4341,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.965Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-problem-solving-when-stuck-skill-md",
@@ -4416,7 +4418,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     },
     {
       "id": "mrgoonie-claudekit-skills::skill::claude-skills-document-skills-xlsx-skill-md",
@@ -4493,7 +4495,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:31.964Z"
+      "last_checked_at": "2026-04-25T10:52:12.235Z"
     }
   ],
   "issues": []

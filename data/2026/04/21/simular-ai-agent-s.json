@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "simular-ai-agent-s",
+  "source_name": "Agent S",
+  "source_status": "active",
+  "snapshot_date": "2026-04-21",
+  "first_commit_date": "2024-10-11",
+  "repo": "https://github.com/simular-ai/Agent-S",
+  "default_branch": "main",
+  "previous_sha": "5caa76cb19c6a6b947a524f74995c45848c2efbc",
+  "current_sha": "5caa76cb19c6a6b947a524f74995c45848c2efbc",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "57a5267505266868a1dca29d655c0cecb93dea455f36f724ae232b866334adc4",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T11:03:48.461Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-02-20T22:09:49-08:00",
+    "archived": false
+  },
+  "artifact_count": 2,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-02-21",
+  "issues": []
+}

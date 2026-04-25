@@ -3,6 +3,8 @@
   "source_id": "elastic-mcp-server-elasticsearch",
   "source_name": "Elasticsearch MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-07-07",
+  "first_commit_date": "2025-03-24",
   "repo": "https://github.com/elastic/mcp-server-elasticsearch",
   "default_branch": "main",
   "previous_sha": "f5fb6e22719cc2de1cde37f31ecfe24471cf1852",
@@ -15,7 +17,7 @@
   ],
   "source_config_hash": "ee62487f355e872156ef0a76061e89abbea66d559ab8c84f798230694d53443e",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:23:30.758Z",
+  "synced_at": "2026-04-25T10:32:32.793Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -96,7 +98,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:23:30.758Z"
+      "last_checked_at": "2026-04-25T10:32:32.793Z"
     }
   ],
   "issues": []

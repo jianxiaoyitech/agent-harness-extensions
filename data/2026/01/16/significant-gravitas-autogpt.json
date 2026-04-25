@@ -3,6 +3,8 @@
   "source_id": "significant-gravitas-autogpt",
   "source_name": "AutoGPT",
   "source_status": "active",
+  "snapshot_date": "2026-01-16",
+  "first_commit_date": "2023-09-06",
   "repo": "https://github.com/Significant-Gravitas/AutoGPT",
   "default_branch": "master",
   "previous_sha": "e80e4d9cbb81b8719b12f0b434ed9c19c7e41754",
@@ -240,7 +242,7 @@
   ],
   "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:12:14.700Z",
+  "synced_at": "2026-04-25T11:06:13.390Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -321,7 +323,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T17:12:14.700Z"
+      "last_checked_at": "2026-04-25T11:06:13.390Z"
     }
   ],
   "issues": []

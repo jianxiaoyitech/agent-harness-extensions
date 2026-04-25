@@ -1,7 +1,7 @@
 version: 1
 id: sammcj-mcp-package-docs
 name: MCP Package Docs
-status: active
+status: archived
 repo: https://github.com/sammcj/mcp-package-docs
 compatibility:
   claude-code: check

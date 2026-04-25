@@ -3,6 +3,8 @@
   "source_id": "crewaiinc-crewai",
   "source_name": "CrewAI",
   "source_status": "active",
+  "snapshot_date": "2025-05-16",
+  "first_commit_date": "2023-10-27",
   "repo": "https://github.com/crewAIInc/crewAI",
   "default_branch": "main",
   "previous_sha": "0b35e40a2467111a0cfc422958825985a053cd64",
@@ -14,7 +16,7 @@
   ],
   "source_config_hash": "7bf137970b4e47d19acceb7791326c21d4cdc8dc6434ee2b583db268b6a9a0fc",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:28:53.931Z",
+  "synced_at": "2026-04-25T10:35:38.975Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -95,7 +97,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:53.931Z"
+      "last_checked_at": "2026-04-25T10:35:38.975Z"
     }
   ],
   "issues": []

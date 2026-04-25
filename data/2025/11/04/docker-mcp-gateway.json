@@ -3,6 +3,8 @@
   "source_id": "docker-mcp-gateway",
   "source_name": "MCP Gateway",
   "source_status": "active",
+  "snapshot_date": "2025-11-04",
+  "first_commit_date": "2025-06-06",
   "repo": "https://github.com/docker/mcp-gateway",
   "default_branch": "main",
   "previous_sha": "ebf1d2bb28bbc8cb8b4c7c7d0935ff9159bf29c4",
@@ -217,7 +219,7 @@
   ],
   "source_config_hash": "a07c6f7bd6e036d4d407aa88666486b4a03ea4476ffae4092c8fe987414982b5",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:22:54.187Z",
+  "synced_at": "2026-04-25T10:31:39.781Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -298,7 +300,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:22:54.187Z"
+      "last_checked_at": "2026-04-25T10:31:39.781Z"
     }
   ],
   "issues": []

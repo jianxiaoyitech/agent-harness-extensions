@@ -3,6 +3,8 @@
   "source_id": "openai-skills",
   "source_name": "OpenAI Skills",
   "source_status": "active",
+  "snapshot_date": "2025-12-21",
+  "first_commit_date": "2025-11-25",
   "repo": "https://github.com/openai/skills",
   "default_branch": "main",
   "previous_sha": "5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
@@ -21,7 +23,7 @@
   ],
   "source_config_hash": "1a758fd3993cb8bedd4fc02c2f649a5652c957758b50c7cc41103573d4d86707",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:46:45.685Z",
+  "synced_at": "2026-04-25T10:53:52.821Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -103,7 +105,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-gh-address-comments-skill-md",
@@ -178,7 +180,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-gh-fix-ci-skill-md",
@@ -253,7 +255,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-experimental-linear-skill-md",
@@ -328,7 +330,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-knowledge-capture-skill-md",
@@ -403,7 +405,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-meeting-intelligence-skill-md",
@@ -478,7 +480,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-research-documentation-skill-md",
@@ -553,7 +555,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-spec-to-implementation-skill-md",
@@ -628,7 +630,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-creator-skill-md",
@@ -703,7 +705,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-installer-skill-md",
@@ -778,7 +780,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:45.685Z"
+      "last_checked_at": "2026-04-25T10:53:52.820Z"
     }
   ],
   "issues": []

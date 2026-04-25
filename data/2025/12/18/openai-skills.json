@@ -3,6 +3,8 @@
   "source_id": "openai-skills",
   "source_name": "OpenAI Skills",
   "source_status": "active",
+  "snapshot_date": "2025-12-18",
+  "first_commit_date": "2025-11-25",
   "repo": "https://github.com/openai/skills",
   "default_branch": "main",
   "previous_sha": "d4c62d44f051b7e430bc813d8075eb148e79053c",
@@ -23,7 +25,7 @@
   ],
   "source_config_hash": "1a758fd3993cb8bedd4fc02c2f649a5652c957758b50c7cc41103573d4d86707",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:46:44.150Z",
+  "synced_at": "2026-04-25T10:53:51.529Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -105,7 +107,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:44.149Z"
+      "last_checked_at": "2026-04-25T10:53:51.529Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-creator-skill-md",
@@ -180,7 +182,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:44.150Z"
+      "last_checked_at": "2026-04-25T10:53:51.529Z"
     }
   ],
   "issues": []

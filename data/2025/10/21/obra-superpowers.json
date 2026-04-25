@@ -3,6 +3,8 @@
   "source_id": "obra-superpowers",
   "source_name": "Obra Superpowers For Claude Code",
   "source_status": "active",
+  "snapshot_date": "2025-10-21",
+  "first_commit_date": "2025-10-20",
   "repo": "https://github.com/obra/superpowers-developing-for-claude-code",
   "default_branch": "main",
   "previous_sha": "bbe8f00be926d77039a0501b1395405fb181d8e4",
@@ -28,7 +30,7 @@
   ],
   "source_config_hash": "1fc32bd980a3b0f0a22d9b32461e6e3540b8c705b47af122ace460ee5063183f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:44:41.923Z",
+  "synced_at": "2026-04-25T10:52:51.442Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -110,7 +112,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:41.923Z"
+      "last_checked_at": "2026-04-25T10:52:51.441Z"
     },
     {
       "id": "obra-superpowers::plugin::examples-full-featured-plugin-claude-plugin-plugin-json",
@@ -185,7 +187,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:41.923Z"
+      "last_checked_at": "2026-04-25T10:52:51.441Z"
     },
     {
       "id": "obra-superpowers::plugin::examples-simple-greeter-plugin-claude-plugin-plugin-json",
@@ -260,7 +262,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:41.923Z"
+      "last_checked_at": "2026-04-25T10:52:51.441Z"
     },
     {
       "id": "obra-superpowers::plugin::claude-plugin-plugin-json",
@@ -335,7 +337,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:41.922Z"
+      "last_checked_at": "2026-04-25T10:52:51.441Z"
     },
     {
       "id": "obra-superpowers::skill::skills-working-with-claude-code-skill-md",
@@ -410,7 +412,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:41.923Z"
+      "last_checked_at": "2026-04-25T10:52:51.441Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "cloudflare-mcp-server-cloudflare",
   "source_name": "Cloudflare MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-03-20",
+  "first_commit_date": "2024-11-26",
   "repo": "https://github.com/cloudflare/mcp-server-cloudflare",
   "default_branch": "main",
   "previous_sha": "a9b577637b57a24f9ec764af11b0bec9698798d0",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "7645af689e95cd529dc541673904f7c90fd8fa86ae4c43bce6a3ab2409cc7cbc",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:18:15.941Z",
+  "synced_at": "2026-04-25T10:27:52.846Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -92,7 +94,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:18:15.941Z"
+      "last_checked_at": "2026-04-25T10:27:52.846Z"
     }
   ],
   "issues": []

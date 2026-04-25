@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "anas-khan93-ai-agency-agents",
+  "source_name": "AI Agency Agents",
+  "source_status": "active",
+  "snapshot_date": "2026-04-21",
+  "first_commit_date": "2026-03-09",
+  "repo": "https://github.com/Anas-Khan93/ai-agency-agents",
+  "default_branch": "main",
+  "previous_sha": "45c947f6eeeb4a24b83d44e90c547ed371dd56b2",
+  "current_sha": "45c947f6eeeb4a24b83d44e90c547ed371dd56b2",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "68a4ab8406aa1066585f1270de18120e211e6dc775cf0e0e9b290d30ef7837d2",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:22:10.269Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-03-09T20:54:32+05:00",
+    "archived": false
+  },
+  "artifact_count": 56,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-03-09",
+  "issues": []
+}

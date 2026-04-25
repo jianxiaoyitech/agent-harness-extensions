@@ -3,6 +3,8 @@
   "source_id": "upstash-context7",
   "source_name": "Context7",
   "source_status": "active",
+  "snapshot_date": "2026-03-12",
+  "first_commit_date": "2025-03-28",
   "repo": "https://github.com/upstash/context7",
   "default_branch": "master",
   "previous_sha": "22babf2e4492988a1ffa547fb73f47ea396fd83b",
@@ -17,7 +19,7 @@
   ],
   "source_config_hash": "d3825cc4639603f1d12e81da67f0e8cff87e8176c2d57bbcc30ed55b75256365",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:56:56.303Z",
+  "synced_at": "2026-04-25T11:07:03.058Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -98,7 +100,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:56.303Z"
+      "last_checked_at": "2026-04-25T11:07:03.057Z"
     },
     {
       "id": "upstash-context7::mcp-server::plugins-claude-context7-mcp-json",
@@ -172,7 +174,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:56.303Z"
+      "last_checked_at": "2026-04-25T11:07:03.057Z"
     },
     {
       "id": "upstash-context7::mcp-server::readme-md",
@@ -246,7 +248,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:56.303Z"
+      "last_checked_at": "2026-04-25T11:07:03.058Z"
     },
     {
       "id": "upstash-context7::skill::skills-context7-cli-skill-md",
@@ -320,7 +322,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:56.303Z"
+      "last_checked_at": "2026-04-25T11:07:03.057Z"
     },
     {
       "id": "upstash-context7::skill::skills-context7-mcp-skill-md",
@@ -394,7 +396,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:56.303Z"
+      "last_checked_at": "2026-04-25T11:07:03.057Z"
     },
     {
       "id": "upstash-context7::skill::skills-find-docs-skill-md",
@@ -468,7 +470,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:56.303Z"
+      "last_checked_at": "2026-04-25T11:07:03.058Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "jnmetacode-agency-agents-zh",
   "source_name": "Agency Agents ZH",
   "source_status": "active",
+  "snapshot_date": "2026-03-10",
+  "first_commit_date": "2026-03-06",
   "repo": "https://github.com/jnMetaCode/agency-agents-zh",
   "default_branch": "main",
   "previous_sha": "361f85206ca110cd1b939cc271a6a1f8cf95c540",
@@ -58,7 +60,7 @@
   ],
   "source_config_hash": "4a8f5fbb28d7fe0c1b3caa136e68d58f4575451db0b817a09bb9580ca43b4671",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:32:45.904Z",
+  "synced_at": "2026-04-25T10:39:58.185Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -139,7 +141,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-agentic-identity-trust-md",
@@ -213,7 +215,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-agents-orchestrator-md",
@@ -287,7 +289,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-blockchain-security-auditor-md",
@@ -361,7 +363,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-compliance-auditor-md",
@@ -435,7 +437,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-data-analytics-reporter-md",
@@ -509,7 +511,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-data-consolidation-agent-md",
@@ -583,7 +585,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-brand-guardian-md",
@@ -657,7 +659,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.182Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-image-prompt-engineer-md",
@@ -731,7 +733,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.182Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-inclusive-visuals-specialist-md",
@@ -805,7 +807,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.182Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-ui-designer-md",
@@ -879,7 +881,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.182Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-ux-architect-md",
@@ -953,7 +955,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.182Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-ux-researcher-md",
@@ -1027,7 +1029,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.182Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-visual-storyteller-md",
@@ -1101,7 +1103,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::design-design-whimsy-injector-md",
@@ -1175,7 +1177,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-ai-engineer-md",
@@ -1249,7 +1251,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-autonomous-optimization-architect-md",
@@ -1323,7 +1325,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-backend-architect-md",
@@ -1397,7 +1399,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-data-engineer-md",
@@ -1471,7 +1473,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-devops-automator-md",
@@ -1545,7 +1547,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-embedded-firmware-engineer-md",
@@ -1619,7 +1621,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-frontend-developer-md",
@@ -1693,7 +1695,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-incident-response-commander-md",
@@ -1767,7 +1769,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-mobile-app-builder-md",
@@ -1841,7 +1843,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-rapid-prototyper-md",
@@ -1915,7 +1917,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-security-engineer-md",
@@ -1989,7 +1991,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-senior-developer-md",
@@ -2063,7 +2065,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-solidity-smart-contract-engineer-md",
@@ -2137,7 +2139,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-technical-writer-md",
@@ -2211,7 +2213,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-threat-detection-engineer-md",
@@ -2285,7 +2287,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::engineering-engineering-wechat-mini-program-developer-md",
@@ -2359,7 +2361,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-game-audio-engineer-md",
@@ -2433,7 +2435,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-game-designer-md",
@@ -2507,7 +2509,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-godot-godot-gameplay-scripter-md",
@@ -2581,7 +2583,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-godot-godot-multiplayer-engineer-md",
@@ -2655,7 +2657,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-godot-godot-shader-developer-md",
@@ -2729,7 +2731,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-identity-graph-operator-md",
@@ -2803,7 +2805,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-level-designer-md",
@@ -2877,7 +2879,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-lsp-index-engineer-md",
@@ -2951,7 +2953,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::spatial-computing-macos-spatial-metal-engineer-md",
@@ -3025,7 +3027,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-app-store-optimizer-md",
@@ -3099,7 +3101,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-baidu-seo-specialist-md",
@@ -3173,7 +3175,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-bilibili-strategist-md",
@@ -3247,7 +3249,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-carousel-growth-engine-md",
@@ -3321,7 +3323,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-content-creator-md",
@@ -3395,7 +3397,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-douyin-strategist-md",
@@ -3469,7 +3471,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-ecommerce-operator-md",
@@ -3543,7 +3545,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-growth-hacker-md",
@@ -3617,7 +3619,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-instagram-curator-md",
@@ -3691,7 +3693,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-kuaishou-strategist-md",
@@ -3765,7 +3767,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-reddit-community-builder-md",
@@ -3839,7 +3841,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-seo-specialist-md",
@@ -3913,7 +3915,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-social-media-strategist-md",
@@ -3987,7 +3989,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-tiktok-strategist-md",
@@ -4061,7 +4063,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-twitter-engager-md",
@@ -4135,7 +4137,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-wechat-official-account-md",
@@ -4209,7 +4211,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-wechat-operator-md",
@@ -4283,7 +4285,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-xiaohongshu-operator-md",
@@ -4357,7 +4359,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-xiaohongshu-specialist-md",
@@ -4431,7 +4433,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::marketing-marketing-zhihu-strategist-md",
@@ -4505,7 +4507,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-narrative-designer-md",
@@ -4579,7 +4581,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::product-product-behavioral-nudge-engine-md",
@@ -4653,7 +4655,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::product-product-feedback-synthesizer-md",
@@ -4727,7 +4729,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::product-product-sprint-prioritizer-md",
@@ -4801,7 +4803,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::product-product-trend-researcher-md",
@@ -4875,7 +4877,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::project-management-project-management-experiment-tracker-md",
@@ -4949,7 +4951,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::project-management-project-management-jira-workflow-steward-md",
@@ -5023,7 +5025,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::project-management-project-management-project-shepherd-md",
@@ -5097,7 +5099,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::project-management-project-management-studio-operations-md",
@@ -5171,7 +5173,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::project-management-project-management-studio-producer-md",
@@ -5245,7 +5247,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::project-management-project-manager-senior-md",
@@ -5319,7 +5321,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-prompt-engineer-md",
@@ -5393,7 +5395,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-report-distribution-agent-md",
@@ -5467,7 +5469,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-roblox-studio-roblox-avatar-creator-md",
@@ -5541,7 +5543,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-roblox-studio-roblox-experience-designer-md",
@@ -5615,7 +5617,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-roblox-studio-roblox-systems-scripter-md",
@@ -5689,7 +5691,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-sales-data-extraction-agent-md",
@@ -5763,7 +5765,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-specialized-cultural-intelligence-strategist-md",
@@ -5837,7 +5839,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-specialized-developer-advocate-md",
@@ -5911,7 +5913,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-specialized-model-qa-md",
@@ -5985,7 +5987,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-study-abroad-advisor-md",
@@ -6059,7 +6061,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::support-support-analytics-reporter-md",
@@ -6133,7 +6135,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::support-support-executive-summary-generator-md",
@@ -6207,7 +6209,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::support-support-finance-tracker-md",
@@ -6281,7 +6283,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::support-support-infrastructure-maintainer-md",
@@ -6355,7 +6357,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::support-support-legal-compliance-checker-md",
@@ -6429,7 +6431,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::support-support-support-responder-md",
@@ -6503,7 +6505,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-technical-artist-md",
@@ -6577,7 +6579,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::spatial-computing-terminal-integration-specialist-md",
@@ -6651,7 +6653,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-accessibility-auditor-md",
@@ -6725,7 +6727,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-api-tester-md",
@@ -6799,7 +6801,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-evidence-collector-md",
@@ -6873,7 +6875,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-performance-benchmarker-md",
@@ -6947,7 +6949,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-reality-checker-md",
@@ -7021,7 +7023,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-test-results-analyzer-md",
@@ -7095,7 +7097,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-tool-evaluator-md",
@@ -7169,7 +7171,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::testing-testing-workflow-optimizer-md",
@@ -7243,7 +7245,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unity-unity-architect-md",
@@ -7317,7 +7319,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unity-unity-editor-tool-developer-md",
@@ -7391,7 +7393,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unity-unity-multiplayer-engineer-md",
@@ -7465,7 +7467,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unity-unity-shader-graph-artist-md",
@@ -7539,7 +7541,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unreal-engine-unreal-multiplayer-architect-md",
@@ -7613,7 +7615,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unreal-engine-unreal-systems-engineer-md",
@@ -7687,7 +7689,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unreal-engine-unreal-technical-artist-md",
@@ -7761,7 +7763,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::game-development-unreal-engine-unreal-world-builder-md",
@@ -7835,7 +7837,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.899Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::spatial-computing-visionos-spatial-engineer-md",
@@ -7909,7 +7911,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::spatial-computing-xr-cockpit-interaction-specialist-md",
@@ -7983,7 +7985,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::spatial-computing-xr-immersive-developer-md",
@@ -8057,7 +8059,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::spatial-computing-xr-interface-architect-md",
@@ -8131,7 +8133,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     },
     {
       "id": "jnmetacode-agency-agents-zh::agent::specialized-zk-steward-md",
@@ -8205,7 +8207,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:45.900Z"
+      "last_checked_at": "2026-04-25T10:39:58.183Z"
     }
   ],
   "issues": []

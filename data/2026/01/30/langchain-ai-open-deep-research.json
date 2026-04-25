@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "langchain-ai-open-deep-research",
   "source_name": "Open Deep Research",
   "source_status": "active",
+  "snapshot_date": "2026-01-30",
+  "first_commit_date": "2024-11-20",
   "repo": "https://github.com/langchain-ai/open_deep_research",
   "default_branch": "main",
   "previous_sha": "b419df8d33b4f39ff5b2a34527bb6b85d0ede5d0",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "e9bd76775424c9d819aac811123226f7bdaf972a527a0061c0936a7f7a6d1594",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:36:23.477Z",
+  "synced_at": "2026-04-25T10:43:30.107Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-08-26T20:59:01-07:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "langchain-ai-open-deep-research::agent::readme-md",
-      "source_id": "langchain-ai-open-deep-research",
-      "source_name": "Open Deep Research",
-      "source_status": "active",
-      "name": "Open Deep Research",
-      "type": "agent",
-      "type_label": "Agent",
-      "path": "README.md",
-      "repo": "https://github.com/langchain-ai/open_deep_research",
-      "repo_path_url": "https://github.com/langchain-ai/open_deep_research/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "question",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "question",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "question",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "MIT",
-        "updated_at": "2025-08-26T20:59:01-07:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:36:23.477Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-08-27",
   "issues": []
 }

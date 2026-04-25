@@ -3,6 +3,8 @@
   "source_id": "jetbrains-mcpproxy",
   "source_name": "MCP Proxy",
   "source_status": "active",
+  "snapshot_date": "2024-12-09",
+  "first_commit_date": "2024-12-09",
   "repo": "https://github.com/jetbrains/mcpProxy",
   "default_branch": "main",
   "previous_sha": null,
@@ -20,7 +22,7 @@
   ],
   "source_config_hash": "e0e9601399d6038b7e424004b83df9d89b959d27a4f64d3577ca6f0814608c47",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:31:55.772Z",
+  "synced_at": "2026-04-25T10:39:17.595Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -101,7 +103,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.772Z"
+      "last_checked_at": "2026-04-25T10:39:17.595Z"
     }
   ],
   "issues": []

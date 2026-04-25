@@ -3,20 +3,27 @@
   "source_id": "browser-use-browser-use",
   "source_name": "Browser Use",
   "source_status": "active",
+  "snapshot_date": "2026-02-15",
+  "first_commit_date": "2024-10-31",
   "repo": "https://github.com/browser-use/browser-use",
   "default_branch": "main",
   "previous_sha": "fa517548957f9d3b598e19e95711791e41150125",
-  "current_sha": "fa517548957f9d3b598e19e95711791e41150125",
-  "mode": "unchanged",
-  "changed_files": [],
+  "current_sha": "fb5c647b44f7ef9f5df16e9ae35632672f2b3456",
+  "mode": "delta",
+  "changed_files": [
+    "browser_use/browser/session.py",
+    "browser_use/browser/watchdogs/storage_state_watchdog.py",
+    "browser_use/observability.py",
+    "tests/ci/test_observability.py"
+  ],
   "source_config_hash": "c61a6e2e2ad9e16b21e3989f51b173707bd99b4b1d1ca5e2d05903412466cdaa",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:20:43.918Z",
+  "synced_at": "2026-04-25T10:29:51.958Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-02-14T13:23:10-05:00",
+    "updated_at": "2026-02-15T18:17:44+05:30",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +87,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-02-14T13:23:10-05:00",
+        "updated_at": "2026-02-15T18:17:44+05:30",
         "archived": false
       },
       "detection": {
@@ -92,7 +99,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:43.917Z"
+      "last_checked_at": "2026-04-25T10:29:51.958Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "narwhal-lab-magicskills",
   "source_name": "MagicSkills",
   "source_status": "active",
+  "snapshot_date": "2026-02-21",
+  "first_commit_date": "2025-12-30",
   "repo": "https://github.com/Narwhal-Lab/MagicSkills",
   "default_branch": "main",
   "previous_sha": "0a9c1f5718d88775b449cef8a84327b20ead458f",
@@ -353,7 +355,7 @@
   ],
   "source_config_hash": "de910c183c52a6cab6427f1fea80008fce4771c152e6131981a14d49190f8e59",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:44:14.395Z",
+  "synced_at": "2026-04-25T10:53:12.567Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -434,7 +436,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:14.395Z"
+      "last_checked_at": "2026-04-25T10:53:12.567Z"
     }
   ],
   "issues": []

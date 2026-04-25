@@ -1,7 +1,7 @@
 version: 1
 id: mem0ai-mem0-mcp
 name: Mem0 MCP
-status: active
+status: archived
 repo: https://github.com/mem0ai/mem0-mcp
 compatibility:
   claude-code: check

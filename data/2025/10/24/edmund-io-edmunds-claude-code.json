@@ -3,6 +3,8 @@
   "source_id": "edmund-io-edmunds-claude-code",
   "source_name": "edmund.io Edmunds Claude Code",
   "source_status": "active",
+  "snapshot_date": "2025-10-24",
+  "first_commit_date": "2025-10-24",
   "repo": "https://github.com/edmund-io/edmunds-claude-code",
   "default_branch": "main",
   "previous_sha": null,
@@ -45,7 +47,7 @@
   ],
   "source_config_hash": "6006a9815ae8694f5c51b51ef95bdc9bc9c3cb34e6bcdaa281596fb959405f87",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:21:38.792Z",
+  "synced_at": "2026-04-25T10:30:59.193Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -128,7 +130,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-deep-research-agent-md",
@@ -204,7 +206,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-frontend-architect-md",
@@ -280,7 +282,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-learning-guide-md",
@@ -356,7 +358,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-performance-engineer-md",
@@ -432,7 +434,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-refactoring-expert-md",
@@ -508,7 +510,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-requirements-analyst-md",
@@ -584,7 +586,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-security-engineer-md",
@@ -660,7 +662,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-system-architect-md",
@@ -736,7 +738,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-tech-stack-researcher-md",
@@ -812,7 +814,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.792Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::agent::claude-agents-technical-writer-md",
@@ -888,7 +890,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.792Z"
+      "last_checked_at": "2026-04-25T10:30:59.193Z"
     },
     {
       "id": "edmund-io-edmunds-claude-code::plugin::claude-plugin-plugin-json",
@@ -963,7 +965,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:38.791Z"
+      "last_checked_at": "2026-04-25T10:30:59.192Z"
     }
   ],
   "issues": []

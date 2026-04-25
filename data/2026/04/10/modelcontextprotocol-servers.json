@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "modelcontextprotocol-servers",
+  "source_name": "Model Context Protocol Servers",
+  "source_status": "active",
+  "snapshot_date": "2026-04-10",
+  "first_commit_date": "2024-11-19",
+  "repo": "https://github.com/modelcontextprotocol/servers",
+  "default_branch": "main",
+  "previous_sha": "bae042b4f213e72a3e1e8b9e813f960167a2e019",
+  "current_sha": "bae042b4f213e72a3e1e8b9e813f960167a2e019",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "1e3f102c0c6ce5a508ccccf27f840907452fbf8b49ba90d5337e9a196d37cba8",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:53:04.075Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-04-08T23:49:45+01:00",
+    "archived": false
+  },
+  "artifact_count": 2,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-08",
+  "issues": []
+}

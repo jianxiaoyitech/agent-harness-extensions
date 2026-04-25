@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "docker-claude-plugins",
+  "source_name": "Docker Claude Plugins",
+  "source_status": "active",
+  "snapshot_date": "2026-04-10",
+  "first_commit_date": "2025-10-10",
+  "repo": "https://github.com/docker/claude-plugins",
+  "default_branch": "main",
+  "previous_sha": "278e8ebe3d46e17b771323ea6a6f281bded10e08",
+  "current_sha": "278e8ebe3d46e17b771323ea6a6f281bded10e08",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "334875eacda37534e86386f5a0fda5e98538f17ef371c9c435f8098a8d3ad572",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:31:41.681Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-02-27T09:32:15-05:00",
+    "archived": false
+  },
+  "artifact_count": 3,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-02-27",
+  "issues": []
+}

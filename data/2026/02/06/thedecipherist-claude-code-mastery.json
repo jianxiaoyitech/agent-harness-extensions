@@ -3,6 +3,8 @@
   "source_id": "thedecipherist-claude-code-mastery",
   "source_name": "Claude Code Mastery",
   "source_status": "active",
+  "snapshot_date": "2026-02-06",
+  "first_commit_date": "2026-01-14",
   "repo": "https://github.com/TheDecipherist/claude-code-mastery",
   "default_branch": "main",
   "previous_sha": "fffe2614ee2c1eeb78c0d9873528a56745e3c2e5",
@@ -17,7 +19,7 @@
   ],
   "source_config_hash": "0096e916e186c8a2a46fc864bfa377a761e2e65e0a6c798528f84ea3aaa6c55f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:53:15.258Z",
+  "synced_at": "2026-04-25T11:04:00.475Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -98,7 +100,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:15.257Z"
+      "last_checked_at": "2026-04-25T11:04:00.475Z"
     },
     {
       "id": "thedecipherist-claude-code-mastery::skill::skills-commit-messages-skill-md",
@@ -172,7 +174,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:15.257Z"
+      "last_checked_at": "2026-04-25T11:04:00.475Z"
     },
     {
       "id": "thedecipherist-claude-code-mastery::skill::skills-security-audit-skill-md",
@@ -246,7 +248,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:15.257Z"
+      "last_checked_at": "2026-04-25T11:04:00.475Z"
     }
   ],
   "issues": []

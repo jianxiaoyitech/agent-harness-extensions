@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "rknall-claude-skills",
+  "source_name": "rknall Claude Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-11",
+  "first_commit_date": "2025-10-18",
+  "repo": "https://github.com/rknall/claude-skills",
+  "default_branch": "main",
+  "previous_sha": "ca7fbd0e07f824b119030f323da3409bc779f9bc",
+  "current_sha": "ca7fbd0e07f824b119030f323da3409bc779f9bc",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "07646b620b108556398fbd013831eee5367b574a31327a9abfd450352dc0a086",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:56:01.373Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2025-10-20T12:11:07+02:00",
+    "archived": false
+  },
+  "artifact_count": 10,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-10-20",
+  "issues": []
+}

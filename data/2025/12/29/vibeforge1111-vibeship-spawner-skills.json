@@ -3,6 +3,8 @@
   "source_id": "vibeforge1111-vibeship-spawner-skills",
   "source_name": "Vibeship Spawner Skills",
   "source_status": "active",
+  "snapshot_date": "2025-12-29",
+  "first_commit_date": "2025-12-27",
   "repo": "https://github.com/vibeforge1111/vibeship-spawner-skills",
   "default_branch": "main",
   "previous_sha": "c75d63e44fcf9f2333d863908b724fac6f53b348",
@@ -641,7 +643,7 @@
   ],
   "source_config_hash": "863bb1ca677dd7119b94d9dafc2899e6f38a5218b9e1dd94f702b0dd72736266",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:55:34.115Z",
+  "synced_at": "2026-04-25T11:07:09.557Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -722,7 +724,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-landing-page-design-anti-patterns-md",
@@ -796,7 +798,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ui-design-anti-patterns-md",
@@ -870,7 +872,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ux-design-anti-patterns-md",
@@ -944,7 +946,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-content-strategy-anti-patterns-md",
@@ -1018,7 +1020,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-copywriting-anti-patterns-md",
@@ -1092,7 +1094,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-creative-communications-anti-patterns-md",
@@ -1166,7 +1168,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-marketing-anti-patterns-md",
@@ -1240,7 +1242,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-viral-marketing-anti-patterns-md",
@@ -1314,7 +1316,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-a-b-testing-anti-patterns-md",
@@ -1388,7 +1390,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-analytics-anti-patterns-md",
@@ -1462,7 +1464,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-product-management-anti-patterns-md",
@@ -1536,7 +1538,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-brand-positioning-anti-patterns-md",
@@ -1610,7 +1612,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-creative-strategy-anti-patterns-md",
@@ -1684,7 +1686,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-growth-strategy-anti-patterns-md",
@@ -1758,7 +1760,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-product-strategy-anti-patterns-md",
@@ -1832,7 +1834,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-branding-decisions-md",
@@ -1906,7 +1908,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-landing-page-design-decisions-md",
@@ -1980,7 +1982,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ui-design-decisions-md",
@@ -2054,7 +2056,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ux-design-decisions-md",
@@ -2128,7 +2130,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-content-strategy-decisions-md",
@@ -2202,7 +2204,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-copywriting-decisions-md",
@@ -2276,7 +2278,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-creative-communications-decisions-md",
@@ -2350,7 +2352,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-marketing-decisions-md",
@@ -2424,7 +2426,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-viral-marketing-decisions-md",
@@ -2498,7 +2500,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-a-b-testing-decisions-md",
@@ -2572,7 +2574,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-analytics-decisions-md",
@@ -2646,7 +2648,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-product-management-decisions-md",
@@ -2720,7 +2722,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-brand-positioning-decisions-md",
@@ -2794,7 +2796,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-creative-strategy-decisions-md",
@@ -2868,7 +2870,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-growth-strategy-decisions-md",
@@ -2942,7 +2944,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-product-strategy-decisions-md",
@@ -3016,7 +3018,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-product-strategy-frameworks-md",
@@ -3090,7 +3092,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-branding-patterns-md",
@@ -3164,7 +3166,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-landing-page-design-patterns-md",
@@ -3238,7 +3240,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ui-design-patterns-md",
@@ -3312,7 +3314,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ux-design-patterns-md",
@@ -3386,7 +3388,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-content-strategy-patterns-md",
@@ -3460,7 +3462,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-copywriting-patterns-md",
@@ -3534,7 +3536,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-creative-communications-patterns-md",
@@ -3608,7 +3610,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-marketing-patterns-md",
@@ -3682,7 +3684,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-viral-marketing-patterns-md",
@@ -3756,7 +3758,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-a-b-testing-patterns-md",
@@ -3830,7 +3832,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-analytics-patterns-md",
@@ -3904,7 +3906,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-product-management-patterns-md",
@@ -3978,7 +3980,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-brand-positioning-patterns-md",
@@ -4052,7 +4054,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-creative-strategy-patterns-md",
@@ -4126,7 +4128,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-growth-strategy-patterns-md",
@@ -4200,7 +4202,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-product-strategy-patterns-md",
@@ -4274,7 +4276,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-branding-sharp-edges-md",
@@ -4348,7 +4350,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-landing-page-design-sharp-edges-md",
@@ -4422,7 +4424,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.555Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ui-design-sharp-edges-md",
@@ -4496,7 +4498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::design-ux-design-sharp-edges-md",
@@ -4570,7 +4572,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-content-strategy-sharp-edges-md",
@@ -4644,7 +4646,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-copywriting-sharp-edges-md",
@@ -4718,7 +4720,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-creative-communications-sharp-edges-md",
@@ -4792,7 +4794,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-marketing-sharp-edges-md",
@@ -4866,7 +4868,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.110Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::marketing-viral-marketing-sharp-edges-md",
@@ -4940,7 +4942,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-a-b-testing-sharp-edges-md",
@@ -5014,7 +5016,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-analytics-sharp-edges-md",
@@ -5088,7 +5090,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::product-product-management-sharp-edges-md",
@@ -5162,7 +5164,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-brand-positioning-sharp-edges-md",
@@ -5236,7 +5238,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-creative-strategy-sharp-edges-md",
@@ -5310,7 +5312,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-growth-strategy-sharp-edges-md",
@@ -5384,7 +5386,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::agent::strategy-product-strategy-sharp-edges-md",
@@ -5458,7 +5460,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     },
     {
       "id": "vibeforge1111-vibeship-spawner-skills::skill::readme-md",
@@ -5532,7 +5534,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:34.111Z"
+      "last_checked_at": "2026-04-25T11:07:09.556Z"
     }
   ],
   "issues": []

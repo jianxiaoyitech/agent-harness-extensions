@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "mastra-ai-mastra",
   "source_name": "Mastra",
   "source_status": "active",
+  "snapshot_date": "2025-09-14",
+  "first_commit_date": "2024-08-06",
   "repo": "https://github.com/mastra-ai/mastra",
   "default_branch": "main",
   "previous_sha": "03a908b6ef003c00ad4274eba9d25455c80c43eb",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "1451bb8a062f487dc959afa361ca140b221db46912ea42cee8a5fd1a172f2e71",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:46:24.211Z",
+  "synced_at": "2026-04-25T10:48:51.078Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-09-13T00:18:04+02:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "mastra-ai-mastra::agent::readme-md",
-      "source_id": "mastra-ai-mastra",
-      "source_name": "Mastra",
-      "source_status": "active",
-      "name": "Mastra",
-      "type": "agent",
-      "type_label": "Agent",
-      "path": "README.md",
-      "repo": "https://github.com/mastra-ai/mastra",
-      "repo_path_url": "https://github.com/mastra-ai/mastra/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "question",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "question",
-        "forge": "blank",
-        "gemini-cli": "blank",
-        "github-copilot": "blank",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "question",
-        "opencode": "blank",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "blank",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2025-09-13T00:18:04+02:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "agent"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:46:24.211Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-09-12",
   "issues": []
 }

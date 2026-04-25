@@ -3,6 +3,8 @@
   "source_id": "tinybirdco-mcp-tinybird",
   "source_name": "Tinybird MCP",
   "source_status": "active",
+  "snapshot_date": "2024-12-02",
+  "first_commit_date": "2024-11-27",
   "repo": "https://github.com/tinybirdco/mcp-tinybird",
   "default_branch": "main",
   "previous_sha": "55687a57f5e7c9b7efb5af2f931994c072cab689",
@@ -16,7 +18,7 @@
   ],
   "source_config_hash": "3b6a09dd05e06b51fbceeadde0f876ce33e81c99717c2f6dcfca8b0a0ec44fe0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:53:25.242Z",
+  "synced_at": "2026-04-25T11:03:59.208Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -97,7 +99,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:25.241Z"
+      "last_checked_at": "2026-04-25T11:03:59.208Z"
     }
   ],
   "issues": []

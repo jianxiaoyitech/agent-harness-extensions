@@ -3,6 +3,8 @@
   "source_id": "microsoft-skills",
   "source_name": "Microsoft Skills",
   "source_status": "active",
+  "snapshot_date": "2026-02-09",
+  "first_commit_date": "2026-01-16",
   "repo": "https://github.com/microsoft/skills",
   "default_branch": "main",
   "previous_sha": "76b88d084f6d0a3626d8f3328133e02d19f601e1",
@@ -18,7 +20,7 @@
   ],
   "source_config_hash": "0c972c8532fc90ec0153e62f3b6b7861be0c667e4688f481887ab2e49fb2cd89",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:39:20.439Z",
+  "synced_at": "2026-04-25T10:48:29.183Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -101,7 +103,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::readme-md",
@@ -177,7 +179,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-architect-skill-md",
@@ -254,7 +256,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-changelog-skill-md",
@@ -331,7 +333,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-onboarding-skill-md",
@@ -408,7 +410,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-page-writer-skill-md",
@@ -485,7 +487,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-qa-skill-md",
@@ -562,7 +564,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-researcher-skill-md",
@@ -639,7 +641,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-vitepress-skill-md",
@@ -716,7 +718,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:20.438Z"
+      "last_checked_at": "2026-04-25T10:48:29.183Z"
     }
   ],
   "issues": []

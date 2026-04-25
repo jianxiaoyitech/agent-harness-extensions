@@ -3,6 +3,8 @@
   "source_id": "docker-claude-plugins",
   "source_name": "Docker Claude Plugins",
   "source_status": "active",
+  "snapshot_date": "2026-02-27",
+  "first_commit_date": "2025-10-10",
   "repo": "https://github.com/docker/claude-plugins",
   "default_branch": "main",
   "previous_sha": "23dac5563fd131a2c7042dee1d6a495f5b6e6413",
@@ -18,7 +20,7 @@
   ],
   "source_config_hash": "334875eacda37534e86386f5a0fda5e98538f17ef371c9c435f8098a8d3ad572",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:21:19.294Z",
+  "synced_at": "2026-04-25T10:31:24.642Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -100,7 +102,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:19.294Z"
+      "last_checked_at": "2026-04-25T10:31:24.642Z"
     },
     {
       "id": "docker-claude-plugins::plugin::plugins-mcp-toolkit-claude-plugin-plugin-json",
@@ -175,7 +177,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:19.294Z"
+      "last_checked_at": "2026-04-25T10:31:24.642Z"
     },
     {
       "id": "docker-claude-plugins::mcp-server::plugins-mcp-toolkit-mcp-json",
@@ -250,7 +252,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:21:19.294Z"
+      "last_checked_at": "2026-04-25T10:31:24.642Z"
     }
   ],
   "issues": []

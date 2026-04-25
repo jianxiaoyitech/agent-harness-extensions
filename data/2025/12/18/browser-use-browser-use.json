@@ -3,6 +3,8 @@
   "source_id": "browser-use-browser-use",
   "source_name": "Browser Use",
   "source_status": "active",
+  "snapshot_date": "2025-12-18",
+  "first_commit_date": "2024-10-31",
   "repo": "https://github.com/browser-use/browser-use",
   "default_branch": "main",
   "previous_sha": "f8cfe587fc780f67a5bd21df4c9b6fb58368c787",
@@ -17,7 +19,7 @@
   ],
   "source_config_hash": "c61a6e2e2ad9e16b21e3989f51b173707bd99b4b1d1ca5e2d05903412466cdaa",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:19:54.214Z",
+  "synced_at": "2026-04-25T10:29:23.185Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -98,7 +100,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:19:54.214Z"
+      "last_checked_at": "2026-04-25T10:29:23.185Z"
     }
   ],
   "issues": []

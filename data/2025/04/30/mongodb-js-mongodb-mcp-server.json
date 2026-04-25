@@ -3,6 +3,8 @@
   "source_id": "mongodb-js-mongodb-mcp-server",
   "source_name": "MongoDB MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-04-30",
+  "first_commit_date": "2025-04-08",
   "repo": "https://github.com/mongodb-js/mongodb-mcp-server",
   "default_branch": "main",
   "previous_sha": "d585baa2aa69a034e5807c749763c0f704ac51e1",
@@ -21,7 +23,7 @@
   ],
   "source_config_hash": "42ef1cf4f43e873013782d8798920c41dc407e7d25efa6adce1c25f4dfdb4160",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:40:18.977Z",
+  "synced_at": "2026-04-25T10:50:08.636Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -102,7 +104,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:18.977Z"
+      "last_checked_at": "2026-04-25T10:50:08.636Z"
     }
   ],
   "issues": []

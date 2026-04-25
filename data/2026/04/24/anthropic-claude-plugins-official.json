@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "anthropic-claude-plugins-official",
+  "source_name": "Anthropic Claude Plugins Official",
+  "source_status": "active",
+  "snapshot_date": "2026-04-24",
+  "first_commit_date": "2025-11-20",
+  "repo": "https://github.com/anthropics/claude-plugins-official",
+  "default_branch": "main",
+  "previous_sha": "020446a4294f09d9c32e60bff0c4ae8fb39205cb",
+  "current_sha": "020446a4294f09d9c32e60bff0c4ae8fb39205cb",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "6502149ce0cc2199281c5b3f3e191d753979e7e202e4ac4b49898abc31706d77",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:23:03.558Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-23T22:45:48+01:00",
+    "archived": false
+  },
+  "artifact_count": 77,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-23",
+  "issues": []
+}

@@ -3,6 +3,8 @@
   "source_id": "feiskyer-codex-settings",
   "source_name": "feiskyer Codex Settings",
   "source_status": "active",
+  "snapshot_date": "2026-02-26",
+  "first_commit_date": "2025-10-06",
   "repo": "https://github.com/feiskyer/codex-settings",
   "default_branch": "main",
   "previous_sha": "e26906dc9e7e17a1e096861a5a792bad5089ebea",
@@ -13,7 +15,7 @@
   ],
   "source_config_hash": "ef66daf02545ac5393998a7ae531484ddaa812e7ad01f2ac177bac956f65de69",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:25:58.252Z",
+  "synced_at": "2026-04-25T10:33:55.799Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -94,7 +96,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-claude-skill-skill-md",
@@ -168,7 +170,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-deep-research-skill-md",
@@ -242,7 +244,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-kiro-skill-skill-md",
@@ -316,7 +318,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-nanobanana-skill-skill-md",
@@ -390,7 +392,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-spec-kit-skill-skill-md",
@@ -464,7 +466,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-youtube-transcribe-skill-skill-md",
@@ -538,7 +540,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:58.251Z"
+      "last_checked_at": "2026-04-25T10:33:55.798Z"
     }
   ],
   "issues": []

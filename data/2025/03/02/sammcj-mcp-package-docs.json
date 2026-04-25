@@ -3,6 +3,8 @@
   "source_id": "sammcj-mcp-package-docs",
   "source_name": "MCP Package Docs",
   "source_status": "active",
+  "snapshot_date": "2025-03-02",
+  "first_commit_date": "2024-12-29",
   "repo": "https://github.com/sammcj/mcp-package-docs",
   "default_branch": "main",
   "previous_sha": "895c5199694217bb527666022de9907dd7a598c2",
@@ -15,7 +17,7 @@
   ],
   "source_config_hash": "1152bee23f7fa9d0c719552a5894c4d678ceac229e505558d11e5a61f645f1f2",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:50:02.733Z",
+  "synced_at": "2026-04-25T10:56:38.267Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -96,7 +98,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:50:02.733Z"
+      "last_checked_at": "2026-04-25T10:56:38.267Z"
     }
   ],
   "issues": []

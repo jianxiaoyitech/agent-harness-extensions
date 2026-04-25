@@ -3,6 +3,8 @@
   "source_id": "microsoft-autogen",
   "source_name": "AutoGen",
   "source_status": "active",
+  "snapshot_date": "2024-10-29",
+  "first_commit_date": "2024-05-07",
   "repo": "https://github.com/microsoft/autogen",
   "default_branch": "main",
   "previous_sha": "fda85e1295fd78ee0308ef57eaf6a8c55db642f1",
@@ -68,7 +70,7 @@
   ],
   "source_config_hash": "42eb90e713a4d391b95ab1b9d0e6cdcb11f5f78c78f15e28270e6c43faa8b97a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:40:06.871Z",
+  "synced_at": "2026-04-25T10:47:09.663Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -149,7 +151,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:06.871Z"
+      "last_checked_at": "2026-04-25T10:47:09.663Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "awslabs-mcp",
   "source_name": "AWS Labs MCP",
   "source_status": "active",
+  "snapshot_date": "2026-03-09",
+  "first_commit_date": "2025-03-21",
   "repo": "https://github.com/awslabs/mcp",
   "default_branch": "main",
   "previous_sha": "cb7adbd3616a1b63c58b1387d6b6dd52a031bcda",
@@ -59,7 +61,7 @@
   ],
   "source_config_hash": "2192dfd764d80e204eada9aa332bfe7377fa783ee9dd314f7c321f448b043770",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:19:51.941Z",
+  "synced_at": "2026-04-25T10:26:36.081Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -140,7 +142,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:19:51.941Z"
+      "last_checked_at": "2026-04-25T10:26:36.081Z"
     },
     {
       "id": "awslabs-mcp::mcp-server::src-aurora-dsql-mcp-server-skills-dsql-skill-mcp-mcp-json",
@@ -214,7 +216,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:19:51.941Z"
+      "last_checked_at": "2026-04-25T10:26:36.080Z"
     },
     {
       "id": "awslabs-mcp::agent::testing-readme-md",
@@ -288,7 +290,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:19:51.941Z"
+      "last_checked_at": "2026-04-25T10:26:36.081Z"
     }
   ],
   "issues": []

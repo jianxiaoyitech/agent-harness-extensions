@@ -3,20 +3,29 @@
   "source_id": "supabase-community-supabase-mcp",
   "source_name": "Supabase MCP",
   "source_status": "active",
+  "snapshot_date": "2026-04-06",
+  "first_commit_date": "2024-12-20",
   "repo": "https://github.com/supabase-community/supabase-mcp",
   "default_branch": "main",
   "previous_sha": "1cd04f03eda4f094fa2e88f8bd0256cbe58b6e71",
-  "current_sha": "1cd04f03eda4f094fa2e88f8bd0256cbe58b6e71",
-  "mode": "unchanged",
-  "changed_files": [],
+  "current_sha": "9d9ce7615047b22cef6929437bad81c30a7bc711",
+  "mode": "delta",
+  "changed_files": [
+    "packages/mcp-server-supabase/src/advisories/advisories.test.ts",
+    "packages/mcp-server-supabase/src/advisories/index.ts",
+    "packages/mcp-server-supabase/src/advisories/rls-disabled.ts",
+    "packages/mcp-server-supabase/src/advisories/schema.ts",
+    "packages/mcp-server-supabase/src/server.test.ts",
+    "packages/mcp-server-supabase/src/tools/database-operation-tools.ts"
+  ],
   "source_config_hash": "11d58d680746ce2e279142f5a9c2be87282bc000fa436a0cf1e2102cc25657c2",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:56:26.446Z",
+  "synced_at": "2026-04-25T11:06:32.965Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "Apache-2.0",
-    "updated_at": "2026-03-26T14:10:16-04:00",
+    "updated_at": "2026-04-06T14:34:45+02:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +89,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-03-26T14:10:16-04:00",
+        "updated_at": "2026-04-06T14:34:45+02:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +101,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:26.446Z"
+      "last_checked_at": "2026-04-25T11:06:32.965Z"
     }
   ],
   "issues": []

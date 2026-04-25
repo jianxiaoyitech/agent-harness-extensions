@@ -95,13 +95,19 @@ async function buildGrowthData(sourceFilter: Set<string>) {
       const snapshot = await readJsonFile<{
         date?: string;
         source_id?: string;
+        artifact_count?: number;
         artifacts?: unknown[];
       }>(file);
 
       return {
         date: snapshot.date || relativePath.slice(0, 10).replaceAll("/", "-"),
         source_id: snapshot.source_id || relativePath.split("/").at(-1)?.replace(/\.json$/, "") || "unknown",
-        total: Array.isArray(snapshot.artifacts) ? snapshot.artifacts.length : 0,
+        total:
+          typeof snapshot.artifact_count === "number"
+            ? snapshot.artifact_count
+            : Array.isArray(snapshot.artifacts)
+              ? snapshot.artifacts.length
+              : 0,
       };
     }),
   );

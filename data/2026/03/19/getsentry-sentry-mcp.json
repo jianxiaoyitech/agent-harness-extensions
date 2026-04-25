@@ -3,6 +3,8 @@
   "source_id": "getsentry-sentry-mcp",
   "source_name": "Sentry MCP",
   "source_status": "active",
+  "snapshot_date": "2026-03-19",
+  "first_commit_date": "2025-03-29",
   "repo": "https://github.com/getsentry/sentry-mcp",
   "default_branch": "main",
   "previous_sha": "6a4a2cc3ca48a808af6b0027b27dee21a1026bf8",
@@ -62,7 +64,7 @@
   ],
   "source_config_hash": "68b66d76cf8b8ffd1e6a8a6acb26d7f46f93f34432cd8c413b84254989fe7765",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:31:55.877Z",
+  "synced_at": "2026-04-25T10:38:17.828Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -143,7 +145,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.876Z"
+      "last_checked_at": "2026-04-25T10:38:17.827Z"
     },
     {
       "id": "getsentry-sentry-mcp::plugin::plugins-sentry-mcp-claude-plugin-plugin-json",
@@ -217,7 +219,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.876Z"
+      "last_checked_at": "2026-04-25T10:38:17.828Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::plugins-sentry-mcp-mcp-json",
@@ -291,7 +293,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.876Z"
+      "last_checked_at": "2026-04-25T10:38:17.828Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::readme-md",
@@ -365,7 +367,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.876Z"
+      "last_checked_at": "2026-04-25T10:38:17.828Z"
     },
     {
       "id": "getsentry-sentry-mcp::plugin::plugins-sentry-mcp-experimental-claude-plugin-plugin-json",
@@ -439,7 +441,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.876Z"
+      "last_checked_at": "2026-04-25T10:38:17.828Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::plugins-sentry-mcp-experimental-mcp-json",
@@ -513,7 +515,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:31:55.876Z"
+      "last_checked_at": "2026-04-25T10:38:17.828Z"
     }
   ],
   "issues": []

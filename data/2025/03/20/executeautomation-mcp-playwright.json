@@ -3,6 +3,8 @@
   "source_id": "executeautomation-mcp-playwright",
   "source_name": "MCP Playwright",
   "source_status": "active",
+  "snapshot_date": "2025-03-20",
+  "first_commit_date": "2024-12-03",
   "repo": "https://github.com/executeautomation/mcp-playwright",
   "default_branch": "main",
   "previous_sha": "b94a30c8c17174307c907c439a6de47c96e2c222",
@@ -24,7 +26,7 @@
   ],
   "source_config_hash": "c26ac4806eed2ae817aae90a81a390f9cdfb611a00d6be9fea90d2defbb5012a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:25:12.445Z",
+  "synced_at": "2026-04-25T10:33:00.143Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -105,7 +107,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:12.445Z"
+      "last_checked_at": "2026-04-25T10:33:00.142Z"
     }
   ],
   "issues": []

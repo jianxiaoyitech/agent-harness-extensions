@@ -3,15 +3,38 @@
   "source_id": "getsentry-sentry-mcp",
   "source_name": "Sentry MCP",
   "source_status": "active",
+  "snapshot_date": "2026-04-08",
+  "first_commit_date": "2025-03-29",
   "repo": "https://github.com/getsentry/sentry-mcp",
   "default_branch": "main",
   "previous_sha": "fe1d7ae0476e92dcd981b8bd6b8dd0acde3f0745",
-  "current_sha": "8b21ab5be8e82a192ef68db9686f0e260fa83869",
+  "current_sha": "0941c502a5d2f18d0265e4d8cd2b4a3b44e00c95",
   "mode": "delta",
   "changed_files": [
+    ".agents/skills/qa/SKILL.md",
     "docs/cloudflare/oauth-architecture.md",
     "docs/releases/cloudflare.md",
     "docs/security.md",
+    "docs/testing-stdio.md",
+    "docs/testing.md",
+    "package.json",
+    "packages/agent-cli-test/README.md",
+    "packages/agent-cli-test/package.json",
+    "packages/agent-cli-test/projects/stdio/.codex/config.toml",
+    "packages/agent-cli-test/projects/stdio/.gitignore",
+    "packages/agent-cli-test/projects/stdio/.mcp.json",
+    "packages/agent-cli-test/src/auth.test.ts",
+    "packages/agent-cli-test/src/auth.ts",
+    "packages/agent-cli-test/src/index.ts",
+    "packages/agent-cli-test/src/process.ts",
+    "packages/agent-cli-test/src/providers.test.ts",
+    "packages/agent-cli-test/src/providers.ts",
+    "packages/agent-cli-test/src/scenarios.ts",
+    "packages/agent-cli-test/src/setup.test.ts",
+    "packages/agent-cli-test/src/setup.ts",
+    "packages/agent-cli-test/src/types.ts",
+    "packages/agent-cli-test/tsconfig.json",
+    "packages/agent-cli-test/tsdown.config.ts",
     "packages/mcp-cloudflare/package.json",
     "packages/mcp-cloudflare/src/server/index.test.ts",
     "packages/mcp-cloudflare/src/server/lib/mcp-handler.test.ts",
@@ -37,17 +60,26 @@
     "packages/mcp-core/src/tools/get-replay-details.test.ts",
     "packages/mcp-core/src/tools/get-replay-details.ts",
     "packages/mcp-server-mocks/src/index.ts",
+    "packages/mcp-test-client/README.md",
+    "packages/mcp-test-client/src/agent.ts",
+    "packages/mcp-test-client/src/index.ts",
+    "packages/mcp-test-client/src/mcp-test-client.ts",
+    "packages/mcp-test-client/src/tool-output-format.test.ts",
+    "packages/mcp-test-client/src/tool-output-format.ts",
+    "packages/mcp-test-client/src/transport.test.ts",
+    "packages/mcp-test-client/src/transport.ts",
+    "packages/mcp-test-client/src/types.ts",
     "pnpm-lock.yaml",
     "pnpm-workspace.yaml"
   ],
   "source_config_hash": "68b66d76cf8b8ffd1e6a8a6acb26d7f46f93f34432cd8c413b84254989fe7765",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:54:46.901Z",
+  "synced_at": "2026-04-25T10:38:26.368Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "Apache-2.0",
-    "updated_at": "2026-04-08T10:03:33-07:00",
+    "updated_at": "2026-04-08T15:40:12-07:00",
     "archived": false
   },
   "artifacts": [
@@ -111,7 +143,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-04-08T10:03:33-07:00",
+        "updated_at": "2026-04-08T15:40:12-07:00",
         "archived": false
       },
       "detection": {
@@ -123,7 +155,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:46.900Z"
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
     },
     {
       "id": "getsentry-sentry-mcp::plugin::plugins-sentry-mcp-claude-plugin-plugin-json",
@@ -185,7 +217,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-04-08T10:03:33-07:00",
+        "updated_at": "2026-04-08T15:40:12-07:00",
         "archived": false
       },
       "detection": {
@@ -197,7 +229,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:46.900Z"
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::plugins-sentry-mcp-mcp-json",
@@ -259,7 +291,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-04-08T10:03:33-07:00",
+        "updated_at": "2026-04-08T15:40:12-07:00",
         "archived": false
       },
       "detection": {
@@ -271,7 +303,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:46.900Z"
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::readme-md",
@@ -333,7 +365,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-04-08T10:03:33-07:00",
+        "updated_at": "2026-04-08T15:40:12-07:00",
         "archived": false
       },
       "detection": {
@@ -345,7 +377,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:46.900Z"
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
     },
     {
       "id": "getsentry-sentry-mcp::plugin::plugins-sentry-mcp-experimental-claude-plugin-plugin-json",
@@ -407,7 +439,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-04-08T10:03:33-07:00",
+        "updated_at": "2026-04-08T15:40:12-07:00",
         "archived": false
       },
       "detection": {
@@ -419,7 +451,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:46.900Z"
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::plugins-sentry-mcp-experimental-mcp-json",
@@ -481,7 +513,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-04-08T10:03:33-07:00",
+        "updated_at": "2026-04-08T15:40:12-07:00",
         "archived": false
       },
       "detection": {
@@ -493,7 +525,81 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:46.900Z"
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
+    },
+    {
+      "id": "getsentry-sentry-mcp::mcp-server::packages-agent-cli-test-projects-stdio-mcp-json",
+      "source_id": "getsentry-sentry-mcp",
+      "source_name": "Sentry MCP",
+      "source_status": "active",
+      "name": "Stdio",
+      "type": "mcp-server",
+      "type_label": "MCP Server",
+      "path": "packages/agent-cli-test/projects/stdio/.mcp.json",
+      "repo": "https://github.com/getsentry/sentry-mcp",
+      "repo_path_url": "https://github.com/getsentry/sentry-mcp/blob/main/packages/agent-cli-test/projects/stdio/.mcp.json",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "check",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "check",
+        "forge": "blank",
+        "gemini-cli": "check",
+        "github-copilot": "check",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "check",
+        "opencode": "check",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "check",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2026-04-08T15:40:12-07:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manifest"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "mcp-server"
+        ]
+      },
+      "last_checked_at": "2026-04-25T10:38:26.367Z"
     }
   ],
   "issues": []

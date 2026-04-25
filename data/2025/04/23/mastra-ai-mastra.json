@@ -3,6 +3,8 @@
   "source_id": "mastra-ai-mastra",
   "source_name": "Mastra",
   "source_status": "active",
+  "snapshot_date": "2025-04-23",
+  "first_commit_date": "2024-08-06",
   "repo": "https://github.com/mastra-ai/mastra",
   "default_branch": "main",
   "previous_sha": "16b424acf69d14ee6d73acf8a6b66a61408d6430",
@@ -341,7 +343,7 @@
   ],
   "source_config_hash": "1451bb8a062f487dc959afa361ca140b221db46912ea42cee8a5fd1a172f2e71",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:42:02.906Z",
+  "synced_at": "2026-04-25T10:46:48.488Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -422,7 +424,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:42:02.906Z"
+      "last_checked_at": "2026-04-25T10:46:48.488Z"
     }
   ],
   "issues": []

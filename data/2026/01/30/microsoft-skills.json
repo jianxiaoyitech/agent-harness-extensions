@@ -3,6 +3,8 @@
   "source_id": "microsoft-skills",
   "source_name": "Microsoft Skills",
   "source_status": "active",
+  "snapshot_date": "2026-01-30",
+  "first_commit_date": "2026-01-16",
   "repo": "https://github.com/microsoft/skills",
   "default_branch": "main",
   "previous_sha": "c3e69bb89a1917e00defdbf7b15cb164668f5aa7",
@@ -201,7 +203,7 @@
   ],
   "source_config_hash": "0c972c8532fc90ec0153e62f3b6b7861be0c667e4688f481887ab2e49fb2cd89",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:39:14.232Z",
+  "synced_at": "2026-04-25T10:48:23.764Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -284,7 +286,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:14.232Z"
+      "last_checked_at": "2026-04-25T10:48:23.764Z"
     }
   ],
   "issues": []

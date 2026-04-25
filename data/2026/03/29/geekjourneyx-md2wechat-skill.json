@@ -3,6 +3,8 @@
   "source_id": "geekjourneyx-md2wechat-skill",
   "source_name": "Md2Wechat Skill",
   "source_status": "active",
+  "snapshot_date": "2026-03-29",
+  "first_commit_date": "2026-01-11",
   "repo": "https://github.com/geekjourneyx/md2wechat-skill",
   "default_branch": "main",
   "previous_sha": "f3856e32a4b15dfc24390d38679cf9fe8a348f0a",
@@ -45,7 +47,7 @@
   ],
   "source_config_hash": "927b6d074dcb5b14c1c0ae5f5f7cdeb62d114efa62ad3d424b71f6eb7ca8c3e4",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:28:52.567Z",
+  "synced_at": "2026-04-25T10:35:55.633Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -126,7 +128,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:52.566Z"
+      "last_checked_at": "2026-04-25T10:35:55.633Z"
     },
     {
       "id": "geekjourneyx-md2wechat-skill::skill::readme-md",
@@ -200,7 +202,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:52.566Z"
+      "last_checked_at": "2026-04-25T10:35:55.633Z"
     }
   ],
   "issues": []

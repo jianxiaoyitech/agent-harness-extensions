@@ -3,6 +3,8 @@
   "source_id": "getsentry-sentry-mcp",
   "source_name": "Sentry MCP",
   "source_status": "active",
+  "snapshot_date": "2025-11-12",
+  "first_commit_date": "2025-03-29",
   "repo": "https://github.com/getsentry/sentry-mcp",
   "default_branch": "main",
   "previous_sha": "fdc77f81b5ee1aa4a6c9174bb47da477cd2c8c99",
@@ -13,7 +15,7 @@
   ],
   "source_config_hash": "68b66d76cf8b8ffd1e6a8a6acb26d7f46f93f34432cd8c413b84254989fe7765",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:30:34.748Z",
+  "synced_at": "2026-04-25T10:37:21.646Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -94,7 +96,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:30:34.748Z"
+      "last_checked_at": "2026-04-25T10:37:21.645Z"
     },
     {
       "id": "getsentry-sentry-mcp::mcp-server::readme-md",
@@ -168,7 +170,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:30:34.748Z"
+      "last_checked_at": "2026-04-25T10:37:21.645Z"
     }
   ],
   "issues": []

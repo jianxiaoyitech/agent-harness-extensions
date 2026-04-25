@@ -15,6 +15,7 @@ import {
   isValidDateStamp,
   loadDaySnapshotSourceRecords,
   loadHarnessRegistry,
+  loadLatestSourceRecordBeforeDate,
   loadSnapshotSourceRecords,
   loadSourceFiles,
   pruneSnapshotSources,
@@ -111,6 +112,12 @@ export function summarizeSourceStartDates(
     latestStartDate: sortedDates.at(-1) ?? null,
     sourceCount: sourceStartDates.size,
   };
+}
+
+export function resolveCachedSourceStartDate(
+  previousSnapshotSource: SnapshotSourceRecord | null | undefined,
+): string | null {
+  return previousSnapshotSource?.first_commit_date ?? null;
 }
 
 export function partitionSources({
@@ -218,6 +225,10 @@ export function resolveSyncWorkerCount(
   }
 
   return Math.max(1, Math.min(4, parallelism));
+}
+
+export function shouldPruneSnapshotDir(sourceFilter: Set<string>): boolean {
+  return sourceFilter.size === 0;
 }
 
 interface SourceWorkerResult {
@@ -337,9 +348,20 @@ async function main(): Promise<void> {
 
   const syncIssues: Array<{ source_id: string; issues: string[] }> = [];
   const sourceStartDates = new Map<string, string>();
+  const previousSourceRecords = new Map<string, SnapshotSourceRecord | null>(
+    await Promise.all(
+      validSources.map(async (source) => [
+        source.id,
+        await loadLatestSourceRecordBeforeDate(source.id, snapshotDateStamp),
+      ] as const),
+    ),
+  );
   await Promise.all(
     validSources.map(async (source) => {
-      sourceStartDates.set(source.id, await resolveSourceFirstCommitDate(source));
+      const previous = previousSourceRecords.get(source.id);
+      const cachedStartDate = resolveCachedSourceStartDate(previous);
+      const startDate = cachedStartDate ?? (await resolveSourceFirstCommitDate(source));
+      sourceStartDates.set(source.id, startDate);
     }),
   );
   const startDateSummary = summarizeSourceStartDates(sourceStartDates);
@@ -388,11 +410,15 @@ async function main(): Promise<void> {
 
   await Promise.all(Array.from({ length: workerCount }, () => runWorkerLoop()));
 
-  await pruneSnapshotSources(
-    validSources.map((source) => source.id),
-    snapshotDir,
-  );
-  console.log("[sync] Pruned stale snapshot files from dated snapshot");
+  if (shouldPruneSnapshotDir(sourceFilter)) {
+    await pruneSnapshotSources(
+      validSources.map((source) => source.id),
+      snapshotDir,
+    );
+    console.log("[sync] Pruned stale snapshot files from dated snapshot");
+  } else {
+    console.log("[sync] Skipped dated snapshot pruning because --source was used");
+  }
 
   const snapshotSources = await loadDaySnapshotSourceRecords(snapshotDir);
 

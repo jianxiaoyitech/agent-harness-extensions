@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "jetbrains-mcpproxy",
   "source_name": "MCP Proxy",
   "source_status": "active",
+  "snapshot_date": "2025-09-20",
+  "first_commit_date": "2024-12-09",
   "repo": "https://github.com/jetbrains/mcpProxy",
   "default_branch": "main",
   "previous_sha": "c8c2b85bc6f029130542fdddc3daf066e404df41",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "e0e9601399d6038b7e424004b83df9d89b959d27a4f64d3577ca6f0814608c47",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:34:00.400Z",
+  "synced_at": "2026-04-25T10:41:19.290Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-08-18T11:34:55+02:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "jetbrains-mcpproxy::mcp-server::readme-md",
-      "source_id": "jetbrains-mcpproxy",
-      "source_name": "MCP Proxy",
-      "source_status": "active",
-      "name": "MCP Proxy",
-      "type": "mcp-server",
-      "type_label": "MCP Server",
-      "path": "README.md",
-      "repo": "https://github.com/jetbrains/mcpProxy",
-      "repo_path_url": "https://github.com/jetbrains/mcpProxy/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "check",
-        "forge": "blank",
-        "gemini-cli": "check",
-        "github-copilot": "check",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "check",
-        "opencode": "check",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "check",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2025-08-18T11:34:55+02:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:34:00.400Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-08-18",
   "issues": []
 }

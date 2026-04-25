@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "ryszard-agency",
+  "source_name": "Agency",
+  "source_status": "active",
+  "snapshot_date": "2026-04-18",
+  "first_commit_date": "2023-05-19",
+  "repo": "https://github.com/ryszard/agency",
+  "default_branch": "main",
+  "previous_sha": "8af7a72f37663f0b152ddbf38904265811eca53e",
+  "current_sha": "8af7a72f37663f0b152ddbf38904265811eca53e",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "01d66e8dbb8e3c23e9ce5d077c0868b7232a62797c1ce61af12dc4b59e0a2985",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T11:03:53.320Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2024-03-24T12:17:24+01:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2024-03-24",
+  "issues": []
+}

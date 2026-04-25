@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "edmund-io-edmunds-claude-code",
+  "source_name": "edmund.io Edmunds Claude Code",
+  "source_status": "active",
+  "snapshot_date": "2026-04-21",
+  "first_commit_date": "2025-10-24",
+  "repo": "https://github.com/edmund-io/edmunds-claude-code",
+  "default_branch": "main",
+  "previous_sha": "5fc6e86f8640b4955964087b0f3aa029e0577aab",
+  "current_sha": "5fc6e86f8640b4955964087b0f3aa029e0577aab",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "6006a9815ae8694f5c51b51ef95bdc9bc9c3cb34e6bcdaa281596fb959405f87",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:32:13.169Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2025-10-24T16:29:14+08:00",
+    "archived": false
+  },
+  "artifact_count": 12,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-10-24",
+  "issues": []
+}

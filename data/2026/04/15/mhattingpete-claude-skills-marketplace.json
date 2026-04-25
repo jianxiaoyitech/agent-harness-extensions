@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "mhattingpete-claude-skills-marketplace",
+  "source_name": "mhattingpete Claude Skills Marketplace",
+  "source_status": "active",
+  "snapshot_date": "2026-04-15",
+  "first_commit_date": "2025-10-17",
+  "repo": "https://github.com/mhattingpete/claude-skills-marketplace",
+  "default_branch": "main",
+  "previous_sha": "3fa16a94e0aba3509e4d4b318ca175d3191b5b7d",
+  "current_sha": "3fa16a94e0aba3509e4d4b318ca175d3191b5b7d",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "d47c2244208e1713a4e713e48ffed55b6cb9f7209a6bf458e3487f0b321ba386",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:45:23.283Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-03-06T11:13:48+01:00",
+    "archived": false
+  },
+  "artifact_count": 24,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-03-06",
+  "issues": []
+}

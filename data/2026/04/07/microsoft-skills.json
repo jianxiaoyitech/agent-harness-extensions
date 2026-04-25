@@ -3,6 +3,8 @@
   "source_id": "microsoft-skills",
   "source_name": "Microsoft Skills",
   "source_status": "active",
+  "snapshot_date": "2026-04-07",
+  "first_commit_date": "2026-01-16",
   "repo": "https://github.com/microsoft/skills",
   "default_branch": "main",
   "previous_sha": "f737156d879529470cfd66a68bf574452c486bbc",
@@ -24,7 +26,7 @@
   ],
   "source_config_hash": "0c972c8532fc90ec0153e62f3b6b7861be0c667e4688f481887ab2e49fb2cd89",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:40:02.717Z",
+  "synced_at": "2026-04-25T10:49:03.757Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -108,7 +110,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-agents-v2-py-skill-md",
@@ -185,7 +187,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-appinsights-instrumentation-skill-md",
@@ -262,7 +264,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-ai-skill-md",
@@ -339,7 +341,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-ai-agents-persistent-dotnet-skill-md",
@@ -416,7 +418,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-agents-persistent-java-skill-md",
@@ -493,7 +495,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-anomalydetector-java-skill-md",
@@ -570,7 +572,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-contentsafety-java-skill-md",
@@ -647,7 +649,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-contentsafety-py-skill-md",
@@ -724,7 +726,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-ai-contentsafety-ts-skill-md",
@@ -801,7 +803,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-contentunderstanding-py-skill-md",
@@ -878,7 +880,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-ai-document-intelligence-dotnet-skill-md",
@@ -955,7 +957,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-ai-document-intelligence-ts-skill-md",
@@ -1032,7 +1034,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-formrecognizer-java-skill-md",
@@ -1109,7 +1111,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-language-conversations-py-skill-md",
@@ -1186,7 +1188,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-ml-py-skill-md",
@@ -1263,7 +1265,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-ai-openai-dotnet-skill-md",
@@ -1340,7 +1342,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-ai-projects-dotnet-skill-md",
@@ -1417,7 +1419,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-projects-java-skill-md",
@@ -1494,7 +1496,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-projects-py-skill-md",
@@ -1571,7 +1573,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-ai-projects-ts-skill-md",
@@ -1648,7 +1650,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-textanalytics-py-skill-md",
@@ -1725,7 +1727,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-transcription-py-skill-md",
@@ -1802,7 +1804,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-translation-document-py-skill-md",
@@ -1879,7 +1881,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-translation-text-py-skill-md",
@@ -1956,7 +1958,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-ai-translation-ts-skill-md",
@@ -2033,7 +2035,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-vision-imageanalysis-java-skill-md",
@@ -2110,7 +2112,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-vision-imageanalysis-py-skill-md",
@@ -2187,7 +2189,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-ai-voicelive-dotnet-skill-md",
@@ -2264,7 +2266,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-ai-voicelive-java-skill-md",
@@ -2341,7 +2343,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-ai-voicelive-py-skill-md",
@@ -2418,7 +2420,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-ai-voicelive-ts-skill-md",
@@ -2495,7 +2497,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-aigateway-skill-md",
@@ -2572,7 +2574,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-appconfiguration-java-skill-md",
@@ -2649,7 +2651,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-appconfiguration-py-skill-md",
@@ -2726,7 +2728,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-appconfiguration-ts-skill-md",
@@ -2803,7 +2805,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-cloud-migrate-skill-md",
@@ -2880,7 +2882,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-communication-callautomation-java-skill-md",
@@ -2957,7 +2959,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-communication-callingserver-java-skill-md",
@@ -3034,7 +3036,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-communication-chat-java-skill-md",
@@ -3111,7 +3113,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-communication-common-java-skill-md",
@@ -3188,7 +3190,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-communication-sms-java-skill-md",
@@ -3265,7 +3267,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-compliance-skill-md",
@@ -3342,7 +3344,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-compute-skill-md",
@@ -3419,7 +3421,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-compute-batch-java-skill-md",
@@ -3496,7 +3498,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-containerregistry-py-skill-md",
@@ -3573,7 +3575,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-skill-md",
@@ -3650,7 +3652,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-cosmos-java-skill-md",
@@ -3727,7 +3729,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-cosmos-py-skill-md",
@@ -3804,7 +3806,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-cosmos-rust-skill-md",
@@ -3881,7 +3883,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-cosmos-ts-skill-md",
@@ -3958,7 +3960,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-cost-skill-md",
@@ -4035,7 +4037,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-data-tables-java-skill-md",
@@ -4112,7 +4114,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-data-tables-py-skill-md",
@@ -4189,7 +4191,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-deploy-skill-md",
@@ -4266,7 +4268,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-diagnostics-skill-md",
@@ -4343,7 +4345,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-enterprise-infra-planner-skill-md",
@@ -4420,7 +4422,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-eventgrid-dotnet-skill-md",
@@ -4497,7 +4499,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-eventgrid-java-skill-md",
@@ -4574,7 +4576,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-eventgrid-py-skill-md",
@@ -4651,7 +4653,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-eventhub-dotnet-skill-md",
@@ -4728,7 +4730,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-eventhub-java-skill-md",
@@ -4805,7 +4807,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-eventhub-py-skill-md",
@@ -4882,7 +4884,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-eventhub-rust-skill-md",
@@ -4959,7 +4961,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-eventhub-ts-skill-md",
@@ -5036,7 +5038,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-hosted-copilot-sdk-skill-md",
@@ -5113,7 +5115,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-identity-dotnet-skill-md",
@@ -5190,7 +5192,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-identity-java-skill-md",
@@ -5267,7 +5269,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-identity-py-skill-md",
@@ -5344,7 +5346,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-identity-rust-skill-md",
@@ -5421,7 +5423,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-identity-ts-skill-md",
@@ -5498,7 +5500,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-keyvault-certificates-rust-skill-md",
@@ -5575,7 +5577,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-keyvault-keys-rust-skill-md",
@@ -5652,7 +5654,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-keyvault-keys-ts-skill-md",
@@ -5729,7 +5731,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-keyvault-py-skill-md",
@@ -5806,7 +5808,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-keyvault-secrets-rust-skill-md",
@@ -5883,7 +5885,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-keyvault-secrets-ts-skill-md",
@@ -5960,7 +5962,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-kubernetes-skill-md",
@@ -6037,7 +6039,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-kusto-skill-md",
@@ -6114,7 +6116,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-maps-search-dotnet-skill-md",
@@ -6191,7 +6193,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-messaging-skill-md",
@@ -6268,7 +6270,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-messaging-webpubsub-java-skill-md",
@@ -6345,7 +6347,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-messaging-webpubsubservice-py-skill-md",
@@ -6422,7 +6424,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apicenter-dotnet-skill-md",
@@ -6499,7 +6501,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-mgmt-apicenter-py-skill-md",
@@ -6576,7 +6578,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apimanagement-dotnet-skill-md",
@@ -6653,7 +6655,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-mgmt-apimanagement-py-skill-md",
@@ -6730,7 +6732,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-applicationinsights-dotnet-skill-md",
@@ -6807,7 +6809,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-arizeaiobservabilityeval-dotnet-skill-md",
@@ -6884,7 +6886,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-botservice-dotnet-skill-md",
@@ -6961,7 +6963,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-mgmt-botservice-py-skill-md",
@@ -7038,7 +7040,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-fabric-dotnet-skill-md",
@@ -7115,7 +7117,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-mgmt-fabric-py-skill-md",
@@ -7192,7 +7194,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-mongodbatlas-dotnet-skill-md",
@@ -7269,7 +7271,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-mgmt-weightsandbiases-dotnet-skill-md",
@@ -7346,7 +7348,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-microsoft-playwright-testing-ts-skill-md",
@@ -7423,7 +7425,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-monitor-ingestion-java-skill-md",
@@ -7500,7 +7502,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-monitor-ingestion-py-skill-md",
@@ -7577,7 +7579,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-monitor-opentelemetry-exporter-java-skill-md",
@@ -7654,7 +7656,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-exporter-py-skill-md",
@@ -7731,7 +7733,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-py-skill-md",
@@ -7808,7 +7810,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-monitor-opentelemetry-ts-skill-md",
@@ -7885,7 +7887,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-monitor-query-java-skill-md",
@@ -7962,7 +7964,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-monitor-query-py-skill-md",
@@ -8039,7 +8041,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-postgres-ts-skill-md",
@@ -8116,7 +8118,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-prepare-skill-md",
@@ -8193,7 +8195,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-quotas-skill-md",
@@ -8270,7 +8272,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-rbac-skill-md",
@@ -8347,7 +8349,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-resource-lookup-skill-md",
@@ -8424,7 +8426,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-cosmosdb-dotnet-skill-md",
@@ -8501,7 +8503,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-durabletask-dotnet-skill-md",
@@ -8578,7 +8580,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-mysql-dotnet-skill-md",
@@ -8655,7 +8657,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-playwright-dotnet-skill-md",
@@ -8732,7 +8734,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-postgresql-dotnet-skill-md",
@@ -8809,7 +8811,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-redis-dotnet-skill-md",
@@ -8886,7 +8888,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-sql-dotnet-skill-md",
@@ -8963,7 +8965,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-resource-visualizer-skill-md",
@@ -9040,7 +9042,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-azure-sdk-dotnet-claude-plugin-plugin-json",
@@ -9116,7 +9118,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-azure-sdk-java-claude-plugin-plugin-json",
@@ -9192,7 +9194,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-azure-sdk-python-claude-plugin-plugin-json",
@@ -9268,7 +9270,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-azure-sdk-rust-claude-plugin-plugin-json",
@@ -9344,7 +9346,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-azure-sdk-typescript-claude-plugin-plugin-json",
@@ -9420,7 +9422,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-search-documents-dotnet-skill-md",
@@ -9497,7 +9499,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-search-documents-py-skill-md",
@@ -9574,7 +9576,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-search-documents-ts-skill-md",
@@ -9651,7 +9653,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-security-keyvault-keys-dotnet-skill-md",
@@ -9728,7 +9730,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-security-keyvault-keys-java-skill-md",
@@ -9805,7 +9807,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-security-keyvault-secrets-java-skill-md",
@@ -9882,7 +9884,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-azure-servicebus-dotnet-skill-md",
@@ -9959,7 +9961,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-servicebus-py-skill-md",
@@ -10036,7 +10038,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-servicebus-ts-skill-md",
@@ -10113,7 +10115,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-azure-skills-claude-plugin-plugin-json",
@@ -10189,7 +10191,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::mcp-server::github-plugins-azure-skills-mcp-json",
@@ -10265,7 +10267,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-speech-to-text-rest-py-skill-md",
@@ -10342,7 +10344,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.692Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-storage-skill-md",
@@ -10419,7 +10421,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-java-skills-azure-storage-blob-java-skill-md",
@@ -10496,7 +10498,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.691Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-storage-blob-py-skill-md",
@@ -10573,7 +10575,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-rust-skills-azure-storage-blob-rust-skill-md",
@@ -10650,7 +10652,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-storage-blob-ts-skill-md",
@@ -10727,7 +10729,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-storage-file-datalake-py-skill-md",
@@ -10804,7 +10806,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-storage-file-share-py-skill-md",
@@ -10881,7 +10883,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-storage-file-share-ts-skill-md",
@@ -10958,7 +10960,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-azure-storage-queue-py-skill-md",
@@ -11035,7 +11037,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-storage-queue-ts-skill-md",
@@ -11112,7 +11114,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-upgrade-skill-md",
@@ -11189,7 +11191,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-azure-validate-skill-md",
@@ -11266,7 +11268,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-azure-web-pubsub-ts-skill-md",
@@ -11343,7 +11345,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-capacity-skill-md",
@@ -11420,7 +11422,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-customize-skill-md",
@@ -11497,7 +11499,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-deep-wiki-claude-plugin-plugin-json",
@@ -11573,7 +11575,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-skill-md",
@@ -11650,7 +11652,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-entra-app-registration-skill-md",
@@ -11727,7 +11729,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-fastapi-router-py-skill-md",
@@ -11804,7 +11806,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-frontend-ui-dark-ts-skill-md",
@@ -11881,7 +11883,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-hosted-agents-v2-py-skill-md",
@@ -11958,7 +11960,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-m365-agents-dotnet-skill-md",
@@ -12035,7 +12037,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-m365-agents-py-skill-md",
@@ -12112,7 +12114,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-m365-agents-ts-skill-md",
@@ -12189,7 +12191,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-dotnet-skills-microsoft-azure-webjobs-extensions-authentication-events-dotnet-skill-md",
@@ -12266,7 +12268,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.690Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::plugin::github-plugins-microsoft-foundry-claude-plugin-plugin-json",
@@ -12342,7 +12344,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::mcp-server::github-plugins-microsoft-foundry-mcp-json",
@@ -12418,7 +12420,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.689Z"
+      "last_checked_at": "2026-04-25T10:49:03.748Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-microsoft-foundry-skill-md",
@@ -12495,7 +12497,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::readme-md",
@@ -12571,7 +12573,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-preset-skill-md",
@@ -12648,7 +12650,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-python-skills-pydantic-models-py-skill-md",
@@ -12725,7 +12727,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.693Z"
+      "last_checked_at": "2026-04-25T10:49:03.749Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-react-flow-node-ts-skill-md",
@@ -12802,7 +12804,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-ado-convert-skill-md",
@@ -12879,7 +12881,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-agents-md-skill-md",
@@ -12956,7 +12958,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-architect-skill-md",
@@ -13033,7 +13035,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-changelog-skill-md",
@@ -13110,7 +13112,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-llms-txt-skill-md",
@@ -13187,7 +13189,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-onboarding-skill-md",
@@ -13264,7 +13266,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-page-writer-skill-md",
@@ -13341,7 +13343,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-qa-skill-md",
@@ -13418,7 +13420,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-researcher-skill-md",
@@ -13495,7 +13497,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-deep-wiki-skills-wiki-vitepress-skill-md",
@@ -13572,7 +13574,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.695Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     },
     {
       "id": "microsoft-skills::skill::github-plugins-azure-sdk-typescript-skills-zustand-store-ts-skill-md",
@@ -13649,7 +13651,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:40:02.694Z"
+      "last_checked_at": "2026-04-25T10:49:03.750Z"
     }
   ],
   "issues": []

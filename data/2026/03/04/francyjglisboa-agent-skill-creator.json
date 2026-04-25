@@ -3,6 +3,8 @@
   "source_id": "francyjglisboa-agent-skill-creator",
   "source_name": "Agent Skill Creator",
   "source_status": "active",
+  "snapshot_date": "2026-03-04",
+  "first_commit_date": "2025-10-18",
   "repo": "https://github.com/FrancyJGLisboa/agent-skill-creator",
   "default_branch": "main",
   "previous_sha": "cb66ad17cc70bdcd2de9843a2d988715ea52d027",
@@ -23,7 +25,7 @@
   ],
   "source_config_hash": "81b451f283201a765c60003e8b49a2a4da2e0febe10fd5b3e05c940ce3a5c2b4",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:27:22.155Z",
+  "synced_at": "2026-04-25T10:35:18.372Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -104,7 +106,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:27:22.155Z"
+      "last_checked_at": "2026-04-25T10:35:18.372Z"
     },
     {
       "id": "francyjglisboa-agent-skill-creator::skill::skill-md",
@@ -179,7 +181,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:27:22.155Z"
+      "last_checked_at": "2026-04-25T10:35:18.372Z"
     }
   ],
   "issues": []

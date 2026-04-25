@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "coinpaprika-claude-marketplace",
+  "source_name": "Coinpaprika Claude Marketplace",
+  "source_status": "active",
+  "snapshot_date": "2026-04-17",
+  "first_commit_date": "2025-10-14",
+  "repo": "https://github.com/coinpaprika/claude-marketplace",
+  "default_branch": "main",
+  "previous_sha": "2992307bdbc917585267247d0712eca793590f61",
+  "current_sha": "2992307bdbc917585267247d0712eca793590f61",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "57127236129c57ed02a048f29ac20ea7dd82ce1ba23da4adbc75adc9da2c3fb0",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:30:28.304Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-04-14T13:32:40+02:00",
+    "archived": false
+  },
+  "artifact_count": 9,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-14",
+  "issues": []
+}

@@ -3,6 +3,8 @@
   "source_id": "zcaceres-fetch-mcp",
   "source_name": "Fetch MCP",
   "source_status": "active",
+  "snapshot_date": "2025-01-18",
+  "first_commit_date": "2024-12-18",
   "repo": "https://github.com/zcaceres/fetch-mcp",
   "default_branch": "main",
   "previous_sha": "7a30bccba1e9c9e778e3109bd5ca1b5d1fe8a08d",
@@ -14,7 +16,7 @@
   ],
   "source_config_hash": "f1d76547645888652a6cba2e35985fc208f69155fd75c4f8cc7d472b6a25be03",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:57:22.561Z",
+  "synced_at": "2026-04-25T11:07:49.965Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -95,7 +97,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:57:22.561Z"
+      "last_checked_at": "2026-04-25T11:07:49.965Z"
     }
   ],
   "issues": []

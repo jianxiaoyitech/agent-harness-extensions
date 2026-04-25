@@ -3,6 +3,8 @@
   "source_id": "mhattingpete-claude-skills-marketplace",
   "source_name": "mhattingpete Claude Skills Marketplace",
   "source_status": "active",
+  "snapshot_date": "2025-10-20",
+  "first_commit_date": "2025-10-17",
   "repo": "https://github.com/mhattingpete/claude-skills-marketplace",
   "default_branch": "main",
   "previous_sha": "85d9f1148288a8c31fb152886d99e0d6d6ec7657",
@@ -40,7 +42,7 @@
   ],
   "source_config_hash": "d47c2244208e1713a4e713e48ffed55b6cb9f7209a6bf458e3487f0b321ba386",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:35:30.562Z",
+  "synced_at": "2026-04-25T10:44:09.298Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -124,7 +126,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.561Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::plugin::engineering-workflow-plugin-claude-plugin-plugin-json",
@@ -200,7 +202,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-feature-planning-skill-md",
@@ -277,7 +279,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-flowchart-creator-skill-md",
@@ -354,7 +356,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.561Z"
+      "last_checked_at": "2026-04-25T10:44:09.298Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-git-pushing-skill-md",
@@ -431,7 +433,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::agent::engineering-workflow-plugin-agents-plan-implementer-md",
@@ -508,7 +510,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-review-implementing-skill-md",
@@ -585,7 +587,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-technical-doc-creator-skill-md",
@@ -662,7 +664,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.561Z"
+      "last_checked_at": "2026-04-25T10:44:09.298Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::engineering-workflow-plugin-skills-test-fixing-skill-md",
@@ -739,7 +741,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::skill::visual-documentation-plugin-skills-timeline-creator-skill-md",
@@ -816,7 +818,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.562Z"
+      "last_checked_at": "2026-04-25T10:44:09.298Z"
     },
     {
       "id": "mhattingpete-claude-skills-marketplace::plugin::visual-documentation-plugin-claude-plugin-plugin-json",
@@ -892,7 +894,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:30.560Z"
+      "last_checked_at": "2026-04-25T10:44:09.297Z"
     }
   ],
   "issues": []

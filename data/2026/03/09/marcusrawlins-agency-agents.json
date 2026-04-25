@@ -3,6 +3,8 @@
   "source_id": "marcusrawlins-agency-agents",
   "source_name": "Agency Agents",
   "source_status": "active",
+  "snapshot_date": "2026-03-09",
+  "first_commit_date": "2025-10-13",
   "repo": "https://github.com/MarcusRawlins/agency-agents",
   "default_branch": "main",
   "previous_sha": "40d4f6c0839c8a9f2621aa82ab5ad05178550934",
@@ -24,7 +26,7 @@
   ],
   "source_config_hash": "6644109d25c6f742100f7382ac66edb5878dac0b4c47a46ee0baf27d79e8a3f3",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:34:29.278Z",
+  "synced_at": "2026-04-25T10:43:53.466Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -105,7 +107,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-agents-orchestrator-md",
@@ -179,7 +181,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-data-analytics-reporter-md",
@@ -253,7 +255,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-data-consolidation-agent-md",
@@ -327,7 +329,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-brand-guardian-md",
@@ -401,7 +403,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.272Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-image-prompt-engineer-md",
@@ -475,7 +477,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-inclusive-visuals-specialist-md",
@@ -549,7 +551,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-ui-designer-md",
@@ -623,7 +625,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-ux-architect-md",
@@ -697,7 +699,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-ux-researcher-md",
@@ -771,7 +773,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-visual-storyteller-md",
@@ -845,7 +847,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::design-design-whimsy-injector-md",
@@ -919,7 +921,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-ai-engineer-md",
@@ -993,7 +995,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-autonomous-optimization-architect-md",
@@ -1067,7 +1069,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-backend-architect-md",
@@ -1141,7 +1143,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-data-engineer-md",
@@ -1215,7 +1217,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-devops-automator-md",
@@ -1289,7 +1291,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-frontend-developer-md",
@@ -1363,7 +1365,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-mobile-app-builder-md",
@@ -1437,7 +1439,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-rapid-prototyper-md",
@@ -1511,7 +1513,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-security-engineer-md",
@@ -1585,7 +1587,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-senior-developer-md",
@@ -1659,7 +1661,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::engineering-engineering-technical-writer-md",
@@ -1733,7 +1735,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-lsp-index-engineer-md",
@@ -1807,7 +1809,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::spatial-computing-macos-spatial-metal-engineer-md",
@@ -1881,7 +1883,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-app-store-optimizer-md",
@@ -1955,7 +1957,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-carousel-growth-engine-md",
@@ -2029,7 +2031,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-content-creator-md",
@@ -2103,7 +2105,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-growth-hacker-md",
@@ -2177,7 +2179,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-instagram-curator-md",
@@ -2251,7 +2253,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-reddit-community-builder-md",
@@ -2325,7 +2327,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-social-media-strategist-md",
@@ -2399,7 +2401,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-tiktok-strategist-md",
@@ -2473,7 +2475,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-twitter-engager-md",
@@ -2547,7 +2549,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-wechat-official-account-md",
@@ -2621,7 +2623,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-xiaohongshu-specialist-md",
@@ -2695,7 +2697,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::marketing-marketing-zhihu-strategist-md",
@@ -2769,7 +2771,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.273Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::product-product-behavioral-nudge-engine-md",
@@ -2843,7 +2845,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::product-product-feedback-synthesizer-md",
@@ -2917,7 +2919,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::product-product-sprint-prioritizer-md",
@@ -2991,7 +2993,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::product-product-trend-researcher-md",
@@ -3065,7 +3067,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::project-management-project-management-experiment-tracker-md",
@@ -3139,7 +3141,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::project-management-project-management-project-shepherd-md",
@@ -3213,7 +3215,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::project-management-project-management-studio-operations-md",
@@ -3287,7 +3289,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::project-management-project-management-studio-producer-md",
@@ -3361,7 +3363,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::project-management-project-manager-senior-md",
@@ -3435,7 +3437,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-report-distribution-agent-md",
@@ -3509,7 +3511,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-sales-data-extraction-agent-md",
@@ -3583,7 +3585,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-specialized-cultural-intelligence-strategist-md",
@@ -3657,7 +3659,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::specialized-specialized-developer-advocate-md",
@@ -3731,7 +3733,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::support-support-analytics-reporter-md",
@@ -3805,7 +3807,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::support-support-executive-summary-generator-md",
@@ -3879,7 +3881,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::support-support-finance-tracker-md",
@@ -3953,7 +3955,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::support-support-infrastructure-maintainer-md",
@@ -4027,7 +4029,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::support-support-legal-compliance-checker-md",
@@ -4101,7 +4103,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::support-support-support-responder-md",
@@ -4175,7 +4177,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::spatial-computing-terminal-integration-specialist-md",
@@ -4249,7 +4251,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-accessibility-auditor-md",
@@ -4323,7 +4325,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-api-tester-md",
@@ -4397,7 +4399,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-evidence-collector-md",
@@ -4471,7 +4473,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-performance-benchmarker-md",
@@ -4545,7 +4547,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-reality-checker-md",
@@ -4619,7 +4621,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-test-results-analyzer-md",
@@ -4693,7 +4695,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-tool-evaluator-md",
@@ -4767,7 +4769,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::testing-testing-workflow-optimizer-md",
@@ -4841,7 +4843,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.275Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::spatial-computing-visionos-spatial-engineer-md",
@@ -4915,7 +4917,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::spatial-computing-xr-cockpit-interaction-specialist-md",
@@ -4989,7 +4991,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::spatial-computing-xr-immersive-developer-md",
@@ -5063,7 +5065,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     },
     {
       "id": "marcusrawlins-agency-agents::agent::spatial-computing-xr-interface-architect-md",
@@ -5137,7 +5139,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:29.274Z"
+      "last_checked_at": "2026-04-25T10:43:53.465Z"
     }
   ],
   "issues": []

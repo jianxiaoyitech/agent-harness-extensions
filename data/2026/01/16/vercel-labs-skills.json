@@ -3,6 +3,8 @@
   "source_id": "vercel-labs-skills",
   "source_name": "Vercel Labs Skills",
   "source_status": "active",
+  "snapshot_date": "2026-01-16",
+  "first_commit_date": "2026-01-14",
   "repo": "https://github.com/vercel-labs/skills",
   "default_branch": "main",
   "previous_sha": "118ef3ce1dd24f56ae899eb34b1794804beceade",
@@ -25,7 +27,7 @@
   ],
   "source_config_hash": "bd18b5335d3bcef6df0a29cb82a6863c888a55f153ffe9453c0864af6464666d",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:54:46.723Z",
+  "synced_at": "2026-04-25T11:06:43.143Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,

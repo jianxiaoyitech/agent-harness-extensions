@@ -3,6 +3,8 @@
   "source_id": "microsoft-skills",
   "source_name": "Microsoft Skills",
   "source_status": "active",
+  "snapshot_date": "2026-01-28",
+  "first_commit_date": "2026-01-16",
   "repo": "https://github.com/microsoft/skills",
   "default_branch": "main",
   "previous_sha": "09b8bb6014aad520628a6c695baba21b19622032",
@@ -94,7 +96,7 @@
   ],
   "source_config_hash": "0c972c8532fc90ec0153e62f3b6b7861be0c667e4688f481887ab2e49fb2cd89",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:39:12.873Z",
+  "synced_at": "2026-04-25T10:48:22.697Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -178,7 +180,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-integration-apicenter-skill-md",
@@ -255,7 +257,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-integration-apimanagement-skill-md",
@@ -332,7 +334,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-monitoring-applicationinsights-skill-md",
@@ -409,7 +411,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-partner-arize-ai-observability-eval-skill-md",
@@ -486,7 +488,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-identity-authentication-events-skill-md",
@@ -563,7 +565,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-identity-azure-identity-skill-md",
@@ -640,7 +642,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-compute-botservice-skill-md",
@@ -717,7 +719,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-data-cosmosdb-skill-md",
@@ -794,7 +796,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-foundry-document-intelligence-skill-md",
@@ -871,7 +873,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-search-documents-skill-md",
@@ -948,7 +950,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-compute-durabletask-skill-md",
@@ -1025,7 +1027,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-messaging-eventgrid-skill-md",
@@ -1102,7 +1104,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-messaging-eventhubs-skill-md",
@@ -1179,7 +1181,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-data-fabric-skill-md",
@@ -1256,7 +1258,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-ai-inference-skill-md",
@@ -1333,7 +1335,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-security-keyvault-skill-md",
@@ -1410,7 +1412,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-location-maps-skill-md",
@@ -1487,7 +1489,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::readme-md",
@@ -1563,7 +1565,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.697Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-partner-mongodbatlas-skill-md",
@@ -1640,7 +1642,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-data-mysql-skill-md",
@@ -1717,7 +1719,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-typescript-foundry-nextgen-frontend-skill-md",
@@ -1794,7 +1796,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-ai-openai-skill-md",
@@ -1871,7 +1873,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-compute-playwright-skill-md",
@@ -1948,7 +1950,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-data-postgresql-skill-md",
@@ -2025,7 +2027,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-foundry-projects-skill-md",
@@ -2102,7 +2104,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-typescript-frontend-react-flow-node-skill-md",
@@ -2179,7 +2181,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.697Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-data-redis-skill-md",
@@ -2256,7 +2258,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-messaging-servicebus-skill-md",
@@ -2333,7 +2335,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-data-sql-skill-md",
@@ -2410,7 +2412,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-foundry-voicelive-skill-md",
@@ -2487,7 +2489,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-dotnet-ai-weightsandbiases-skill-md",
@@ -2564,7 +2566,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.870Z"
+      "last_checked_at": "2026-04-25T10:48:22.696Z"
     },
     {
       "id": "microsoft-skills::skill::skills-typescript-frontend-zustand-store-skill-md",
@@ -2641,7 +2643,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:39:12.871Z"
+      "last_checked_at": "2026-04-25T10:48:22.697Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "skillcreatorai-ai-agent-skills",
   "source_name": "SkillCreatorAI AI Agent Skills",
   "source_status": "active",
+  "snapshot_date": "2026-03-17",
+  "first_commit_date": "2025-12-17",
   "repo": "https://github.com/skillcreatorai/Ai-Agent-Skills",
   "default_branch": "main",
   "previous_sha": "fb7be772dabab6d34b26dd4b5ba6031879fd0115",
@@ -22,7 +24,7 @@
   ],
   "source_config_hash": "2dc6856222046b19b5d7eb7306502219368b0263e43ea7107010cbf32284e5a6",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:53:11.723Z",
+  "synced_at": "2026-04-25T11:02:50.556Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -104,7 +106,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-artifacts-builder-skill-md",
@@ -179,7 +181,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-ask-questions-if-underspecified-skill-md",
@@ -254,7 +256,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-backend-development-skill-md",
@@ -329,7 +331,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-best-practices-skill-md",
@@ -404,7 +406,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-best-practices-referencer-md",
@@ -480,7 +482,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-brand-guidelines-skill-md",
@@ -555,7 +557,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-canvas-design-skill-md",
@@ -630,7 +632,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-changelog-generator-skill-md",
@@ -705,7 +707,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-code-documentation-skill-md",
@@ -780,7 +782,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-code-refactoring-skill-md",
@@ -855,7 +857,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-code-review-skill-md",
@@ -930,7 +932,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-codebase-context-builder-md",
@@ -1006,7 +1008,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-competitive-ads-extractor-skill-md",
@@ -1081,7 +1083,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-content-research-writer-skill-md",
@@ -1156,7 +1158,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-database-design-skill-md",
@@ -1231,7 +1233,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-developer-growth-analysis-skill-md",
@@ -1306,7 +1308,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-doc-coauthoring-skill-md",
@@ -1381,7 +1383,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-docx-skill-md",
@@ -1456,7 +1458,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-domain-name-brainstormer-skill-md",
@@ -1531,7 +1533,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-figma-skill-md",
@@ -1606,7 +1608,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-figma-implement-design-skill-md",
@@ -1681,7 +1683,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-file-organizer-skill-md",
@@ -1756,7 +1758,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-frontend-design-skill-md",
@@ -1831,7 +1833,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-gh-fix-ci-skill-md",
@@ -1906,7 +1908,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-image-enhancer-skill-md",
@@ -1981,7 +1983,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-internal-comms-skill-md",
@@ -2056,7 +2058,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-invoice-organizer-skill-md",
@@ -2131,7 +2133,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-javascript-typescript-skill-md",
@@ -2206,7 +2208,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-jira-issues-skill-md",
@@ -2281,7 +2283,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-job-application-skill-md",
@@ -2356,7 +2358,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-lead-research-assistant-skill-md",
@@ -2431,7 +2433,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-llm-application-dev-skill-md",
@@ -2506,7 +2508,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.554Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-mcp-builder-skill-md",
@@ -2581,7 +2583,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-meeting-insights-analyzer-skill-md",
@@ -2656,7 +2658,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-notion-spec-to-implementation-skill-md",
@@ -2731,7 +2733,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-openai-docs-skill-md",
@@ -2806,7 +2808,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-pdf-skill-md",
@@ -2881,7 +2883,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-playwright-skill-md",
@@ -2956,7 +2958,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-pptx-skill-md",
@@ -3031,7 +3033,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-python-development-skill-md",
@@ -3106,7 +3108,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.720Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-qa-regression-skill-md",
@@ -3181,7 +3183,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-raffle-winner-picker-skill-md",
@@ -3256,7 +3258,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-sentry-skill-md",
@@ -3331,7 +3333,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-skill-creator-skill-md",
@@ -3406,7 +3408,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-slack-gif-creator-skill-md",
@@ -3481,7 +3483,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-task-intent-analyzer-md",
@@ -3557,7 +3559,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-theme-factory-skill-md",
@@ -3632,7 +3634,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-video-downloader-skill-md",
@@ -3707,7 +3709,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-webapp-testing-skill-md",
@@ -3782,7 +3784,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-xlsx-skill-md",
@@ -3857,7 +3859,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:11.721Z"
+      "last_checked_at": "2026-04-25T11:02:50.555Z"
     }
   ],
   "issues": []

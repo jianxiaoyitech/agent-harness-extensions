@@ -3,20 +3,24 @@
   "source_id": "letta-ai-skills",
   "source_name": "Letta AI Skills",
   "source_status": "active",
+  "snapshot_date": "2026-04-08",
+  "first_commit_date": "2025-11-13",
   "repo": "https://github.com/letta-ai/skills",
   "default_branch": "main",
   "previous_sha": "2050af81b6d3663197cee2dd1eaf72536f9bf877",
-  "current_sha": "2050af81b6d3663197cee2dd1eaf72536f9bf877",
-  "mode": "unchanged",
-  "changed_files": [],
+  "current_sha": "7a4076014b1b41f112754715105baefb2967b8d1",
+  "mode": "delta",
+  "changed_files": [
+    "letta/importing-chatgpt-memory/SKILL.md"
+  ],
   "source_config_hash": "48d6ea0447160a92756e289e2e36b3f5dc26f3f666b0fab11bab44a53bd4845f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:54:49.940Z",
+  "synced_at": "2026-04-25T10:42:40.863Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-04-07T16:38:27-07:00",
+    "updated_at": "2026-04-08T11:32:45-07:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +84,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -93,7 +97,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.937Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-ai-news-skill-md",
@@ -155,7 +159,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -168,7 +172,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-conversations-skill-md",
@@ -230,7 +234,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -243,7 +247,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-extracting-pdf-text-skill-md",
@@ -305,7 +309,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -318,7 +322,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-fleet-management-skill-md",
@@ -380,7 +384,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -393,7 +397,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-google-workspace-skill-md",
@@ -455,7 +459,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -468,7 +472,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-imessage-skill-md",
@@ -530,7 +534,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -543,7 +547,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-importing-chatgpt-memory-skill-md",
@@ -605,7 +609,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -618,7 +622,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-learning-sdk-skill-md",
@@ -680,7 +684,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -693,7 +697,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-letta-api-client-skill-md",
@@ -755,7 +759,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -768,7 +772,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-letta-configuration-skill-md",
@@ -830,7 +834,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -843,7 +847,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-linear-skill-md",
@@ -905,7 +909,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -918,7 +922,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-mcp-builder-skill-md",
@@ -980,7 +984,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -993,7 +997,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-memfs-search-skill-md",
@@ -1055,7 +1059,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1068,7 +1072,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-morph-warpgrep-skill-md",
@@ -1130,7 +1134,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1143,7 +1147,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-obsidian-cli-skill-md",
@@ -1205,7 +1209,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1218,7 +1222,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.939Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::meta-skill-development-skill-md",
@@ -1280,7 +1284,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1293,7 +1297,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.938Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-slack-skill-md",
@@ -1355,7 +1359,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1368,7 +1372,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.939Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-webapp-testing-skill-md",
@@ -1430,7 +1434,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1443,7 +1447,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.939Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-yelp-search-skill-md",
@@ -1505,7 +1509,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T16:38:27-07:00",
+        "updated_at": "2026-04-08T11:32:45-07:00",
         "archived": false
       },
       "detection": {
@@ -1518,7 +1522,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:49.939Z"
+      "last_checked_at": "2026-04-25T10:42:40.862Z"
     }
   ],
   "issues": []

@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "cloudflare-mcp-server-cloudflare",
   "source_name": "Cloudflare MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-12-10",
+  "first_commit_date": "2024-11-26",
   "repo": "https://github.com/cloudflare/mcp-server-cloudflare",
   "default_branch": "main",
   "previous_sha": "ac3ffda5a136beaba84a49203b2f8eb1c69dd6bb",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "7645af689e95cd529dc541673904f7c90fd8fa86ae4c43bce6a3ab2409cc7cbc",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:20:39.223Z",
+  "synced_at": "2026-04-25T10:29:54.053Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-12-02T12:41:23-06:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "cloudflare-mcp-server-cloudflare::mcp-server::readme-md",
-      "source_id": "cloudflare-mcp-server-cloudflare",
-      "source_name": "Cloudflare MCP Server",
-      "source_status": "active",
-      "name": "Cloudflare MCP Server",
-      "type": "mcp-server",
-      "type_label": "MCP Server",
-      "path": "README.md",
-      "repo": "https://github.com/cloudflare/mcp-server-cloudflare",
-      "repo_path_url": "https://github.com/cloudflare/mcp-server-cloudflare/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "check",
-        "forge": "blank",
-        "gemini-cli": "check",
-        "github-copilot": "check",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "check",
-        "opencode": "check",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "check",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2025-12-02T12:41:23-06:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:20:39.223Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-12-02",
   "issues": []
 }

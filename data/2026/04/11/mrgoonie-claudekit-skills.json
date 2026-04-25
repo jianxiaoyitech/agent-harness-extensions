@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "mrgoonie-claudekit-skills",
+  "source_name": "mrgoonie Claudekit Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-11",
+  "first_commit_date": "2025-10-23",
+  "repo": "https://github.com/mrgoonie/claudekit-skills",
+  "default_branch": "main",
+  "previous_sha": "80113d86bc4407f105af40a2c4ea58194f7c370a",
+  "current_sha": "80113d86bc4407f105af40a2c4ea58194f7c370a",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "4cabad375429a59f7a12c103df55dbfaea9d22f814318b09afd368cd6998c33a",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:52:41.569Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE.txt",
+    "updated_at": "2026-04-03T13:19:25+07:00",
+    "archived": false
+  },
+  "artifact_count": 59,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-03",
+  "issues": []
+}

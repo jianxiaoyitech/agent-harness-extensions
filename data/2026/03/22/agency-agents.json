@@ -1,19 +1,28 @@
 {
-  "version": 1,
-  "kind": "delta",
+  "version": 2,
   "source_id": "agency-agents",
-  "date": "2026-03-22",
-  "base_date": "2026-03-21",
+  "source_name": "Agency Agents",
+  "source_status": "active",
+  "snapshot_date": "2026-03-22",
+  "first_commit_date": "2025-10-13",
+  "repo": "https://github.com/msitarzewski/agency-agents",
+  "default_branch": "main",
+  "previous_sha": "81f5a6998a8c340b2c1121b41fe3c0bd81025843",
   "current_sha": "81f5a6998a8c340b2c1121b41fe3c0bd81025843",
   "mode": "unchanged",
   "changed_files": [],
-  "meta": {
-    "previous_sha": "81f5a6998a8c340b2c1121b41fe3c0bd81025843",
-    "synced_at": "2026-04-08T14:52:02.636Z"
+  "source_config_hash": "df7296f5b6974f5efad3e7d39e668e9be3a44b5df5cd2168e1e0665b86a5ed65",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:23:01.625Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-03-21T08:36:37-07:00",
+    "archived": false
   },
-  "artifacts": {
-    "added": [],
-    "removed": [],
-    "updated": []
-  }
+  "artifact_count": 156,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-03-21",
+  "issues": []
 }

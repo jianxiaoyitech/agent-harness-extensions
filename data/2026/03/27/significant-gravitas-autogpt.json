@@ -3,22 +3,64 @@
   "source_id": "significant-gravitas-autogpt",
   "source_name": "AutoGPT",
   "source_status": "active",
+  "snapshot_date": "2026-03-27",
+  "first_commit_date": "2023-09-06",
   "repo": "https://github.com/Significant-Gravitas/AutoGPT",
   "default_branch": "master",
-  "previous_sha": "85f0d8353ae4db1cbd55fb23ad7d8e82cdd1223b",
-  "current_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
+  "previous_sha": "28b26dde946fb24891cfa183bf3017b4864170cc",
+  "current_sha": "68f5d2ad08e724814b236f411b2ae23ff469d150",
   "mode": "delta",
   "changed_files": [
-    "autogpt_platform/frontend/Dockerfile"
+    ".claude/skills/open-pr/SKILL.md",
+    ".claude/skills/setup-repo/SKILL.md",
+    "autogpt_platform/backend/backend/api/features/admin/rate_limit_admin_routes.py",
+    "autogpt_platform/backend/backend/api/features/admin/rate_limit_admin_routes_test.py",
+    "autogpt_platform/backend/backend/api/features/library/_add_to_library.py",
+    "autogpt_platform/backend/backend/api/features/library/_add_to_library_test.py",
+    "autogpt_platform/backend/backend/api/features/library/db.py",
+    "autogpt_platform/backend/backend/api/features/library/db_test.py",
+    "autogpt_platform/backend/backend/blocks/ai_condition.py",
+    "autogpt_platform/backend/backend/blocks/ai_condition_test.py",
+    "autogpt_platform/backend/backend/blocks/llm.py",
+    "autogpt_platform/backend/backend/blocks/test/test_blocks_dos_vulnerability.py",
+    "autogpt_platform/backend/backend/blocks/test/test_llm.py",
+    "autogpt_platform/backend/backend/blocks/xml_parser.py",
+    "autogpt_platform/backend/backend/copilot/sdk/conftest.py",
+    "autogpt_platform/backend/backend/copilot/sdk/prompt_too_long_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/response_adapter.py",
+    "autogpt_platform/backend/backend/copilot/sdk/retry_scenarios_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/service.py",
+    "autogpt_platform/backend/backend/copilot/sdk/service_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/thinking_blocks_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/transcript.py",
+    "autogpt_platform/backend/backend/data/graph.py",
+    "autogpt_platform/backend/backend/data/workspace.py",
+    "autogpt_platform/backend/backend/util/metrics.py",
+    "autogpt_platform/backend/backend/util/service.py",
+    "autogpt_platform/backend/backend/util/virus_scanner.py",
+    "autogpt_platform/backend/backend/util/virus_scanner_test.py",
+    "autogpt_platform/backend/snapshots/get_rate_limit",
+    "autogpt_platform/backend/snapshots/reset_user_usage_daily_and_weekly",
+    "autogpt_platform/backend/snapshots/reset_user_usage_daily_only",
+    "autogpt_platform/frontend/instrumentation-client.ts",
+    "autogpt_platform/frontend/src/app/(platform)/admin/components/AdminUserSearch.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/admin/components/UsageBar.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/admin/rate-limits/components/RateLimitDisplay.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/admin/rate-limits/components/RateLimitManager.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/admin/rate-limits/components/useRateLimitManager.ts",
+    "autogpt_platform/frontend/src/app/(platform)/admin/spending/components/AdminUserGrantHistory.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/admin/spending/components/RateLimitModal.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/admin/spending/components/SearchAndFilterAdminSpending.tsx",
+    "autogpt_platform/frontend/src/app/api/openapi.json"
   ],
   "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:13:51.313Z",
+  "synced_at": "2026-04-25T11:06:51.868Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-27T13:11:23+07:00",
+    "updated_at": "2026-03-27T10:28:14Z",
     "archived": false
   },
   "artifacts": [
@@ -82,7 +124,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-27T13:11:23+07:00",
+        "updated_at": "2026-03-27T10:28:14Z",
         "archived": false
       },
       "detection": {
@@ -94,7 +136,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T17:13:51.313Z"
+      "last_checked_at": "2026-04-25T11:06:51.868Z"
     }
   ],
   "issues": []

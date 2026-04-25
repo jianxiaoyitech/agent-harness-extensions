@@ -3,6 +3,8 @@
   "source_id": "anthropic-claude-plugins-official",
   "source_name": "Anthropic Claude Plugins Official",
   "source_status": "active",
+  "snapshot_date": "2026-03-22",
+  "first_commit_date": "2025-11-20",
   "repo": "https://github.com/anthropics/claude-plugins-official",
   "default_branch": "main",
   "previous_sha": "61c0597779bd2d670dcd4fbbf37c66aa19eb2ce6",
@@ -14,7 +16,7 @@
   ],
   "source_config_hash": "6502149ce0cc2199281c5b3f3e191d753979e7e202e4ac4b49898abc31706d77",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:13:05.445Z",
+  "synced_at": "2026-04-25T10:22:47.967Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -98,7 +100,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-telegram-skills-access-skill-md",
@@ -175,7 +177,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-agent-development-skill-md",
@@ -252,7 +254,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-agent-sdk-dev-claude-plugin-plugin-json",
@@ -328,7 +330,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-asana-claude-plugin-plugin-json",
@@ -404,7 +406,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-asana-mcp-json",
@@ -480,7 +482,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-mcp-server-dev-skills-build-mcp-app-skill-md",
@@ -557,7 +559,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-mcp-server-dev-skills-build-mcp-server-skill-md",
@@ -634,7 +636,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-mcp-server-dev-skills-build-mcpb-skill-md",
@@ -711,7 +713,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-claude-code-setup-skills-claude-automation-recommender-skill-md",
@@ -788,7 +790,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-claude-code-setup-claude-plugin-plugin-json",
@@ -864,7 +866,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-claude-md-management-skills-claude-md-improver-skill-md",
@@ -941,7 +943,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-claude-md-management-claude-plugin-plugin-json",
@@ -1017,7 +1019,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-code-review-claude-plugin-plugin-json",
@@ -1093,7 +1095,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-code-simplifier-claude-plugin-plugin-json",
@@ -1169,7 +1171,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-command-development-skill-md",
@@ -1246,7 +1248,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-commit-commands-claude-plugin-plugin-json",
@@ -1322,7 +1324,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-discord-skills-configure-skill-md",
@@ -1399,7 +1401,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::external-plugins-telegram-skills-configure-skill-md",
@@ -1476,7 +1478,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-context7-claude-plugin-plugin-json",
@@ -1552,7 +1554,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-context7-mcp-json",
@@ -1628,7 +1630,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-discord-claude-plugin-plugin-json",
@@ -1704,7 +1706,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-discord-mcp-json",
@@ -1780,7 +1782,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-example-plugin-skills-example-command-skill-md",
@@ -1857,7 +1859,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-example-plugin-claude-plugin-plugin-json",
@@ -1933,7 +1935,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::plugins-example-plugin-mcp-json",
@@ -2009,7 +2011,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-example-plugin-skills-example-skill-skill-md",
@@ -2086,7 +2088,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-explanatory-output-style-claude-plugin-plugin-json",
@@ -2162,7 +2164,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-fakechat-claude-plugin-plugin-json",
@@ -2238,7 +2240,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-fakechat-mcp-json",
@@ -2314,7 +2316,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-feature-dev-claude-plugin-plugin-json",
@@ -2390,7 +2392,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-firebase-claude-plugin-plugin-json",
@@ -2466,7 +2468,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-firebase-mcp-json",
@@ -2542,7 +2544,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-frontend-design-claude-plugin-plugin-json",
@@ -2618,7 +2620,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-frontend-design-skills-frontend-design-skill-md",
@@ -2695,7 +2697,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-github-claude-plugin-plugin-json",
@@ -2771,7 +2773,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-github-mcp-json",
@@ -2847,7 +2849,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-gitlab-claude-plugin-plugin-json",
@@ -2923,7 +2925,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-gitlab-mcp-json",
@@ -2999,7 +3001,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-greptile-claude-plugin-plugin-json",
@@ -3075,7 +3077,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-greptile-mcp-json",
@@ -3151,7 +3153,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-hook-development-skill-md",
@@ -3228,7 +3230,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-hookify-claude-plugin-plugin-json",
@@ -3304,7 +3306,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-laravel-boost-claude-plugin-plugin-json",
@@ -3380,7 +3382,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-laravel-boost-mcp-json",
@@ -3456,7 +3458,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-learning-output-style-claude-plugin-plugin-json",
@@ -3532,7 +3534,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-linear-claude-plugin-plugin-json",
@@ -3608,7 +3610,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-linear-mcp-json",
@@ -3684,7 +3686,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-math-olympiad-claude-plugin-plugin-json",
@@ -3760,7 +3762,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-math-olympiad-skills-math-olympiad-skill-md",
@@ -3837,7 +3839,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-mcp-integration-skill-md",
@@ -3914,7 +3916,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-mcp-server-dev-claude-plugin-plugin-json",
@@ -3990,7 +3992,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-playground-claude-plugin-plugin-json",
@@ -4066,7 +4068,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-playground-skills-playground-skill-md",
@@ -4143,7 +4145,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-playwright-claude-plugin-plugin-json",
@@ -4219,7 +4221,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-playwright-mcp-json",
@@ -4295,7 +4297,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-plugin-dev-claude-plugin-plugin-json",
@@ -4371,7 +4373,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-plugin-settings-skill-md",
@@ -4448,7 +4450,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-plugin-structure-skill-md",
@@ -4525,7 +4527,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-pr-review-toolkit-claude-plugin-plugin-json",
@@ -4601,7 +4603,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-ralph-loop-claude-plugin-plugin-json",
@@ -4677,7 +4679,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-security-guidance-claude-plugin-plugin-json",
@@ -4753,7 +4755,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-serena-claude-plugin-plugin-json",
@@ -4829,7 +4831,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-serena-mcp-json",
@@ -4905,7 +4907,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::plugins-skill-creator-claude-plugin-plugin-json",
@@ -4981,7 +4983,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-skill-creator-skills-skill-creator-skill-md",
@@ -5058,7 +5060,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-plugin-dev-skills-skill-development-skill-md",
@@ -5135,7 +5137,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.443Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-slack-claude-plugin-plugin-json",
@@ -5211,7 +5213,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-slack-mcp-json",
@@ -5287,7 +5289,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-supabase-claude-plugin-plugin-json",
@@ -5363,7 +5365,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-supabase-mcp-json",
@@ -5439,7 +5441,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::plugin::external-plugins-telegram-claude-plugin-plugin-json",
@@ -5515,7 +5517,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::mcp-server::external-plugins-telegram-mcp-json",
@@ -5591,7 +5593,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     },
     {
       "id": "anthropic-claude-plugins-official::skill::plugins-hookify-skills-writing-rules-skill-md",
@@ -5668,7 +5670,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:13:05.442Z"
+      "last_checked_at": "2026-04-25T10:22:47.966Z"
     }
   ],
   "issues": []

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "nacerallahchemssy-agency-agents",
+  "source_name": "Agency Agents",
+  "source_status": "active",
+  "snapshot_date": "2026-04-20",
+  "first_commit_date": "2025-10-13",
+  "repo": "https://github.com/nacerallahchemssy/agency-agents",
+  "default_branch": "main",
+  "previous_sha": "87e6fde354f7fb82f9ddd077d6004353ed304cd6",
+  "current_sha": "87e6fde354f7fb82f9ddd077d6004353ed304cd6",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "3a8fc21d8cce08b1dc249de6f41e0d650fcd4e5e3a5b082722b68b4248e2e924",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:53:52.877Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-02-23T09:21:59Z",
+    "archived": false
+  },
+  "artifact_count": 51,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-02-23",
+  "issues": []
+}

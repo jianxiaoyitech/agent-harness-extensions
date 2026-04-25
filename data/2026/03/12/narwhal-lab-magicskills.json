@@ -3,6 +3,8 @@
   "source_id": "narwhal-lab-magicskills",
   "source_name": "MagicSkills",
   "source_status": "active",
+  "snapshot_date": "2026-03-12",
+  "first_commit_date": "2025-12-30",
   "repo": "https://github.com/Narwhal-Lab/MagicSkills",
   "default_branch": "main",
   "previous_sha": "c274365886c6d8a4013caa3004085b22f06c36cb",
@@ -19,7 +21,7 @@
   ],
   "source_config_hash": "de910c183c52a6cab6427f1fea80008fce4771c152e6131981a14d49190f8e59",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:44:25.662Z",
+  "synced_at": "2026-04-25T10:53:21.984Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -100,7 +102,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-brand-guidelines-skill-md",
@@ -174,7 +176,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-c-2-ast-skill-md",
@@ -248,7 +250,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-canvas-design-skill-md",
@@ -322,7 +324,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-doc-coauthoring-skill-md",
@@ -396,7 +398,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-docx-skill-md",
@@ -470,7 +472,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-frontend-design-skill-md",
@@ -544,7 +546,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-internal-comms-skill-md",
@@ -618,7 +620,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::readme-md",
@@ -692,7 +694,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-mcp-builder-skill-md",
@@ -766,7 +768,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-pdf-skill-md",
@@ -840,7 +842,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-pptx-skill-md",
@@ -914,7 +916,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-skill-creator-skill-md",
@@ -988,7 +990,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-slack-gif-creator-skill-md",
@@ -1062,7 +1064,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-theme-factory-skill-md",
@@ -1136,7 +1138,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-web-artifacts-builder-skill-md",
@@ -1210,7 +1212,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-webapp-testing-skill-md",
@@ -1284,7 +1286,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     },
     {
       "id": "narwhal-lab-magicskills::skill::skills-xlsx-skill-md",
@@ -1358,7 +1360,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:44:25.662Z"
+      "last_checked_at": "2026-04-25T10:53:21.984Z"
     }
   ],
   "issues": []

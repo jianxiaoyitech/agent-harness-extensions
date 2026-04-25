@@ -3,6 +3,8 @@
   "source_id": "getty104-claude-code-marketplace",
   "source_name": "getty104 Claude Code Marketplace",
   "source_status": "active",
+  "snapshot_date": "2025-10-16",
+  "first_commit_date": "2025-10-16",
   "repo": "https://github.com/getty104/claude-code-marketplace",
   "default_branch": "main",
   "previous_sha": null,
@@ -24,7 +26,7 @@
   ],
   "source_config_hash": "555f4bd72aac8e5afd96243420f966e4ffdfa1fd6acb71a858618e22c6d40b6a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:28:37.036Z",
+  "synced_at": "2026-04-25T10:35:46.811Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -109,7 +111,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:37.035Z"
+      "last_checked_at": "2026-04-25T10:35:46.810Z"
     },
     {
       "id": "getty104-claude-code-marketplace::mcp-server::getty104-mcp-json",
@@ -186,7 +188,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:37.035Z"
+      "last_checked_at": "2026-04-25T10:35:46.810Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-github-issue-implementer-md",
@@ -264,7 +266,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:37.035Z"
+      "last_checked_at": "2026-04-25T10:35:46.810Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-review-comment-implementer-md",
@@ -342,7 +344,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:28:37.036Z"
+      "last_checked_at": "2026-04-25T10:35:46.810Z"
     }
   ],
   "issues": []

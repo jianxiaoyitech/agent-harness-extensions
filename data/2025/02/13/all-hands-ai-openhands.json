@@ -3,6 +3,8 @@
   "source_id": "all-hands-ai-openhands",
   "source_name": "OpenHands",
   "source_status": "active",
+  "snapshot_date": "2025-02-13",
+  "first_commit_date": "2024-03-13",
   "repo": "https://github.com/All-Hands-AI/OpenHands",
   "default_branch": "main",
   "previous_sha": "312b9fbfb1c284c87ec57e0998cf3a731f795b70",
@@ -72,7 +74,7 @@
   ],
   "source_config_hash": "cbc601bfd387d49d5ae363c9cf30dc6a082937a02370ab1884e306a4b944c37f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:19:18.976Z",
+  "synced_at": "2026-04-25T10:25:10.536Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -153,7 +155,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:19:18.976Z"
+      "last_checked_at": "2026-04-25T10:25:10.536Z"
     }
   ],
   "issues": []

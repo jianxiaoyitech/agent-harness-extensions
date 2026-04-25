@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "jnmetacode-agency-agents-zh",
+  "source_name": "Agency Agents ZH",
+  "source_status": "active",
+  "snapshot_date": "2026-04-11",
+  "first_commit_date": "2026-03-06",
+  "repo": "https://github.com/jnMetaCode/agency-agents-zh",
+  "default_branch": "main",
+  "previous_sha": "f0993e1788287d8ea63b541eff148cbd4b32f714",
+  "current_sha": "f0993e1788287d8ea63b541eff148cbd4b32f714",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "4a8f5fbb28d7fe0c1b3caa136e68d58f4575451db0b817a09bb9580ca43b4671",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:40:13.070Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-04-11T00:39:15+08:00",
+    "archived": false
+  },
+  "artifact_count": 181,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-10",
+  "issues": []
+}

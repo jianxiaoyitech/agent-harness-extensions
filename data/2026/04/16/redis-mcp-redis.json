@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "redis-mcp-redis",
+  "source_name": "Redis MCP",
+  "source_status": "active",
+  "snapshot_date": "2026-04-16",
+  "first_commit_date": "2025-04-02",
+  "repo": "https://github.com/redis/mcp-redis",
+  "default_branch": "main",
+  "previous_sha": "c550a914846a0475dee0e2875d776660764732cb",
+  "current_sha": "c550a914846a0475dee0e2875d776660764732cb",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "e099a0ba901ae012fc8938979b5c63e9f43b5f5073012007d5e4b0eaf2be1c1c",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:56:52.272Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-04-10T14:07:21+03:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-10",
+  "issues": []
+}

@@ -3,6 +3,8 @@
   "source_id": "mem0ai-mem0-mcp",
   "source_name": "Mem0 MCP",
   "source_status": "active",
+  "snapshot_date": "2025-05-10",
+  "first_commit_date": "2025-02-18",
   "repo": "https://github.com/mem0ai/mem0-mcp",
   "default_branch": "main",
   "previous_sha": "dc221b7d6c9fd0ff864b3b47b85c093a6349cbfe",
@@ -13,7 +15,7 @@
   ],
   "source_config_hash": "41ff3ed7277e14bfe4029bdacecb2316f742b7d6b031a14dd400c2ac1c561ca0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:35:24.415Z",
+  "synced_at": "2026-04-25T10:44:34.681Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -94,7 +96,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:35:24.415Z"
+      "last_checked_at": "2026-04-25T10:44:34.681Z"
     }
   ],
   "issues": []

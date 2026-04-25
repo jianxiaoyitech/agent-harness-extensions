@@ -3,6 +3,8 @@
   "source_id": "github-github-mcp-server",
   "source_name": "GitHub MCP Server",
   "source_status": "active",
+  "snapshot_date": "2026-02-19",
+  "first_commit_date": "2025-03-10",
   "repo": "https://github.com/github/github-mcp-server",
   "default_branch": "main",
   "previous_sha": "c38802ac800fa1e037765c85bfc44f23a0f9f1bc",
@@ -14,7 +16,7 @@
   ],
   "source_config_hash": "aac1c7f737e972385b05722336040983c76ee738a6bd0188ff39b8e494f02d2e",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:32:35.255Z",
+  "synced_at": "2026-04-25T10:38:47.793Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -95,7 +97,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:35.255Z"
+      "last_checked_at": "2026-04-25T10:38:47.793Z"
     }
   ],
   "issues": []

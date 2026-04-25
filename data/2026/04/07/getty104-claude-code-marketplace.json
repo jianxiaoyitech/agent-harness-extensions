@@ -3,6 +3,8 @@
   "source_id": "getty104-claude-code-marketplace",
   "source_name": "getty104 Claude Code Marketplace",
   "source_status": "active",
+  "snapshot_date": "2026-04-07",
+  "first_commit_date": "2025-10-16",
   "repo": "https://github.com/getty104/claude-code-marketplace",
   "default_branch": "main",
   "previous_sha": "a39403f6356d66166140c8835330c4588ca46759",
@@ -14,7 +16,7 @@
   ],
   "source_config_hash": "555f4bd72aac8e5afd96243420f966e4ffdfa1fd6acb71a858618e22c6d40b6a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:29:55.074Z",
+  "synced_at": "2026-04-25T10:36:58.823Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -98,7 +100,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::mcp-server::base-tools-mcp-json",
@@ -175,7 +177,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-breakdown-issues-skill-md",
@@ -253,7 +255,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::claude-skills-bump-version-skill-md",
@@ -331,7 +333,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-check-library-skill-md",
@@ -409,7 +411,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-commit-push-skill-md",
@@ -487,7 +489,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::claude-skills-create-agent-skill-md",
@@ -565,7 +567,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-issue-skill-md",
@@ -643,7 +645,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-pr-skill-md",
@@ -721,7 +723,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-review-fix-plan-skill-md",
@@ -799,7 +801,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-create-task-summary-skill-md",
@@ -877,7 +879,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-exec-issue-skill-md",
@@ -955,7 +957,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-fix-review-point-skill-md",
@@ -1033,7 +1035,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-frontend-implementer-md",
@@ -1111,7 +1113,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-general-purpose-assistant-md",
@@ -1189,7 +1191,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-issue-dependency-analyzer-md",
@@ -1267,7 +1269,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-issue-triage-processor-md",
@@ -1345,7 +1347,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-pr-triage-processor-md",
@@ -1423,7 +1425,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-read-github-issue-skill-md",
@@ -1501,7 +1503,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::base-tools-agents-requirement-todo-organizer-md",
@@ -1579,7 +1581,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-resolve-pr-comments-skill-md",
@@ -1657,7 +1659,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-triage-issues-skill-md",
@@ -1735,7 +1737,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-triage-prs-skill-md",
@@ -1813,7 +1815,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::base-tools-skills-update-issue-skill-md",
@@ -1891,7 +1893,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:55.073Z"
+      "last_checked_at": "2026-04-25T10:36:58.821Z"
     }
   ],
   "issues": []

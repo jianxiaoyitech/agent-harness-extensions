@@ -3,6 +3,8 @@
   "source_id": "googleapis-genai-toolbox",
   "source_name": "GenAI Toolbox",
   "source_status": "active",
+  "snapshot_date": "2025-02-05",
+  "first_commit_date": "2024-06-07",
   "repo": "https://github.com/googleapis/genai-toolbox",
   "default_branch": "main",
   "previous_sha": "b7c5661215c431c8590a60e029f3c340132574b7",
@@ -53,7 +55,7 @@
   ],
   "source_config_hash": "68379c7dc0b62999b0982e907ee01d3f51432494dd4332ad8cfc69df4b139935",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:33:22.963Z",
+  "synced_at": "2026-04-25T10:40:30.506Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -134,7 +136,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:22.963Z"
+      "last_checked_at": "2026-04-25T10:40:30.506Z"
     }
   ],
   "issues": []

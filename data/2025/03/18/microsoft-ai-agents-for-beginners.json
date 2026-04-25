@@ -3,6 +3,8 @@
   "source_id": "microsoft-ai-agents-for-beginners",
   "source_name": "AI Agents For Beginners",
   "source_status": "active",
+  "snapshot_date": "2025-03-18",
+  "first_commit_date": "2024-11-28",
   "repo": "https://github.com/microsoft/ai-agents-for-beginners",
   "default_branch": "main",
   "previous_sha": "bd50c887c3e81c0e40e8342d32a22d1bee465425",
@@ -42,7 +44,7 @@
   ],
   "source_config_hash": "3920514c44ba00986e2573d62c8783c1fba689683a495a875cb8d03b83c01105",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:37:56.116Z",
+  "synced_at": "2026-04-25T10:45:04.925Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -123,7 +125,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:37:56.115Z"
+      "last_checked_at": "2026-04-25T10:45:04.925Z"
     }
   ],
   "issues": []

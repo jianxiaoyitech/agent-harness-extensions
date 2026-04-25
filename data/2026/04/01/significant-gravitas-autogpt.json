@@ -3,20 +3,56 @@
   "source_id": "significant-gravitas-autogpt",
   "source_name": "AutoGPT",
   "source_status": "active",
+  "snapshot_date": "2026-04-01",
+  "first_commit_date": "2023-09-06",
   "repo": "https://github.com/Significant-Gravitas/AutoGPT",
   "default_branch": "master",
-  "previous_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "current_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "c659f3b05897f781c83b9f54df2b0b4170554cfe",
+  "current_sha": "b9e29c96bda4bc6b0db03db18d5699689754e379",
+  "mode": "delta",
+  "changed_files": [
+    ".agents/skills",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "autogpt_platform/AGENTS.md",
+    "autogpt_platform/CLAUDE.md",
+    "autogpt_platform/backend/AGENTS.md",
+    "autogpt_platform/backend/CLAUDE.md",
+    "autogpt_platform/backend/backend/copilot/integration_creds.py",
+    "autogpt_platform/backend/backend/copilot/integration_creds_test.py",
+    "autogpt_platform/backend/backend/copilot/prompting_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/agent_generation_guide.md",
+    "autogpt_platform/backend/backend/copilot/sdk/prompt_too_long_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/query_builder_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/response_adapter_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/retry_scenarios_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/service.py",
+    "autogpt_platform/backend/backend/copilot/sdk/thinking_blocks_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/tool_adapter.py",
+    "autogpt_platform/backend/backend/copilot/sdk/tool_adapter_test.py",
+    "autogpt_platform/backend/backend/copilot/sdk/transcript.py",
+    "autogpt_platform/backend/backend/copilot/sdk/transcript_test.py",
+    "autogpt_platform/backend/backend/integrations/credentials_store.py",
+    "autogpt_platform/backend/backend/integrations/creds_manager.py",
+    "autogpt_platform/backend/backend/util/prompt.py",
+    "autogpt_platform/backend/backend/util/prompt_test.py",
+    "autogpt_platform/backend/scripts/download_transcripts.py",
+    "autogpt_platform/frontend/AGENTS.md",
+    "autogpt_platform/frontend/CLAUDE.md",
+    "autogpt_platform/frontend/src/services/feature-flags/feature-flag-provider.tsx",
+    "autogpt_platform/frontend/src/tests/AGENTS.md",
+    "autogpt_platform/frontend/src/tests/CLAUDE.md",
+    "docs/AGENTS.md",
+    "docs/CLAUDE.md"
+  ],
   "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:13:58.530Z",
+  "synced_at": "2026-04-25T11:06:54.550Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-27T13:11:23+07:00",
+    "updated_at": "2026-04-01T22:32:09Z",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +116,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-27T13:11:23+07:00",
+        "updated_at": "2026-04-01T22:32:09Z",
         "archived": false
       },
       "detection": {
@@ -92,7 +128,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T17:13:58.530Z"
+      "last_checked_at": "2026-04-25T11:06:54.550Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "upstash-context7",
   "source_name": "Context7",
   "source_status": "active",
+  "snapshot_date": "2025-09-26",
+  "first_commit_date": "2025-03-28",
   "repo": "https://github.com/upstash/context7",
   "default_branch": "master",
   "previous_sha": "0b19c438bfa2055593d444914bfb2b24b589cef4",
@@ -13,7 +15,7 @@
   ],
   "source_config_hash": "d3825cc4639603f1d12e81da67f0e8cff87e8176c2d57bbcc30ed55b75256365",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:55:25.622Z",
+  "synced_at": "2026-04-25T11:05:50.685Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -94,7 +96,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:55:25.622Z"
+      "last_checked_at": "2026-04-25T11:05:50.685Z"
     }
   ],
   "issues": []

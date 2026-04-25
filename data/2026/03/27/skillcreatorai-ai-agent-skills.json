@@ -3,6 +3,8 @@
   "source_id": "skillcreatorai-ai-agent-skills",
   "source_name": "SkillCreatorAI AI Agent Skills",
   "source_status": "active",
+  "snapshot_date": "2026-03-27",
+  "first_commit_date": "2025-12-17",
   "repo": "https://github.com/skillcreatorai/Ai-Agent-Skills",
   "default_branch": "main",
   "previous_sha": "e5129963e95e29c06c733a20986ad9c762599051",
@@ -43,7 +45,7 @@
   ],
   "source_config_hash": "2dc6856222046b19b5d7eb7306502219368b0263e43ea7107010cbf32284e5a6",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:53:16.225Z",
+  "synced_at": "2026-04-25T11:02:54.990Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -125,7 +127,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.224Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-backend-development-skill-md",
@@ -200,7 +202,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.224Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-best-practices-skill-md",
@@ -275,7 +277,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.224Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-best-practices-referencer-md",
@@ -351,7 +353,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.225Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-changelog-generator-skill-md",
@@ -426,7 +428,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.224Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-code-documentation-skill-md",
@@ -501,7 +503,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.224Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-codebase-context-builder-md",
@@ -577,7 +579,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.225Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-content-research-writer-skill-md",
@@ -652,7 +654,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.225Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-database-design-skill-md",
@@ -727,7 +729,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.225Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::skill::skills-llm-application-dev-skill-md",
@@ -802,7 +804,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.225Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     },
     {
       "id": "skillcreatorai-ai-agent-skills::agent::skills-best-practices-agents-task-intent-analyzer-md",
@@ -878,7 +880,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:53:16.225Z"
+      "last_checked_at": "2026-04-25T11:02:54.990Z"
     }
   ],
   "issues": []

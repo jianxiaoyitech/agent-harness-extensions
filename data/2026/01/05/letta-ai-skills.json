@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "letta-ai-skills",
   "source_name": "Letta AI Skills",
   "source_status": "active",
+  "snapshot_date": "2026-01-05",
+  "first_commit_date": "2025-11-13",
   "repo": "https://github.com/letta-ai/skills",
   "default_branch": "main",
   "previous_sha": "7bb4ac3eaba12099dc32a9db8f95988161293a0a",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "48d6ea0447160a92756e289e2e36b3f5dc26f3f666b0fab11bab44a53bd4845f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:33:32.257Z",
+  "synced_at": "2026-04-25T10:42:00.611Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,6 +21,8 @@
     "updated_at": "2026-01-02T18:42:54-08:00",
     "archived": false
   },
-  "artifacts": [],
+  "artifact_count": 0,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-01-03",
   "issues": []
 }

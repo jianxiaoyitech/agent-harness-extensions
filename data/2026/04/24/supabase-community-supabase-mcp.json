@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "supabase-community-supabase-mcp",
+  "source_name": "Supabase MCP",
+  "source_status": "active",
+  "snapshot_date": "2026-04-24",
+  "first_commit_date": "2024-12-20",
+  "repo": "https://github.com/supabase-community/supabase-mcp",
+  "default_branch": "main",
+  "previous_sha": "17fb90f8655ad1ce7ee320614d22eb68bb26e510",
+  "current_sha": "17fb90f8655ad1ce7ee320614d22eb68bb26e510",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "11d58d680746ce2e279142f5a9c2be87282bc000fa436a0cf1e2102cc25657c2",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T11:06:40.859Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-21T14:32:29-06:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-21",
+  "issues": []
+}

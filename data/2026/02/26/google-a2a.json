@@ -3,6 +3,8 @@
   "source_id": "google-a2a",
   "source_name": "A2A",
   "source_status": "active",
+  "snapshot_date": "2026-02-26",
+  "first_commit_date": "2025-04-09",
   "repo": "https://github.com/google/A2A",
   "default_branch": "main",
   "previous_sha": "a3e2e1f8c6bd38929a369e512ab85ee70839ef80",
@@ -13,7 +15,7 @@
   ],
   "source_config_hash": "ca5b015c9a017cfdfe0cd6f131b76b4694a7514e1d2288215cdd4d68abf3a3d6",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:32:18.410Z",
+  "synced_at": "2026-04-25T10:39:30.279Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -94,7 +96,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:32:18.410Z"
+      "last_checked_at": "2026-04-25T10:39:30.279Z"
     }
   ],
   "issues": []

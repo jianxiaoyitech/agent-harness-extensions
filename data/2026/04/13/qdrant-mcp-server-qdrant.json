@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "qdrant-mcp-server-qdrant",
+  "source_name": "Qdrant MCP Server",
+  "source_status": "active",
+  "snapshot_date": "2026-04-13",
+  "first_commit_date": "2024-12-02",
+  "repo": "https://github.com/qdrant/mcp-server-qdrant",
+  "default_branch": "master",
+  "previous_sha": "e4ec69b2daa187c8de86d860f09192200b4c834a",
+  "current_sha": "e4ec69b2daa187c8de86d860f09192200b4c834a",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "a0637ccb912606093af359e3bce8860b1409f4e5e4f0cfb239320e08b5bad2c9",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:57:27.795Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-03-30T23:46:24-05:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-03-31",
+  "issues": []
+}

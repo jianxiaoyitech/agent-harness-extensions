@@ -3,20 +3,29 @@
   "source_id": "modelcontextprotocol-servers",
   "source_name": "Model Context Protocol Servers",
   "source_status": "active",
+  "snapshot_date": "2026-03-24",
+  "first_commit_date": "2024-11-19",
   "repo": "https://github.com/modelcontextprotocol/servers",
   "default_branch": "main",
-  "previous_sha": "f4244583a6af9425633e433a3eec000d23f4e011",
-  "current_sha": "f4244583a6af9425633e433a3eec000d23f4e011",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "e21dbea731f2ccddcd48525cf9a1e1e405fee12f",
+  "current_sha": "c104a61f8716177555d97a99ce142d5859ab170a",
+  "mode": "delta",
+  "changed_files": [
+    "README.md",
+    "src/everything/README.md",
+    "src/filesystem/README.md",
+    "src/git/README.md",
+    "src/memory/README.md",
+    "src/sequentialthinking/README.md"
+  ],
   "source_config_hash": "1e3f102c0c6ce5a508ccccf27f840907452fbf8b49ba90d5337e9a196d37cba8",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:46:18.702Z",
+  "synced_at": "2026-04-25T10:52:56.582Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-17T07:21:11-07:00",
+    "updated_at": "2026-03-24T12:08:13+05:30",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +89,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-17T07:21:11-07:00",
+        "updated_at": "2026-03-24T12:08:13+05:30",
         "archived": false
       },
       "detection": {
@@ -92,7 +101,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:18.702Z"
+      "last_checked_at": "2026-04-25T10:52:56.582Z"
     },
     {
       "id": "modelcontextprotocol-servers::mcp-server::readme-md",
@@ -154,7 +163,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-17T07:21:11-07:00",
+        "updated_at": "2026-03-24T12:08:13+05:30",
         "archived": false
       },
       "detection": {
@@ -166,7 +175,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:46:18.702Z"
+      "last_checked_at": "2026-04-25T10:52:56.582Z"
     }
   ],
   "issues": []

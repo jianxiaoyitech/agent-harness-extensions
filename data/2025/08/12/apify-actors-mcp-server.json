@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "apify-actors-mcp-server",
   "source_name": "Actors MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-08-12",
+  "first_commit_date": "2025-01-02",
   "repo": "https://github.com/apify/actors-mcp-server",
   "default_branch": "master",
   "previous_sha": "2bd1ad74e2aec01d7ae37750846abe3fbf66a4e7",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "e3e69bcf489715565d017eeb50fe313c7bd02e35ebe00a80c9e30af98262c1b6",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:15:11.126Z",
+  "synced_at": "2026-04-25T10:24:56.352Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-08-08T16:48:54+02:00",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "apify-actors-mcp-server::mcp-server::readme-md",
-      "source_id": "apify-actors-mcp-server",
-      "source_name": "Actors MCP Server",
-      "source_status": "active",
-      "name": "Actors MCP Server",
-      "type": "mcp-server",
-      "type_label": "MCP Server",
-      "path": "README.md",
-      "repo": "https://github.com/apify/actors-mcp-server",
-      "repo_path_url": "https://github.com/apify/actors-mcp-server/blob/master/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "check",
-        "forge": "blank",
-        "gemini-cli": "check",
-        "github-copilot": "check",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "check",
-        "opencode": "check",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "check",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "MIT",
-        "updated_at": "2025-08-08T16:48:54+02:00",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:15:11.126Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-08-08",
   "issues": []
 }

@@ -3,20 +3,29 @@
   "source_id": "docker-mcp-gateway",
   "source_name": "MCP Gateway",
   "source_status": "active",
+  "snapshot_date": "2026-04-08",
+  "first_commit_date": "2025-06-06",
   "repo": "https://github.com/docker/mcp-gateway",
   "default_branch": "main",
   "previous_sha": "4246962c6642402aadfaf13a1c4d834f0670c67e",
-  "current_sha": "4246962c6642402aadfaf13a1c4d834f0670c67e",
-  "mode": "unchanged",
-  "changed_files": [],
+  "current_sha": "721f6cf455db5c1d4a42459ad1cc71fb0fffa90e",
+  "mode": "delta",
+  "changed_files": [
+    "cmd/docker-mcp/oauth/auth.go",
+    "cmd/docker-mcp/oauth/auth_test.go",
+    "cmd/docker-mcp/oauth/cleanup.go",
+    "cmd/docker-mcp/oauth/revoke.go",
+    "cmd/docker-mcp/oauth/revoke_test.go",
+    "cmd/docker-mcp/secret-management/secret/credstore.go"
+  ],
   "source_config_hash": "a07c6f7bd6e036d4d407aa88666486b4a03ea4476ffae4092c8fe987414982b5",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:54:43.869Z",
+  "synced_at": "2026-04-25T10:32:46.651Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-04-07T10:12:35-07:00",
+    "updated_at": "2026-04-08T14:50:31-07:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +89,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-04-07T10:12:35-07:00",
+        "updated_at": "2026-04-08T14:50:31-07:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +101,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T17:54:43.869Z"
+      "last_checked_at": "2026-04-25T10:32:46.651Z"
     }
   ],
   "issues": []

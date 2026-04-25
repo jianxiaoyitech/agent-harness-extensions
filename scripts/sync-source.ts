@@ -1,4 +1,3 @@
-import path from "node:path";
 import { pathToFileURL } from "node:url";
 import {
   buildSnapshotSourceRecord,
@@ -11,7 +10,7 @@ import {
   loadSnapshotSourceRecordFromDir,
   resolveSourceFirstCommitDate,
   type SourceDefinition,
-  writeJson,
+  writeSnapshotSourceRecord,
 } from "./lib/catalog.ts";
 
 interface WorkerArgs {
@@ -102,10 +101,11 @@ async function main(): Promise<void> {
 
       await ensureDir(snapshotDir);
       const snapshotSource = await buildSnapshotSourceRecord(source, harnessRegistry.harnesses, {
+        firstCommitDate: firstDate,
         previousSnapshotSource: previous,
         snapshotDate: date,
       });
-      await writeJson(path.join(snapshotDir, `${source.id}.json`), snapshotSource);
+      await writeSnapshotSourceRecord(snapshotDir, snapshotSource);
       previous = snapshotSource;
       latestSnapshotSource = snapshotSource;
       generatedCount += 1;
@@ -134,7 +134,7 @@ async function main(): Promise<void> {
     snapshotDate: args.snapshotDate,
   });
 
-  await writeJson(path.join(args.snapshotDir!, `${source.id}.json`), snapshotSource);
+  await writeSnapshotSourceRecord(args.snapshotDir!, snapshotSource);
   process.stdout.write(
     `${JSON.stringify({
       artifact_count: snapshotSource.artifacts.length,

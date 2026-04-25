@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "vibeforge1111-vibeship-spawner-skills",
+  "source_name": "Vibeship Spawner Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-16",
+  "first_commit_date": "2025-12-27",
+  "repo": "https://github.com/vibeforge1111/vibeship-spawner-skills",
+  "default_branch": "main",
+  "previous_sha": "70b2e1062fc6a38fce854226c27097a87732cb5f",
+  "current_sha": "70b2e1062fc6a38fce854226c27097a87732cb5f",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "863bb1ca677dd7119b94d9dafc2899e6f38a5218b9e1dd94f702b0dd72736266",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T11:08:14.110Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2026-01-02T04:10:02+04:00",
+    "archived": false
+  },
+  "artifact_count": 74,
+  "mismatch_count": 73,
+  "carry_forward_from": "2026-01-02",
+  "issues": []
+}

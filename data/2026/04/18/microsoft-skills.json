@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "microsoft-skills",
+  "source_name": "Microsoft Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-18",
+  "first_commit_date": "2026-01-16",
+  "repo": "https://github.com/microsoft/skills",
+  "default_branch": "main",
+  "previous_sha": "a2c05249c4a20103dd954ca702467aa328aac031",
+  "current_sha": "a2c05249c4a20103dd954ca702467aa328aac031",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "0c972c8532fc90ec0153e62f3b6b7861be0c667e4688f481887ab2e49fb2cd89",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:49:10.649Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "MIT",
+    "updated_at": "2026-04-17T09:48:24-04:00",
+    "archived": false
+  },
+  "artifact_count": 177,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-17",
+  "issues": []
+}

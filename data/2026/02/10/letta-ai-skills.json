@@ -3,6 +3,8 @@
   "source_id": "letta-ai-skills",
   "source_name": "Letta AI Skills",
   "source_status": "active",
+  "snapshot_date": "2026-02-10",
+  "first_commit_date": "2025-11-13",
   "repo": "https://github.com/letta-ai/skills",
   "default_branch": "main",
   "previous_sha": "cfdd3756bce606b4c974615e6db063d0441ba028",
@@ -14,7 +16,7 @@
   ],
   "source_config_hash": "48d6ea0447160a92756e289e2e36b3f5dc26f3f666b0fab11bab44a53bd4845f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:33:51.040Z",
+  "synced_at": "2026-04-25T10:42:16.401Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -96,7 +98,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-adaptive-rejection-sampler-skill-md",
@@ -171,7 +173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-agent-development-skill-md",
@@ -246,7 +248,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-bn-fit-modify-skill-md",
@@ -321,7 +323,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-bn-fit-modify-skill-md",
@@ -396,7 +398,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-break-filter-js-from-html-skill-md",
@@ -471,7 +473,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-break-filter-js-from-html-skill-md",
@@ -546,7 +548,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-build-cython-ext-skill-md",
@@ -621,7 +623,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-build-cython-ext-skill-md",
@@ -696,7 +698,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-build-pmars-skill-md",
@@ -771,7 +773,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-build-pmars-skill-md",
@@ -846,7 +848,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-build-pov-ray-skill-md",
@@ -921,7 +923,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-build-pov-ray-skill-md",
@@ -996,7 +998,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-caffe-cifar-10-skill-md",
@@ -1071,7 +1073,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-caffe-cifar-10-skill-md",
@@ -1146,7 +1148,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-cancel-async-tasks-skill-md",
@@ -1221,7 +1223,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-cancel-async-tasks-skill-md",
@@ -1296,7 +1298,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-chess-best-move-skill-md",
@@ -1371,7 +1373,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-chess-best-move-skill-md",
@@ -1446,7 +1448,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-circuit-fibsqrt-skill-md",
@@ -1521,7 +1523,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-circuit-fibsqrt-skill-md",
@@ -1596,7 +1598,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-cobol-modernization-skill-md",
@@ -1671,7 +1673,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-cobol-modernization-skill-md",
@@ -1746,7 +1748,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-code-from-image-skill-md",
@@ -1821,7 +1823,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-code-from-image-skill-md",
@@ -1896,7 +1898,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-compile-compcert-skill-md",
@@ -1971,7 +1973,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-compile-compcert-skill-md",
@@ -2046,7 +2048,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-configure-git-webserver-skill-md",
@@ -2121,7 +2123,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-configure-git-webserver-skill-md",
@@ -2196,7 +2198,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-constraints-scheduling-skill-md",
@@ -2271,7 +2273,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-constraints-scheduling-skill-md",
@@ -2346,7 +2348,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-conversations-skill-md",
@@ -2421,7 +2423,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-count-dataset-tokens-skill-md",
@@ -2496,7 +2498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-count-dataset-tokens-skill-md",
@@ -2571,7 +2573,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-crack-7z-hash-skill-md",
@@ -2646,7 +2648,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-crack-7z-hash-skill-md",
@@ -2721,7 +2723,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-custom-memory-heap-crash-skill-md",
@@ -2796,7 +2798,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-custom-memory-heap-crash-skill-md",
@@ -2871,7 +2873,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-db-wal-recovery-skill-md",
@@ -2946,7 +2948,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-db-wal-recovery-skill-md",
@@ -3021,7 +3023,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-distribution-search-skill-md",
@@ -3096,7 +3098,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-distribution-search-skill-md",
@@ -3171,7 +3173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-dna-assembly-skill-md",
@@ -3246,7 +3248,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-dna-assembly-skill-md",
@@ -3321,7 +3323,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-dna-insert-skill-md",
@@ -3396,7 +3398,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-dna-insert-skill-md",
@@ -3471,7 +3473,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-extract-elf-skill-md",
@@ -3546,7 +3548,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-extract-elf-skill-md",
@@ -3621,7 +3623,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-extract-moves-from-video-skill-md",
@@ -3696,7 +3698,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-extract-moves-from-video-skill-md",
@@ -3771,7 +3773,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-extracting-pdf-text-skill-md",
@@ -3846,7 +3848,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-feal-differential-cryptanalysis-skill-md",
@@ -3921,7 +3923,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-feal-differential-cryptanalysis-skill-md",
@@ -3996,7 +3998,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-feal-linear-cryptanalysis-skill-md",
@@ -4071,7 +4073,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-feal-linear-cryptanalysis-skill-md",
@@ -4146,7 +4148,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-filter-js-from-html-skill-md",
@@ -4221,7 +4223,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-filter-js-from-html-skill-md",
@@ -4296,7 +4298,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-financial-document-processor-skill-md",
@@ -4371,7 +4373,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-financial-document-processor-skill-md",
@@ -4446,7 +4448,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-fix-code-vulnerability-skill-md",
@@ -4521,7 +4523,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-fix-code-vulnerability-skill-md",
@@ -4596,7 +4598,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-fix-git-skill-md",
@@ -4671,7 +4673,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-fix-git-skill-md",
@@ -4746,7 +4748,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-fix-ocaml-gc-skill-md",
@@ -4821,7 +4823,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-fix-ocaml-gc-skill-md",
@@ -4896,7 +4898,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-fleet-management-skill-md",
@@ -4971,7 +4973,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-gcode-to-text-skill-md",
@@ -5046,7 +5048,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-gcode-to-text-skill-md",
@@ -5121,7 +5123,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-git-leak-recovery-skill-md",
@@ -5196,7 +5198,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-git-leak-recovery-skill-md",
@@ -5271,7 +5273,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-git-multibranch-skill-md",
@@ -5346,7 +5348,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-git-multibranch-skill-md",
@@ -5421,7 +5423,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-google-workspace-skill-md",
@@ -5496,7 +5498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-gpt2-codegolf-skill-md",
@@ -5571,7 +5573,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-gpt2-codegolf-skill-md",
@@ -5646,7 +5648,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-headless-terminal-skill-md",
@@ -5721,7 +5723,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-headless-terminal-skill-md",
@@ -5796,7 +5798,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-hf-model-inference-skill-md",
@@ -5871,7 +5873,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-hf-model-inference-skill-md",
@@ -5946,7 +5948,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-imessage-skill-md",
@@ -6021,7 +6023,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-install-windows-3-11-skill-md",
@@ -6096,7 +6098,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-install-windows-3-11-skill-md",
@@ -6171,7 +6173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-kv-store-grpc-skill-md",
@@ -6246,7 +6248,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-kv-store-grpc-skill-md",
@@ -6321,7 +6323,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-large-scale-text-editing-skill-md",
@@ -6396,7 +6398,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-large-scale-text-editing-skill-md",
@@ -6471,7 +6473,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-largest-eigenval-skill-md",
@@ -6546,7 +6548,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-largest-eigenval-skill-md",
@@ -6621,7 +6623,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-learning-sdk-skill-md",
@@ -6696,7 +6698,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-letta-api-client-skill-md",
@@ -6771,7 +6773,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-letta-configuration-skill-md",
@@ -6846,7 +6848,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-linear-skill-md",
@@ -6921,7 +6923,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-llm-inference-batching-scheduler-skill-md",
@@ -6996,7 +6998,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.028Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-llm-inference-batching-scheduler-skill-md",
@@ -7071,7 +7073,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-log-summary-date-ranges-skill-md",
@@ -7146,7 +7148,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-log-summary-date-ranges-skill-md",
@@ -7221,7 +7223,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-mailman-skill-md",
@@ -7296,7 +7298,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-mailman-skill-md",
@@ -7371,7 +7373,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-make-doom-for-mips-skill-md",
@@ -7446,7 +7448,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-make-doom-for-mips-skill-md",
@@ -7521,7 +7523,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-make-mips-interpreter-skill-md",
@@ -7596,7 +7598,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-make-mips-interpreter-skill-md",
@@ -7671,7 +7673,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-mcmc-sampling-stan-skill-md",
@@ -7746,7 +7748,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-mcmc-sampling-stan-skill-md",
@@ -7821,7 +7823,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-mcp-builder-skill-md",
@@ -7896,7 +7898,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-merge-diff-arc-agi-task-skill-md",
@@ -7971,7 +7973,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-merge-diff-arc-agi-task-skill-md",
@@ -8046,7 +8048,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.030Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-model-extraction-relu-logits-skill-md",
@@ -8121,7 +8123,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-model-extraction-relu-logits-skill-md",
@@ -8196,7 +8198,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-modernize-scientific-stack-skill-md",
@@ -8271,7 +8273,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-modernize-scientific-stack-skill-md",
@@ -8346,7 +8348,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-morph-warpgrep-skill-md",
@@ -8421,7 +8423,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-mteb-leaderboard-skill-md",
@@ -8496,7 +8498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-mteb-leaderboard-skill-md",
@@ -8571,7 +8573,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-mteb-retrieve-skill-md",
@@ -8646,7 +8648,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-mteb-retrieve-skill-md",
@@ -8721,7 +8723,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-multi-source-data-merger-skill-md",
@@ -8796,7 +8798,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-multi-source-data-merger-skill-md",
@@ -8871,7 +8873,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-nginx-request-logging-skill-md",
@@ -8946,7 +8948,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-nginx-request-logging-skill-md",
@@ -9021,7 +9023,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-obsidian-cli-skill-md",
@@ -9096,7 +9098,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-openssl-selfsigned-cert-skill-md",
@@ -9171,7 +9173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-openssl-selfsigned-cert-skill-md",
@@ -9246,7 +9248,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-overfull-hbox-skill-md",
@@ -9321,7 +9323,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.394Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-overfull-hbox-skill-md",
@@ -9396,7 +9398,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-password-recovery-skill-md",
@@ -9471,7 +9473,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-password-recovery-skill-md",
@@ -9546,7 +9548,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-path-tracing-skill-md",
@@ -9621,7 +9623,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-path-tracing-skill-md",
@@ -9696,7 +9698,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-path-tracing-reverse-skill-md",
@@ -9771,7 +9773,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-path-tracing-reverse-skill-md",
@@ -9846,7 +9848,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-polyglot-c-py-skill-md",
@@ -9921,7 +9923,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-polyglot-c-py-skill-md",
@@ -9996,7 +9998,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-polyglot-rust-c-skill-md",
@@ -10071,7 +10073,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-polyglot-rust-c-skill-md",
@@ -10146,7 +10148,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-portfolio-optimization-skill-md",
@@ -10221,7 +10223,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-portfolio-optimization-skill-md",
@@ -10296,7 +10298,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-protein-assembly-skill-md",
@@ -10371,7 +10373,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-protein-assembly-skill-md",
@@ -10446,7 +10448,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-prove-plus-comm-skill-md",
@@ -10521,7 +10523,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-prove-plus-comm-skill-md",
@@ -10596,7 +10598,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-pypi-server-skill-md",
@@ -10671,7 +10673,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-pypi-server-skill-md",
@@ -10746,7 +10748,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-pytorch-model-cli-skill-md",
@@ -10821,7 +10823,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-pytorch-model-cli-skill-md",
@@ -10896,7 +10898,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-pytorch-model-recovery-skill-md",
@@ -10971,7 +10973,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-pytorch-model-recovery-skill-md",
@@ -11046,7 +11048,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-qemu-alpine-ssh-skill-md",
@@ -11121,7 +11123,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-qemu-alpine-ssh-skill-md",
@@ -11196,7 +11198,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-qemu-startup-skill-md",
@@ -11271,7 +11273,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-qemu-startup-skill-md",
@@ -11346,7 +11348,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-query-optimize-skill-md",
@@ -11421,7 +11423,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-query-optimize-skill-md",
@@ -11496,7 +11498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-raman-fitting-skill-md",
@@ -11571,7 +11573,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-raman-fitting-skill-md",
@@ -11646,7 +11648,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-regex-chess-skill-md",
@@ -11721,7 +11723,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-regex-chess-skill-md",
@@ -11796,7 +11798,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-regex-log-skill-md",
@@ -11871,7 +11873,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-regex-log-skill-md",
@@ -11946,7 +11948,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-reshard-c4-data-skill-md",
@@ -12021,7 +12023,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-reshard-c4-data-skill-md",
@@ -12096,7 +12098,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-rstan-to-pystan-skill-md",
@@ -12171,7 +12173,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-rstan-to-pystan-skill-md",
@@ -12246,7 +12248,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-sam-cell-seg-skill-md",
@@ -12321,7 +12323,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-sam-cell-seg-skill-md",
@@ -12396,7 +12398,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-sanitize-git-repo-skill-md",
@@ -12471,7 +12473,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-sanitize-git-repo-skill-md",
@@ -12546,7 +12548,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-schemelike-metacircular-eval-skill-md",
@@ -12621,7 +12623,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-schemelike-metacircular-eval-skill-md",
@@ -12696,7 +12698,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::meta-skill-development-skill-md",
@@ -12771,7 +12773,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-slack-skill-md",
@@ -12846,7 +12848,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-sparql-university-skill-md",
@@ -12921,7 +12923,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-sparql-university-skill-md",
@@ -12996,7 +12998,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-sqlite-db-truncate-skill-md",
@@ -13071,7 +13073,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-sqlite-db-truncate-skill-md",
@@ -13146,7 +13148,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-sqlite-with-gcov-skill-md",
@@ -13221,7 +13223,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-sqlite-with-gcov-skill-md",
@@ -13296,7 +13298,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-torch-pipeline-parallelism-skill-md",
@@ -13371,7 +13373,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-torch-pipeline-parallelism-skill-md",
@@ -13446,7 +13448,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-torch-tensor-parallelism-skill-md",
@@ -13521,7 +13523,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-torch-tensor-parallelism-skill-md",
@@ -13596,7 +13598,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-train-fasttext-skill-md",
@@ -13671,7 +13673,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-train-fasttext-skill-md",
@@ -13746,7 +13748,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-tune-mjcf-skill-md",
@@ -13821,7 +13823,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-tune-mjcf-skill-md",
@@ -13896,7 +13898,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-video-processing-skill-md",
@@ -13971,7 +13973,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-video-processing-skill-md",
@@ -14046,7 +14048,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-vulnerable-secret-skill-md",
@@ -14121,7 +14123,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-vulnerable-secret-skill-md",
@@ -14196,7 +14198,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-webapp-testing-skill-md",
@@ -14271,7 +14273,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.032Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-winning-avg-corewars-skill-md",
@@ -14346,7 +14348,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-winning-avg-corewars-skill-md",
@@ -14421,7 +14423,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-feedback-write-compressor-skill-md",
@@ -14496,7 +14498,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.029Z"
+      "last_checked_at": "2026-04-25T10:42:16.395Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-benchmarks-trajectory-only-write-compressor-skill-md",
@@ -14571,7 +14573,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.031Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-yelp-search-skill-md",
@@ -14646,7 +14648,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:51.032Z"
+      "last_checked_at": "2026-04-25T10:42:16.396Z"
     }
   ],
   "issues": []

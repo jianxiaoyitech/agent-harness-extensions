@@ -3,6 +3,8 @@
   "source_id": "redis-mcp-redis",
   "source_name": "Redis MCP",
   "source_status": "active",
+  "snapshot_date": "2025-10-21",
+  "first_commit_date": "2025-04-02",
   "repo": "https://github.com/redis/mcp-redis",
   "default_branch": "main",
   "previous_sha": "c78f911645ba84d7cd363e16b3e79592d9b6ade7",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "e099a0ba901ae012fc8938979b5c63e9f43b5f5073012007d5e4b0eaf2be1c1c",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:48:14.788Z",
+  "synced_at": "2026-04-25T10:55:37.196Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -92,7 +94,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:48:14.788Z"
+      "last_checked_at": "2026-04-25T10:55:37.196Z"
     }
   ],
   "issues": []

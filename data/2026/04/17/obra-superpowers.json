@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "obra-superpowers",
+  "source_name": "Obra Superpowers For Claude Code",
+  "source_status": "active",
+  "snapshot_date": "2026-04-17",
+  "first_commit_date": "2025-10-20",
+  "repo": "https://github.com/obra/superpowers-developing-for-claude-code",
+  "default_branch": "main",
+  "previous_sha": "74afe935da49efe782907e837a27ce618498099a",
+  "current_sha": "74afe935da49efe782907e837a27ce618498099a",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "1fc32bd980a3b0f0a22d9b32461e6e3540b8c705b47af122ace460ee5063183f",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:54:06.715Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Unknown",
+    "updated_at": "2025-12-03T11:12:11-08:00",
+    "archived": false
+  },
+  "artifact_count": 5,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-12-03",
+  "issues": []
+}

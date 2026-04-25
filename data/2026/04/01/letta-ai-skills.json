@@ -3,6 +3,8 @@
   "source_id": "letta-ai-skills",
   "source_name": "Letta AI Skills",
   "source_status": "active",
+  "snapshot_date": "2026-04-01",
+  "first_commit_date": "2025-11-13",
   "repo": "https://github.com/letta-ai/skills",
   "default_branch": "main",
   "previous_sha": "8b3dcc11b79fe38eb33f57ea8116dd06a1382689",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "48d6ea0447160a92756e289e2e36b3f5dc26f3f666b0fab11bab44a53bd4845f",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:34:16.387Z",
+  "synced_at": "2026-04-25T10:42:37.892Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -93,7 +95,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-ai-news-skill-md",
@@ -168,7 +170,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-conversations-skill-md",
@@ -243,7 +245,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-extracting-pdf-text-skill-md",
@@ -318,7 +320,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-fleet-management-skill-md",
@@ -393,7 +395,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-google-workspace-skill-md",
@@ -468,7 +470,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-imessage-skill-md",
@@ -543,7 +545,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-learning-sdk-skill-md",
@@ -618,7 +620,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-letta-api-client-skill-md",
@@ -693,7 +695,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::letta-letta-configuration-skill-md",
@@ -768,7 +770,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-linear-skill-md",
@@ -843,7 +845,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-mcp-builder-skill-md",
@@ -918,7 +920,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-memfs-search-skill-md",
@@ -993,7 +995,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-morph-warpgrep-skill-md",
@@ -1068,7 +1070,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-obsidian-cli-skill-md",
@@ -1143,7 +1145,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::meta-skill-development-skill-md",
@@ -1218,7 +1220,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-slack-skill-md",
@@ -1293,7 +1295,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-webapp-testing-skill-md",
@@ -1368,7 +1370,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     },
     {
       "id": "letta-ai-skills::skill::tools-yelp-search-skill-md",
@@ -1443,7 +1445,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:16.386Z"
+      "last_checked_at": "2026-04-25T10:42:37.891Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "langchain-ai-open-deep-research",
   "source_name": "Open Deep Research",
   "source_status": "active",
+  "snapshot_date": "2025-06-09",
+  "first_commit_date": "2024-11-20",
   "repo": "https://github.com/langchain-ai/open_deep_research",
   "default_branch": "main",
   "previous_sha": "db01c7e66c1f1e937609163df3c9da48678c7655",
@@ -23,7 +25,7 @@
   ],
   "source_config_hash": "e9bd76775424c9d819aac811123226f7bdaf972a527a0061c0936a7f7a6d1594",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:34:34.832Z",
+  "synced_at": "2026-04-25T10:41:47.674Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -104,7 +106,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:34:34.832Z"
+      "last_checked_at": "2026-04-25T10:41:47.674Z"
     }
   ],
   "issues": []

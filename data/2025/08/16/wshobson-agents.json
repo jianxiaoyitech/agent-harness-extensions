@@ -3,6 +3,8 @@
   "source_id": "wshobson-agents",
   "source_name": "wshobson Agents",
   "source_status": "active",
+  "snapshot_date": "2025-08-16",
+  "first_commit_date": "2025-07-24",
   "repo": "https://github.com/wshobson/agents",
   "default_branch": "main",
   "previous_sha": "d5ef7aa70dfff739858027cd301ef416c6c60751",
@@ -23,7 +25,7 @@
   ],
   "source_config_hash": "be0cd53a0bf81055f23ae914108ce0e6cbc430bf69a616e95d9b4c6554c3a067",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:57:00.926Z",
+  "synced_at": "2026-04-25T11:07:37.605Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,

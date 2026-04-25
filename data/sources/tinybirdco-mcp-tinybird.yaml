@@ -1,7 +1,7 @@
 version: 1
 id: tinybirdco-mcp-tinybird
 name: Tinybird MCP
-status: active
+status: archived
 repo: https://github.com/tinybirdco/mcp-tinybird
 compatibility:
   claude-code: check

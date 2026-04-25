@@ -3,20 +3,48 @@
   "source_id": "significant-gravitas-autogpt",
   "source_name": "AutoGPT",
   "source_status": "active",
+  "snapshot_date": "2026-04-04",
+  "first_commit_date": "2023-09-06",
   "repo": "https://github.com/Significant-Gravitas/AutoGPT",
   "default_branch": "master",
-  "previous_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "current_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "48a653dc63f854b28c085dbe70625cb26a8aa04d",
+  "current_sha": "1a305db1626ac97fd1308d52fc4dd7951d23adc9",
+  "mode": "delta",
+  "changed_files": [
+    ".github/workflows/platform-fullstack-ci.yml",
+    "autogpt_platform/frontend/Dockerfile",
+    "autogpt_platform/frontend/package.json",
+    "autogpt_platform/frontend/playwright.config.ts",
+    "autogpt_platform/frontend/pnpm-lock.yaml",
+    "autogpt_platform/frontend/src/tests/AGENTS.md",
+    "autogpt_platform/frontend/src/tests/agent-activity.spec.ts",
+    "autogpt_platform/frontend/src/tests/agent-dashboard.spec.ts",
+    "autogpt_platform/frontend/src/tests/api-keys.spec.ts",
+    "autogpt_platform/frontend/src/tests/build.spec.ts",
+    "autogpt_platform/frontend/src/tests/coverage-fixture.ts",
+    "autogpt_platform/frontend/src/tests/library.spec.ts",
+    "autogpt_platform/frontend/src/tests/marketplace-agent.spec.ts",
+    "autogpt_platform/frontend/src/tests/marketplace-creator.spec.ts",
+    "autogpt_platform/frontend/src/tests/marketplace.spec.ts",
+    "autogpt_platform/frontend/src/tests/onboarding.spec.ts",
+    "autogpt_platform/frontend/src/tests/profile-form.spec.ts",
+    "autogpt_platform/frontend/src/tests/profile.spec.ts",
+    "autogpt_platform/frontend/src/tests/publish-agent.spec.ts",
+    "autogpt_platform/frontend/src/tests/settings.spec.ts",
+    "autogpt_platform/frontend/src/tests/signin.spec.ts",
+    "autogpt_platform/frontend/src/tests/signup.spec.ts",
+    "autogpt_platform/frontend/src/tests/title.spec.ts",
+    "autogpt_platform/frontend/src/tests/util.spec.ts",
+    "codecov.yml"
+  ],
   "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:14:02.666Z",
+  "synced_at": "2026-04-25T11:06:56.588Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-27T13:11:23+07:00",
+    "updated_at": "2026-04-04T00:55:09-05:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +108,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-27T13:11:23+07:00",
+        "updated_at": "2026-04-04T00:55:09-05:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +120,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T17:14:02.666Z"
+      "last_checked_at": "2026-04-25T11:06:56.588Z"
     }
   ],
   "issues": []

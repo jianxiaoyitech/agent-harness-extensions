@@ -182,6 +182,9 @@ export interface SnapshotSourceRecord {
   source_id: string;
   source_name: string;
   source_status: SourceStatus;
+  snapshot_date?: string;
+  first_commit_date?: string;
+  carry_forward_from?: string;
   repo: string;
   default_branch: string;
   previous_sha: string | null;
@@ -201,6 +204,31 @@ export interface SnapshotSourceRecord {
   artifacts: ArtifactRecord[];
   issues: string[];
 }
+
+interface ThinSnapshotSourceRecord {
+  version: 2;
+  source_id: string;
+  source_name: string;
+  source_status: SourceStatus;
+  snapshot_date: string;
+  first_commit_date?: string;
+  repo: string;
+  default_branch: string;
+  previous_sha: string | null;
+  current_sha: string;
+  mode: "unchanged";
+  changed_files: [];
+  source_config_hash: string;
+  detector_version: string;
+  synced_at: string;
+  repo_metrics: SnapshotSourceRecord["repo_metrics"];
+  artifact_count: number;
+  mismatch_count: number;
+  carry_forward_from: string;
+  issues: string[];
+}
+
+type OnDiskSnapshotSourceRecord = SnapshotSourceRecord | ThinSnapshotSourceRecord;
 
 export interface SnapshotManifest {
   version: 1;
@@ -733,8 +761,9 @@ export function summarizeReport({
   };
 }
 
-function hashSourceConfig(source: SourceDefinition): string {
+export function hashSourceConfig(source: SourceDefinition): string {
   const config = {
+    status: source.status,
     repo: source.repo,
     allowed_types: source.allowed_types,
     compatibility: source.compatibility,
@@ -864,6 +893,21 @@ async function syncRepoMirror(source: SourceDefinition): Promise<string> {
   return gitDir;
 }
 
+async function resolveRemoteHeadSha(repoUrl: string): Promise<string | null> {
+  try {
+    const { stdout } = await execFile("git", ["ls-remote", repoUrl, "HEAD"], {
+      cwd: ROOT_DIR,
+      maxBuffer: 1024 * 1024,
+    });
+    const line = stdout.split("\n").find(Boolean)?.trim();
+    if (!line) return null;
+    const [sha] = line.split(/\s+/);
+    return sha || null;
+  } catch {
+    return null;
+  }
+}
+
 async function readMirrorDefaultBranch(gitDir: string): Promise<string> {
   try {
     const ref = await runGit(gitDir, ["symbolic-ref", "HEAD"]);
@@ -989,7 +1033,8 @@ export async function loadSnapshotSourceRecordFromDir(
 ): Promise<SnapshotSourceRecord | null> {
   const filePath = path.join(snapshotDir, `${sourceId}.json`);
   if (!(await fileExists(filePath))) return null;
-  return readJsonFile<SnapshotSourceRecord>(filePath);
+  const record = await readJsonFile<OnDiskSnapshotSourceRecord>(filePath);
+  return hydrateSnapshotSourceRecord(record);
 }
 
 export async function listSourceHistoryDates(sourceId: string): Promise<string[]> {
@@ -1068,6 +1113,85 @@ export async function resolveSourceFirstCommitDate(source: SourceDefinition): Pr
   return new Date(committedAt).toISOString().slice(0, 10);
 }
 
+export function canReusePreviousSnapshotSource(args: {
+  previousSnapshotSource?: SnapshotSourceRecord | null;
+  snapshotDate?: string;
+  sourceConfigHash: string;
+  now?: Date;
+}): boolean {
+  const previous = args.previousSnapshotSource;
+  if (!previous) return false;
+  if (args.snapshotDate !== getSnapshotDateStamp(args.now)) return false;
+  return (
+    previous.source_config_hash === args.sourceConfigHash &&
+    previous.detector_version === DETECTOR_VERSION
+  );
+}
+
+export function buildReusedSnapshotSourceRecord(args: {
+  previousSnapshotSource: SnapshotSourceRecord;
+  currentSha: string;
+  snapshotDate?: string;
+  syncedAt?: string;
+}): SnapshotSourceRecord {
+  const previous = args.previousSnapshotSource;
+
+  return {
+    ...previous,
+    snapshot_date: args.snapshotDate ?? previous.snapshot_date,
+    first_commit_date: previous.first_commit_date,
+    carry_forward_from: previous.carry_forward_from ?? previous.snapshot_date,
+    previous_sha: previous.current_sha,
+    current_sha: args.currentSha,
+    mode: "unchanged",
+    changed_files: [],
+    synced_at: args.syncedAt ?? new Date().toISOString(),
+    issues: [],
+  };
+}
+
+export function buildThinSnapshotSourceRecord(
+  snapshotSource: SnapshotSourceRecord,
+): ThinSnapshotSourceRecord {
+  if (!snapshotSource.snapshot_date) {
+    throw new Error(`Cannot build thin snapshot for ${snapshotSource.source_id} without snapshot_date.`);
+  }
+  const carryForwardFrom = snapshotSource.carry_forward_from ?? snapshotSource.snapshot_date;
+
+  return {
+    version: 2,
+    source_id: snapshotSource.source_id,
+    source_name: snapshotSource.source_name,
+    source_status: snapshotSource.source_status,
+    snapshot_date: snapshotSource.snapshot_date,
+    first_commit_date: snapshotSource.first_commit_date,
+    repo: snapshotSource.repo,
+    default_branch: snapshotSource.default_branch,
+    previous_sha: snapshotSource.previous_sha,
+    current_sha: snapshotSource.current_sha,
+    mode: "unchanged",
+    changed_files: [],
+    source_config_hash: snapshotSource.source_config_hash,
+    detector_version: snapshotSource.detector_version,
+    synced_at: snapshotSource.synced_at,
+    repo_metrics: snapshotSource.repo_metrics,
+    artifact_count: snapshotSource.artifacts.length,
+    mismatch_count: snapshotSource.artifacts.filter((artifact) => artifact.mismatch.type).length,
+    carry_forward_from: carryForwardFrom,
+    issues: snapshotSource.issues,
+  };
+}
+
+function isThinSnapshotSourceRecord(record: unknown): record is ThinSnapshotSourceRecord {
+  return (
+    Boolean(record) &&
+    typeof record === "object" &&
+    (record as { version?: number }).version === 2 &&
+    (record as { mode?: string }).mode === "unchanged" &&
+    typeof (record as { carry_forward_from?: string }).carry_forward_from === "string"
+  );
+}
+
 export async function pruneSnapshotSources(
   activeSourceIds: string[],
   snapshotDir: string,
@@ -1085,16 +1209,85 @@ export async function pruneSnapshotSources(
   );
 }
 
+async function hydrateSnapshotSourceRecord(
+  record: OnDiskSnapshotSourceRecord,
+): Promise<SnapshotSourceRecord> {
+  if (!isThinSnapshotSourceRecord(record)) {
+    return record;
+  }
+
+  const baseSnapshotDir = getSnapshotDirForDate(record.carry_forward_from);
+  const baseRecord = await loadSnapshotSourceRecordFromDir(baseSnapshotDir, record.source_id);
+  if (!baseRecord) {
+    throw new Error(
+      `Unable to hydrate thin snapshot for ${record.source_id}: base snapshot ${record.carry_forward_from} is missing.`,
+    );
+  }
+
+  return {
+    ...baseRecord,
+    source_name: record.source_name,
+    source_status: record.source_status,
+    snapshot_date: record.snapshot_date,
+    first_commit_date: record.first_commit_date ?? baseRecord.first_commit_date,
+    carry_forward_from: record.carry_forward_from,
+    repo: record.repo,
+    default_branch: record.default_branch,
+    previous_sha: record.previous_sha,
+    current_sha: record.current_sha,
+    mode: "unchanged",
+    changed_files: [],
+    source_config_hash: record.source_config_hash,
+    detector_version: record.detector_version,
+    synced_at: record.synced_at,
+    repo_metrics: record.repo_metrics,
+    issues: record.issues,
+  };
+}
+
+export async function writeSnapshotSourceRecord(
+  snapshotDir: string,
+  snapshotSource: SnapshotSourceRecord,
+): Promise<void> {
+  const targetDate = path.relative(SNAPSHOT_ROOT_DIR, snapshotDir).split(path.sep).join("-");
+  const filePath = path.join(snapshotDir, `${snapshotSource.source_id}.json`);
+
+  if (isValidDateStamp(targetDate) && snapshotSource.mode === "unchanged") {
+    await writeJson(filePath, buildThinSnapshotSourceRecord(snapshotSource));
+    return;
+  }
+
+  await writeJson(filePath, snapshotSource);
+}
+
 export async function buildSnapshotSourceRecord(
   source: SourceDefinition,
   harnesses: Harness[],
   options: {
+    firstCommitDate?: string;
     previousSnapshotSource?: SnapshotSourceRecord | null;
     snapshotDate?: string;
   },
 ): Promise<SnapshotSourceRecord> {
   const previous = options.previousSnapshotSource ?? null;
   const sourceConfigHash = hashSourceConfig(source);
+  if (
+    canReusePreviousSnapshotSource({
+      previousSnapshotSource: previous,
+      snapshotDate: options.snapshotDate,
+      sourceConfigHash,
+    })
+  ) {
+    const remoteHeadSha = await resolveRemoteHeadSha(source.repo);
+    if (previous && remoteHeadSha && remoteHeadSha === previous.current_sha) {
+      return buildReusedSnapshotSourceRecord({
+        previousSnapshotSource: previous,
+        currentSha: remoteHeadSha,
+        snapshotDate: options.snapshotDate,
+      });
+    }
+  }
+
   const gitDir = await syncRepoMirror(source);
   const { gitRef, currentSha, defaultBranch, historical } = await resolveSnapshotGitRef(
     gitDir,
@@ -1106,6 +1299,8 @@ export async function buildSnapshotSourceRecord(
   const license = historical
     ? await detectLicenseAtRef(gitDir, files, gitRef)
     : await detectLicense(gitDir, files);
+  const firstCommitDate =
+    previous?.first_commit_date ?? options.firstCommitDate ?? (await resolveSourceFirstCommitDate(source));
 
   let mode: SyncMode = "full";
   if (
@@ -1157,6 +1352,10 @@ export async function buildSnapshotSourceRecord(
     source_id: source.id,
     source_name: source.name,
     source_status: source.status,
+    snapshot_date: options.snapshotDate,
+    first_commit_date: firstCommitDate,
+    carry_forward_from:
+      mode === "unchanged" ? previous?.carry_forward_from ?? previous?.snapshot_date : undefined,
     repo: source.repo,
     default_branch: defaultBranch,
     previous_sha: previous?.current_sha ?? null,
@@ -1191,7 +1390,12 @@ export async function loadDaySnapshotSourceRecords(
     .map((entry) => entry.name)
     .sort();
 
-  return Promise.all(files.map((fileName) => readJsonFile<SnapshotSourceRecord>(path.join(snapshotDir, fileName))));
+  return Promise.all(
+    files.map(async (fileName) => {
+      const record = await readJsonFile<OnDiskSnapshotSourceRecord>(path.join(snapshotDir, fileName));
+      return hydrateSnapshotSourceRecord(record);
+    }),
+  );
 }
 
 export async function loadSnapshotSourceRecords(

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "invariantlabs-ai-mcp-scan",
+  "source_name": "MCP Scan",
+  "source_status": "active",
+  "snapshot_date": "2026-04-15",
+  "first_commit_date": "2025-04-10",
+  "repo": "https://github.com/invariantlabs-ai/mcp-scan",
+  "default_branch": "main",
+  "previous_sha": "b250f06423fd3d06e1a101c56ee2a0e78d0ea276",
+  "current_sha": "b250f06423fd3d06e1a101c56ee2a0e78d0ea276",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "d4e5891fc6cd062d6e228d54b66a8f2b528fc904f63aabba7178eaa4502edb56",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:41:32.671Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-14T11:29:28+02:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-14",
+  "issues": []
+}

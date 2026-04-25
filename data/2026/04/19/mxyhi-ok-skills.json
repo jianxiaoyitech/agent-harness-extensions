@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "source_id": "mxyhi-ok-skills",
+  "source_name": "OK Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-19",
+  "first_commit_date": "2026-02-02",
+  "repo": "https://github.com/mxyhi/ok-skills",
+  "default_branch": "main",
+  "previous_sha": "a3e12c556ba94555dfb414167b97d5b2b2ad473b",
+  "current_sha": "a2ab4b2544a369bffc60c1168570417d102f1de0",
+  "mode": "delta",
+  "changed_files": [
+    "planning-with-files/README.md",
+    "planning-with-files/SKILL.md"
+  ],
+  "source_config_hash": "82b6f378a80f26b38d153208a2d2250f97ae2c564bbc0fe68fe77db4555c1f03",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:52:26.875Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-19T17:24:31+08:00",
+    "archived": false
+  },
+  "artifacts": [
+    {
+      "id": "mxyhi-ok-skills::skill::readme-md",
+      "source_id": "mxyhi-ok-skills",
+      "source_name": "OK Skills",
+      "source_status": "active",
+      "name": "OK Skills",
+      "type": "skill",
+      "type_label": "Skill",
+      "path": "README.md",
+      "repo": "https://github.com/mxyhi/ok-skills",
+      "repo_path_url": "https://github.com/mxyhi/ok-skills/blob/main/README.md",
+      "compatibility": {
+        "aider": "blank",
+        "amp": "blank",
+        "antigravity": "blank",
+        "auggie-cli": "blank",
+        "claude-code": "blank",
+        "cline": "blank",
+        "codebuddy-cli": "blank",
+        "codex": "check",
+        "cursor": "blank",
+        "forge": "blank",
+        "gemini-cli": "blank",
+        "github-copilot": "blank",
+        "ibm-bob": "blank",
+        "iflow-cli": "blank",
+        "ironclaw": "blank",
+        "jules": "blank",
+        "junie": "blank",
+        "kilo-code": "blank",
+        "kimi-code": "blank",
+        "kimi-claw": "blank",
+        "kiro-cli": "blank",
+        "linclaw": "blank",
+        "mistral-vibe": "blank",
+        "molili-claw": "blank",
+        "moltis": "blank",
+        "moltworker": "blank",
+        "nanobot": "blank",
+        "nanoclaw": "blank",
+        "openclaw": "blank",
+        "opencode": "blank",
+        "pi": "blank",
+        "picoclaw": "blank",
+        "qclaw": "blank",
+        "qoder-cli": "blank",
+        "qwen-code": "blank",
+        "roo-code": "blank",
+        "shai": "blank",
+        "tabnine-cli": "blank",
+        "tinyclaw": "blank",
+        "trae": "blank",
+        "windsurf": "blank",
+        "zeptoclaw": "blank",
+        "zeroclaw": "blank"
+      },
+      "repo_metrics": {
+        "stars": 0,
+        "forks": 0,
+        "license": "Apache-2.0",
+        "updated_at": "2026-04-19T17:24:31+08:00",
+        "archived": false
+      },
+      "detection": {
+        "method": "manual"
+      },
+      "mismatch": {
+        "type": false,
+        "allowed_types": [
+          "skill"
+        ]
+      },
+      "last_checked_at": "2026-04-25T10:52:26.875Z"
+    }
+  ],
+  "issues": []
+}

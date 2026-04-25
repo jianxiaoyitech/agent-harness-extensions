@@ -8,8 +8,8 @@ compatibility:
 allowed_types:
   - skill
 discovery:
-  manifests: true
-  conventions: true
+  manifests: false
+  conventions: false
   regex: true
   path_patterns:
     - "SKILL.md"

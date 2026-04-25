@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "anthropics-skills",
+  "source_name": "Anthropics Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-19",
+  "first_commit_date": "2025-10-15",
+  "repo": "https://github.com/anthropics/skills",
+  "default_branch": "main",
+  "previous_sha": "2c7ec5e78b8e5d43ea02e90bb8826f6b9f147b0c",
+  "current_sha": "2c7ec5e78b8e5d43ea02e90bb8826f6b9f147b0c",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "669bf39d998f27a35719bf03bc58e14102ae0b75c73edf72cd8238626f76a999",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:23:33.861Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-16T15:12:57-04:00",
+    "archived": false
+  },
+  "artifact_count": 17,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-16",
+  "issues": []
+}

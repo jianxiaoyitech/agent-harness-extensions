@@ -3,20 +3,26 @@
   "source_id": "invariantlabs-ai-mcp-scan",
   "source_name": "MCP Scan",
   "source_status": "active",
+  "snapshot_date": "2026-03-24",
+  "first_commit_date": "2025-04-10",
   "repo": "https://github.com/invariantlabs-ai/mcp-scan",
   "default_branch": "main",
   "previous_sha": "757eecb0ee067ad57d9cd32446b6433955ea5903",
-  "current_sha": "757eecb0ee067ad57d9cd32446b6433955ea5903",
-  "mode": "unchanged",
-  "changed_files": [],
+  "current_sha": "9e985204100a03df60e03a59989ebdd55f6181b0",
+  "mode": "delta",
+  "changed_files": [
+    ".devcontainer/devcontainer.json",
+    ".devcontainer/post-create.sh",
+    ".pre-commit-config.yaml"
+  ],
   "source_config_hash": "d4e5891fc6cd062d6e228d54b66a8f2b528fc904f63aabba7178eaa4502edb56",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:33:05.758Z",
+  "synced_at": "2026-04-25T10:41:22.829Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "Apache-2.0",
-    "updated_at": "2026-03-19T18:58:27+01:00",
+    "updated_at": "2026-03-24T13:20:56+02:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +86,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-03-19T18:58:27+01:00",
+        "updated_at": "2026-03-24T13:20:56+02:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +98,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:33:05.758Z"
+      "last_checked_at": "2026-04-25T10:41:22.829Z"
     }
   ],
   "issues": []

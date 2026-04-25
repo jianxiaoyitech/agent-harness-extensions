@@ -3,6 +3,8 @@
   "source_id": "coinpaprika-claude-marketplace",
   "source_name": "Coinpaprika Claude Marketplace",
   "source_status": "active",
+  "snapshot_date": "2026-04-03",
+  "first_commit_date": "2025-10-14",
   "repo": "https://github.com/coinpaprika/claude-marketplace",
   "default_branch": "main",
   "previous_sha": "9e5ea850e92eedf67fb3ab818ba1fd45cbc2f0ba",
@@ -25,7 +27,7 @@
   ],
   "source_config_hash": "57127236129c57ed02a048f29ac20ea7dd82ce1ba23da4adbc75adc9da2c3fb0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:20:14.425Z",
+  "synced_at": "2026-04-25T10:30:22.376Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -109,7 +111,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::plugin::plugins-coinpaprika-claude-plugin-claude-plugin-plugin-json",
@@ -185,7 +187,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::agent::plugins-coinpaprika-claude-plugin-agents-crypto-analyst-md",
@@ -262,7 +264,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-coinpaprika-claude-plugin-skills-crypto-market-search-skill-md",
@@ -339,7 +341,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::agent::plugins-dexpaprika-claude-plugin-agents-defi-data-analyst-md",
@@ -416,7 +418,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::plugin::plugins-dexpaprika-claude-plugin-claude-plugin-plugin-json",
@@ -492,7 +494,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-dexpaprika-claude-plugin-skills-technical-analyzer-skill-md",
@@ -569,7 +571,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-dexpaprika-claude-plugin-skills-token-security-analyzer-skill-md",
@@ -646,7 +648,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     },
     {
       "id": "coinpaprika-claude-marketplace::skill::plugins-dexpaprika-claude-plugin-skills-trending-pools-analyzer-skill-md",
@@ -723,7 +725,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:20:14.425Z"
+      "last_checked_at": "2026-04-25T10:30:22.376Z"
     }
   ],
   "issues": []

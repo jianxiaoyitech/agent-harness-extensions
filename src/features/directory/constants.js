@@ -9,9 +9,7 @@ export const TYPE_LABELS = {
 
 export const SORT_COLUMNS = [
   { key: "name", label: "Name" },
-  { key: "supported_harnesses", label: "Works With", numeric: true },
-  { key: "repo", label: "Repo" },
-  { key: "updated_at", label: "Updated" },
+  { key: "repo", label: "Install" },
 ];
 
 export const FEATURED_HARNESS_IDS = [

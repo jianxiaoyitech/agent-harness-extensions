@@ -3,20 +3,28 @@
   "source_id": "significant-gravitas-autogpt",
   "source_name": "AutoGPT",
   "source_status": "active",
+  "snapshot_date": "2026-03-28",
+  "first_commit_date": "2023-09-06",
   "repo": "https://github.com/Significant-Gravitas/AutoGPT",
   "default_branch": "master",
-  "previous_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "current_sha": "1750c833ee0cd85ca1db3e45f28163a63a57cf6d",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "68f5d2ad08e724814b236f411b2ae23ff469d150",
+  "current_sha": "ca74f980c18232ee9535eae7483e54f428ef06c2",
+  "mode": "delta",
+  "changed_files": [
+    "autogpt_platform/backend/backend/copilot/tools/helpers.py",
+    "autogpt_platform/backend/backend/copilot/tools/http_credentials_test.py",
+    "autogpt_platform/backend/backend/copilot/tools/utils.py",
+    "autogpt_platform/backend/backend/data/model.py",
+    "autogpt_platform/frontend/src/app/(platform)/copilot/tools/RunBlock/components/SetupRequirementsCard/helpers.ts"
+  ],
   "source_config_hash": "b9025fcded1c9fc8e5ba0686b12f4a66ce616bbb7d0d35562feb3046db3d22e0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T17:13:52.690Z",
+  "synced_at": "2026-04-25T11:06:52.404Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "MIT",
-    "updated_at": "2026-03-27T13:11:23+07:00",
+    "updated_at": "2026-03-28T08:12:33Z",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +88,7 @@
         "stars": 0,
         "forks": 0,
         "license": "MIT",
-        "updated_at": "2026-03-27T13:11:23+07:00",
+        "updated_at": "2026-03-28T08:12:33Z",
         "archived": false
       },
       "detection": {
@@ -92,7 +100,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T17:13:52.690Z"
+      "last_checked_at": "2026-04-25T11:06:52.404Z"
     }
   ],
   "issues": []

@@ -3,6 +3,8 @@
   "source_id": "openai-openai-agents-python",
   "source_name": "OpenAI Agents Python",
   "source_status": "active",
+  "snapshot_date": "2025-09-08",
+  "first_commit_date": "2025-03-11",
   "repo": "https://github.com/openai/openai-agents-python",
   "default_branch": "main",
   "previous_sha": "50a909a3737ee0f948e80894f8636c7519c423ec",
@@ -50,7 +52,7 @@
   ],
   "source_config_hash": "8259f02da1cbb42cb51216e52068fcd632c2cd4b2673c778efc3673fbc2d92af",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:47:15.263Z",
+  "synced_at": "2026-04-25T10:54:32.043Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -131,7 +133,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:15.263Z"
+      "last_checked_at": "2026-04-25T10:54:32.043Z"
     }
   ],
   "issues": []

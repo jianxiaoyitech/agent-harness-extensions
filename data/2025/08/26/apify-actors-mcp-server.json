@@ -3,6 +3,8 @@
   "source_id": "apify-actors-mcp-server",
   "source_name": "Actors MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-08-26",
+  "first_commit_date": "2025-01-02",
   "repo": "https://github.com/apify/actors-mcp-server",
   "default_branch": "master",
   "previous_sha": "6216fa40638616c481ce401cd671a112e897e42a",
@@ -46,7 +48,7 @@
   ],
   "source_config_hash": "e3e69bcf489715565d017eeb50fe313c7bd02e35ebe00a80c9e30af98262c1b6",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:15:18.252Z",
+  "synced_at": "2026-04-25T10:25:02.848Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -127,7 +129,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:15:18.252Z"
+      "last_checked_at": "2026-04-25T10:25:02.848Z"
     }
   ],
   "issues": []

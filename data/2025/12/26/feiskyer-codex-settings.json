@@ -3,6 +3,8 @@
   "source_id": "feiskyer-codex-settings",
   "source_name": "feiskyer Codex Settings",
   "source_status": "active",
+  "snapshot_date": "2025-12-26",
+  "first_commit_date": "2025-10-06",
   "repo": "https://github.com/feiskyer/codex-settings",
   "default_branch": "main",
   "previous_sha": "ecf3ce5ac1ab9e17aa2d7ac8362ffce7d16b71c8",
@@ -25,7 +27,7 @@
   ],
   "source_config_hash": "ef66daf02545ac5393998a7ae531484ddaa812e7ad01f2ac177bac956f65de69",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:25:29.348Z",
+  "synced_at": "2026-04-25T10:33:29.009Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -106,7 +108,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:29.348Z"
+      "last_checked_at": "2026-04-25T10:33:29.009Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-claude-skill-skill-md",
@@ -180,7 +182,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:29.348Z"
+      "last_checked_at": "2026-04-25T10:33:29.009Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-kiro-skill-skill-md",
@@ -254,7 +256,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:29.348Z"
+      "last_checked_at": "2026-04-25T10:33:29.009Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-nanobanana-skill-skill-md",
@@ -328,7 +330,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:29.348Z"
+      "last_checked_at": "2026-04-25T10:33:29.009Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-spec-kit-skill-skill-md",
@@ -402,7 +404,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:29.348Z"
+      "last_checked_at": "2026-04-25T10:33:29.009Z"
     },
     {
       "id": "feiskyer-codex-settings::skill::skills-youtube-transcribe-skill-skill-md",
@@ -476,7 +478,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:25:29.348Z"
+      "last_checked_at": "2026-04-25T10:33:29.009Z"
     }
   ],
   "issues": []

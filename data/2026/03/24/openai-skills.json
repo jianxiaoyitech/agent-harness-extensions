@@ -3,6 +3,8 @@
   "source_id": "openai-skills",
   "source_name": "OpenAI Skills",
   "source_status": "active",
+  "snapshot_date": "2026-03-24",
+  "first_commit_date": "2025-11-25",
   "repo": "https://github.com/openai/skills",
   "default_branch": "main",
   "previous_sha": "82d2c5b44ac234ec0f204f647562a4349d90ef43",
@@ -100,7 +102,7 @@
   ],
   "source_config_hash": "1a758fd3993cb8bedd4fc02c2f649a5652c957758b50c7cc41103573d4d86707",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:47:38.002Z",
+  "synced_at": "2026-04-25T10:54:34.202Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -182,7 +184,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-chatgpt-apps-skill-md",
@@ -257,7 +259,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-cloudflare-deploy-skill-md",
@@ -332,7 +334,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-develop-web-game-skill-md",
@@ -407,7 +409,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-doc-skill-md",
@@ -482,7 +484,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-skill-md",
@@ -557,7 +559,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-code-connect-components-skill-md",
@@ -632,7 +634,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-create-design-system-rules-skill-md",
@@ -707,7 +709,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.200Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-create-new-file-skill-md",
@@ -782,7 +784,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-generate-design-skill-md",
@@ -857,7 +859,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-generate-library-skill-md",
@@ -932,7 +934,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-implement-design-skill-md",
@@ -1007,7 +1009,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-figma-use-skill-md",
@@ -1082,7 +1084,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-frontend-skill-skill-md",
@@ -1157,7 +1159,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-gh-address-comments-skill-md",
@@ -1232,7 +1234,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-gh-fix-ci-skill-md",
@@ -1307,7 +1309,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-imagegen-skill-md",
@@ -1382,7 +1384,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-jupyter-notebook-skill-md",
@@ -1457,7 +1459,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-linear-skill-md",
@@ -1532,7 +1534,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-netlify-deploy-skill-md",
@@ -1607,7 +1609,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-knowledge-capture-skill-md",
@@ -1682,7 +1684,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:37.999Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-meeting-intelligence-skill-md",
@@ -1757,7 +1759,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-research-documentation-skill-md",
@@ -1832,7 +1834,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-notion-spec-to-implementation-skill-md",
@@ -1907,7 +1909,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-openai-docs-skill-md",
@@ -1982,7 +1984,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-system-openai-docs-skill-md",
@@ -2057,7 +2059,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-pdf-skill-md",
@@ -2132,7 +2134,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-playwright-skill-md",
@@ -2207,7 +2209,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-playwright-interactive-skill-md",
@@ -2282,7 +2284,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-render-deploy-skill-md",
@@ -2357,7 +2359,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-screenshot-skill-md",
@@ -2432,7 +2434,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-security-best-practices-skill-md",
@@ -2507,7 +2509,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-security-ownership-map-skill-md",
@@ -2582,7 +2584,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-security-threat-model-skill-md",
@@ -2657,7 +2659,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-sentry-skill-md",
@@ -2732,7 +2734,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-creator-skill-md",
@@ -2807,7 +2809,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-system-skill-installer-skill-md",
@@ -2882,7 +2884,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-slides-skill-md",
@@ -2957,7 +2959,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-sora-skill-md",
@@ -3032,7 +3034,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-speech-skill-md",
@@ -3107,7 +3109,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-spreadsheet-skill-md",
@@ -3182,7 +3184,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-transcribe-skill-md",
@@ -3257,7 +3259,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-vercel-deploy-skill-md",
@@ -3332,7 +3334,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-winui-app-skill-md",
@@ -3407,7 +3409,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     },
     {
       "id": "openai-skills::skill::skills-curated-yeet-skill-md",
@@ -3482,7 +3484,7 @@
           "skill"
         ]
       },
-      "last_checked_at": "2026-04-08T16:47:38.000Z"
+      "last_checked_at": "2026-04-25T10:54:34.201Z"
     }
   ],
   "issues": []

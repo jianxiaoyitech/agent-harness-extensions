@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "skalesapp-skales",
+  "source_name": "Skales",
+  "source_status": "active",
+  "snapshot_date": "2026-04-16",
+  "first_commit_date": "2026-03-08",
+  "repo": "https://github.com/skalesapp/skales",
+  "default_branch": "main",
+  "previous_sha": "7f5484d00b4f9749df646e8d7adc7ad2d735a20b",
+  "current_sha": "7f5484d00b4f9749df646e8d7adc7ad2d735a20b",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "e5dfd2279e41074bda16aa65b0e86ad4ad2ca02825633a646f83b80d77ea2436",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T11:02:05.108Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "LICENSE",
+    "updated_at": "2026-04-13T12:19:34+02:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-13",
+  "issues": []
+}

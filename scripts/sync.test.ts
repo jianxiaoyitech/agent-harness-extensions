@@ -5,8 +5,10 @@ import {
   buildSyncManifest,
   formatDurationMs,
   partitionSources,
+  resolveCachedSourceStartDate,
   resolveRequestedSnapshotDate,
   resolveSyncWorkerCount,
+  shouldPruneSnapshotDir,
   summarizeSourceStartDates,
   shouldFailSyncRun,
 } from "./sync.ts";
@@ -234,6 +236,28 @@ describe("shouldFailSyncRun", () => {
   });
 });
 
+describe("resolveCachedSourceStartDate", () => {
+  it("uses cached first commit metadata when available", () => {
+    expect(
+      resolveCachedSourceStartDate(
+        makeSnapshotSource({
+          first_commit_date: "2025-01-10",
+        }),
+      ),
+    ).toBe("2025-01-10");
+  });
+
+  it("returns null when no cached metadata exists yet", () => {
+    expect(
+      resolveCachedSourceStartDate(
+        makeSnapshotSource({
+          first_commit_date: undefined,
+        }),
+      ),
+    ).toBeNull();
+  });
+});
+
 describe("resolveRequestedSnapshotDate", () => {
   it("defaults to the current UTC date when no CLI date is provided", () => {
     expect(resolveRequestedSnapshotDate([], new Date("2026-04-08T12:00:00.000Z"))).toBe(
@@ -279,6 +303,13 @@ describe("resolveSyncWorkerCount", () => {
   it("allows an explicit SYNC_WORKERS override", () => {
     expect(resolveSyncWorkerCount({ SYNC_WORKERS: "6" }, 2)).toBe(6);
     expect(resolveSyncWorkerCount({ SYNC_WORKERS: "0" }, 8)).toBe(4);
+  });
+});
+
+describe("shouldPruneSnapshotDir", () => {
+  it("prunes only for full sync runs", () => {
+    expect(shouldPruneSnapshotDir(new Set())).toBe(true);
+    expect(shouldPruneSnapshotDir(new Set(["example-source"]))).toBe(false);
   });
 });
 

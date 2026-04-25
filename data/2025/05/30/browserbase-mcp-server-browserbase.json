@@ -3,6 +3,8 @@
   "source_id": "browserbase-mcp-server-browserbase",
   "source_name": "Browserbase MCP Server",
   "source_status": "active",
+  "snapshot_date": "2025-05-30",
+  "first_commit_date": "2024-12-05",
   "repo": "https://github.com/browserbase/mcp-server-browserbase",
   "default_branch": "main",
   "previous_sha": "49bc5472698540ce9e8674e232785d3ee4204ebf",
@@ -18,7 +20,7 @@
   ],
   "source_config_hash": "a75a6c42aba888bba45357a7a1045488381d0159bddb12876c14c49f9894fa0d",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:16:15.029Z",
+  "synced_at": "2026-04-25T10:28:03.114Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -99,7 +101,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:16:15.029Z"
+      "last_checked_at": "2026-04-25T10:28:03.114Z"
     }
   ],
   "issues": []

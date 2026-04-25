@@ -3,6 +3,8 @@
   "source_id": "getty104-claude-code-marketplace",
   "source_name": "getty104 Claude Code Marketplace",
   "source_status": "active",
+  "snapshot_date": "2025-12-27",
+  "first_commit_date": "2025-10-16",
   "repo": "https://github.com/getty104/claude-code-marketplace",
   "default_branch": "main",
   "previous_sha": "1741adafcf4b0a4000d88c0187563c62fac4b28d",
@@ -27,7 +29,7 @@
   ],
   "source_config_hash": "555f4bd72aac8e5afd96243420f966e4ffdfa1fd6acb71a858618e22c6d40b6a",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:29:09.803Z",
+  "synced_at": "2026-04-25T10:36:17.032Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -112,7 +114,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-create-git-worktree-skill-md",
@@ -190,7 +192,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-general-purpose-assistant-md",
@@ -268,7 +270,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::plugin::getty104-claude-plugin-plugin-json",
@@ -345,7 +347,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::mcp-server::getty104-mcp-json",
@@ -422,7 +424,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-github-issue-implementer-md",
@@ -500,7 +502,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-high-quality-commit-skill-md",
@@ -578,7 +580,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-read-unresolved-pr-comments-skill-md",
@@ -656,7 +658,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-resolve-pr-comments-skill-md",
@@ -734,7 +736,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-review-comment-implementer-md",
@@ -812,7 +814,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::agent::getty104-agents-task-requirement-analyzer-md",
@@ -890,7 +892,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     },
     {
       "id": "getty104-claude-code-marketplace::skill::getty104-skills-web-search-skill-md",
@@ -968,7 +970,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:29:09.803Z"
+      "last_checked_at": "2026-04-25T10:36:17.031Z"
     }
   ],
   "issues": []

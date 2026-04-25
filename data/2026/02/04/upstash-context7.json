@@ -3,6 +3,8 @@
   "source_id": "upstash-context7",
   "source_name": "Context7",
   "source_status": "active",
+  "snapshot_date": "2026-02-04",
+  "first_commit_date": "2025-03-28",
   "repo": "https://github.com/upstash/context7",
   "default_branch": "master",
   "previous_sha": "61e7fcdc7680a7cc7d2b68ab9d4c93efc9cb60d5",
@@ -13,7 +15,7 @@
   ],
   "source_config_hash": "d3825cc4639603f1d12e81da67f0e8cff87e8176c2d57bbcc30ed55b75256365",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:56:36.278Z",
+  "synced_at": "2026-04-25T11:06:47.797Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -94,7 +96,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:36.278Z"
+      "last_checked_at": "2026-04-25T11:06:47.797Z"
     },
     {
       "id": "upstash-context7::mcp-server::plugins-claude-context7-mcp-json",
@@ -168,7 +170,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:36.278Z"
+      "last_checked_at": "2026-04-25T11:06:47.797Z"
     },
     {
       "id": "upstash-context7::mcp-server::readme-md",
@@ -242,7 +244,7 @@
           "mcp-server"
         ]
       },
-      "last_checked_at": "2026-04-08T16:56:36.278Z"
+      "last_checked_at": "2026-04-25T11:06:47.797Z"
     }
   ],
   "issues": []

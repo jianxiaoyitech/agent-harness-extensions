@@ -1,8 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "source_id": "tinybirdco-mcp-tinybird",
   "source_name": "Tinybird MCP",
   "source_status": "active",
+  "snapshot_date": "2025-03-21",
+  "first_commit_date": "2024-11-27",
   "repo": "https://github.com/tinybirdco/mcp-tinybird",
   "default_branch": "main",
   "previous_sha": "0e7592d62fe597838ab0507b59567ba89e03f58e",
@@ -11,7 +13,7 @@
   "changed_files": [],
   "source_config_hash": "3b6a09dd05e06b51fbceeadde0f876ce33e81c99717c2f6dcfca8b0a0ec44fe0",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:54:15.491Z",
+  "synced_at": "2026-04-25T11:04:45.194Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
@@ -19,81 +21,8 @@
     "updated_at": "2025-01-15T13:22:10Z",
     "archived": false
   },
-  "artifacts": [
-    {
-      "id": "tinybirdco-mcp-tinybird::mcp-server::readme-md",
-      "source_id": "tinybirdco-mcp-tinybird",
-      "source_name": "Tinybird MCP",
-      "source_status": "active",
-      "name": "Tinybird MCP",
-      "type": "mcp-server",
-      "type_label": "MCP Server",
-      "path": "README.md",
-      "repo": "https://github.com/tinybirdco/mcp-tinybird",
-      "repo_path_url": "https://github.com/tinybirdco/mcp-tinybird/blob/main/README.md",
-      "compatibility": {
-        "aider": "blank",
-        "amp": "blank",
-        "antigravity": "blank",
-        "auggie-cli": "blank",
-        "claude-code": "check",
-        "cline": "blank",
-        "codebuddy-cli": "blank",
-        "codex": "check",
-        "cursor": "check",
-        "forge": "blank",
-        "gemini-cli": "check",
-        "github-copilot": "check",
-        "ibm-bob": "blank",
-        "iflow-cli": "blank",
-        "ironclaw": "blank",
-        "jules": "blank",
-        "junie": "blank",
-        "kilo-code": "blank",
-        "kimi-code": "blank",
-        "kimi-claw": "blank",
-        "kiro-cli": "blank",
-        "linclaw": "blank",
-        "mistral-vibe": "blank",
-        "molili-claw": "blank",
-        "moltis": "blank",
-        "moltworker": "blank",
-        "nanobot": "blank",
-        "nanoclaw": "blank",
-        "openclaw": "check",
-        "opencode": "check",
-        "pi": "blank",
-        "picoclaw": "blank",
-        "qclaw": "blank",
-        "qoder-cli": "blank",
-        "qwen-code": "blank",
-        "roo-code": "blank",
-        "shai": "blank",
-        "tabnine-cli": "blank",
-        "tinyclaw": "blank",
-        "trae": "blank",
-        "windsurf": "check",
-        "zeptoclaw": "blank",
-        "zeroclaw": "blank"
-      },
-      "repo_metrics": {
-        "stars": 0,
-        "forks": 0,
-        "license": "Apache-2.0",
-        "updated_at": "2025-01-15T13:22:10Z",
-        "archived": false
-      },
-      "detection": {
-        "method": "manual"
-      },
-      "mismatch": {
-        "type": false,
-        "allowed_types": [
-          "mcp-server"
-        ]
-      },
-      "last_checked_at": "2026-04-08T16:54:15.491Z"
-    }
-  ],
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2025-01-15",
   "issues": []
 }

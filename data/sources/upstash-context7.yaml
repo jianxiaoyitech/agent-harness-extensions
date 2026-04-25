@@ -15,8 +15,8 @@ compatibility:
 allowed_types:
   - mcp-server
 discovery:
-  manifests: true
-  conventions: true
+  manifests: false
+  conventions: false
   regex: true
   path_patterns:
     - ".mcp.json"

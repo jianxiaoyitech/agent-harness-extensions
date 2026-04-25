@@ -3,20 +3,25 @@
   "source_id": "microsoft-ai-agents-for-beginners",
   "source_name": "AI Agents For Beginners",
   "source_status": "active",
+  "snapshot_date": "2026-03-21",
+  "first_commit_date": "2024-11-28",
   "repo": "https://github.com/microsoft/ai-agents-for-beginners",
   "default_branch": "main",
-  "previous_sha": "4d697b4e85e346982ff56efcac0d1c6e979a76f1",
-  "current_sha": "4d697b4e85e346982ff56efcac0d1c6e979a76f1",
-  "mode": "unchanged",
-  "changed_files": [],
+  "previous_sha": "01f1b53f1dd7149c127ce13ce6da6393ab17e02a",
+  "current_sha": "98b1474f356977011231af1c8787459e09395229",
+  "mode": "delta",
+  "changed_files": [
+    "translations/ja/06-building-trustworthy-agents/README.md",
+    "translations/ja/07-planning-design/README.md"
+  ],
   "source_config_hash": "3920514c44ba00986e2573d62c8783c1fba689683a495a875cb8d03b83c01105",
   "detector_version": "2",
-  "synced_at": "2026-04-08T16:41:38.575Z",
+  "synced_at": "2026-04-25T10:48:00.036Z",
   "repo_metrics": {
     "stars": 0,
     "forks": 0,
     "license": "Apache-2.0",
-    "updated_at": "2026-03-19T06:48:38Z",
+    "updated_at": "2026-03-22T00:33:13+09:00",
     "archived": false
   },
   "artifacts": [
@@ -80,7 +85,7 @@
         "stars": 0,
         "forks": 0,
         "license": "Apache-2.0",
-        "updated_at": "2026-03-19T06:48:38Z",
+        "updated_at": "2026-03-22T00:33:13+09:00",
         "archived": false
       },
       "detection": {
@@ -92,7 +97,7 @@
           "agent"
         ]
       },
-      "last_checked_at": "2026-04-08T16:41:38.575Z"
+      "last_checked_at": "2026-04-25T10:48:00.036Z"
     }
   ],
   "issues": []

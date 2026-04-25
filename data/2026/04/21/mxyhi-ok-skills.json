@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "source_id": "mxyhi-ok-skills",
+  "source_name": "OK Skills",
+  "source_status": "active",
+  "snapshot_date": "2026-04-21",
+  "first_commit_date": "2026-02-02",
+  "repo": "https://github.com/mxyhi/ok-skills",
+  "default_branch": "main",
+  "previous_sha": "a2ab4b2544a369bffc60c1168570417d102f1de0",
+  "current_sha": "a2ab4b2544a369bffc60c1168570417d102f1de0",
+  "mode": "unchanged",
+  "changed_files": [],
+  "source_config_hash": "82b6f378a80f26b38d153208a2d2250f97ae2c564bbc0fe68fe77db4555c1f03",
+  "detector_version": "2",
+  "synced_at": "2026-04-25T10:52:27.742Z",
+  "repo_metrics": {
+    "stars": 0,
+    "forks": 0,
+    "license": "Apache-2.0",
+    "updated_at": "2026-04-19T17:24:31+08:00",
+    "archived": false
+  },
+  "artifact_count": 1,
+  "mismatch_count": 0,
+  "carry_forward_from": "2026-04-19",
+  "issues": []
+}
