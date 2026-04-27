@@ -23,6 +23,7 @@ jobs:
     env:
       BEST_EFFORT_SYNC: "true"
       SYNC_SOURCE_TIMEOUT_MS: "360000"
+      SYNC_MAX_DAYS: "30"
 
     steps:
       - name: Checkout

@@ -22,6 +22,20 @@ interface WorkerArgs {
   startDate?: string;
 }
 
+function parseOptionalPositiveInt(value: string | undefined): number | null {
+  if (!value) return null;
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return null;
+  return parsed;
+}
+
+function addUtcDays(dateStamp: string, deltaDays: number): string {
+  const base = new Date(`${dateStamp}T00:00:00.000Z`);
+  if (Number.isNaN(base.getTime())) return dateStamp;
+  base.setUTCDate(base.getUTCDate() + deltaDays);
+  return base.toISOString().slice(0, 10);
+}
+
 function readArgValue(argv: string[], flag: string): string | undefined {
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
@@ -83,7 +97,11 @@ async function main(): Promise<void> {
 
   if (args.endDate) {
     const firstDate = args.startDate ?? (await resolveSourceFirstCommitDate(source));
-    const dates = listDateStampsInRange(firstDate, args.endDate);
+    const maxDays = parseOptionalPositiveInt(process.env.SYNC_MAX_DAYS);
+    const effectiveStartDate =
+      maxDays && maxDays >= 1 ? addUtcDays(args.endDate, -(maxDays - 1)) : firstDate;
+    const startDate = effectiveStartDate > firstDate ? effectiveStartDate : firstDate;
+    const dates = listDateStampsInRange(startDate, args.endDate);
     let previous = await loadLatestSourceRecordBeforeDate(source.id, firstDate);
     let generatedCount = 0;
     let skippedCount = 0;
