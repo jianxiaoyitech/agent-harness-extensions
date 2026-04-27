@@ -22,13 +22,6 @@ interface WorkerArgs {
   startDate?: string;
 }
 
-function parseOptionalPositiveInt(value: string | undefined): number | null {
-  if (!value) return null;
-  const parsed = Number.parseInt(value, 10);
-  if (!Number.isFinite(parsed) || parsed <= 0) return null;
-  return parsed;
-}
-
 function addUtcDays(dateStamp: string, deltaDays: number): string {
   const base = new Date(`${dateStamp}T00:00:00.000Z`);
   if (Number.isNaN(base.getTime())) return dateStamp;
@@ -97,16 +90,11 @@ async function main(): Promise<void> {
 
   if (args.endDate) {
     const firstDate = args.startDate ?? (await resolveSourceFirstCommitDate(source));
-    const maxDays = parseOptionalPositiveInt(process.env.SYNC_MAX_DAYS);
     const lastSynced = await loadLatestSourceRecordBeforeDate(source.id, args.endDate);
     const baselineStartDate = lastSynced?.snapshot_date
       ? addUtcDays(lastSynced.snapshot_date, 1)
       : firstDate;
-    const effectiveStartDate =
-      maxDays && maxDays >= 1 && lastSynced?.snapshot_date
-        ? addUtcDays(args.endDate, -(maxDays - 1))
-        : baselineStartDate;
-    const startDate = effectiveStartDate > baselineStartDate ? effectiveStartDate : baselineStartDate;
+    const startDate = baselineStartDate;
     const dates = listDateStampsInRange(startDate, args.endDate);
     let previous = await loadLatestSourceRecordBeforeDate(source.id, startDate);
     let generatedCount = 0;
