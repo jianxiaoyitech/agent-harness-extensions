@@ -1579,6 +1579,7 @@ export async function buildSnapshotSourceRecord(
 ): Promise<SnapshotSourceRecord> {
   const previous = options.previousSnapshotSource ?? null;
   const sourceConfigHash = hashSourceConfig(source);
+  const issues: string[] = [];
   if (
     canReusePreviousSnapshotSource({
       previousSnapshotSource: previous,
@@ -1638,13 +1639,22 @@ export async function buildSnapshotSourceRecord(
   if (mode === "unchanged") {
     changedFiles = [];
   } else if (mode === "delta" && previous?.current_sha) {
-    const diffOutput = await runGit(gitDir, [
-      "diff",
-      "--name-only",
-      previous.current_sha,
-      currentSha,
-    ]);
-    changedFiles = diffOutput ? diffOutput.split("\n").filter(Boolean).sort() : [];
+    try {
+      const diffOutput = await runGit(gitDir, [
+        "diff",
+        "--name-only",
+        previous.current_sha,
+        currentSha,
+      ]);
+      changedFiles = diffOutput ? diffOutput.split("\n").filter(Boolean).sort() : [];
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      issues.push(
+        `Unable to compute delta diff against previous sha ${previous.current_sha} (falling back to full sync). ${message}`,
+      );
+      mode = "full";
+      changedFiles = files;
+    }
   }
 
   const repoSnapshot: RepoSnapshot = {
@@ -1703,7 +1713,7 @@ export async function buildSnapshotSourceRecord(
       archived: source.status === "archived",
     },
     artifacts,
-    issues: [],
+    issues,
   };
 }
 
