@@ -12,6 +12,7 @@
     "build": "npm run sync && npm run build:site",
     "preview": "astro preview",
     "verify": "tsx scripts/verify.ts",
+    "report:sync-issues": "tsx scripts/report-sync-issues.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"

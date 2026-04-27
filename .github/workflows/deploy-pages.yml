@@ -12,6 +12,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: pages
@@ -23,6 +24,7 @@ jobs:
     env:
       BEST_EFFORT_SYNC: "true"
       SYNC_SOURCE_TIMEOUT_MS: "360000"
+      CREATE_SYNC_ISSUE: "true"
 
     steps:
       - name: Checkout
@@ -59,6 +61,10 @@ jobs:
 
       - name: Verify generated latest snapshot
         run: npm run verify
+
+      - name: Report sync issues
+        if: always()
+        run: npm run report:sync-issues
 
       - name: Build Astro site
         run: npm run build:site
