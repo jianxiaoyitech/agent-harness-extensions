@@ -77,6 +77,8 @@ export function evaluateVerifyState({
 
 async function main(): Promise<void> {
   const sourceFilter = new Set(parseMultiValueFlag(process.argv.slice(2), "--source"));
+  const bestEffortSync =
+    process.env.BEST_EFFORT_SYNC === "true" || process.env.BEST_EFFORT_SYNC === "1";
   const snapshotDir = LATEST_SNAPSHOT_DIR;
   const harnessRegistry = await loadHarnessRegistry();
   const allHarnessIds = harnessRegistry.harnesses.map((harness) => harness.id);
@@ -115,9 +117,15 @@ async function main(): Promise<void> {
   }
 
   if (filteredSnapshotSyncIssues.length > 0) {
-    console.error("Snapshot sync issues detected:");
-    console.error(JSON.stringify(filteredSnapshotSyncIssues, null, 2));
-    process.exitCode = 1;
+    const message = "Snapshot sync issues detected:";
+    if (bestEffortSync) {
+      console.warn(message);
+      console.warn(JSON.stringify(filteredSnapshotSyncIssues, null, 2));
+    } else {
+      console.error(message);
+      console.error(JSON.stringify(filteredSnapshotSyncIssues, null, 2));
+      process.exitCode = 1;
+    }
   }
 
   const { reportIssues } = evaluateVerifyState({
@@ -129,9 +137,15 @@ async function main(): Promise<void> {
     },
   });
   if (reportIssues.length > 0) {
-    console.error("Snapshot sync issues detected:");
-    console.error(JSON.stringify(reportIssues, null, 2));
-    process.exitCode = 1;
+    const message = "Snapshot sync issues detected:";
+    if (bestEffortSync) {
+      console.warn(message);
+      console.warn(JSON.stringify(reportIssues, null, 2));
+    } else {
+      console.error(message);
+      console.error(JSON.stringify(reportIssues, null, 2));
+      process.exitCode = 1;
+    }
   }
 
   const mismatchCount = snapshotSources.reduce(

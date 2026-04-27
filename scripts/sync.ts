@@ -231,6 +231,13 @@ export function shouldPruneSnapshotDir(sourceFilter: Set<string>): boolean {
   return sourceFilter.size === 0;
 }
 
+function parseOptionalPositiveInt(value: string | undefined): number | null {
+  if (!value) return null;
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return null;
+  return parsed;
+}
+
 interface SourceWorkerResult {
   artifact_count: number;
   changed_file_count: number;
@@ -266,10 +273,15 @@ async function runSourceWorker(args: {
     }
   }
 
+  const timeoutMs =
+    parseOptionalPositiveInt(process.env.SYNC_SOURCE_TIMEOUT_MS) ??
+    6 * 60 * 1000;
+
   const { stdout } = await execFile("tsx", workerArgs, {
     cwd: process.cwd(),
     env: process.env,
     maxBuffer: 16 * 1024 * 1024,
+    timeout: timeoutMs,
   });
 
   const trimmed = stdout.trim();
@@ -291,6 +303,8 @@ async function deleteSnapshotSourceFile(snapshotDir: string, sourceId: string): 
 async function main(): Promise<void> {
   const syncStartedAt = Date.now();
   const sourceFilter = new Set(parseMultiValueFlag(process.argv.slice(2), "--source"));
+  const bestEffortSync =
+    process.env.BEST_EFFORT_SYNC === "true" || process.env.BEST_EFFORT_SYNC === "1";
   const todayDateStamp = getSnapshotDateStamp();
   const snapshotDateStamp = resolveRequestedSnapshotDate(process.argv.slice(2));
   const snapshotDir = getSnapshotDirForDate(snapshotDateStamp);
@@ -476,16 +490,21 @@ async function main(): Promise<void> {
 
   logSyncIssues(syncIssues);
 
-  if (
-    shouldFailSyncRun({
-      harnessIssues: harnessRegistry.issues,
-      invalidSources,
-      syncIssues,
-    })
-  ) {
-    console.error("[sync] Sync completed with issues");
-    process.exitCode = 1;
-    return;
+  const shouldFail = shouldFailSyncRun({
+    harnessIssues: harnessRegistry.issues,
+    invalidSources,
+    syncIssues: bestEffortSync ? [] : syncIssues,
+  });
+  if (shouldFail) {
+    if (bestEffortSync && syncIssues.length > 0) {
+      console.warn(
+        `[sync] Sync completed with ${syncIssues.length} issue(s) but continuing because BEST_EFFORT_SYNC is enabled.`,
+      );
+    } else {
+      console.error("[sync] Sync completed with issues");
+      process.exitCode = 1;
+      return;
+    }
   }
 
   console.log(
