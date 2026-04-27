@@ -348,6 +348,8 @@ async function main(): Promise<void> {
 
   const syncIssues: Array<{ source_id: string; issues: string[] }> = [];
   const sourceStartDates = new Map<string, string>();
+  const activeSources = new Set<string>();
+  let completedSources = 0;
   const previousSourceRecords = new Map<string, SnapshotSourceRecord | null>(
     await Promise.all(
       validSources.map(async (source) => [
@@ -373,6 +375,15 @@ async function main(): Promise<void> {
     `[sync] Historical default: backfilling missing days from ${earliestStartDate} through ${snapshotDateStamp}`,
   );
   let nextIndex = 0;
+  const heartbeatTimer = setInterval(() => {
+    const activeList = [...activeSources].sort().slice(0, 5);
+    const activeSummary = activeList.length > 0 ? ` active=${activeList.join(", ")}` : "";
+    const activeExtra =
+      activeSources.size > activeList.length ? ` (+${activeSources.size - activeList.length} more)` : "";
+    console.log(
+      `[sync] Heartbeat: completed ${completedSources}/${validSources.length}.${activeSummary}${activeExtra}`,
+    );
+  }, 30_000);
   const runWorkerLoop = async (): Promise<void> => {
     while (true) {
       const index = nextIndex;
@@ -383,6 +394,7 @@ async function main(): Promise<void> {
       console.log(
         `[sync] [${index + 1}/${validSources.length}] Syncing ${source.id} from ${source.repo}`,
       );
+      activeSources.add(source.id);
 
       try {
         const result = await runSourceWorker({
@@ -404,11 +416,18 @@ async function main(): Promise<void> {
         console.warn(
           `[sync] [${index + 1}/${validSources.length}] Failed to sync ${source.id}: ${message}`,
         );
+      } finally {
+        activeSources.delete(source.id);
+        completedSources += 1;
       }
     }
   };
 
-  await Promise.all(Array.from({ length: workerCount }, () => runWorkerLoop()));
+  try {
+    await Promise.all(Array.from({ length: workerCount }, () => runWorkerLoop()));
+  } finally {
+    clearInterval(heartbeatTimer);
+  }
 
   if (shouldPruneSnapshotDir(sourceFilter)) {
     await pruneSnapshotSources(
